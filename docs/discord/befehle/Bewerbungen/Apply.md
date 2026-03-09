@@ -4,9 +4,9 @@ Befehl: **`/apply`**
 
 Optionen:
 - **`category:`**  
-  Für welche Position man sich bewerben möchte.
+  Wähle die Kategorie für welche du dich bewerben möchtest aus.
 
 <u>Beschreibung:</u>  
-Mit dem Befehl kann man den Bewerbungsprozess starten.
+ Starte den Bewerbungsprozess und vielleicht hörst du bald schon zum 2.0-Team.
 
 <u>Berechtigungen</u>  
