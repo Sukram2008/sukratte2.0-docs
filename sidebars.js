@@ -63,9 +63,43 @@ const sidebars = {
         },
         {
           type: 'category',
+          label: 'Anonymer Chat',
+          link: {
+            type: 'generated-index',
+            slug: '/category/discord/befehle/anonymous-chat',
+          },
+          items: [
+            {
+              type: 'category',
+              label: 'Moderator-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymous-chat/admin-befehle' },
+              items: [
+                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteMessage',
+                'discord/befehle/Anonymer Chat/Moderator-Befehlee/ModerateAnonymousChannelDeleteDisable',
+                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteEnable',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Nutzer-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/admin-tools/rollen-befehle' },
+              items: [
+                'discord/befehle/Anonymer Chat/Nutzer-Befehle/AnonymousMessage',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: 'Bewerbungen',
           link: { type: 'generated-index', slug: '/category/discord/befehle/bewerbungen' },
           items: ['discord/befehle/Bewerbungen/Apply'],
+        },
+        {
+          type: 'category',
+          label: 'Betterstatus',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/betterstatus' },
+          items: ['discord/befehle/Betterstatus/Status'],
         },
         {
           type: 'category',
