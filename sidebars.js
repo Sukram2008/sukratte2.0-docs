@@ -3,16 +3,13 @@
  * - create an ordered group of docs
  * - render a sidebar for each doc of that group
  * - provide next/previous navigation.
- *
- * The sidebars can be generated from the filesystem, or explicitly defined here.
- *
- * Create as many sidebars as you want.
  */
 
 // @ts-check
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
+  // Das ist deine Haupt-Sidebar
   tutorialSidebar: [
     {
       type: 'category',
@@ -21,6 +18,7 @@ const sidebars = {
         type: 'generated-index',
         title: 'Alle Discord Befehle',
         description: 'Hier findest du eine Übersicht über alle Discord Befehle und deren Unterkategorien.',
+        // WICHTIG: KEIN "/docs" am Anfang! Docusaurus fügt das automatisch hinzu.
         slug: '/category/discord/befehle', 
       },
       collapsed: false,
@@ -41,8 +39,6 @@ const sidebars = {
               label: 'Admin-Befehle',
               link: {
                 type: 'generated-index',
-                title: 'Spezifische Admin-Befehle',
-                description: 'Befehle zur Serververwaltung.',
                 slug: '/category/discord/befehle/admin-tools/admin-befehle',
               },
               items: [
@@ -56,8 +52,6 @@ const sidebars = {
               label: 'Rollen-Befehle',
               link: {
                 type: 'generated-index',
-                title: 'Befehle zur Rollenverwaltung',
-                description: 'Befehle zum Vergeben und Entfernen von Rollen.',
                 slug: '/category/discord/befehle/admin-tools/rollen-befehle',
               },
               items: [
@@ -71,8 +65,6 @@ const sidebars = {
               label: 'Extra-Befehle',
               link: {
                 type: 'generated-index',
-                title: 'Extra Befehle Übersicht',
-                description: 'Befehle zum Stehlen von Emojis und Stickern.',
                 slug: '/category/discord/befehle/admin-tools/extra-befehle',
               },
               items: [
@@ -87,8 +79,6 @@ const sidebars = {
           label: 'AFK System',
           link: {
             type: 'generated-index',
-            title: 'AFK System Übersicht',
-            description: 'Dein AFK-Status ganz einfach!',
             slug: '/category/discord/befehle/afk-system',
           },
           items: [
@@ -102,8 +92,6 @@ const sidebars = {
           label: 'Bewerbungen',
           link: {
             type: 'generated-index',
-            title: 'Bewerbungs-System Übersicht',
-            description: 'Damit kannst du dich bei uns bewerben.',
             slug: '/category/discord/befehle/bewerbungen',
           },
           items: [
@@ -116,8 +104,6 @@ const sidebars = {
           label: 'Geburtstags-Kalender',
           link: {
             type: 'generated-index',
-            title: 'Geburtstags-Kalender',
-            description: 'Geburtstags-Kalender damit man sich gratulieren kann. :)',
             slug: '/category/discord/befehle/geburtstags-kalender',
           },
           items: [
@@ -132,8 +118,6 @@ const sidebars = {
           label: 'Color me',
           link: {
             type: 'generated-index',
-            title: 'Color me',
-            description: 'Wie bekommt man eine eigene Rolle?',
             slug: '/category/discord/befehle/color-me',
           },
           items: [
@@ -147,8 +131,6 @@ const sidebars = {
           label: 'Minispiele',
           link: {
             type: 'generated-index',
-            title: 'Minispiele',
-            description: 'Hier findest du alle Minispiele die es auf dem Server gibt.',
             slug: '/category/discord/befehle/minispiele',
           },
           items: [
@@ -156,14 +138,12 @@ const sidebars = {
             'discord/befehle/Minispiele/Duel',
           ],
         },
-        // --- KATEGORIE: Economy --- (Pfade an tatsächliche Ordnernamen angepasst: 'Economy System')
+        // --- KATEGORIE: Economy ---
         {
           type: 'category',
           label: 'Economy/Wirtschaft',
           link: {
             type: 'generated-index',
-            title: 'Economy/Wirtschaft Übersicht',
-            description: 'Alle Befehle zum Wirtschaft bzw. Economy System.',
             slug: '/category/discord/befehle/economy',
           },
           items: [
@@ -172,8 +152,6 @@ const sidebars = {
               label: 'Economy-Befehle',
               link: {
                 type: 'generated-index',
-                title: 'Economy-Befehle',
-                description: 'Hier findet ihr Befehle zum Coins verdienen, ausgeben usw.!',
                 slug: '/category/discord/befehle/economy-system/economy-befehle',
               },
               items: [
@@ -198,12 +176,9 @@ const sidebars = {
               label: 'Shop-Befehle',
               link: {
                 type: 'generated-index',
-                title: 'Shop-Befehle',
-                description: 'Hier geht es nur um den Economy Shop.',
                 slug: '/category/discord/befehle/economy-system/shop-befehle',
               },
               items: [
-                // HIER SIND DIE PFADE KORRIGIERT WORDEN!
                 'discord/befehle/Economy System/Shop-Befehle/ShopAdd',
                 'discord/befehle/Economy System/Shop-Befehle/ShopBuy',
                 'discord/befehle/Economy System/Shop-Befehle/ShopDelete',
@@ -212,40 +187,9 @@ const sidebars = {
             },
           ],
         },
-        {
-          type: 'category',
-          label: 'Gewinnspiel',
-          link: {
-            type: 'generated-index',
-            title: 'Gewinnspiel',
-            description: 'Hier die Infos zu Gewinnspiel-Befehlen.',
-            slug: '/category/discord/befehle/gewinnspiele',
-          },
-          items: [
-            'discord/befehle/Gewinnspiele/GMessages',
-            'discord/befehle/Gewinnspiele/GmanageStart',
-            'discord/befehle/Gewinnspiele/GmanageEnd',
-            'discord/befehle/Gewinnspiele/GmanageReroll',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Errate die Nummer',
-          link: {
-            type: 'generated-index',
-            title: 'Errate die Nummer',
-            description: 'Infos zum Errate die Nummer Spiel.',
-            slug: '/category/discord/befehle/errate die nummer',
-          },
-          items: [
-            'discord/befehle/Errate die Nummer/GuessCreate',
-            'discord/befehle/Errate die Nummer/GuessEnd',
-            'discord/befehle/Errate die Nummer/GuessStatus',
-          ],
-        },
       ],
     },
   ],
 };
 
-module.exports = sidebars;
+export default sidebars;
