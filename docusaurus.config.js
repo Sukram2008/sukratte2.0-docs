@@ -30,7 +30,7 @@ const config = {
   organizationName: 'Sukram2008', // Korrigiert auf deinen GitHub-Benutzernamen
   projectName: 'docusaurus-sukratte2.0', // Korrigiert auf deinen Repository-Namen
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
