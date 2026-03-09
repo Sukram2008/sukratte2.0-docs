@@ -66,8 +66,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://discord.gg',
-            label: 'Discord',
+            href: 'https://discord.gg/uUj4GS279Y',
+            label: 'Discord Server',
             position: 'right',
           },
         ],
@@ -90,15 +90,15 @@ const config = {
             items: [
               {
                 label: 'Sukram2.0 Homepage',
-                href: 'https://echtersukram20.wixsite.com',
+                href: 'https://echtersukram20.wixsite.com/homepage',
               },
               {
                 label: 'Discord Server',
-                href: 'https://discord.gg',
+                href: 'https://discord.gg/uUj4GS279Y',
               },
               {
                 label: 'Sukram2.0 Übersicht',
-                href: 'https://linktr.ee',
+                href: 'https://linktr.ee/sukram2.0',
               },
             ],
           },
