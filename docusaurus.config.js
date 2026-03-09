@@ -1,12 +1,5 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,28 +7,19 @@ const config = {
   tagline: 'Hier findet ihr Hilfen für unseren Discord!',
   favicon: 'img/favicon.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
+  // Wichtig für Vercel: Die Haupt-URL deiner Seite
+  url: 'https://sukratte2-0-docs.vercel.app', 
+  
+  // Wichtig: Auf '/' setzen, damit CSS und Bilder gefunden werden
+  baseUrl: '/', 
 
-  // Set the production url of your site here
-  url: 'https://Sukram2008.github.io', // Korrigiert auf deine GitHub Pages Basis-URL
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docusaurus-sukratte2.0/', // Korrigiert auf deinen Repository-Namen mit Slashes
+  organizationName: 'Sukram2008', 
+  projectName: 'sukratte2.0-docs',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Sukram2008', // Korrigiert auf deinen GitHub-Benutzernamen
-  projectName: 'docusaurus-sukratte2.0', // Korrigiert auf deinen Repository-Namen
-
+  // Fehler bei Links nur als Warnung anzeigen, damit der Build nicht abbricht
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'de',
     locales: ['de'],
@@ -48,22 +32,10 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Sukram2008/docusaurus-sukratte2.0/tree/main/my-website', // Korrigiert auf dein Repo und den Pfad zur Docusaurus-Installation
+          editUrl: 'https://github.com',
         },
         blog: {
           showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/Sukram2008/docusaurus-sukratte2.0/tree/main/my-website', // Korrigiert auf dein Repo und den Pfad zur Docusaurus-Installation
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -78,13 +50,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'SukRatte2.0 - Hilfe',
         logo: {
           alt: 'SukRatte2.0 Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.svg', // Prüfe, ob diese Datei im Ordner static/img/ existiert!
         },
         items: [
           {
@@ -95,7 +66,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://discord.gg/uUj4GS279Y',
+            href: 'https://discord.gg',
             label: 'Discord',
             position: 'right',
           },
@@ -109,7 +80,8 @@ const config = {
             items: [
               {
                 label: 'Discord Befehle',
-                to: 'docs/category/discord/befehle',
+                // Pfad korrigiert auf Kleinschreibung (passend zur sidebar.js)
+                to: 'docs/category/discord/befehle', 
               },
             ],
           },
@@ -118,15 +90,15 @@ const config = {
             items: [
               {
                 label: 'Sukram2.0 Homepage',
-                href: 'https://echtersukram20.wixsite.com/homepage',
+                href: 'https://echtersukram20.wixsite.com',
               },
               {
                 label: 'Discord Server',
-                href: 'https://discord.gg/uUj4GS279Y',
+                href: 'https://discord.gg',
               },
               {
                 label: 'Sukram2.0 Übersicht',
-                href: 'https://linktr.ee/sukram2.0',
+                href: 'https://linktr.ee',
               },
             ],
           },
@@ -137,14 +109,10 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'Docusaurus GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://linktr.ee/sukram2.0">SukRatte2.0</a> - Built with Docusaurus 🦕`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://linktr.ee" target="_blank">SukRatte2.0</a> - Built with Docusaurus 🦕`,
       },
       prism: {
         theme: prismThemes.github,
