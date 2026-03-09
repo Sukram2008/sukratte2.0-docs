@@ -21,7 +21,7 @@ const sidebars = {
         type: 'generated-index',
         title: 'Alle Discord Befehle',
         description: 'Hier findest du eine Übersicht über alle Discord Befehle und deren Unterkategorien.',
-        slug: '/docs/category/discord/befehle',
+        slug: '/category/discord/befehle', 
       },
       collapsed: false,
       items: [
