@@ -71,7 +71,7 @@ const sidebars = {
           type: 'category',
           label: 'BetterStatus',
           link: { type: 'generated-index', slug: '/category/discord/befehle/betterstatus' },
-          items: ['discord/befehle/Betterstatus/Status'],
+          items: ['discord/befehle/Betterstatus/status'],
         },
         {
           type: 'category',
