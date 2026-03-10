@@ -3,13 +3,13 @@
 Befehl: **`/anonymous-message`**
 
 Optionen:
-- **`message:`**  
-  Die Nachricht welche du anonym senden möchtest.
+- **`message:`** 
+ Die Nachricht, welche du anonym senden möchtest.
 - **`reset-identity:`** [Optional]  
-  Gebe oder wähle `True` (Ja) oder `False` (Nein) aus, ob du deine Identität zurücksetzen möchtest.
-  Umgehen einer Sperre ist damit **nicht** möglich!
+  Wähle `True` oder `False` aus, ob du deine Identität (deinen Decknamen) zurücksetzen möchtest. Das Umgehen einer Sperre ist damit **nicht** möglich!
 
 <u>Beschreibung:</u>  
- Du kannst eine Nachricht schreiben, wobei dein Username nicht steht, sondern eine Anonyme Identität.
+ Sende eine Nachricht in den anonymen Chat. Niemand wird wissen, dass du die Nachricht gesendet hast, da stattdessen eine anonyme Identität angezeigt wird.
 
 <u>Berechtigungen</u>  
+ Alle Nutzer.

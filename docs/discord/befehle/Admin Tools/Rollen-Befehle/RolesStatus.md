@@ -3,10 +3,10 @@
 Befehl: **`/roles status`**
 
 Optionen:
-- **`user:`**  
-  Nutzer von welchem du du den Status haben möchtest.
+- **`user:`** Der Nutzer, dessen Rollen-Status du überprüfen möchtest.
 
 <u>Beschreibung:</u>  
- Rufe den Status der temporären Rollen eines Nutzers ab um nachzuschauen wie lange er diese noch hat.
+ Zeigt eine Übersicht der temporären Rollen eines Nutzers an und wie lange diese noch aktiv sind, bevor sie automatisch entfernt werden.
 
 <u>Berechtigungen</u>  
+ Administratoren / Moderatoren

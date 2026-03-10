@@ -3,16 +3,17 @@
 Befehl: **`/status`**
 
 Optionen:
-- **`text:`**  
-  Schreibe rein, welcher Text in dem Status stehen soll.
-- **`activity-type:`**  
-  Was der Bot machen soll, also die Aktivität.
-- **`bot-status:`**  
-  Den Status-Modus in  dem der Bot sein soll.
-- **`streaming-link:`** [Optional]
-  Der Link, wenn die Aktivität auf Streaming gestellt ist.
+- **`text:`** 
+ Schreibe rein, welcher Text in dem Status stehen soll.
+- **`activity-type:`** 
+ Wähle die Art der Aktivität aus (z.B. Spielen, Streamen, Hören, Zuschauen).
+- **`bot-status:`** 
+ Der Status-Modus, in dem der Bot angezeigt werden soll (z.B. Online, Abwesend, Bitte nicht stören).
+- **`streaming-link:`** [Optional]  
+  Gib hier den Link an, wenn die Aktivität auf "Streaming" gestellt ist.
 
 <u>Beschreibung:</u>  
- Du kannst schnell und einfach den Status für den Bot ändern, ohne in das Dashboard gehen zu müssen.
+ Mit diesem Befehl kannst du den Status deines Bots schnell und einfach ändern, inklusive Variablen und Intervallen, ohne das Dashboard nutzen zu müssen.
 
 <u>Berechtigungen</u>  
+ Nur für Administratoren oder berechtigte Teammitglieder verfügbar.
