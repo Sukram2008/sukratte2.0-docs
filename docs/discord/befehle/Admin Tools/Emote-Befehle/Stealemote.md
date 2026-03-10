@@ -3,10 +3,11 @@
 Befehl: **`/stealemote`**
 
 Optionen:
-- **`emote:`**  
-  Emote welches von einem anderem Server "ausgeliehen" werden soll.
+- **`emote:`**
+ Das Emote, welches von einem anderen Server "ausgeliehen" werden soll.
 
 <u>Beschreibung:</u>  
- Mit dem Befehl kann ein Emoji von einem anderem Server "ausgeleiht" werden um es auf diesem Server holen.
+ Mit diesem Befehl kannst du ein Emoji von einem anderen Server (über die Emote-ID oder den Link) direkt auf deinen Server übernehmen.
 
 <u>Berechtigungen</u>  
+ Administratoren (Berechtigung zum Verwalten von Ausdrücken)

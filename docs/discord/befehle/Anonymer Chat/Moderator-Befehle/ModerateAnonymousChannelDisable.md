@@ -1,14 +1,13 @@
-# 🕵️‍♂️❌ | Identität sperren
+# 🕵️‍♂️✅ | Identität entsperren
 
-Befehl: **`/moderate-anonymous-channel disable`**
+Befehl: **`/moderate-anonymous-channel enable`**
 
 Optionen:
-- **`display-name:`**  
-  Gebe die Identität ein, welche gesperrt werden soll, also einen Regelverstoß beganngen hat.
-- **`reason:`** [Optional, bitte angeben!]
-  Gebe denn Grund an, weshalb der Nutzer gesperrt wird.
+- **`display-name:`** 
+ Gib die Identität ein, welche wieder für den anonymen Chat freigeschaltet werden soll.
 
 <u>Beschreibung:</u>  
- Du kannst eine Identität und damit einen kompletten Nutzer vom Anonymen Chat System sperren, aber bitte schreibe einen Grund dazu, damit wir es intern nachvollziehen können.
+ Entsperre einen Nutzer, damit dieser wieder am anonymen Chat-System teilnehmen kann.
 
 <u>Berechtigungen</u>  
+ Administratoren oder Moderatoren.

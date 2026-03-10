@@ -3,6 +3,7 @@
 Befehl: **`/afk end`**
 
 <u>Beschreibung:</u>  
- Mit diesem Befehl kannst du eine aktive AFK-Sitzung beenden.
+ Beende deine aktuell laufende AFK-Sitzung manuell. Dies ist besonders nützlich, wenn `auto-end` auf `False` gestellt wurde.
 
 <u>Berechtigungen</u>  
+ Alle Nutzer mit einer aktiven Sitzung.

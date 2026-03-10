@@ -63,6 +63,31 @@ const sidebars = {
         },
         {
           type: 'category',
+          label: 'Anonymer Chat',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat' },
+          items: [
+            {
+              type: 'category',
+              label: 'Moderator-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat/moderator-befehle' },
+              items: [
+                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteMessage',
+                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDisable',
+                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelEnable',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Nutzer-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat/nutzer-befehle' },
+              items: [
+                'discord/befehle/Anonymer Chat/Nutzer-Befehle/AnonymousMessage',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: 'Bewerbungen',
           link: { type: 'generated-index', slug: '/category/discord/befehle/bewerbungen' },
           items: ['discord/befehle/Bewerbungen/Apply'],
@@ -75,41 +100,21 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Economy/Wirtschaft',
-          link: { type: 'generated-index', slug: '/category/discord/befehle/economy' },
+          label: 'Color me',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/color-me' },
           items: [
-            {
-              type: 'category',
-              label: 'Economy-Befehle',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system/economy-befehle' },
-              items: [
-                'discord/befehle/Economy System/Economy-Befehle/EconomyAdd',
-                'discord/befehle/Economy System/Economy-Befehle/EconomyBalance',
-                'discord/befehle/Economy System/Economy-Befehle/EconomyCrime',
-                'discord/befehle/Economy System/Economy-Befehle/EconomyDaily',
-                'discord/befehle/Economy System/Economy-Befehle/EconomyDeposit',
-                'discord/befehle/Economy System/Economy-Befehle/EconomyDestroy',
-                'discord/befehle/Economy System/Economy-Befehle/EconomyDropDisable',
-                'discord/befehle/Economy System/Economy-Befehle/EconomyDropEnable',
-                'discord/befehle/Economy System/Economy-Befehle/EconomyRemove',
-                'discord/befehle/Economy System/Economy-Befehle/EconomyRob',
-                'discord/befehle/Economy System/Economy-Befehle/EconomySet',
-                'discord/befehle/Economy System/Economy-Befehle/EconomyWeekly',
-                'discord/befehle/Economy System/Economy-Befehle/EconomyWithdraw',
-                'discord/befehle/Economy System/Economy-Befehle/EconomyWork',
-              ],
-            },
-            {
-              type: 'category',
-              label: 'Shop-Befehle',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system/shop-befehle' },
-              items: [
-                'discord/befehle/Economy System/Shop-Befehle/ShopAdd',
-                'discord/befehle/Economy System/Shop-Befehle/ShopBuy',
-                'discord/befehle/Economy System/Shop-Befehle/ShopDelete',
-                'discord/befehle/Economy System/Shop-Befehle/ShopList',
-              ],
-            },
+            'discord/befehle/Color me/Color-meManage',
+            'discord/befehle/Color me/Color-meRemove',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Geburtstags-Kalender',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender' },
+          items: [
+            'discord/befehle/Geburtstags-Kalender/BirthdaySet',
+            'discord/befehle/Geburtstags-Kalender/BirthdayDelete',
+            'discord/befehle/Geburtstags-Kalender/BirthdayStatus',
           ],
         },
       ],

@@ -4,11 +4,12 @@ Befehl: **`/afk start`**
 
 Optionen:
 - **`reason:`** [Optional]  
-  Gebe einen Grund an, warum du AFK bist.
+  Gib einen Grund an, warum du AFK bist (z.B. "Essen" oder "Schlafen").
 - **`auto-end:`** [Optional]  
-  Gebe oder wähle `True` (Ja) oder `False` (Nein) aus um zu bestimmen, ob die Sitzung automatisch bei der nächsten Nachricht beendet wird.
+  Wähle `True` (Ja) oder `False` (Nein) aus, um festzulegen, ob die Sitzung automatisch beendet wird, sobald du deine nächste Nachricht schreibst.
 
 <u>Beschreibung:</u>  
-Mit dem Befehl kann man eine AFK-Sitzung starten, diese Info wird anderen dann angezeigt (wenn angegeben auch der Grund).
+ Mit diesem Befehl startest du eine AFK-Sitzung. Andere Nutzer werden benachrichtigt, wenn sie versuchen dich zu erreichen, und sehen (falls angegeben) auch deinen Grund.
 
 <u>Berechtigungen</u>  
+ Alle Nutzer.

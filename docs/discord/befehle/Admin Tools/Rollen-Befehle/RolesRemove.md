@@ -3,14 +3,15 @@
 Befehl: **`/roles remove`**
 
 Optionen:
-- **`user:`**  
-  Der Nutzer welchem die Rolle entfernt werden soll.
-- **`role:`**  
-  Die Rolle welchem dem Nutzer abgenommen werden soll.
-- **`duration:`** [Optional]  
- Die Dauer, wie lange dem Nutzer die Rolle entfernt werden soll (Angabe in z.B. "5h", 10m usw.).
+- **`user:`**
+ Der Nutzer, dem die Rolle entzogen werden soll.
+- **`role:`**
+ Die Rolle, die dem Nutzer abgenommen werden soll.
+- **`duration:`** [Optional]
+ Die Dauer, wie lange die Rolle entfernt bleiben soll (Angabe in z. B. "5h", "10m").
 
 <u>Beschreibung:</u>  
- Mit dem Befehl kann einem Nutzer eine Rolle (temporär) entfernt werden.
+ Entfernt eine Rolle von einem Nutzer permanent oder für einen festgelegten Zeitraum.
 
 <u>Berechtigungen</u>  
+ Administratoren / Moderatoren
