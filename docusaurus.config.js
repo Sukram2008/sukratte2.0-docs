@@ -48,8 +48,13 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  ({
+    colorMode: {
+      defaultMode: 'dark', // 'light' oder 'dark'
+      disableSwitch: false, // Erlaubt dem Nutzer weiterhin das Wechseln
+      respectPrefersColorScheme: true, // Nutzt die OS-Einstellung des Nutzers zuerst
+    },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'SukRatte2.0 - Hilfe',
