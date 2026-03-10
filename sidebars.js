@@ -63,6 +63,31 @@ const sidebars = {
         },
         {
           type: 'category',
+          label: 'Anonymer Chat',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat' },
+          items: [
+            {
+              type: 'category',
+              label: 'Moderator-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat/moderator-befehle' },
+              items: [
+                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteMessage',
+                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDisable',
+                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelEnable',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Nutzer-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat/nutzer-befehle' },
+              items: [
+                'discord/befehle/Anonymer Chat/Nutzer-Befehle/AnonymousMessage',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: 'Bewerbungen',
           link: { type: 'generated-index', slug: '/category/discord/befehle/bewerbungen' },
           items: ['discord/befehle/Bewerbungen/Apply'],
@@ -72,6 +97,15 @@ const sidebars = {
           label: 'BetterStatus',
           link: { type: 'generated-index', slug: '/category/discord/befehle/betterstatus' },
           items: ['discord/befehle/Betterstatus/Status'],
+        },
+        {
+          type: 'category',
+          label: 'Color me',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/color-me' },
+          items: [
+            'discord/befehle/Color me/Color-meManage',
+            'discord/befehle/Color me/Color-meRemove',
+          ],
         },
         {
           type: 'category',
