@@ -71,16 +71,16 @@ const sidebars = {
           type: 'category',
           label: 'BetterStatus',
           link: { type: 'generated-index', slug: '/category/discord/befehle/betterstatus' },
-          items: ['discord/befehle/Betterstatus/status'],
+          items: ['discord/befehle/Betterstatus/Status'],
         },
         {
           type: 'category',
-          label: 'Geburtstags Kalender',
+          label: 'Geburtstags-Kalender',
           link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender' },
           items: [
-            'discord/befehle/Geburtstagskalender/BirthdaySet',
-            'discord/befehle/Geburtstagskalender/BirthdayDelete',
-            'discord/befehle/Geburtstagskalender/BirthdayStatus',
+            'discord/befehle/Geburtstags-Kalender/BirthdaySet',
+            'discord/befehle/Geburtstags-Kalender/BirthdayDelete',
+            'discord/befehle/Geburtstags-Kalender/BirthdayStatus',
           ],
         },
         {
