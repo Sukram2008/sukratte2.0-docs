@@ -3,7 +3,6 @@
 Befehl: **`/birthday status`**
 
 <u>Beschreibung:</u>  
-Mit diesem Befehl wird dir dein Geburtstag (mit Jahr auch das Geburtstag) angezeigt.
+ Mit diesem Befehl wird dir dein eingetragener Geburtstag (mit Jahr, wenn angegeben) angezeigt.
 
-<u>Berechtigungen</u>  
-Alle Nutzer, welche einen Geburtstag gesetzt haben.
+<u>Berechtigungen</u> 

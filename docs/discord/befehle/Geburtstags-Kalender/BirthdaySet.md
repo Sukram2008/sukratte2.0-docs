@@ -11,7 +11,6 @@ Optionen:
  Das Jahr deines Geburtstags (z.B. 2025)
 
 <u>Beschreibung:</u>  
-Mit dem Befehl könnt ihr euren Geburtstag setzen.
+ Mit dem Befehl setzt ihr euren Geburtstag, damit auch alle dran errinert werden können.
 
 <u>Berechtigungen</u>  
-Alle Nutzer.

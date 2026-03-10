@@ -75,6 +75,16 @@ const sidebars = {
         },
         {
           type: 'category',
+          label: 'Geburtstags Kalender',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender' },
+          items: [
+            'discord/befehle/Geburtstagskalender/BirthdaySet',
+            'discord/befehle/Geburtstagskalender/BirthdayDelete',
+            'discord/befehle/Geburtstagskalender/BirthdayStatus',
+          ],
+        },
+        {
+          type: 'category',
           label: 'Economy/Wirtschaft',
           link: { type: 'generated-index', slug: '/category/discord/befehle/economy' },
           items: [
