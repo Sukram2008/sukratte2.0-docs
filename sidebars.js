@@ -8,6 +8,8 @@ const sidebars = {
         type: 'generated-index',
         title: 'Alle Discord Befehle',
         description: 'Hier findest du eine Übersicht über alle Discord Befehle.',
+        // WICHTIG: Hier KEIN "/docs" reinschreiben! 
+        // Docusaurus macht automatisch "/docs/category/discord/befehle" daraus.
         slug: '/category/discord/befehle', 
       },
       collapsed: false,
@@ -61,37 +63,6 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Anonymer Chat',
-          link: {
-            type: 'generated-index',
-            slug: '/category/discord/befehle/anonymous-chat',
-          },
-          items: [
-            {
-              type: 'category',
-              label: 'Moderator-Befehle',
-              // Slug korrigiert
-              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymous-chat/moderator-befehle' },
-              items: [
-                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteMessage',
-                // Pfad korrigiert (Befehlee -> Befehle) - Prüfe ob dein Ordner wirklich so heißt!
-                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteDisable',
-                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteEnable',
-              ],
-            },
-            {
-              type: 'category',
-              label: 'Nutzer-Befehle',
-              // Slug korrigiert (war vorher doppelt mit Rollen-Befehle)
-              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymous-chat/nutzer-befehle' },
-              items: [
-                'discord/befehle/Anonymer Chat/Nutzer-Befehle/AnonymousMessage',
-              ],
-            },
-          ],
-        },
-        {
-          type: 'category',
           label: 'Bewerbungen',
           link: { type: 'generated-index', slug: '/category/discord/befehle/bewerbungen' },
           items: ['discord/befehle/Bewerbungen/Apply'],
@@ -100,12 +71,12 @@ const sidebars = {
           type: 'category',
           label: 'BetterStatus',
           link: { type: 'generated-index', slug: '/category/discord/befehle/betterstatus' },
-          items: ['discord/befehle/Betterstatus/Status'],
+          items: ['discord/befehle/betterstatus/Status'],
         },
         {
           type: 'category',
           label: 'Economy/Wirtschaft',
-          link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system' },
+          link: { type: 'generated-index', slug: '/category/discord/befehle/economy' },
           items: [
             {
               type: 'category',
