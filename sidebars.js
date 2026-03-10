@@ -69,6 +69,12 @@ const sidebars = {
         },
         {
           type: 'category',
+          label: 'BetterStatus',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/betterstatus' },
+          items: ['discord/befehle/Betterstatus/Status'],
+        },
+        {
+          type: 'category',
           label: 'Economy/Wirtschaft',
           link: { type: 'generated-index', slug: '/category/discord/befehle/economy' },
           items: [
