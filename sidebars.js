@@ -8,8 +8,6 @@ const sidebars = {
         type: 'generated-index',
         title: 'Alle Discord Befehle',
         description: 'Hier findest du eine Übersicht über alle Discord Befehle.',
-        // WICHTIG: Hier KEIN "/docs" reinschreiben! 
-        // Docusaurus macht automatisch "/docs/category/discord/befehle" daraus.
         slug: '/category/discord/befehle', 
       },
       collapsed: false,
@@ -72,17 +70,20 @@ const sidebars = {
             {
               type: 'category',
               label: 'Moderator-Befehle',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymous-chat/admin-befehle' },
+              // Slug korrigiert
+              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymous-chat/moderator-befehle' },
               items: [
                 'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteMessage',
-                'discord/befehle/Anonymer Chat/Moderator-Befehlee/ModerateAnonymousChannelDeleteDisable',
+                // Pfad korrigiert (Befehlee -> Befehle) - Prüfe ob dein Ordner wirklich so heißt!
+                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteDisable',
                 'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteEnable',
               ],
             },
             {
               type: 'category',
               label: 'Nutzer-Befehle',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/admin-tools/rollen-befehle' },
+              // Slug korrigiert (war vorher doppelt mit Rollen-Befehle)
+              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymous-chat/nutzer-befehle' },
               items: [
                 'discord/befehle/Anonymer Chat/Nutzer-Befehle/AnonymousMessage',
               ],
@@ -103,14 +104,8 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Betterstatus',
-          link: { type: 'generated-index', slug: '/category/discord/befehle/betterstatus' },
-          items: ['discord/befehle/Betterstatus/Status'],
-        },
-        {
-          type: 'category',
           label: 'Economy/Wirtschaft',
-          link: { type: 'generated-index', slug: '/category/discord/befehle/economy' },
+          link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system' },
           items: [
             {
               type: 'category',
