@@ -51,16 +51,16 @@ const config = {
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   ({
     colorMode: {
-      defaultMode: 'dark', // 'light' oder 'dark'
-      disableSwitch: false, // Erlaubt dem Nutzer weiterhin das Wechseln
-      respectPrefersColorScheme: true, // Nutzt die OS-Einstellung des Nutzers zuerst
+      defaultMode: 'dark', 
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
     },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'SukRatte2.0 - Hilfe',
         logo: {
           alt: 'SukRatte2.0 Logo',
-          src: 'img/logo.svg', // Prüfe, ob diese Datei im Ordner static/img/ existiert!
+          src: 'img/logo.svg',
         },
         items: [
           {
@@ -85,7 +85,6 @@ const config = {
             items: [
               {
                 label: 'Discord Befehle',
-                // Pfad korrigiert auf Kleinschreibung (passend zur sidebar.js)
                 to: 'docs/category/discord/befehle', 
               },
             ],
