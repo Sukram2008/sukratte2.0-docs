@@ -12,12 +12,12 @@ const sidebars = {
         description: 'Hier findest du eine Übersicht über alle Discord Befehle.',
         slug: '/category/discord/befehle', 
       },
-      collapsed: false, // Die Hauptkategorie bleibt offen
+      collapsible: false,
       items: [
         {
           type: 'category',
           label: 'Admin Tools',
-          collapsed: true, // Unterkategorien standardmäßig zu
+          collapsed: true,
           link: {
             type: 'generated-index',
             slug: '/category/discord/befehle/admin-tools',
