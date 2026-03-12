@@ -3,13 +3,13 @@
 Befehl: **`/economy set`**
 
 Optionen:
-- **`user:`**  
+- **`user:`**
   Der Nutzer welche Blanace (nicht das Konto) beartbeitet werden soll.
-- **`balance:`**  
+- **`balance:`**
   Die Anzahl an Coins welche der Nutzer auf seiner Balance haben soll.
 
 <u>Beschreibung:</u>  
- Einem Nutzer eine bestimmte Balance einstellen.
+  Setzt die Balance eines Nutzers auf einen exakten Wert fest.
 
 <u>Berechtigungen</u>  
- Nur Administratoren (Owner) können diesen Befehl nutzen.
+  Nur Administratoren (Owner)

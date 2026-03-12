@@ -1,15 +1,13 @@
-# ⏸️📅 | Neue AFK-Sitzung starten
+# ⌨️💤 | AFK-Modus aktivieren
 
 Befehl: **`/afk start`**
 
 Optionen:
 - **`reason:`** [Optional]  
-  Gib einen Grund an, warum du AFK bist (z.B. "Essen" oder "Schlafen").
-- **`auto-end:`** [Optional]  
-  Wähle `True` (Ja) oder `False` (Nein) aus, um festzulegen, ob die Sitzung automatisch beendet wird, sobald du deine nächste Nachricht schreibst.
+  Der Grund für deine Abwesenheit.
 
 <u>Beschreibung:</u>  
- Mit diesem Befehl startest du eine AFK-Sitzung. Andere Nutzer werden benachrichtigt, wenn sie versuchen dich zu erreichen, und sehen (falls angegeben) auch deinen Grund.
+  Setzt deinen Status auf AFK. Wenn dich jemand markiert, antwortet der Bot mit deinem hinterlegten Grund. Der Status wird automatisch entfernt, sobald du wieder eine Nachricht schreibst.
 
 <u>Berechtigungen</u>  
- Alle Nutzer.
+  Alle Mitglieder

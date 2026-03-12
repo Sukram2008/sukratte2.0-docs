@@ -1,15 +1,15 @@
-# 🔄🏷️ | Rollenposition ändern
+# 🛡️↕️ | Rollenposition ändern
 
 Befehl: **`/admin moverole`**
 
 Optionen:
 - **`role:`**
- Die Rolle, welche bearbeitet werden soll.
+  Rolle, auf welche diese Aktion ausgeführt werden soll.
 - **`new-position:`**
- Die Position, auf welche die Rolle verschoben werden soll.
+  Die neue Position in der Rollenhierarchie.
 
 <u>Beschreibung:</u>  
- Ermöglicht das Verschieben von Rollen innerhalb der Server-Hierarchie direkt per Command.
+  Verschiebt eine Rolle an die angegebene Stelle in der Liste. Da beide Felder im Eingabebalken ohne Beschreibung stehen, müssen sie zwingend ausgefüllt werden.
 
 <u>Berechtigungen</u>  
- Administratoren
+  Administratoren

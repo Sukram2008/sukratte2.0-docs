@@ -7,7 +7,7 @@ Optionen:
   Trage `True` oder `False` ein.
 
 <u>Beschreibung:</u>  
- Damit wird das komplette Economy System zurückgesetzt.
+  Damit wird das komplette Economy System zurückgesetzt.
 
 <u>Berechtigungen</u>  
- Nur Administratoren (Owner) können diesen Befehl nutzen.
+  Administratoren (Owner)

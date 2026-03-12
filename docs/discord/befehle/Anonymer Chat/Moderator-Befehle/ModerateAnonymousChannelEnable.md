@@ -1,13 +1,13 @@
-# 🕵️‍♂️✅ | Identität entsperren
+# 🛡️🔓 | Anonymen Chat freigeben
 
 Befehl: **`/moderate-anonymous-channel enable`**
 
 Optionen:
-- **`display-name:`**
- Gib die Identität ein, welche wieder für den anonymen Chat freigeschaltet werden soll.
+- **`user:`**
+  Entsperre einen Nutzer aus dem anonymen Kanal.
 
 <u>Beschreibung:</u>  
- Entsperre einen Nutzer, damit dieser wieder am anonymen Chat-System teilnehmen kann.
+  Hebt eine zuvor verhängte Sperre für den anonymen Chat wieder auf, sodass der Nutzer dort wieder Nachrichten verfassen kann.
 
 <u>Berechtigungen</u>  
- Administratoren oder Moderatoren.
+  Moderatoren / Administratoren

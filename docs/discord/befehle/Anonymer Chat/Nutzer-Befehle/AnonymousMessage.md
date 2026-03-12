@@ -1,15 +1,13 @@
-# 🕵️‍♂️✍ | Anonyme Nachricht schreiben
+# 🎭💬 | Anonyme Nachricht senden
 
 Befehl: **`/anonymous-message`**
 
 Optionen:
-- **`message:`** 
- Die Nachricht, welche du anonym senden möchtest.
-- **`reset-identity:`** [Optional]  
-  Wähle `True` oder `False` aus, ob du deine Identität (deinen Decknamen) zurücksetzen möchtest. Das Umgehen einer Sperre ist damit **nicht** möglich!
+- **`message:`**
+  Sende eine Nachricht in den anonymen Chat (niemand wird wissen, dass du die Nachricht gesendet hast).
 
 <u>Beschreibung:</u>  
- Sende eine Nachricht in den anonymen Chat. Niemand wird wissen, dass du die Nachricht gesendet hast, da stattdessen eine anonyme Identität angezeigt wird.
+  Ermöglicht es dir, eine Nachricht völlig anonym in den konfigurierten Kanal zu posten. Deine Identität bleibt dabei für andere Nutzer verborgen.
 
 <u>Berechtigungen</u>  
- Alle Nutzer.
+  Alle Mitglieder

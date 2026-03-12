@@ -1,15 +1,15 @@
-# 📂📋 | Kanal in Kategorie verschieben
+# 📂📌 | Kategorie zuweisen
 
 Befehl: **`/admin setcategory`**
 
 Optionen:
 - **`channel:`**
- Der Kanal, welcher verschoben werden soll.
+  Der Kanal, dessen Kategorie geändert werden soll.
 - **`category:`**
- Die Kategorie, in welche der Kanal verschoben werden soll.
+  Die Ziel-Kategorie, in die der Kanal verschoben werden soll.
 
 <u>Beschreibung:</u>  
- Mit diesem Befehl kannst du einen Kanal schnell einer neuen oder anderen Kategorie zuordnen.
+  Verschiebt einen Kanal schnell und einfach in eine andere Kategorie deiner Wahl.
 
 <u>Berechtigungen</u>  
- Administratoren
+  Administratoren

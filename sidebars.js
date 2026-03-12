@@ -1,3 +1,5 @@
+// @ts-check
+
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
@@ -12,7 +14,7 @@ const sidebars = {
         // Docusaurus macht automatisch "/docs/category/discord/befehle" daraus.
         slug: '/category/discord/befehle', 
       },
-      collapsed: false,
+      collapsed: true,
       items: [
         {
           type: 'category',
@@ -109,12 +111,60 @@ const sidebars = {
         },
         {
           type: 'category',
+          label: 'Economy System',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system' },
+          items: [
+            {
+              type: 'category',
+              label: 'Economy-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system/economy-befehle' },
+              items: [
+                'discord/befehle/Economy System/Economy-Befehle/EconomyAdd',
+                'discord/befehle/Economy System/Economy-Befehle/EconomyBalance',
+                'discord/befehle/Economy System/Economy-Befehle/EconomyCrime',
+                'discord/befehle/Economy System/Economy-Befehle/EconomyDaily',
+                'discord/befehle/Economy System/Economy-Befehle/EconomyDeposit',
+                'discord/befehle/Economy System/Economy-Befehle/EconomyDestroy',
+                'discord/befehle/Economy System/Economy-Befehle/EconomyDropDisable',
+                'discord/befehle/Economy System/Economy-Befehle/EconomyDropEnable',
+                'discord/befehle/Economy System/Economy-Befehle/EconomyRemove',
+                'discord/befehle/Economy System/Economy-Befehle/EconomyRob',
+                'discord/befehle/Economy System/Economy-Befehle/EconomySet',
+                'discord/befehle/Economy System/Economy-Befehle/EconomyWeekly',
+                'discord/befehle/Economy System/Economy-Befehle/EconomyWithdraw',
+                'discord/befehle/Economy System/Economy-Befehle/EconomyWork',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Shop-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system/shop-befehle' },
+              items: [
+                'discord/befehle/Economy System/Shop-Befehle/ShopAdd',
+                'discord/befehle/Economy System/Shop-Befehle/ShopBuy',
+                'discord/befehle/Economy System/Shop-Befehle/ShopDelete',
+                'discord/befehle/Economy System/Shop-Befehle/ShopList',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
           label: 'Geburtstags-Kalender',
           link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender' },
           items: [
             'discord/befehle/Geburtstags-Kalender/BirthdaySet',
             'discord/befehle/Geburtstags-Kalender/BirthdayDelete',
             'discord/befehle/Geburtstags-Kalender/BirthdayStatus',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Minispiele',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
+          items: [
+            'discord/befehle/Minispiele/ConnectFour',
+            'discord/befehle/Minispiele/Duel',
           ],
         },
       ],

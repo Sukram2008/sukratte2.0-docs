@@ -1,13 +1,13 @@
-# 📦📦 | Emote leihen
+# 📥🎨 | Emote hinzufügen
 
 Befehl: **`/stealemote`**
 
 Optionen:
 - **`emote:`**
- Das Emote, welches von einem anderen Server "ausgeliehen" werden soll.
+  Der Emote, der permanent geliehen werden soll.
 
 <u>Beschreibung:</u>  
- Mit diesem Befehl kannst du ein Emoji von einem anderen Server (über die Emote-ID oder den Link) direkt auf deinen Server übernehmen.
+  Leiht einen Emote von einem anderen Server permanent aus und fügt ihn deinem Server hinzu. Das Feld ist eine Pflichtangabe.
 
 <u>Berechtigungen</u>  
- Administratoren (Berechtigung zum Verwalten von Ausdrücken)
+  Administratoren

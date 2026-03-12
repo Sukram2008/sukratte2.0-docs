@@ -1,8 +1,12 @@
-# 🎂❌ | Geburtstag entfernen
+# 🎂🗑️ | Geburtstag löschen
 
 Befehl: **`/birthday delete`**
 
+Optionen:
+Keine Optionen vorhanden.
+
 <u>Beschreibung:</u>  
- Mit diesem Befehl kannst du deinen Geburtstag löschen.
+  Entfernt deinen hinterlegten Geburtstag dauerhaft von diesem Server.
 
 <u>Berechtigungen</u>  
+  Alle Mitglieder
