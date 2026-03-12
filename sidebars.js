@@ -10,15 +10,14 @@ const sidebars = {
         type: 'generated-index',
         title: 'Alle Discord Befehle',
         description: 'Hier findest du eine Übersicht über alle Discord Befehle.',
-        // WICHTIG: Hier KEIN "/docs" reinschreiben! 
-        // Docusaurus macht automatisch "/docs/category/discord/befehle" daraus.
         slug: '/category/discord/befehle', 
       },
-      collapsed: false,
+      collapsed: false, // Die Hauptkategorie bleibt offen
       items: [
         {
           type: 'category',
           label: 'Admin Tools',
+          collapsed: true, // Unterkategorien standardmäßig zu
           link: {
             type: 'generated-index',
             slug: '/category/discord/befehle/admin-tools',
@@ -27,6 +26,7 @@ const sidebars = {
             {
               type: 'category',
               label: 'Admin-Befehle',
+              collapsed: true,
               link: { type: 'generated-index', slug: '/category/discord/befehle/admin-tools/admin-befehle' },
               items: [
                 'discord/befehle/Admin Tools/Admin-Befehle/AdminMovechannel',
@@ -37,6 +37,7 @@ const sidebars = {
             {
               type: 'category',
               label: 'Rollen-Befehle',
+              collapsed: true,
               link: { type: 'generated-index', slug: '/category/discord/befehle/admin-tools/rollen-befehle' },
               items: [
                 'discord/befehle/Admin Tools/Rollen-Befehle/RolesGive',
@@ -47,6 +48,7 @@ const sidebars = {
             {
               type: 'category',
               label: 'Extra-Befehle',
+              collapsed: true,
               link: { type: 'generated-index', slug: '/category/discord/befehle/admin-tools/extra-befehle' },
               items: [
                 'discord/befehle/Admin Tools/Emote-Befehle/Stealemote',
@@ -57,6 +59,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'AFK System',
+          collapsed: true,
           link: { type: 'generated-index', slug: '/category/discord/befehle/afk-system' },
           items: [
             'discord/befehle/AFK-System/AFK-Befehle/AFKEnd',
@@ -66,11 +69,13 @@ const sidebars = {
         {
           type: 'category',
           label: 'Anonymer Chat',
+          collapsed: true,
           link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat' },
           items: [
             {
               type: 'category',
               label: 'Moderator-Befehle',
+              collapsed: true,
               link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat/moderator-befehle' },
               items: [
                 'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteMessage',
@@ -81,6 +86,7 @@ const sidebars = {
             {
               type: 'category',
               label: 'Nutzer-Befehle',
+              collapsed: true,
               link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat/nutzer-befehle' },
               items: [
                 'discord/befehle/Anonymer Chat/Nutzer-Befehle/AnonymousMessage',
@@ -91,18 +97,21 @@ const sidebars = {
         {
           type: 'category',
           label: 'Bewerbungen',
+          collapsed: true,
           link: { type: 'generated-index', slug: '/category/discord/befehle/bewerbungen' },
           items: ['discord/befehle/Bewerbungen/Apply'],
         },
         {
           type: 'category',
           label: 'BetterStatus',
+          collapsed: true,
           link: { type: 'generated-index', slug: '/category/discord/befehle/betterstatus' },
           items: ['discord/befehle/Betterstatus/Status'],
         },
         {
           type: 'category',
           label: 'Color me',
+          collapsed: true,
           link: { type: 'generated-index', slug: '/category/discord/befehle/color-me' },
           items: [
             'discord/befehle/Color me/Color-meManage',
@@ -112,11 +121,13 @@ const sidebars = {
         {
           type: 'category',
           label: 'Economy System',
+          collapsed: true,
           link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system' },
           items: [
             {
               type: 'category',
               label: 'Economy-Befehle',
+              collapsed: true,
               link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system/economy-befehle' },
               items: [
                 'discord/befehle/Economy System/Economy-Befehle/EconomyAdd',
@@ -138,6 +149,7 @@ const sidebars = {
             {
               type: 'category',
               label: 'Shop-Befehle',
+              collapsed: true,
               link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system/shop-befehle' },
               items: [
                 'discord/befehle/Economy System/Shop-Befehle/ShopAdd',
@@ -151,6 +163,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Geburtstags-Kalender',
+          collapsed: true,
           link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender' },
           items: [
             'discord/befehle/Geburtstags-Kalender/BirthdaySet',
@@ -161,6 +174,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Minispiele',
+          collapsed: true,
           link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
           items: [
             'discord/befehle/Minispiele/ConnectFour',

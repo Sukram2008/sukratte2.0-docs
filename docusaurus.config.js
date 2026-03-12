@@ -50,6 +50,14 @@ const config = {
   themeConfig:
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   ({
+    // --- NEU: Sidebar Optimierung ---
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true, // Schließt andere Kategorien automatisch
+      },
+    },
+    // -------------------------------
     colorMode: {
       defaultMode: 'dark', 
       disableSwitch: false,
