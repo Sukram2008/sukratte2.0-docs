@@ -1,30 +1,79 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * --- SukRatte2.0 Docusaurus Themes & Custom Styles ---
  */
 
-/* You can override the default Infima variables here. */
+/* Grundfarben und Variablen - behalte diese bei, falls du sie schon hast */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #ffcc00; /* Deine Akzentfarbe */
+  --ifm-color-primary-dark: #e6b800;
+  --ifm-color-primary-darker: #cca300;
+  --ifm-color-primary-darkest: #997a00;
+  --ifm-color-primary-light: #ffd633;
+  --ifm-color-primary-lighter: #ffdb4d;
+  --ifm-color-primary-lightest: #ffe680;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dunkler Modus Standard - behalte dies bei */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #ffcc00; /* Deine Akzentfarbe im Darkmode */
+  --ifm-color-primary-dark: #ffd633;
+  --ifm-color-primary-darker: #ffdb4d;
+  --ifm-color-primary-darkest: #ffe680;
+  --ifm-color-primary-light: #e6b800;
+  --ifm-color-primary-lighter: #cca300;
+  --ifm-color-primary-lightest: #997a00;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* * --------------------------------------------------------------------------
+ * --- SMOOTHER SIDEBAR ANIMATIONS (HACKING THE AUTO-COLLAPSE EFFEKT) ---
+ * --------------------------------------------------------------------------
+ */
+
+/* 1. Schritt: Standard Docusaurus Animationen deaktivieren, da sie zu hart sind */
+.menu__list {
+  transition: max-height 0.3s ease-out, opacity 0.3s ease !important; /* Deaktiviert die Standard-Verschiebe-Anis */
+  overflow: hidden; /* Wichtig für max-height Hack */
+  max-height: 0; /* Versteckt es standardmäßig */
+  opacity: 0; /* Macht es unsichtbar */
+}
+
+/* 2. Schritt: Wenn eine Kategorie GEÖFFNET ist, geben wir ihr eine max-height, die groß genug ist */
+.menu__list-item--collapsed .menu__list {
+  display: block !important; /* Erzwingt display block, damit die Transition greift */
+  max-height: 2000px; /* Ein hoher Wert, der die meisten Listen abdeckt - animiert fließend */
+  opacity: 1; /* Macht es sichtbar */
+}
+
+/* 3. Schritt: Die Pfeil-Rotation weicher machen */
+.menu__caret:before {
+  transition: transform 0.3s ease-in-out !important;
+}
+
+/* 4. Schritt: Wenn die Sidebar eingeklappt ist (mobile Ansicht oder hideable: true) */
+.theme-doc-sidebar-container {
+  transition: width 0.4s ease-in-out !important; /* Macht das Ein-/Ausblenden der ganzen Sidebar weicher */
+}
+
+/* * --------------------------------------------------------------------------
+ * --- Zusätzliche optische Verbesserungen (Optional, sieht aber besser aus) ---
+ * --------------------------------------------------------------------------
+ */
+
+/* Abstand zwischen den Kategorien-Buttons für bessere Lesbarkeit */
+.menu__list-item {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Den Hover-Effekt auf Buttons weicher machen */
+.menu__link {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Wenn ein User-Info-Befehl aktiv ist, diesen deutlicher markieren (falls du User-Info-Befehle hast) */
+.menu__link--active {
+  font-weight: bold;
 }
