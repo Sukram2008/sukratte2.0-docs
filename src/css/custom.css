@@ -1,8 +1,10 @@
 /**
- * SukRatte2.0 - Feststehende Sidebar ohne Klapp-Funktion
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
  */
 
-/* Deine Original-Farben */
+/* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -15,6 +17,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -24,39 +27,4 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-}
-
-/* * --- SIDEBAR FIX: ALLES IMMER OFFEN ---
- */
-
-/* 1. Entfernt die Interaktion (Pfeile und Klickbarkeit der Ordner-Buttons) */
-.menu__caret {
-  display: none !important; /* Versteckt die kleinen Pfeile */
-}
-
-.menu__list-item--collapsed .menu__list {
-  display: block !important; /* Erzwingt, dass die Liste immer sichtbar ist */
-  height: auto !important;
-  opacity: 1 !important;
-  overflow: visible !important;
-}
-
-/* 2. Verhindert, dass der Mauszeiger anzeigt, dass man die Ordner einklappen könnte */
-.menu__list-item-collapsible {
-  pointer-events: none; /* Macht den Header-Button unklickbar */
-}
-
-/* 3. Erlaubt aber weiterhin das Klicken auf die Links unter den Kategorien */
-.menu__link {
-  pointer-events: auto;
-}
-
-/* 4. Optische Anpassung: Kategorien etwas deutlicher hervorheben */
-.menu__list-item-collapsible .menu__link {
-  font-weight: bold;
-  color: var(--ifm-color-primary);
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  letter-spacing: 0.5px;
-  margin-top: 1rem;
 }
