@@ -14,7 +14,7 @@ const sidebars = {
         // Docusaurus macht automatisch "/docs/category/discord/befehle" daraus.
         slug: '/category/discord/befehle', 
       },
-      collapsed: false,
+      collapsed: true,
       items: [
         {
           type: 'category',
