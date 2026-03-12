@@ -3,13 +3,13 @@
 Befehl: **`/economy add`**
 
 Optionen:
-- **`user:`**  
+- **`user:`**
   Der Nutzer welchem Geld hinzugefügt werden soll.
-- **`amount:`**  
+- **`amount:`**
   Der Betrag welcher hinzugefügt werden soll.
 
 <u>Beschreibung:</u>  
- Einem Nutzer einen bestimmten Betrag hinzufügen.
+  Einem Nutzer einen bestimmten Betrag hinzufügen.
 
 <u>Berechtigungen</u>  
-Nur Administratoren (Owner) können diesen Befehl nutzen.
+  Administratoren (Owner)

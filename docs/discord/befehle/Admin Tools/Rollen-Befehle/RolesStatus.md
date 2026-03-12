@@ -3,11 +3,11 @@
 Befehl: **`/roles status`**
 
 Optionen:
-- **`user:`**
-  Der Nutzer, dessen Rollen überprüft werden sollen.
+- **`user:`** [Optional]  
+  Nutzer von welchem du temporäre Rollen sehen willst.
 
 <u>Beschreibung:</u>  
-  Zeigt eine Übersicht aller Rollen an, die der ausgewählte Nutzer aktuell besitzt.
+  Zeigt eine Übersicht der Rollen eines Nutzers an. Laut Screenshot ist das User-Feld optional, da die Beschreibung darüber angezeigt wird.
 
 <u>Berechtigungen</u>  
   Administratoren

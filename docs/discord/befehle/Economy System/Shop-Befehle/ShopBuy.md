@@ -3,13 +3,13 @@
 Befehl: **`/shop buy`**
 
 Optionen:
-- **`item-name:`** [Entweder oder!]  
+- **`item-name:`**
   Exakten Namen des Item welches gekauft werden soll.
-- **`item-id:`** [Entweder oder!]  
+- **`item-id:`**
   ID vom Item welches gekauft werden soll.
 
 <u>Beschreibung:</u>  
- Befehl zum Kauf eines Items im Economy System.
+  Befehl zum Kauf eines Items im Economy System. [Entweder oder!]
 
 <u>Berechtigungen</u>  
- Alle Nutzer, solang Coins in der Balance und nicht auf dem Konto sind.
+  Alle Mitglieder (Guthaben muss auf der Balance liegen)

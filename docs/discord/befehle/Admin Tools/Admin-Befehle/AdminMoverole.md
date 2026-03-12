@@ -4,12 +4,12 @@ Befehl: **`/admin moverole`**
 
 Optionen:
 - **`role:`**
-  Die Rolle, welche verschoben werden soll.
-- **`new-position:`** [Optional]  
+  Rolle, auf welche diese Aktion ausgeführt werden soll.
+- **`new-position:`**
   Die neue Position in der Rollenhierarchie.
 
 <u>Beschreibung:</u>  
-  Zeigt dir die aktuelle Position einer Rolle an oder verschiebt diese an die angegebene Stelle in der Liste.
+  Verschiebt eine Rolle an die angegebene Stelle in der Liste. Da beide Felder im Eingabebalken ohne Beschreibung stehen, müssen sie zwingend ausgefüllt werden.
 
 <u>Berechtigungen</u>  
   Administratoren

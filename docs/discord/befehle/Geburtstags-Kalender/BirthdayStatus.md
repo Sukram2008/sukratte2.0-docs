@@ -1,8 +1,12 @@
-# 🎂🔍 | Geburtstag Status anzeigen
+# 🎂🔍 | Geburtsstatus anzeigen
 
 Befehl: **`/birthday status`**
 
-<u>Beschreibung:</u>  
- Mit diesem Befehl wird dir dein eingetragener Geburtstag (mit Jahr, wenn angegeben) angezeigt.
+Optionen:
+Keine Optionen vorhanden.
 
-<u>Berechtigungen</u> 
+<u>Beschreibung:</u>  
+  Zeigt den aktuell für dich gespeicherten Status deines Geburtstags an.
+
+<u>Berechtigungen</u>  
+  Alle Mitglieder

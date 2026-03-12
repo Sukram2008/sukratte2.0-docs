@@ -1,13 +1,13 @@
-# 📝🗂️ | Bewerbungsprozess starten
+# 📝📩 | Bewerbung starten
 
 Befehl: **`/apply`**
 
 Optionen:
-- **`category:`** 
- Wähle die Kategorie aus, für welche du dich bewerben möchtest (z.B. Teampositionen, Partner).
+- **`category:`**
+  Kategorie, in der die Bewerbung gestartet werden soll.
 
 <u>Beschreibung:</u>  
- Starte den Bewerbungsprozess über das Modul mit anpassbaren Fragen. Mit etwas Glück gehörst du bald schon zum 2.0-Team!
+  Ermöglicht es Nutzern, sich über den Bot für eine bestimmte Position oder Kategorie auf dem Server zu bewerben. Das Feld für die Kategorie muss zwingend ausgefüllt werden.
 
 <u>Berechtigungen</u>  
- Alle Nutzer.
+  Alle Mitglieder

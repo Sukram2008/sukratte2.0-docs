@@ -3,13 +3,11 @@
 Befehl: **`/stealemote`**
 
 Optionen:
-- **`emoji:`**
-  Das Emoji von einem anderen Server, welches hinzugefügt werden soll.
-- **`name:`** [Optional]  
-  Ein benutzerdefinierter Name für das neue Emote.
+- **`emote:`**
+  Der Emote, der permanent geliehen werden soll.
 
 <u>Beschreibung:</u>  
-  Ermöglicht es dir, Emotes von anderen Servern (über die Emoji-ID oder das Icon) direkt auf deinen eigenen Server zu kopieren.
+  Leiht einen Emote von einem anderen Server permanent aus und fügt ihn deinem Server hinzu. Das Feld ist eine Pflichtangabe.
 
 <u>Berechtigungen</u>  
-  Administratoren (Rollen mit "Emojis verwalten")
+  Administratoren

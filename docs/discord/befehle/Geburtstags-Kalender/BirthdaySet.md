@@ -3,14 +3,15 @@
 Befehl: **`/birthday set`**
 
 Optionen:
-- **`day:`**  
- Der Tag deines Geburtstags (z.B. 31)
-- **`month:`**  
- Der Monat deines Geburtstags (z.B. 12)
+- **`day:`**
+  Der Tag deines Geburtstags.
+- **`month:`**
+  Der Monat deines Geburtstags.
 - **`year:`** [Optional]  
- Das Jahr deines Geburtstags (z.B. 2025)
+  Jahr deines Geburtstags.
 
 <u>Beschreibung:</u>  
- Mit dem Befehl setzt ihr euren Geburtstag, damit auch alle dran errinert werden können.
+  Speichert deinen Geburtstag im System des Servers. Tag und Monat sind Pflichtangaben, während das Jahr optional angegeben werden kann, da die Beschreibung über dem Feld erscheint.
 
 <u>Berechtigungen</u>  
+  Alle Mitglieder
