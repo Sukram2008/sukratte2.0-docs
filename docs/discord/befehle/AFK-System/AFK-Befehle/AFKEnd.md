@@ -1,9 +1,12 @@
-# ⏹️🕒 | AFK-Sitzung beenden
+# ⌨️🔔 | AFK-Modus beenden
 
 Befehl: **`/afk end`**
 
+Optionen:
+Keine Optionen vorhanden.
+
 <u>Beschreibung:</u>  
- Beende deine aktuell laufende AFK-Sitzung manuell. Dies ist besonders nützlich, wenn `auto-end` auf `False` gestellt wurde.
+  Beendet deinen AFK-Status manuell, falls du noch keine Nachricht in einen Kanal geschrieben hast (was den Status normalerweise automatisch aufhebt).
 
 <u>Berechtigungen</u>  
- Alle Nutzer mit einer aktiven Sitzung.
+  Alle Mitglieder

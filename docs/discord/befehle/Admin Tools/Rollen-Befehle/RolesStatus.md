@@ -1,13 +1,13 @@
-# 🎭🔍 | Rollenstatus anzeigen
+# 📊🎭 | Rollen-Status
 
 Befehl: **`/roles status`**
 
 Optionen:
 - **`user:`**
-- Der Nutzer, dessen Rollen-Status du überprüfen möchtest.
+  Der Nutzer, dessen Rollen überprüft werden sollen.
 
 <u>Beschreibung:</u>  
- Zeigt eine Übersicht der temporären Rollen eines Nutzers an und wie lange diese noch aktiv sind, bevor sie automatisch entfernt werden.
+  Zeigt eine Übersicht aller Rollen an, die der ausgewählte Nutzer aktuell besitzt.
 
 <u>Berechtigungen</u>  
- Administratoren / Moderatoren
+  Administratoren

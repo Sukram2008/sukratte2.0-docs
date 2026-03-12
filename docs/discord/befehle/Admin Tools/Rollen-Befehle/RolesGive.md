@@ -1,17 +1,15 @@
-# 🎭🔖 | Rolle zuweisen
+# ➕🎭 | Rolle vergeben
 
 Befehl: **`/roles give`**
 
 Optionen:
 - **`user:`**
- Der Nutzer, welcher die Rolle erhalten soll.
+  Der Nutzer, der eine Rolle erhalten soll.
 - **`role:`**
- Die Rolle, welche der Nutzer bekommen soll.
-- **`duration:`** [Optional]
- Die Dauer, wie lange der Nutzer die Rolle behalten soll (z. B. "5h", "10m", "2d"). Ohne Angabe bleibt die Rolle permanent.
+  Die Rolle, die zugewiesen werden soll.
 
 <u>Beschreibung:</u>  
- Weist einem Nutzer eine Rolle zu. Wenn eine Dauer angegeben wird, entfernt der Bot die Rolle nach Ablauf der Zeit automatisch.
+  Vergibt die ausgewählte Rolle an das angegebene Mitglied.
 
 <u>Berechtigungen</u>  
- Administratoren / Moderatoren
+  Administratoren (Rollen mit "Rollen verwalten")

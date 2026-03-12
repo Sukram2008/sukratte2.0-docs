@@ -1,17 +1,15 @@
-# 🎭❌ | Rolle entfernen
+# ➖🎭 | Rolle entfernen
 
 Befehl: **`/roles remove`**
 
 Optionen:
 - **`user:`**
- Der Nutzer, dem die Rolle entzogen werden soll.
+  Der Nutzer, dem eine Rolle entzogen werden soll.
 - **`role:`**
- Die Rolle, die dem Nutzer abgenommen werden soll.
-- **`duration:`** [Optional]
- Die Dauer, wie lange die Rolle entfernt bleiben soll (Angabe in z. B. "5h", "10m").
+  Die Rolle, die entfernt werden soll.
 
 <u>Beschreibung:</u>  
- Entfernt eine Rolle von einem Nutzer permanent oder für einen festgelegten Zeitraum.
+  Entfernt die ausgewählte Rolle von dem angegebenen Mitglied.
 
 <u>Berechtigungen</u>  
- Administratoren / Moderatoren
+  Administratoren (Rollen mit "Rollen verwalten")
