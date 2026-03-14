@@ -162,9 +162,6 @@ const sidebars = {
                 'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayStatus',
                 'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdaySet',
                 'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete',
-                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayList',
-                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayNext',
-                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayShow',
               ],
             },
             {
