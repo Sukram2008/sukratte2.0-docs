@@ -10,8 +10,6 @@ const sidebars = {
         type: 'generated-index',
         title: 'Alle Discord Befehle',
         description: 'Hier findest du eine Übersicht über alle Discord Befehle.',
-        // WICHTIG: Hier KEIN "/docs" reinschreiben! 
-        // Docusaurus macht automatisch "/docs/category/discord/befehle" daraus.
         slug: '/category/discord/befehle', 
       },
       collapsed: true,
@@ -151,11 +149,35 @@ const sidebars = {
         {
           type: 'category',
           label: 'Geburtstags-Kalender',
-          link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender' },
+          link: {
+            type: 'generated-index',
+            slug: '/category/discord/befehle/geburtstags-kalender',
+          },
           items: [
-            'discord/befehle/Geburtstags-Kalender/BirthdaySet',
-            'discord/befehle/Geburtstags-Kalender/BirthdayDelete',
-            'discord/befehle/Geburtstags-Kalender/BirthdayStatus',
+            {
+              type: 'category',
+              label: 'Nutzer-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender/nutzer-befehle' },
+              items: [
+                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayStatus',
+                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdaySet',
+                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete',
+                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayList',
+                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayNext',
+                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayShow',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Admin-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender/admin-befehle' },
+              items: [
+                'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdaySet',
+                'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayRemove',
+                'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayLock',
+                'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayUnlock',
+              ],
+            },
           ],
         },
         {
