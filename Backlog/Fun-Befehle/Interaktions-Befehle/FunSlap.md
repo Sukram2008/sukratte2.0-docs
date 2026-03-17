@@ -7,7 +7,7 @@ Optionen:
   Der Nutzer welcher geschlagen werden soll.
 
 <u>Beschreibung:</u>  
- Man kann einen anderen Nutzer schlagen.
+ Du aknnst einen anderen schlagen (Random GIF)
 
 <u>Berechtigungen</u>  
- Alle Nutzer.
+ 
