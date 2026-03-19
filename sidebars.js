@@ -57,8 +57,6 @@ const sidebars = {
           label: 'AFK System',
           link: { type: 'generated-index', slug: '/category/discord/befehle/afk-system' },
           items: [
-            'discord/befehle/AFK-System/AFK-Befehle/AFKEnd',
-            'discord/befehle/AFK-System/AFK-Befehle/AFKStart',
           ],
         },
         {
