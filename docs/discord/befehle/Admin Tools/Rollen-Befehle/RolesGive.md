@@ -8,10 +8,11 @@ Optionen:
 - **`role:`**
   Die Rolle, die zugewiesen werden soll.
 - **`duration:`** [Optional]  
-  Wenn du diesen Parameter angibst, wird die Rolle nach Ablauf dieser Länge entfernt.
+  Wenn du diese Option angibst, wird die Rolle nach Ablauf dieser Zeit entfernt.
+  <u>Beispiel:</u> "`5m`" = 5 Minuten, "`10h`" = 10 Stunden
 
 <u>Beschreibung:</u>  
   Weiße jemanden eine Rolle permanent oder temporär zu.
 
 <u>Berechtigungen</u>  
-  Administratoren
+  

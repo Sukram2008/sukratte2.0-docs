@@ -9,7 +9,7 @@ Optionen:
   Die neue Position in der Rollenhierarchie.
 
 <u>Beschreibung:</u>  
-  Verschiebt eine Rolle an die angegebene Stelle in der Liste. Da beide Felder im Eingabebalken ohne Beschreibung stehen, müssen sie zwingend ausgefüllt werden.
+  Verschiebt eine Rolle an die angegebene Stelle in der Liste.
 
 <u>Berechtigungen</u>  
-  Administratoren
+  

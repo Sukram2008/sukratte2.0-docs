@@ -9,7 +9,7 @@ Optionen:
   Die Position, auf welche der Kanal verschoben werden soll.
 
 <u>Beschreibung:</u>  
-  Ohne Angabe einer neuen Position wird dir die aktuelle Position angezeigt. Mit Angabe einer Zahl kannst du den Kanal an die gewünschte Stelle verschieben.
+  Ohne Postitonsangabe wird dir die aktuelle Position angezeigt. Mit Positionsangabe wird der Kanal an die angegebene Position verschoben.
 
 <u>Berechtigungen</u>  
-  Administratoren
+ 

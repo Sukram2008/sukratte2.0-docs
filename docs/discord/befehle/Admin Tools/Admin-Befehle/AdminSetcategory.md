@@ -9,7 +9,7 @@ Optionen:
   Die Ziel-Kategorie, in die der Kanal verschoben werden soll.
 
 <u>Beschreibung:</u>  
-  Verschiebt einen Kanal schnell und einfach in eine andere Kategorie deiner Wahl.
+  Verschiebt einen Kanal in die angegebene Kategorie.
 
 <u>Berechtigungen</u>  
-  Administratoren
+  
