@@ -1,15 +1,19 @@
+---
+title: Kategorie zuweisen
+description: Setzt die Kategorie eines Kanals
+---
+
 # 📂📌 | Kategorie zuweisen
 
 Befehl: **`/admin setcategory`**
 
-Optionen:
-- **`channel:`**
-  Der Kanal, dessen Kategorie geändert werden soll.
-- **`category:`**
-  Die Ziel-Kategorie, in die der Kanal verschoben werden soll.
+### Erforderliche Optionen
+- **`channel`**
+  Kanal, auf welchem diese Aktion ausgeführt werden soll
+- **`category`**
+  Neue Kategorie des Kanals
 
-<u>Beschreibung:</u>  
-  Verschiebt einen Kanal in die angegebene Kategorie.
+### Beschreibung
+Dieser Befehl erlaubt es dir, einen Kanal schnell einer neuen oder anderen Kategorie zuzuweisen. Wähle den Kanal aus und bestimme die Ziel-Kategorie aus der Liste.
 
-<u>Berechtigungen</u>  
-  
+### Berechtigungen

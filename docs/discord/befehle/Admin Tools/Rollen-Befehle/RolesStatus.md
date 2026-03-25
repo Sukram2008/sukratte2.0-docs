@@ -1,13 +1,17 @@
-# 📊🎭 | Rollen-Status
+---
+title: Rollen-Status
+description: Zeigt welche Rollen eines Nutzers temporär sind
+---
+
+# 🕒📊 | Rollen-Status
 
 Befehl: **`/roles status`**
 
-Optionen:
-- **`user:`**
-  Nutzer von welchem du die temporäre Rollen sehen möchtest.
+### Erforderliche Optionen
+- **`user`**
+  Nutzer von welchem du temporäre Rollen sehen willst
 
-<u>Beschreibung:</u>  
-  Du kannst dir die Liste der temoporären Rollen, eines Nutzers, anzeigen lassen.
+### Beschreibung
+Dieser Befehl listet alle Rollen eines Nutzers auf, die ein Ablaufdatum haben. Du siehst genau, welche Rollen temporär sind und wann diese vom Bot automatisch entfernt werden.
 
-<u>Berechtigungen</u>  
-  
+### Berechtigungen

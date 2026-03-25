@@ -1,18 +1,25 @@
-# ➕🎭 | Rolle vergeben
+---
+title: Rolle zuweisen
+description: Weiße jemandem eine Rolle permanent oder temporär zu
+---
+
+# 👤➕ | Rolle zuweisen
 
 Befehl: **`/roles give`**
 
-Optionen:
-- **`user:`**
-  Der Nutzer, der eine Rolle erhalten soll.
-- **`role:`**
-  Die Rolle, die zugewiesen werden soll.
-- **`duration:`** [Optional]  
-  Wenn du diese Option angibst, wird die Rolle nach Ablauf dieser Zeit entfernt.
-  <u>Beispiel:</u> "`5m`" = 5 Minuten, "`10h`" = 10 Stunden
+### Erforderliche Optionen
+- **`user`**
+  Mitglied, dem du eine Rolle zuweisen willst
+- **`role`**
+  Rolle, die du dem Mitglied zuweisen willst
 
-<u>Beschreibung:</u>  
-  Weiße jemanden eine Rolle permanent oder temporär zu.
+### Andere Optionen
+- **`duration`** [Optional]
+  Wenn du diesen Parameter angibst, wird die Rolle nach Ablauf dieser Länge entfernt
 
-<u>Berechtigungen</u>  
-  
+### Beschreibung
+Mit diesem Befehl kannst du Nutzern Rollen geben. 
+- Ohne Angabe einer Dauer wird die Rolle **permanent** zugewiesen.
+- Mit Angabe einer Dauer (z.B. `1d`, `12h`) wird die Rolle automatisch nach Ablauf der Zeit wieder entfernt.
+
+### Berechtigungen
