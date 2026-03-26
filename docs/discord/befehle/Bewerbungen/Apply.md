@@ -19,5 +19,6 @@ Mit diesem Befehl kannst du den Bewerbungsprozess für eine Teamrolle starten.
 
 :::info Hinweis
  Stelle sicher, dass du Privatnachrichten von Servermitgliedern in deinen Discord-Einstellungen erlaubt hast.*
+:::
 
 ### Berechtigungen
