@@ -13,9 +13,12 @@ Befehl: **`/anonymous-message`**
 
 ### Andere Optionen
 - **`reset-identity`** [Optional]
-  Aktiviere diese Option, um deine Identität zurückzusetzen. Das kann nicht rückgängig gemacht werden.
+  Wähle **True** zum Bestätigen oder **False** zum Ablehnen der Identitätsrücksetzung.
 
 ### Beschreibung
-Mit diesem Befehl kannst du eine Nachricht in den dafür vorgesehenen anonymen Kanal senden. Niemand auf dem Server wird wissen, dass du der Absender bist. Wenn du deine Identität zurücksetzt, wird dir eine neue interne ID zugewiesen.
+Mit diesem Befehl kannst du eine Nachricht in den dafür vorgesehenen anonymen Kanal senden. Niemand auf dem Server wird wissen, dass du der Absender bist. 
+
+- **Identität zurücksetzen:** Wenn du deine Identität zurücksetzt, wird dir eine neue interne ID zugewiesen. Dies kann nicht rückgängig gemacht werden.
+- **Bedienung:** Wähle bei der Option einfach **True**, um die Rücksetzung zu bestätigen, oder **False**, um sie abzulehnen.
 
 ### Berechtigungen
