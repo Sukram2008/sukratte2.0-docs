@@ -1,13 +1,23 @@
-# ⚔️🤺 | Duell starten
+---
+title: Duell starten
+description: Fordere ein anderes Mitglied zu einem Duell heraus
+---
+
+# ⚔️🏟️ | Duell starten
 
 Befehl: **`/duel`**
 
-Optionen:
-- **`user:`** [Optional]  
-  Nutzer, gegen den du spielen willst.
+### Erforderliche Optionen
+- **`user`**
+  Nutzer gegen den du spielen willst
 
-<u>Beschreibung:</u>  
-  Fordere ein anderes Mitglied zu einem Duell heraus. Da die Beschreibung für den Nutzer im hellen Feld über dem Eingabebalken erscheint, ist diese Angabe laut Logik optional.
+### Beschreibung
+Mit diesem Befehl kannst du ein spannendes Minispiel gegen ein anderes Servermitglied starten. 
+- Das Spiel wird direkt im Chat ausgetragen.
+- Sobald du die Herausforderung abschickst, hat der markierte Nutzer die Möglichkeit, diese anzunehmen.
 
-<u>Berechtigungen</u>  
-  Alle Nutzer
+:::info Hinweis
+Der markierte Nutzer muss diese Anfrage per Button-Klick auf **Spiel beitreten** annehmen, bevor das Duell beginnt.
+:::
+
+### Berechtigungen
