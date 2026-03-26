@@ -1,12 +1,13 @@
-# ⌨️🔔 | AFK-Modus beenden
+---
+title: AFK-Sitzung beenden
+description: Beendet eine laufende AFK-Sitzung
+---
+
+# 🔔✅ | AFK-Sitzung beenden
 
 Befehl: **`/afk end`**
 
-Optionen:
-Keine Optionen vorhanden.
+### Beschreibung
+Beendet deine aktuelle AFK-Sitzung manuell. Dein Status wird zurückgesetzt und Nutzer erhalten keine Benachrichtigung mehr, dass du abwesend bist, wenn sie dich erwähnen.
 
-<u>Beschreibung:</u>  
-  Beendet deinen AFK-Status manuell, falls du noch keine Nachricht in einen Kanal geschrieben hast (was den Status normalerweise automatisch aufhebt).
-
-<u>Berechtigungen</u>  
-  Alle Mitglieder
+### Berechtigungen
