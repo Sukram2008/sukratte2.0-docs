@@ -1,13 +1,21 @@
-# 🛡️🔒 | Anonymen Chat sperren
+---
+title: Nutzer sperren
+description: Sperrt einen Nutzer für den anonymen Chat
+---
+
+# 🚫👤 | Nutzer sperren
 
 Befehl: **`/moderate-anonymous-channel disable`**
 
-Optionen:
-- **`user:`**
-  Verhindere, dass ein Nutzer in den anonymen Chat schreiben kann.
+### Erforderliche Optionen
+- **`display-name`**
+  Der Name, welcher im Kanal angezeigt wird.
 
-<u>Beschreibung:</u>  
-  Mit diesem Befehl kannst du einem bestimmten Nutzer die Berechtigung entziehen, weiterhin anonyme Nachrichten zu verfassen.
+### Andere Optionen
+- **`reason`** [Optional]
+  Grund für die Deaktivierung des Nutzers.
 
-<u>Berechtigungen</u>  
-  Moderatoren / Administratoren
+### Beschreibung
+Dieser Befehl entzieht einem Nutzer die Berechtigung, am anonymen Chat teilzunehmen. Über den Anzeigenamen (Display Name) kann der Moderator den Nutzer identifizieren und sperren, ohne dessen echte Identität zu sehen.
+
+### Berechtigungen

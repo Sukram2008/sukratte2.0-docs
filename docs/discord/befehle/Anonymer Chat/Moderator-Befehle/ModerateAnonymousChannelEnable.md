@@ -1,13 +1,17 @@
-# 🛡️🔓 | Anonymen Chat freigeben
+---
+title: Nutzer entsperren
+description: Hebt die Sperre eines Nutzers für den anonymen Chat auf
+---
+
+# ✅👤 | Nutzer entsperren
 
 Befehl: **`/moderate-anonymous-channel enable`**
 
-Optionen:
-- **`user:`**
-  Entsperre einen Nutzer aus dem anonymen Kanal.
+### Erforderliche Optionen
+- **`display-name`**
+  Der Name, welcher im Kanal angezeigt wurde.
 
-<u>Beschreibung:</u>  
-  Hebt eine zuvor verhängte Sperre für den anonymen Chat wieder auf, sodass der Nutzer dort wieder Nachrichten verfassen kann.
+### Beschreibung
+Hebt eine bestehende Sperre für den anonymen Chat auf. Sobald der Befehl ausgeführt wurde, kann der Nutzer unter seinem Anzeigenamen wieder Nachrichten senden.
 
-<u>Berechtigungen</u>  
-  Moderatoren / Administratoren
+### Berechtigungen
