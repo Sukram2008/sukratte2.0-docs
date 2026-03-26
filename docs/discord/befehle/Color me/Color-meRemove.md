@@ -1,13 +1,19 @@
+---
+title: Custom Rolle entfernen
+description: Löscht deine persönliche Rolle
+---
+
 # 🗑️👋 | Entferne deine Custom Rolle
 
 Befehl: **`/color-me remove`**
 
-Optionen:
-- **`confirm:`** [Optional]  
-  Willst du deine Custom Rolle wirklich löschen? Dies wird keine laufenden Cooldowns zurücksetzen.
+### Erforderliche Optionen
+- **`confirm`**
+  Bestätige, dass du deine Rolle löschen möchtest
 
-<u>Beschreibung:</u>  
-  Mit diesem Befehl kannst du deine eigene Rolle wieder löschen. Da die Bestätigung oben im hellen Feld angezeigt wird, ist sie laut Logik optional.
+### Beschreibung
+Wenn du deine persönliche Rolle nicht mehr möchtest, kannst du sie mit diesem Befehl dauerhaft löschen. 
+- Wähle `True`, um die Löschung zu bestätigen.
+- Dein Name erscheint danach wieder in der Standardfarbe deiner nächsthöheren Rolle.
 
-<u>Berechtigungen</u>  
-  Nutzer, die den Server geboostet haben oder Level 100 erreicht haben und bereits eine eigene Rolle besitzen.
+### Berechtigungen
