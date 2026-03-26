@@ -17,6 +17,6 @@ Mit diesem Befehl kannst du den Bewerbungsprozess für eine Teamrolle starten.
 - Dort stellt er dir nacheinander die Fragen, die für die jeweilige Rolle konfiguriert wurden.
 - Deine Antworten werden anschließend gesammelt und dem Team zur Auswertung vorgelegt.
 
-*Hinweis: Stelle sicher, dass du Privatnachrichten von Servermitgliedern in deinen Discord-Einstellungen erlaubt hast.*
+:::info Stelle sicher, dass du Privatnachrichten von Servermitgliedern in deinen Discord-Einstellungen erlaubt hast.*
 
 ### Berechtigungen
