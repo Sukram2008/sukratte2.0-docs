@@ -1,13 +1,24 @@
-# 🎭💬 | Anonyme Nachricht senden
+---
+title: Anonyme Nachricht senden
+description: Sende eine Nachricht in den anonymen Chat
+---
+
+# 🕵️‍♂️💬 | Anonyme Nachricht senden
 
 Befehl: **`/anonymous-message`**
 
-Optionen:
-- **`message:`**
-  Sende eine Nachricht in den anonymen Chat (niemand wird wissen, dass du die Nachricht gesendet hast).
+### Erforderliche Optionen
+- **`message`**
+  Das ist die Nachricht, die in den anonymen Kanal geschickt wird.
 
-<u>Beschreibung:</u>  
-  Ermöglicht es dir, eine Nachricht völlig anonym in den konfigurierten Kanal zu posten. Deine Identität bleibt dabei für andere Nutzer verborgen.
+### Andere Optionen
+- **`reset-identity`** [Optional]
+  Wähle **True** zum Bestätigen oder **False** zum Ablehnen der Identitätsrücksetzung.
 
-<u>Berechtigungen</u>  
-  Alle Mitglieder
+### Beschreibung
+Mit diesem Befehl kannst du eine Nachricht in den dafür vorgesehenen anonymen Kanal senden. Niemand auf dem Server wird wissen, dass du der Absender bist. 
+
+- **Identität zurücksetzen:** Wenn du deine Identität zurücksetzt, wird dir eine neue interne ID zugewiesen. Dies kann nicht rückgängig gemacht werden.
+- **Bedienung:** Wähle bei der Option einfach **True**, um die Rücksetzung zu bestätigen, oder **False**, um sie abzulehnen.
+
+### Berechtigungen

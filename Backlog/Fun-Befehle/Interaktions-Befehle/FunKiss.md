@@ -7,7 +7,7 @@ Optionen:
   Der Nutzer welcher geküsst werden soll.
 
 <u>Beschreibung:</u>  
- Man kann einen anderen Nutzer küssen.
+ Du kannst jemanden anderen küssen (Random GIF).
 
 <u>Berechtigungen</u>  
-Alle Nutzer.
+ 

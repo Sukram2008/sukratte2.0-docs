@@ -1,17 +1,24 @@
-# ➖🎭 | Rolle entfernen
+---
+title: Rolle entfernen
+description: Entferne permanent oder temporär eine Rolle von einem Nutzer
+---
+
+# 👤➖ | Rolle entfernen
 
 Befehl: **`/roles remove`**
 
-Optionen:
-- **`user:`**
-  Der Nutzer, dem eine Rolle entzogen werden soll.
-- **`role:`**
-  Die Rolle, die entfernt werden soll.
-- **`duration:`** [Optional]  
-  Wenn du diesen Parameter angibst, wird die Rolle nach Ablauf dieser Länge zurückgegeben.
+### Erforderliche Optionen
+- **`user`**
+  Mitglied, von welchem du die Rolle entfernen willst
+- **`role`**
+  Rolle, die du vom Mitglied entfernen willst
 
-<u>Beschreibung:</u>  
-  Entferne permanent oder temporär eine Rolle von einem Nutzer.
+### Andere Optionen
+- **`duration`** [Optional]
+  Wenn du diesen Parameter angibst, wird die Rolle nach Ablauf dieser Länge zurückgegeben
 
-<u>Berechtigungen</u>  
-  Administratoren
+### Beschreibung
+Entfernt eine Rolle von einem Mitglied.
+- Wird eine Dauer angegeben, handelt es sich um einen temporären Entzug – die Rolle wird dem Nutzer nach Ablauf der Zeit automatisch wieder gegeben.
+
+### Berechtigungen

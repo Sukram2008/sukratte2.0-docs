@@ -6,8 +6,8 @@ Optionen:
 - **`user:`**  
   Der Nutzer welcher umarmt werden soll.
 
-<u>Beschreibung:</u>  
- Man kann einen anderen Nutzer umarmen.
-
-<u>Berechtigungen</u>  
-Alle Nutzer.
+<u>Beschreibung:</u>
+ Du kannst einen anderen Nutzer umarmen (Random GIF).
+ 
+<u>Berechtigungen</u>
+ 

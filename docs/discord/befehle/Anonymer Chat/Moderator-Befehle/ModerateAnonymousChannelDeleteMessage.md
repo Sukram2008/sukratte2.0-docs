@@ -1,13 +1,17 @@
-# 🛡️🗑️ | Anonyme Nachricht löschen
+---
+title: Nachricht löschen
+description: Löscht eine Nachricht aus dem anonymen Chat
+---
+
+# 🗑️💬 | Nachricht löschen
 
 Befehl: **`/moderate-anonymous-channel delete-message`**
 
-Optionen:
-- **`message-id:`**
-  Lösche eine Nachricht aus dem anonymen Chat. Gib alternativ die Nachrichten-ID an.
+### Erforderliche Optionen
+- **`message`**
+  Die Nachricht, welche gelöscht werden soll.
 
-<u>Beschreibung:</u>  
-  Ermöglicht es Moderatoren, gezielt einzelne Nachrichten aus dem anonymen Chat-Verlauf zu entfernen, falls diese gegen Regeln verstoßen.
+### Beschreibung
+Mit diesem Befehl können Moderatoren gezielt Nachrichten aus dem anonymen Kanal entfernen, falls diese gegen die Serverregeln verstoßen.
 
-<u>Berechtigungen</u>  
-  Moderatoren / Administratoren
+### Berechtigungen
