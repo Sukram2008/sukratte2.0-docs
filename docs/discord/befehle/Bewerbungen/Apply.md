@@ -1,13 +1,22 @@
-# 📝📩 | Bewerbung starten
+---
+title: Bewerbung einsenden
+description: Starte den Bewerbungsprozess für eine Teamrolle
+---
+
+# 📝📩 | Bewerbung einsenden
 
 Befehl: **`/apply`**
 
-Optionen:
-- **`category:`**
-  Kategorie, in der die Bewerbung gestartet werden soll.
+### Erforderliche Optionen
+- **`role`**
+  Rolle, für die du dich bewerben willst
 
-<u>Beschreibung:</u>  
-  Ermöglicht es Nutzern, sich über den Bot für eine bestimmte Position oder Kategorie auf dem Server zu bewerben. Das Feld für die Kategorie muss zwingend ausgefüllt werden.
+### Beschreibung
+Mit diesem Befehl kannst du den Bewerbungsprozess für eine Teamrolle starten. 
+- Sobald du den Befehl abschickst, wird dich der Bot **per Privatnachricht (DM)** kontaktieren.
+- Dort stellt er dir nacheinander die Fragen, die für die jeweilige Rolle konfiguriert wurden.
+- Deine Antworten werden anschließend gesammelt und dem Team zur Auswertung vorgelegt.
 
-<u>Berechtigungen</u>  
-  Alle Mitglieder
+*Hinweis: Stelle sicher, dass du Privatnachrichten von Servermitgliedern in deinen Discord-Einstellungen erlaubt hast.*
+
+### Berechtigungen
