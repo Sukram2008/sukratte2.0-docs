@@ -1,13 +1,17 @@
+---
+title: Nutzer-Eintrag entfernen
+description: Entfernt den hinterlegten Geburtstag eines spezifischen Nutzers
+---
+
 # 🛠️🗑️ | Nutzer-Eintrag entfernen
 
 Befehl: **`/manage-birthday remove`**
 
-Optionen:
-- **`user:`**
+### Erforderliche Optionen
+- **`user`**
   Der Nutzer, dessen Geburtstag entfernt werden soll.
 
-<u>Beschreibung:</u>  
-  Entfernt den hinterlegten Geburtstag eines spezifischen Nutzers dauerhaft vom Server.
+### Beschreibung
+Entfernt den hinterlegten Geburtstag eines spezifischen Nutzers dauerhaft vom Server.
 
-<u>Berechtigungen</u>  
-  Administrator
+### Berechtigungen
