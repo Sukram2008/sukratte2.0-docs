@@ -351,6 +351,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Partner-Liste',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/partner-liste' },
           items: [
             'discord/befehle/Partner-Liste/PartnerListAdd',
             'discord/befehle/Partner-Liste/PartnerListEdit',
