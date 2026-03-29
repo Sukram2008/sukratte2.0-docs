@@ -348,6 +348,15 @@ const sidebars = {
             'discord/befehle/Minispiele/Duel',
           ],
         },
+        {
+          type: 'category',
+          label: 'Partner-Liste',
+          items: [
+            'discord/befehle/Partner-Liste/PartnerListAdd',
+            'discord/befehle/Partner-Liste/PartnerListEdit',
+            'discord/befehle/Partner-Liste/PartnerListDelete',
+          ],
+        },
         // {
         //   type: 'category',
         //   label: 'Economy System',
