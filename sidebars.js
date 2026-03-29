@@ -349,7 +349,19 @@ const sidebars = {
             'discord/befehle/Partner-Liste/PartnerListDelete',
           ],
         },
-                {
+        {
+          type: 'category',
+          label: 'Ping-Schutz',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/ping-schutz' },
+          items: [
+            'discord/befehle/Ping-Schutz/PingProtectionUserPanel',
+            'discord/befehle/Ping-Schutz/PingProtectionListWhitelisted',
+            'discord/befehle/Ping-Schutz/PingProtectionListProtected',
+            'discord/befehle/Ping-Schutz/PingProtectionUserHistory',
+            'discord/befehle/Ping-Schutz/PingProtectionUserActionsHistory',
+          ],
+        },
+        {
           type: 'category',
           label: 'Minispiele',
           link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
