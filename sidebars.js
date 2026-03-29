@@ -108,9 +108,9 @@ const sidebars = {
           ],
         },
         {
-          type: 'catergory',
+          type: 'category',
           label: 'Einladungsverfolgung',
-          link: { type: 'generarted-index', slug: '/catergory/discord/befehle/einladungsverfolgung' },
+          link: { type: 'generarted-index', slug: '/category/discord/befehle/einladungsverfolgung' },
           items: ['discord/befehle/Einladungsverfolgung/TraceInvities'],
         },
         {
@@ -124,9 +124,9 @@ const sidebars = {
           ],
         },
         {
-          type: 'catergory',
+          type: 'category',
           label: 'Erinnerung',
-          link: { type: 'generarted-index', slug: '/catergory/discord/befehle/erinnerung' },
+          link: { type: 'generarted-index', slug: '/category/discord/befehle/erinnerung' },
           items: ['discord/befehle/Erinnerung/RemindMe'],
         },
         {
