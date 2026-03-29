@@ -10,13 +10,13 @@ const sidebars = {
         type: 'generated-index',
         title: 'Alle Discord Befehle',
         description: 'Hier findest du eine Übersicht über alle Discord Befehle.',
-        slug: '/category/discord/befehle', 
+        slug: '/category/discord/befehle',
       },
       collapsed: true,
       items: [
         {
           type: 'category',
-          label: 'Admin Tools',
+          label: 'Admin-Tools',
           link: {
             type: 'generated-index',
             slug: '/category/discord/befehle/admin-tools',
@@ -27,9 +27,9 @@ const sidebars = {
               label: 'Admin-Befehle',
               link: { type: 'generated-index', slug: '/category/discord/befehle/admin-tools/admin-befehle' },
               items: [
-                'discord/befehle/Admin Tools/Admin-Befehle/AdminMovechannel',
-                'discord/befehle/Admin Tools/Admin-Befehle/AdminMoverole',
-                'discord/befehle/Admin Tools/Admin-Befehle/AdminSetcategory',
+                'discord/befehle/Admin-Tools/Admin-Befehle/AdminMovechannel',
+                'discord/befehle/Admin-Tools/Admin-Befehle/AdminMoverole',
+                'discord/befehle/Admin-Tools/Admin-Befehle/AdminSetcategory',
               ],
             },
             {
@@ -37,9 +37,9 @@ const sidebars = {
               label: 'Rollen-Befehle',
               link: { type: 'generated-index', slug: '/category/discord/befehle/admin-tools/rollen-befehle' },
               items: [
-                'discord/befehle/Admin Tools/Rollen-Befehle/RolesGive',
-                'discord/befehle/Admin Tools/Rollen-Befehle/RolesRemove',
-                'discord/befehle/Admin Tools/Rollen-Befehle/RolesStatus',
+                'discord/befehle/Admin-Tools/Rollen-Befehle/RolesGive',
+                'discord/befehle/Admin-Tools/Rollen-Befehle/RolesRemove',
+                'discord/befehle/Admin-Tools/Rollen-Befehle/RolesStatus',
               ],
             },
             {
@@ -47,7 +47,7 @@ const sidebars = {
               label: 'Extra-Befehle',
               link: { type: 'generated-index', slug: '/category/discord/befehle/admin-tools/extra-befehle' },
               items: [
-                'discord/befehle/Admin Tools/Extra-Befehle/Stealemote',
+                'discord/befehle/Admin-Tools/Extra-Befehle/Stealemote',
               ],
             },
           ],
@@ -391,4 +391,5 @@ const sidebars = {
     },
   ],
 };
+
 export default sidebars;
