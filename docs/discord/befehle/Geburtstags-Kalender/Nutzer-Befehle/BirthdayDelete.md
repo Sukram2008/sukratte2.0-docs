@@ -1,12 +1,13 @@
-# 🎂🗑️ | Geburtstag löschen
+---
+title: Geburtstag löschen
+description: Entfernt dein Geburtsdatum aus dem System
+---
+
+# 🗑️🎂 | Geburtstag löschen
 
 Befehl: **`/birthday delete`**
 
-Optionen:
-Keine Optionen vorhanden.
+### Beschreibung
+Entfernt dein eingetragenes Datum dauerhaft aus dem Kalender. Du wirst danach keine Glückwünsche oder Rollen mehr vom Bot erhalten.
 
-<u>Beschreibung:</u>  
-  Entfernt deinen hinterlegten Geburtstag dauerhaft von diesem Server.
-
-<u>Berechtigungen</u>  
-  Alle Mitglieder
+### Berechtigungen

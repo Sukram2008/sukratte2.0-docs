@@ -1,19 +1,25 @@
+---
+title: Nutzer-Geburtstag setzen
+description: Legt den Geburtstag eines Nutzers manuell fest
+---
+
 # 🛠️📅 | Nutzer-Geburtstag setzen
 
 Befehl: **`/manage-birthday set`**
 
-Optionen:
-- **`user:`**
+### Erforderliche Optionen
+- **`user`**
   Der Nutzer, dessen Geburtstag festgelegt werden soll.
-- **`day:`**
+- **`day`**
   Der Tag des Geburtstags.
-- **`month:`**
+- **`month`**
   Der Monat des Geburtstags.
-- **`year:`** [Optional]
+
+### Andere Optionen
+- **`year`** [Optional]
   Das Jahr des Geburtstags.
 
-<u>Beschreibung:</u>  
-  Ermöglicht es Administratoren, den Geburtstag eines Nutzers manuell im System festzulegen oder zu korrigieren.
+### Beschreibung
+Ermöglicht es Administratoren, den Geburtstag eines Nutzers manuell im System festzulegen oder zu korrigieren.
 
-<u>Berechtigungen</u>  
-  Administrator
+### Berechtigungen

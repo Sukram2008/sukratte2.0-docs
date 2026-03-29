@@ -1,12 +1,13 @@
+---
+title: Geburtsstatus anzeigen
+description: Prüfe deinen aktuell gespeicherten Status
+---
+
 # 🎂🔍 | Geburtsstatus anzeigen
 
 Befehl: **`/birthday status`**
 
-Optionen:
-Keine Optionen vorhanden.
+### Beschreibung
+Zeigt den aktuell für dich gespeicherten Status deines Geburtstags an.
 
-<u>Beschreibung:</u>  
-  Zeigt den aktuell für dich gespeicherten Status deines Geburtstags an.
-
-<u>Berechtigungen</u>  
-  Alle Mitglieder
+### Berechtigungen
