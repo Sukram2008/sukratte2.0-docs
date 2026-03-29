@@ -47,7 +47,7 @@ const sidebars = {
               label: 'Extra-Befehle',
               link: { type: 'generated-index', slug: '/category/discord/befehle/admin-tools/extra-befehle' },
               items: [
-                'discord/befehle/Admin Tools/Emote-Befehle/Stealemote',
+                'discord/befehle/Admin Tools/Extra-Befehle/Stealemote',
               ],
             },
           ],
@@ -57,8 +57,8 @@ const sidebars = {
           label: 'AFK System',
           link: { type: 'generated-index', slug: '/category/discord/befehle/afk-system' },
           items: [
-            'discord/befehle/AFK-System/AFK-Befehle/AFKEnd',
             'discord/befehle/AFK-System/AFK-Befehle/AFKStart',
+            'discord/befehle/AFK-System/AFK-Befehle/AFKEnd',
           ],
         },
         {
@@ -68,29 +68,23 @@ const sidebars = {
           items: [
             {
               type: 'category',
-              label: 'Moderator-Befehle',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat/moderator-befehle' },
+              label: 'Nutzer-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat/nutzer-befehle' },
               items: [
-                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteMessage',
-                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelDisable',
-                'discord/befehle/Anonymer Chat/Moderator-Befehle/ModerateAnonymousChannelEnable',
+                'discord/befehle/Anonymer-Chat/Nutzer-Befehle/AnonymousMessage',
               ],
             },
             {
               type: 'category',
-              label: 'Nutzer-Befehle',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat/nutzer-befehle' },
+              label: 'Moderator-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat/moderator-befehle' },
               items: [
-                'discord/befehle/Anonymer Chat/Nutzer-Befehle/AnonymousMessage',
+                'discord/befehle/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteMessage',
+                'discord/befehle/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelDisable',
+                'discord/befehle/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelEnable',
               ],
             },
           ],
-        },
-        {
-          type: 'category',
-          label: 'Bewerbungen',
-          link: { type: 'generated-index', slug: '/category/discord/befehle/bewerbungen' },
-          items: ['discord/befehle/Bewerbungen/Apply'],
         },
         {
           type: 'category',
@@ -100,11 +94,249 @@ const sidebars = {
         },
         {
           type: 'category',
+          label: 'Bewerbungen',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/bewerbungen' },
+          items: ['discord/befehle/Bewerbungen/Apply'],
+        },
+        {
+          type: 'category',
           label: 'Color me',
           link: { type: 'generated-index', slug: '/category/discord/befehle/color-me' },
           items: [
-            'discord/befehle/Color me/Color-meManage',
-            'discord/befehle/Color me/Color-meRemove',
+            'discord/befehle/Color-me/Color-meManage',
+            'discord/befehle/Color-me/Color-meRemove',
+          ],
+        },
+        {
+          type: 'catergory',
+          label: 'Einladungsverfolgung',
+          link: { type: 'generarted-index', slug: '/catergory/discord/befehle/einladungsverfolgung' },
+          items: ['discord/befehle/Einladungsverfolgung/TraceInvities'],
+        },
+        {
+          type: 'category',
+          label: 'Errate die Nummer',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/errate-die-nummer' },
+          items: [
+            'discord/befehle/Errate-die-Nummer/GuessStatus',
+            'discord/befehle/Errate-die-Nummer/GuessCreate',
+            'discord/befehle/Errate-die-Nummer/GuessEnd',
+          ],
+        },
+        {
+          type: 'catergory',
+          label: 'Erinnerung',
+          link: { type: 'generarted-index', slug: '/catergory/discord/befehle/erinnerung' },
+          items: ['discord/befehle/Erinnerung/RemindMe'],
+        },
+        {
+          type: 'category',
+          label: 'Fun-Befehle',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/fun-befehle' },
+          items: [
+            {
+              type: 'category',
+              label: 'Interaktions-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/fun-befehle/interaktions-befehle' },
+              items: [
+                'discord/befehle/Fun-Befehle/Interaktions-Befehle/FunHug',
+                'discord/befehle/Fun-Befehle/Interaktions-Befehle/FunKiss',
+                'discord/befehle/Fun-Befehle/Interaktions-Befehle/FunPat',
+                'discord/befehle/Fun-Befehle/Interaktions-Befehle/FunSlap',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Random-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/fun-befehle/random-befehle' },
+              items: [
+                'discord/befehle/Fun-Befehle/Random-Befehle/Random8Ball',
+                'discord/befehle/Fun-Befehle/Random-Befehle/RandomCoinflip',
+                'discord/befehle/Fun-Befehle/Random-Befehle/RandomDice',
+                'discord/befehle/Fun-Befehle/Random-Befehle/RandomIkea-name',
+                'discord/befehle/Fun-Befehle/Random-Befehle/RandomNumber',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Geburtstags-Kalender',
+          link: {
+            type: 'generated-index',
+            slug: '/category/discord/befehle/geburtstags-kalender',
+          },
+          items: [
+            {
+              type: 'category',
+              label: 'Nutzer-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender/nutzer-befehle' },
+              items: [
+                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayStatus',
+                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdaySet',
+                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Admin-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender/admin-befehle' },
+              items: [
+                'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdaySet',
+                'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayRemove',
+                'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayLock',
+                'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayUnlock',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Gewinnspiele',
+          link: {
+            type: 'generated-index',
+            slug: '/category/discord/befehle/gewinnspiele',
+          },
+          items: [
+            {
+              type: 'category',
+              label: 'Nutzer-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/gewinnspiele/nutzer-befehle' },
+              items: [
+                'discord/befehle/Gewinnspiele/Nutzer-Befehle/GMessages',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Team-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/gewinnspiele/team-befehle' },
+              items: [
+                'discord/befehle/Gewinnspiele/Team-Befehle/GmanageStart',
+                'discord/befehle/Gewinnspiele/Team-Befehle/GmanageEnd',
+                'discord/befehle/Gewinnspiele/Team-Befehle/GmanageReroll',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Info-Befehle',
+          link: {
+            type: 'generated-index',
+            slug: '/category/discord/befehle/info-befehle',
+          },
+          items: [
+            'discord/befehle/Info-Befehle/InfoChannel',
+            'discord/befehle/Info-Befehle/InfoRole',
+            'discord/befehle/Info-Befehle/InfoServer',
+            'discord/befehle/Info-Befehle/InfoUser',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Level-System',
+          link: {
+            type: 'generated-index',
+            slug: '/category/discord/befehle/level-system',
+          },
+          items: [
+            {
+              type: 'category',
+              label: 'Nutzer-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/level-system/nutzer-befehle' },
+              items: [
+                'discord/befehle/Level-System/Nutzer-Befehle/LevelLeaderboard',
+                'discord/befehle/Level-System/Nutzer-Befehle/LevelProfile',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Admin-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/level-system/admin-befehle' },
+              items: [
+                'discord/befehle/Level-System/Admin-Befehle/ManageLevelAdd',
+                'discord/befehle/Level-System/Admin-Befehle/ManageLevelRemove',
+                'discord/befehle/Level-System/Admin-Befehle/ManageLevelResetXP',
+                'discord/befehle/Level-System/Admin-Befehle/ManageLevelSet',
+                'discord/befehle/Level-System/Admin-Befehle/ManageLevelXPAdd',
+                'discord/befehle/Level-System/Admin-Befehle/ManageLevelXPRemove',
+                'discord/befehle/Level-System/Admin-Befehle/ManageLevelXPSet',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Massenrolle',
+          link: {
+            type: 'generated-index',
+            slug: '/category/discord/befehle/massenrolle',
+          },
+          items: [
+                'discord/befehle/Level-System/Masserolle/MassroleAdd',
+                'discord/befehle/Level-System/Massenrolle/MassroleRemove',
+                'discord/befehle/Level-System/Massenrolle/MassroleRemoveAll',
+              ],
+            },
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Moderation-und-Sicherheit',
+          link: {
+            type: 'generated-index',
+            slug: '/category/discord/befehle/moderation-und-sicherheit',
+          },
+          items: [
+            {
+              type: 'category',
+              label: 'Nutzer-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/moderation-und-sicherheit/nutzer-befehle' },
+              items: [
+                'discord/befehle/Moderation-und-Sicherheit/Nutzer-Befehle/ModerateReport',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Moderations-Aktionen',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/moderation-und-sicherheit/moderations-aktionen' },
+              items: [
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateActions',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateClear',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateWarn',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRevokeWarn',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateMute',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnmute',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateChannelMute',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRemoveChannelMute',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateQuarantine',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnquarantine',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateKick',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateBan',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnban',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Kanal-Verwaltung',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/moderation-und-sicherheit/kanal-verwaltung' },
+              items: [
+                'discord/befehle/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLock',
+                'discord/befehle/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateUnlock',
+                'discord/befehle/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLockdown',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Notizen',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/moderation-und-sicherheit/notizen' },
+              items: [
+                'discord/befehle/Moderation-und-Sicherheit/Notizen/ModerateNotesCreate',
+                'discord/befehle/Moderation-und-Sicherheit/Notizen/ModerateNotesEdit',
+                'discord/befehle/Moderation-und-Sicherheit/Notizen/ModerateNotesDelete',
+                'discord/befehle/Moderation-und-Sicherheit/Notizen/ModerateNotesView',
+              ],
+            },
           ],
         },
         // {
@@ -148,37 +380,6 @@ const sidebars = {
         // },
         {
           type: 'category',
-          label: 'Geburtstags-Kalender',
-          link: {
-            type: 'generated-index',
-            slug: '/category/discord/befehle/geburtstags-kalender',
-          },
-          items: [
-            {
-              type: 'category',
-              label: 'Nutzer-Befehle',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender/nutzer-befehle' },
-              items: [
-                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayStatus',
-                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdaySet',
-                'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete',
-              ],
-            },
-            {
-              type: 'category',
-              label: 'Admin-Befehle',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender/admin-befehle' },
-              items: [
-                'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdaySet',
-                'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayRemove',
-                'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayLock',
-                'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayUnlock',
-              ],
-            },
-          ],
-        },
-        {
-          type: 'category',
           label: 'Minispiele',
           link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
           items: [
@@ -187,8 +388,5 @@ const sidebars = {
           ],
         },
       ],
-    },
-  ],
-};
-
+    }
 export default sidebars;
