@@ -341,21 +341,21 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Minispiele',
-          link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
-          items: [
-            // 'discord/befehle/Minispiele/ConnectFour',
-            'discord/befehle/Minispiele/Duel',
-          ],
-        },
-        {
-          type: 'category',
           label: 'Partner-Liste',
           link: { type: 'generated-index', slug: '/category/discord/befehle/partner-liste' },
           items: [
             'discord/befehle/Partner-Liste/PartnerListAdd',
             'discord/befehle/Partner-Liste/PartnerListEdit',
             'discord/befehle/Partner-Liste/PartnerListDelete',
+          ],
+        },
+                {
+          type: 'category',
+          label: 'Minispiele',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
+          items: [
+            // 'discord/befehle/Minispiele/ConnectFour',
+            'discord/befehle/Minispiele/Duel',
           ],
         },
         // {
