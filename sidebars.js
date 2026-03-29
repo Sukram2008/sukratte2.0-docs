@@ -275,9 +275,9 @@ const sidebars = {
             slug: '/category/discord/befehle/massenrolle',
           },
           items: [
-            'discord/befehle/Massenrolle/Massenrolle/MassroleAdd',
-            'discord/befehle/Massenrolle/Massenrolle/MassroleRemove',
-            'discord/befehle/Massenrolle/Massenrolle/MassroleRemoveAll',
+            'discord/befehle/Massenrolle/MassroleAdd',
+            'discord/befehle/Massenrolle/MassroleRemove',
+            'discord/befehle/Massenrolle/MassroleRemoveAll',
           ],
         },
         {
