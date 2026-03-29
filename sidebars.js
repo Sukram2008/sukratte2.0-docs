@@ -112,7 +112,7 @@ const sidebars = {
           label: 'Einladungsverfolgung',
           link: { type: 'generated-index', slug: '/category/discord/befehle/einladungsverfolgung' },
           items: [
-            'discord/befehle/Einladungsverfolgung/TraceInvities'
+            'discord/befehle/Einladungsverfolgung/TraceInvites'
           ],
         },
         {
@@ -127,9 +127,9 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Erinnerung',
-          link: { type: 'generated-index', slug: '/category/discord/befehle/erinnerung' },
-          items: ['discord/befehle/Erinnerung/RemindMe'],
+          label: 'Erinnerungen',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/Erinnerungen' },
+          items: ['discord/befehle/Erinnerungen/RemindMe'],
         },
         {
           type: 'category',
@@ -275,9 +275,9 @@ const sidebars = {
             slug: '/category/discord/befehle/massenrolle',
           },
           items: [
-            'discord/befehle/Level-System/Masserolle/MassroleAdd',
-            'discord/befehle/Level-System/Massenrolle/MassroleRemove',
-            'discord/befehle/Level-System/Massenrolle/MassroleRemoveAll',
+            'discord/befehle/Massenrolle/Massenrolle/MassroleAdd',
+            'discord/befehle/Massenrolle/Massenrolle/MassroleRemove',
+            'discord/befehle/Massenrolle/Massenrolle/MassroleRemoveAll',
           ],
         },
         {
@@ -309,7 +309,7 @@ const sidebars = {
                 'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnmute',
                 'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateChannelMute',
                 'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRemoveChannelMute',
-                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateQuarantine',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateQurantine',
                 'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnquarantine',
                 'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateKick',
                 'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateBan',
