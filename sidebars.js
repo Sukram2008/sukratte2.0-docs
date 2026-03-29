@@ -110,8 +110,10 @@ const sidebars = {
         {
           type: 'category',
           label: 'Einladungsverfolgung',
-          link: { type: 'generarted-index', slug: '/category/discord/befehle/einladungsverfolgung' },
-          items: ['discord/befehle/Einladungsverfolgung/TraceInvities'],
+          link: { type: 'generated-index', slug: '/category/discord/befehle/einladungsverfolgung' },
+          items: [
+            'discord/befehle/Einladungsverfolgung/TraceInvities'
+          ],
         },
         {
           type: 'category',
@@ -126,7 +128,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Erinnerung',
-          link: { type: 'generarted-index', slug: '/category/discord/befehle/erinnerung' },
+          link: { type: 'generated-index', slug: '/category/discord/befehle/erinnerung' },
           items: ['discord/befehle/Erinnerung/RemindMe'],
         },
         {
@@ -273,11 +275,9 @@ const sidebars = {
             slug: '/category/discord/befehle/massenrolle',
           },
           items: [
-                'discord/befehle/Level-System/Masserolle/MassroleAdd',
-                'discord/befehle/Level-System/Massenrolle/MassroleRemove',
-                'discord/befehle/Level-System/Massenrolle/MassroleRemoveAll',
-              ],
-            },
+            'discord/befehle/Level-System/Masserolle/MassroleAdd',
+            'discord/befehle/Level-System/Massenrolle/MassroleRemove',
+            'discord/befehle/Level-System/Massenrolle/MassroleRemoveAll',
           ],
         },
         {
@@ -339,6 +339,15 @@ const sidebars = {
             },
           ],
         },
+        {
+          type: 'category',
+          label: 'Minispiele',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
+          items: [
+            // 'discord/befehle/Minispiele/ConnectFour',
+            'discord/befehle/Minispiele/Duel',
+          ],
+        },
         // {
         //   type: 'category',
         //   label: 'Economy System',
@@ -378,15 +387,8 @@ const sidebars = {
         //     },
         //   ],
         // },
-        {
-          type: 'category',
-          label: 'Minispiele',
-          link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
-          items: [
-            // 'discord/befehle/Minispiele/ConnectFour',
-            'discord/befehle/Minispiele/Duel',
-          ],
-        },
       ],
-    }
+    },
+  ],
+};
 export default sidebars;
