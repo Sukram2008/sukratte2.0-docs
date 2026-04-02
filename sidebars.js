@@ -294,6 +294,7 @@ const sidebars = {
           items: [
             // 'discord/befehle/Minispiele/ConnectFour',
             'discord/befehle/Minispiele/Duel',
+            'discord/befehle/Minispiele/Rock-Paper-Scissors',
           ],
         },
         /* --- M: Massenrolle --- */

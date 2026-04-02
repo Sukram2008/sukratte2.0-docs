@@ -7,7 +7,7 @@ description: Startet eine neue AFK-Sitzung
 
 Befehl: **`/afk start`**
 
-### Optionen
+### Andere Optionen
 - **`reason`** [Optional]
   Erkläre, warum du AFK gehst
 - **`auto-end`** [Optional]
