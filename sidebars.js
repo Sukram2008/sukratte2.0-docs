@@ -420,6 +420,17 @@ const sidebars = {
             },
           ],
         },
+        /* --- T: Teammitglieder-Ziele --- */
+        {
+          type: 'category',
+          label: 'Teammitglieder-Ziele',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/teammitglieder-ziele' },
+          items: [
+            'discord/befehle/Teammitglieder-Ziele/TeamGoalsHistory',
+            'discord/befehle/Teammitglieder-Ziele/TeamGoalsProgress',
+            'discord/befehle/Teammitglieder-Ziele/TeamGoalsVoiceProgress',
+          ],
+        },
         // {
         //   type: 'category',
         //   label: 'Economy System',
