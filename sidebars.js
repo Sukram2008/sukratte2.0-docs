@@ -286,7 +286,16 @@ const sidebars = {
             },
           ],
         },
-
+        /* --- M: Minispiele --- */
+        {
+          type: 'category',
+          label: 'Minispiele',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
+          items: [
+            // 'discord/befehle/Minispiele/ConnectFour',
+            'discord/befehle/Minispiele/Duel',
+          ],
+        },
         /* --- M: Massenrolle --- */
         {
           type: 'category',
@@ -382,18 +391,7 @@ const sidebars = {
             'discord/befehle/Ping-Schutz/PingProtectionUserActionsHistory',
           ],
         },
-
-        /* --- Sonderfall am Ende: Minispiele --- */
-        {
-          type: 'category',
-          label: 'Minispiele',
-          link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
-          items: [
-            // 'discord/befehle/Minispiele/ConnectFour',
-            'discord/befehle/Minispiele/Duel',
-          ],
-        },
-                // {
+        // {
         //   type: 'category',
         //   label: 'Economy System',
         //   link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system' },
@@ -436,5 +434,4 @@ const sidebars = {
     },
   ],
 };
-
 export default sidebars;
