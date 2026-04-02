@@ -391,6 +391,34 @@ const sidebars = {
             'discord/befehle/Ping-Schutz/PingProtectionUserActionsHistory',
           ],
         },
+        /* --- S: Sammel-die-Codes --- */
+        {
+          type: 'category',
+          label: 'Sammel die Codes',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/sammel-die-codes' },
+          items: [
+            {
+              type: 'category',
+              label: 'Nutzer-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/sammel-die-codes/nutzer-befehle' },
+              items: [
+                'discord/befehle/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile',
+                'discord/befehle/Level-System/Nutzer-Befehle/HuntTheCodeLeaderboard',
+                'discord/befehle/Level-System/Nutzer-Befehle/HuntTheCodeRedeem',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Admin-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/sammel-die-codes/admin-befehle' },
+              items: [
+                'discord/befehle/Level-System/Nutzer-Befehle/HuntTheCodeAdminReport',
+                'discord/befehle/Level-System/Nutzer-Befehle/HuntTheCodeAdminCreateCode',
+                'discord/befehle/Level-System/Nutzer-Befehle/HuntTheCodeAdminEnd',
+              ],
+            },
+          ],
+        },
         // {
         //   type: 'category',
         //   label: 'Economy System',
