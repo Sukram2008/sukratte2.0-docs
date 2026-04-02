@@ -403,8 +403,8 @@ const sidebars = {
               link: { type: 'generated-index', slug: '/category/discord/befehle/sammel-die-codes/nutzer-befehle' },
               items: [
                 'discord/befehle/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile',
-                'discord/befehle/Level-System/Nutzer-Befehle/HuntTheCodeLeaderboard',
-                'discord/befehle/Level-System/Nutzer-Befehle/HuntTheCodeRedeem',
+                'discord/befehle/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeLeaderboard',
+                'discord/befehle/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeRedeem',
               ],
             },
             {
@@ -412,9 +412,9 @@ const sidebars = {
               label: 'Admin-Befehle',
               link: { type: 'generated-index', slug: '/category/discord/befehle/sammel-die-codes/admin-befehle' },
               items: [
-                'discord/befehle/Level-System/Nutzer-Befehle/HuntTheCodeAdminReport',
-                'discord/befehle/Level-System/Nutzer-Befehle/HuntTheCodeAdminCreateCode',
-                'discord/befehle/Level-System/Nutzer-Befehle/HuntTheCodeAdminEnd',
+                'discord/befehle/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminReport',
+                'discord/befehle/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminCreateCode',
+                'discord/befehle/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminEnd',
               ],
             },
           ],
