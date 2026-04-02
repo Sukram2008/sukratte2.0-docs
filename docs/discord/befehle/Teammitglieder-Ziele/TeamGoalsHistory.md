@@ -18,4 +18,8 @@ Befehl: **`/team-goals history`**
 ### Beschreibung
 Ruft eine Übersicht der vergangenen Zeiträume ab. Hier lässt sich einsehen, in welchen Wochen oder Monaten die Anforderungen erfüllt wurden.
 
+:::tip Erklärung
+Es zeigt dir genau an, in welcher Woche du welches Ziel erreicht hast.
+:::
+
 ### Berechtigungen

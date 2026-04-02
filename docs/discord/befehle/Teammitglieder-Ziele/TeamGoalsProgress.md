@@ -12,11 +12,14 @@ Befehl: **`/team-goals progress`**
   Der Benutzer, dessen Ziele überprüft werden sollen.
 
 :::tip Hinweis
-- Wenn du beim Feld **`user`** niemanden auswählst, wird dein eigener Fortschritt angezeigt.
-- Es wird genau angezeigt, wie viele Nachrichten von den erforderlichen Nachrichten bereits geschrieben wurden.
+Wenn du beim Feld **`user`** niemanden auswählst, wird dein eigener Fortschritt angezeigt.
 :::
 
 ### Beschreibung
 Mit diesem Befehl kannst du einsehen, wie viele der erforderlichen Nachrichten für den aktuellen Zeitraum bereits erreicht wurden.
+
+:::tip Erklärung
+Es wird genau angezeigt, wie viele Nachrichten von der geforderten Anzahl bereits geschrieben wurden.
+:::
 
 ### Berechtigungen

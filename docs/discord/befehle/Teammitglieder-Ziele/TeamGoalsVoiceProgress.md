@@ -12,11 +12,14 @@ Befehl: **`/team-goals voice-progress`**
   Der Benutzer, dessen Voice-Ziele überprüft werden sollen.
 
 :::tip Hinweis
-- Wenn du beim Feld **`user`** niemanden auswählst, wird dein eigener Fortschritt angezeigt.
-- Es wird genau angezeigt, wie viele Minuten von der geforderten Zeit bereits erreicht wurden.
+Wenn du beim Feld **`user`** niemanden auswählst, wird dein eigener Fortschritt angezeigt.
 :::
 
 ### Beschreibung
 Dieser Befehl zeigt dir die aktiv verbrachte Zeit in den Voice-Kanälen im Vergleich zum gesetzten Zielwert an.
+
+:::tip Erklärung
+Es wird genau angezeigt, wie viele Minuten von der geforderten Zeit bereits erreicht wurden.
+:::
 
 ### Berechtigungen
