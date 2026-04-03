@@ -14,7 +14,6 @@ const sidebars = {
       },
       collapsed: true,
       items: [
-
         /* --- A: Admin-Tools --- */
         {
           type: 'category',
@@ -478,11 +477,52 @@ const sidebars = {
             },
             {
               type: 'category',
-              label: 'Admin-Befehle',
+              label: 'Team-Befehle',
               link: { type: 'generated-index', slug: '/category/discord/befehle/vorschlaege/team-befehle' },
               items: [
                 'discord/befehle/Vorschlaege/Team-Befehle/SuggestionAccept',
                 'discord/befehle/Vorschlaege/Team-Befehle/SuggestionDeny',
+              ],
+            },
+          ],
+        },
+
+        /* --- W: Wirtschaftssystem --- */
+        {
+          type: 'category',
+          label: 'Wirtschaftssystem',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/wirtschaftssystem' },
+          items: [
+            {
+              type: 'category',
+              label: 'Economy-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/wirtschaftssystem/economy-befehle' },
+              items: [
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomyAdd',
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomyBalance',
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomyCrime',
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomyDaily',
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomyDeposit',
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomyDestroy',
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomyDropDisable',
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomyDropEnable',
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomyRemove',
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomyRob',
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomySet',
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomyWeekly',
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomyWithdraw',
+                'discord/befehle/Wirtschaftssystem/Economy-Befehle/EconomyWork',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Shop-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/wirtschaftssystem/shop-befehle' },
+              items: [
+                'discord/befehle/Wirtschaftssystem/Shop-Befehle/ShopAdd',
+                'discord/befehle/Wirtschaftssystem/Shop-Befehle/ShopBuy',
+                'discord/befehle/Wirtschaftssystem/Shop-Befehle/ShopDelete',
+                'discord/befehle/Wirtschaftssystem/Shop-Befehle/ShopList',
               ],
             },
           ],
