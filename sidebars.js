@@ -35,7 +35,7 @@ const sidebars = {
             { type: 'category', label: 'Wirtschaftssystem', items: ['discord/befehle/Wirtschaftssystem/Finanzen/EconomyBalance', 'discord/befehle/Wirtschaftssystem/Finanzen/EconomyDeposit', 'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyCrime', 'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyDaily', 'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyRob', 'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyWork'] },
           ],
         },
-        { type: 'category', label: 'Support-Bot', items: [] },
+        // { type: 'category', label: 'Support-Bot', items: [] },
       ],
     },
 
@@ -70,7 +70,7 @@ const sidebars = {
             { type: 'category', label: 'Wirtschaftssystem', items: ['discord/befehle/Wirtschaftssystem/Team-Befehle/EconomyAdd', 'discord/befehle/Wirtschaftssystem/Team-Befehle/EconomyDestroy', 'discord/befehle/Wirtschaftssystem/Team-Befehle/EconomyDropMsgDisable', 'discord/befehle/Wirtschaftssystem/Team-Befehle/EconomyDropMsgEnable', 'discord/befehle/Wirtschaftssystem/Team-Befehle/EconomyRemove', 'discord/befehle/Wirtschaftssystem/Team-Befehle/EconomySet'] },
           ],
         },
-        { type: 'category', label: 'Support-Bot', items: [] },
+        // { type: 'category', label: 'Support-Bot', items: [] },
       ],
     },
 
@@ -601,13 +601,13 @@ const sidebars = {
             },
           ], // Ende Items von Custom-Bot
         }, // Ende Kategorie Custom-Bot
-        {
-          type: 'category',
-          label: 'Support-Bot',
-          items: [
-            // Alle Support-Bot Dateien kommen hierhin
-          ]
-        }
+        // {
+        //   type: 'category',
+        //   label: 'Support-Bot',
+        //   items: [
+        //     // Alle Support-Bot Dateien kommen hierhin
+        //   ]
+        // }
       ], // Ende Items von Alle Befehle
     }, // Ende Kategorie Alle Befehle
   ],
