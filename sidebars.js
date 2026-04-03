@@ -445,6 +445,17 @@ const sidebars = {
             'discord/befehle/Temporäre-Channel/TempChannelEdit',
           ],
         },
+        /* --- U: Umfragen --- */
+        {
+          type: 'category',
+          label: 'Umfragen',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/umfragen' },
+          items: [
+            'discord/befehle/Umfragen/PollUserInfos',
+            'discord/befehle/Umfragen/PollCreate',
+            'discord/befehle/Umfragen/PollEnd',
+          ],
+        },
         // {
         //   type: 'category',
         //   label: 'Economy System',
