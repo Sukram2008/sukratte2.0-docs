@@ -431,6 +431,19 @@ const sidebars = {
             'discord/befehle/Teammitglieder-Ziele/TeamGoalsVoiceProgress',
           ],
         },
+        /* --- T: Temporäre Channel --- */
+        {
+          type: 'category',
+          label: 'Temporäre Channel',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/temporäre-channel' },
+          items: [
+            'discord/befehle/Temporäre-Channel/TempChannelMode',
+            'discord/befehle/Temporäre-Channel/TempChannelAddUser',
+            'discord/befehle/Temporäre-Channel/TempChannelRemoveUser',
+            'discord/befehle/Temporäre-Channel/TempChannelListUsers',
+            'discord/befehle/Temporäre-Channel/TempChannelEdit',
+          ],
+        },
         // {
         //   type: 'category',
         //   label: 'Economy System',
