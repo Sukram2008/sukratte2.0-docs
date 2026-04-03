@@ -3,7 +3,7 @@ title: Nutzer entfernen
 description: Entfernt einen Nutzer aus deinem temporären Channel
 ---
 
-# 🚫 | Temporäre Channel: remove-user
+# 👤❌ | Temporäre Channel: remove-user
 
 Befehl: **`/temp-channel remove-user`**
 

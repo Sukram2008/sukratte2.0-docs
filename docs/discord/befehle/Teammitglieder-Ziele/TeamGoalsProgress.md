@@ -3,7 +3,7 @@ title: Team-Ziele Fortschritt
 description: Zeigt den aktuellen Nachrichten-Fortschritt eines Teammitglieds an
 ---
 
-# 📈 | Team-Ziele: Fortschritt
+# 📈✉️ | Team-Ziele: Fortschritt
 
 Befehl: **`/team-goals progress`**
 

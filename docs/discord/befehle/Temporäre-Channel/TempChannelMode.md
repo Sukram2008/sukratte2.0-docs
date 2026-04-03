@@ -3,7 +3,7 @@ title: Temporäre Channel Modus
 description: Ändert den Sichtbarkeits-Modus deines temporären Channels
 ---
 
-# 🔒 | Temporäre Channel: Modus
+# 🔒🌐 | Temporäre Channel: Modus
 
 Befehl: **`/temp-channel mode`**
 

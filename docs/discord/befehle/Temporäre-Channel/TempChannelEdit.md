@@ -3,7 +3,7 @@ title: Channel bearbeiten
 description: Bearbeite die Einstellungen deines temporären Channels
 ---
 
-# ⚙️ | Temporäre Channel: edit
+# ⚙️📝 | Temporäre Channel: edit
 
 Befehl: **`/temp-channel edit`**
 

@@ -3,7 +3,7 @@ title: Nutzer hinzufügen
 description: Fügt einen Nutzer zu deinem privaten temporären Channel hinzu
 ---
 
-# 👤 | Temporäre Channel: add-user
+# 👤✅ | Temporäre Channel: add-user
 
 Befehl: **`/temp-channel add-user`**
 
