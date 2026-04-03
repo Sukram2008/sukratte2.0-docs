@@ -295,6 +295,7 @@ const sidebars = {
             // 'discord/befehle/Minispiele/ConnectFour',
             'discord/befehle/Minispiele/Duel',
             'discord/befehle/Minispiele/Rock-Paper-Scissors',
+            'discord/befehle/Minispiele/Tic-Tac-Toe',
           ],
         },
         /* --- M: Massenrolle --- */
