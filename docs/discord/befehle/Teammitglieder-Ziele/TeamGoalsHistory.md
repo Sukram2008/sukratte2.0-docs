@@ -3,7 +3,7 @@ title: Team-Ziele Verlauf
 description: Zeigt die vergangenen Ziel-Perioden eines Teammitglieds an
 ---
 
-# 📜🔍 | Team-Ziele: Verlauf
+# 📜🔍 | Verlauf der Ziele anzeigen
 
 Befehl: **`/team-goals history`**
 

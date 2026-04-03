@@ -3,7 +3,7 @@ title: Umfrage beenden
 description: Beendet eine laufende Umfrage vorzeitig
 ---
 
-# 📊🛑 | Umfragen: end
+# 📊🛑 | Umfrage beenden
 
 Befehl: **`/poll end`**
 

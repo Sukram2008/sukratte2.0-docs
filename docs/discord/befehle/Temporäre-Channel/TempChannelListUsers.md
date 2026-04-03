@@ -3,7 +3,7 @@ title: Nutzerliste
 description: Listet alle Nutzer auf, die Zugriff auf deinen Channel haben
 ---
 
-# 📋👥 | Temporäre Channel: list-users
+# 📋👥 | Liste der Nutzer mit Zugriff auf den temporären Kanal
 
 Befehl: **`/temp-channel list-users`**
 

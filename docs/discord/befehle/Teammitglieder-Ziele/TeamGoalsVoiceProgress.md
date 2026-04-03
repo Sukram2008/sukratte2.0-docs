@@ -3,7 +3,7 @@ title: Team-Ziele Voice
 description: Zeigt den aktuellen Voice-Fortschritt eines Teammitglieds an
 ---
 
-# 🎙️⏳ | Team-Ziele: Voice-Fortschritt
+# 🎙️⏳ | Voice Ziel-Fortschritt abchecken
 
 Befehl: **`/team-goals voice-progress`**
 

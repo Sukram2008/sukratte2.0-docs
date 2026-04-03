@@ -3,7 +3,7 @@ title: Umfrage erstellen
 description: Erstelle eine neue Umfrage mit mehreren Antwortmöglichkeiten
 ---
 
-# 📊📝 | Umfragen: create
+# 📊📝 | Umfrage erstellen
 
 Befehl: **`/poll create`**
 
