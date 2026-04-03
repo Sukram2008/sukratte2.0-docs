@@ -286,7 +286,18 @@ const sidebars = {
             },
           ],
         },
-
+        /* --- M: Minispiele --- */
+        {
+          type: 'category',
+          label: 'Minispiele',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
+          items: [
+            // 'discord/befehle/Minispiele/ConnectFour',
+            'discord/befehle/Minispiele/Duel',
+            'discord/befehle/Minispiele/Rock-Paper-Scissors',
+            'discord/befehle/Minispiele/Tic-Tac-Toe',
+          ],
+        },
         /* --- M: Massenrolle --- */
         {
           type: 'category',
@@ -382,18 +393,70 @@ const sidebars = {
             'discord/befehle/Ping-Schutz/PingProtectionUserActionsHistory',
           ],
         },
-
-        /* --- Sonderfall am Ende: Minispiele --- */
+        /* --- S: Sammel-die-Codes --- */
         {
           type: 'category',
-          label: 'Minispiele',
-          link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
+          label: 'Sammel die Codes',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/sammel-die-codes' },
           items: [
-            // 'discord/befehle/Minispiele/ConnectFour',
-            'discord/befehle/Minispiele/Duel',
+            {
+              type: 'category',
+              label: 'Nutzer-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/sammel-die-codes/nutzer-befehle' },
+              items: [
+                'discord/befehle/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile',
+                'discord/befehle/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeLeaderboard',
+                'discord/befehle/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeRedeem',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Admin-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/sammel-die-codes/admin-befehle' },
+              items: [
+                'discord/befehle/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminReport',
+                'discord/befehle/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminCreateCode',
+                'discord/befehle/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminEnd',
+              ],
+            },
           ],
         },
-                // {
+        /* --- T: Teammitglieder-Ziele --- */
+        {
+          type: 'category',
+          label: 'Teammitglieder-Ziele',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/teammitglieder-ziele' },
+          items: [
+            'discord/befehle/Teammitglieder-Ziele/TeamGoalsHistory',
+            'discord/befehle/Teammitglieder-Ziele/TeamGoalsProgress',
+            'discord/befehle/Teammitglieder-Ziele/TeamGoalsVoiceProgress',
+          ],
+        },
+        /* --- T: Temporäre Channel --- */
+        {
+          type: 'category',
+          label: 'Temporäre Channel',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/temporäre-channel' },
+          items: [
+            'discord/befehle/Temporäre-Channel/TempChannelMode',
+            'discord/befehle/Temporäre-Channel/TempChannelAddUser',
+            'discord/befehle/Temporäre-Channel/TempChannelRemoveUser',
+            'discord/befehle/Temporäre-Channel/TempChannelListUsers',
+            'discord/befehle/Temporäre-Channel/TempChannelEdit',
+          ],
+        },
+        /* --- U: Umfragen --- */
+        {
+          type: 'category',
+          label: 'Umfragen',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/umfragen' },
+          items: [
+            'discord/befehle/Umfragen/PollUserInfos',
+            'discord/befehle/Umfragen/PollCreate',
+            'discord/befehle/Umfragen/PollEnd',
+          ],
+        },
+        // {
         //   type: 'category',
         //   label: 'Economy System',
         //   link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system' },
@@ -436,5 +499,4 @@ const sidebars = {
     },
   ],
 };
-
 export default sidebars;
