@@ -286,18 +286,7 @@ const sidebars = {
             },
           ],
         },
-        /* --- M: Minispiele --- */
-        {
-          type: 'category',
-          label: 'Minispiele',
-          link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
-          items: [
-            // 'discord/befehle/Minispiele/ConnectFour',
-            'discord/befehle/Minispiele/Duel',
-            'discord/befehle/Minispiele/Rock-Paper-Scissors',
-            'discord/befehle/Minispiele/Tic-Tac-Toe',
-          ],
-        },
+
         /* --- M: Massenrolle --- */
         {
           type: 'category',
@@ -310,10 +299,22 @@ const sidebars = {
           ],
         },
 
+        /* --- M: Minispiele --- */
+        {
+          type: 'category',
+          label: 'Minispiele',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
+          items: [
+            'discord/befehle/Minispiele/Duel',
+            'discord/befehle/Minispiele/Rock-Paper-Scissors',
+            'discord/befehle/Minispiele/Tic-Tac-Toe',
+          ],
+        },
+
         /* --- M: Moderation-und-Sicherheit --- */
         {
           type: 'category',
-          label: 'Moderation-und-Sicherheit',
+          label: 'Moderation und Sicherheit',
           link: { type: 'generated-index', slug: '/category/discord/befehle/moderation-und-sicherheit' },
           items: [
             {
@@ -338,7 +339,7 @@ const sidebars = {
                 'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateBan',
                 'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnban',
                 'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateClear',
-                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateQurantine',
+                'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateQuarantine',
                 'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnquarantine',
                 'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateChannelMute',
                 'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRemoveChannelMute',
@@ -393,6 +394,7 @@ const sidebars = {
             'discord/befehle/Ping-Schutz/PingProtectionUserActionsHistory',
           ],
         },
+
         /* --- S: Sammel-die-Codes --- */
         {
           type: 'category',
@@ -421,6 +423,7 @@ const sidebars = {
             },
           ],
         },
+
         /* --- T: Teammitglieder-Ziele --- */
         {
           type: 'category',
@@ -432,6 +435,7 @@ const sidebars = {
             'discord/befehle/Teammitglieder-Ziele/TeamGoalsVoiceProgress',
           ],
         },
+
         /* --- T: Temporäre Channel --- */
         {
           type: 'category',
@@ -445,6 +449,7 @@ const sidebars = {
             'discord/befehle/Temporäre-Channel/TempChannelEdit',
           ],
         },
+
         /* --- U: Umfragen --- */
         {
           type: 'category',
@@ -456,47 +461,35 @@ const sidebars = {
             'discord/befehle/Umfragen/PollEnd',
           ],
         },
-        // {
-        //   type: 'category',
-        //   label: 'Economy System',
-        //   link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system' },
-        //   items: [
-        //     {
-        //       type: 'category',
-        //       label: 'Economy-Befehle',
-        //       link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system/economy-befehle' },
-        //       items: [
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomyAdd',
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomyBalance',
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomyCrime',
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomyDaily',
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomyDeposit',
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomyDestroy',
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomyDropDisable',
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomyDropEnable',
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomyRemove',
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomyRob',
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomySet',
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomyWeekly',
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomyWithdraw',
-        //         'discord/befehle/Economy System/Economy-Befehle/EconomyWork',
-        //       ],
-        //     },
-        //     {
-        //       type: 'category',
-        //       label: 'Shop-Befehle',
-        //       link: { type: 'generated-index', slug: '/category/discord/befehle/economy-system/shop-befehle' },
-        //       items: [
-        //         'discord/befehle/Economy System/Shop-Befehle/ShopAdd',
-        //         'discord/befehle/Economy System/Shop-Befehle/ShopBuy',
-        //         'discord/befehle/Economy System/Shop-Befehle/ShopDelete',
-        //         'discord/befehle/Economy System/Shop-Befehle/ShopList',
-        //       ],
-        //     },
-        //   ],
-        // },
+
+        /* --- V: Vorschläge --- */
+        {
+          type: 'category',
+          label: 'Vorschläge',
+          link: { type: 'generated-index', slug: '/category/discord/befehle/vorschlaege' },
+          items: [
+            {
+              type: 'category',
+              label: 'Nutzer-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/vorschlaege/nutzer-befehle' },
+              items: [
+                'discord/befehle/Vorschlaege/Nutzer-Befehle/SuggestionSubmit',
+              ],
+            },
+            {
+              type: 'category',
+              label: 'Admin-Befehle',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/vorschlaege/team-befehle' },
+              items: [
+                'discord/befehle/Vorschlaege/Team-Befehle/SuggestionAccept',
+                'discord/befehle/Vorschlaege/Team-Befehle/SuggestionDeny',
+              ],
+            },
+          ],
+        },
       ],
     },
   ],
 };
+
 export default sidebars;
