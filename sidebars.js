@@ -17,7 +17,6 @@ const sidebars = {
           link: { type: 'generated-index', slug: '/nutzer/custom-bot-befehle' },
           items: [
             { type: 'category', label: 'Allgemein', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Build-In-Commands/Nutzer-Befehle/Help'] },
-            // RICHTIG:
             { type: 'category', label: 'Fehlermeldungen', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Eigene-Befehle/Fehlermeldungen/BugReport'] },
             { type: 'category', label: 'AFK-System', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/AFK-System/AFK-Befehle/AFKStart', 'discord/nutzer-bereich/AFK-System/AFK-Befehle/AFKEnd'] },
             { type: 'category', label: 'Anonymer Chat', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Anonymer-Chat/Nutzer-Befehle/AnonymousMessage'] },
@@ -583,7 +582,7 @@ const sidebars = {
               label: 'TerminAnfragen',
               link: { type: 'generated-index', slug: '/alle-befehle/support' },
               items: [
-                'discord/befehle/Support/TerminAnfragen',
+                'discord/befehle/Eigene-Befehle/Support/TerminAnfragen',
               ],
             },
 
