@@ -88,7 +88,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Custom-Bot Befehle',
-          link: { type: 'generated-index', slug: '/alle-befehle/custom-bot'},
+          link: { type: 'generated-index', slug: '/alle-befehle/custom-bot' },
           items: [
             {
               type: 'category',
