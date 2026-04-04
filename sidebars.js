@@ -29,6 +29,7 @@ const sidebars = {
             { type: 'category', label: 'Info-Befehle', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Info-Befehle/InfoUser', 'discord/nutzer-bereich/Info-Befehle/InfoServer'] },
             { type: 'category', label: 'Level-System', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelProfile', 'discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelLeaderboard'] },
             { type: 'category', label: 'Minispiele', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Minispiele/Duel', 'discord/nutzer-bereich/Minispiele/Rock-Paper-Scissors', 'discord/nutzer-bereich/Minispiele/Tic-Tac-Toe'] },
+            { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListProtected', 'discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListWhitelisted'] },
             { type: 'category', label: 'Sicherheit', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Moderation-und-Sicherheit/Nutzer-Befehle/ModerateReport'] },
             { type: 'category', label: 'Sammel die Codes', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeLeaderboard', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeRedeem'] },
             { type: 'category', label: 'Umfragen', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Umfragen/PollUserInfos'] },
@@ -63,7 +64,7 @@ const sidebars = {
             { type: 'category', label: 'Massenrolle', link: { type: 'generated-index' }, items: ['discord/team-bereich/Massenrolle/MassroleAdd', 'discord/team-bereich/Massenrolle/MassroleRemove', 'discord/team-bereich/Massenrolle/MassroleRemoveAll'] },
             { type: 'category', label: 'Moderation & Sicherheit', link: { type: 'generated-index' }, items: ['discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateActions', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateWarn', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRevokeWarn', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateMute', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnmute', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateKick', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateBan', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnban', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateClear', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateQuarantine', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnquarantine', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateChannelMute', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRemoveChannelMute', 'discord/team-bereich/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLock', 'discord/team-bereich/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateUnlock', 'discord/team-bereich/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLockdown', 'discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesView', 'discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesCreate', 'discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesEdit', 'discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesDelete'] },
             { type: 'category', label: 'Partner-Liste', link: { type: 'generated-index' }, items: ['discord/team-bereich/Partner-Liste/PartnerListAdd', 'discord/team-bereich/Partner-Liste/PartnerListEdit', 'discord/team-bereich/Partner-Liste/PartnerListDelete'] },
-            { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/team-bereich/Ping-Schutz/PingProtectionUserPanel', 'discord/team-bereich/Ping-Schutz/PingProtectionListProtected', 'discord/team-bereich/Ping-Schutz/PingProtectionListWhitelisted', 'discord/team-bereich/Ping-Schutz/PingProtectionUserHistory', 'discord/team-bereich/Ping-Schutz/PingProtectionUserActionsHistory'] },
+            { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserActionsHistory', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserHistory', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserPanel'] },
             { type: 'category', label: 'Sammel die Codes', link: { type: 'generated-index' }, items: ['discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminReport', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminCreateCode', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminEnd'] },
             { type: 'category', label: 'Team-Ziele', link: { type: 'generated-index' }, items: ['discord/team-bereich/Teammitglieder-Ziele/TeamGoalsHistory', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsProgress', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsVoiceProgress'] },
             { type: 'category', label: 'Temporäre Channel', link: { type: 'generated-index' }, items: ['discord/team-bereich/Temporäre-Channel/TempChannelMode', 'discord/team-bereich/Temporäre-Channel/TempChannelAddUser', 'discord/team-bereich/Temporäre-Channel/TempChannelRemoveUser', 'discord/team-bereich/Temporäre-Channel/TempChannelListUsers', 'discord/team-bereich/Temporäre-Channel/TempChannelEdit'] },
@@ -461,11 +462,25 @@ const sidebars = {
               label: 'Ping-Schutz',
               link: { type: 'generated-index', slug: '/category/discord/befehle/ping-schutz' },
               items: [
-                'discord/befehle/Ping-Schutz/PingProtectionUserPanel',
-                'discord/befehle/Ping-Schutz/PingProtectionListProtected',
-                'discord/befehle/Ping-Schutz/PingProtectionListWhitelisted',
-                'discord/befehle/Ping-Schutz/PingProtectionUserHistory',
-                'discord/befehle/Ping-Schutz/PingProtectionUserActionsHistory',
+                {
+                  type: 'category',
+                  label: 'Nutzer-Befehle',
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/ping-schutz/nutzer-befehle' },
+                  items: [
+                    'discord/befehle/Ping-Schutz/Nutzer-Befehle/PingProtectionListProtected',
+                    'discord/befehle/Ping-Schutz/Nutzer-Befehle/PingProtectionListWhitelisted',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Team-Befehle',
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/ping-schutz/team-befehle' },
+                  items: [
+                    'discord/befehle/Ping-Schutz/Team-Befehle/PingProtectionUserActionsHistory',
+                    'discord/befehle/Ping-Schutz/Team-Befehle/PingProtectionUserHistory',
+                    'discord/befehle/Ping-Schutz/Team-Befehle/PingProtectionUserPanel',
+                  ],
+                },
               ],
             },
 

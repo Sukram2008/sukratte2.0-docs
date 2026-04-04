@@ -79,11 +79,13 @@ function processFiles(dir, baseDir) {
             const description = descMatch ? descMatch[1].trim() : '';
 
             // LOGIK: Den richtigen Zielort finden
-            let targetArea = 'nutzer'; // Standardfall
+            let targetArea = 'team'; // Standardfall
+
+            const normalizedPath = relativePath.replace(/\\/g, '/');
             
             // Wir prüfen unsere Regeln gegen den relativen Pfad
             for (const rule of RULES) {
-                if (relativePath.includes(rule.match)) {
+                if (normalizedPath.includes(rule.match)) {
                     targetArea = rule.target;
                     break; 
                 }
