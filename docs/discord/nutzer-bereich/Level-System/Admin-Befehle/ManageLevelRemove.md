@@ -1,5 +1,6 @@
 ---
 title: Level entfernen
+description: "Entfernt einem Benutzer Level"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

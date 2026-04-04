@@ -1,5 +1,6 @@
 ---
 title: Kontostand einsehen
+description: "Überprüfe dein aktuelles Vermögen"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

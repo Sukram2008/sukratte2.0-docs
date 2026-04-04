@@ -1,5 +1,6 @@
 ---
 title: Geld entfernen
+description: "Ziehe einem Nutzer Geld ab"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: Deaktiviere Nachrichten-Drops
+description: "Geldregen durch Chat-Aktivität verwalten"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

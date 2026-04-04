@@ -1,5 +1,6 @@
 ---
 title: Kontostand setzen
+description: "Setze das Guthaben eines Nutzers fest"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

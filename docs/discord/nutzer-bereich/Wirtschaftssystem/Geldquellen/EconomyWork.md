@@ -1,5 +1,6 @@
 ---
 title: Arbeiten
+description: "Verdiene Geld durch ehrliche Arbeit"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

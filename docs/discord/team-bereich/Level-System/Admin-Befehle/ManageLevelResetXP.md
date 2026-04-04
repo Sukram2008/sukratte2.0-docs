@@ -1,5 +1,6 @@
 ---
 title: XP zurücksetzen
+description: "Setzt die Erfahrungspunkte (XP) eines Benutzers zurück"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

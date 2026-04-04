@@ -1,5 +1,6 @@
 ---
 title: AFK-Sitzung beenden
+description: "Beendet eine laufende AFK-Sitzung"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

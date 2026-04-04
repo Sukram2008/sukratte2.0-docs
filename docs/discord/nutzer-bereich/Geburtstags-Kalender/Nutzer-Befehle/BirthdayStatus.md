@@ -1,5 +1,6 @@
 ---
 title: Geburtsstatus anzeigen
+description: "Prüfe deinen aktuell gespeicherten Status"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

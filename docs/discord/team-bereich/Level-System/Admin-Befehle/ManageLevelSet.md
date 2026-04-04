@@ -1,5 +1,6 @@
 ---
 title: Level setzen
+description: "Setzt das Level eines Benutzers auf einen bestimmten Wert"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: Münzwurf
+description: "Wirf eine Münze"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

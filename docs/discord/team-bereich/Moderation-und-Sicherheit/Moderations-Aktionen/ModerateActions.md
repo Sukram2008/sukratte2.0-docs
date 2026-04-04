@@ -1,5 +1,6 @@
 ---
 title: Moderations-Historie
+description: "Zeigt alle Moderationsaktionen gegen einen Nutzer an"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

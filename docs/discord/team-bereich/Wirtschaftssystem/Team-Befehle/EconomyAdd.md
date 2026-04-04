@@ -1,5 +1,6 @@
 ---
 title: Geld hinzufügen
+description: "Füge einem Nutzer Geld hinzu"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

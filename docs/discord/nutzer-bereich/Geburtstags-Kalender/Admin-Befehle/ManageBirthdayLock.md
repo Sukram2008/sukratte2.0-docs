@@ -1,5 +1,6 @@
 ---
 title: Geburtstag sperren
+description: "Verhindert, dass ein Nutzer seinen Geburtstag ändert"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

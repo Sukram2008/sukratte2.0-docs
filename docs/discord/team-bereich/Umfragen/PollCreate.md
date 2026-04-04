@@ -1,5 +1,6 @@
 ---
 title: Umfrage erstellen
+description: "Erstelle eine neue Umfrage mit mehreren Antwortmöglichkeiten"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: Gewinnspiel beenden
+description: "Beendet ein laufendes Gewinnspiel sofort"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

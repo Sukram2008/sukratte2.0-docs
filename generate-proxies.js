@@ -23,8 +23,14 @@ function createProxies(dir, baseDir) {
       createProxies(fullPath, baseDir);
     } else if (file.endsWith('.md') || file.endsWith('.mdx')) {
       const originalContent = fs.readFileSync(fullPath, 'utf-8');
-      const titleMatch = originalContent.match(/title:\s*(.*)/);
+      
+      // Sucht den Titel (unterstützt Leerzeichen und Sonderzeichen)
+      const titleMatch = originalContent.match(/^title:\s*(.*)$/m);
       const title = titleMatch ? titleMatch[1].trim() : file.replace('.md', '').replace('.mdx', '');
+      
+      // Sucht die Beschreibung (extrahiert alles nach "description:")
+      const descMatch = originalContent.match(/^description:\s*(.*)$/m);
+      let description = descMatch ? descMatch[1].trim() : '';
 
       TARGETS.forEach(t => {
         const targetFilePath = path.join(t.folder, relativePath);
@@ -32,12 +38,15 @@ function createProxies(dir, baseDir) {
         const dots = '../'.repeat(depth); 
         const importPath = `${dots}befehle/${relativePath.replace(/\\/g, '/')}`;
 
-        // hide_title: true prevents duplicate headings when importing
-        const content = `---
-title: ${title}
-displayed_sidebar: tutorialSidebar
-hide_title: true
----
+        // Erstellt den Kopf der neuen Datei (Frontmatter)
+        let frontmatter = `---\ntitle: ${title}\n`;
+        if (description) {
+          // Wir setzen die Beschreibung in Anführungszeichen für Docusaurus
+          frontmatter += `description: "${description.replace(/"/g, '\\"')}"\n`;
+        }
+        frontmatter += `displayed_sidebar: tutorialSidebar\nhide_title: true\n---`;
+
+        const content = `${frontmatter}
 
 import Original from '${importPath}';
 
@@ -49,11 +58,10 @@ import Original from '${importPath}';
   });
 }
 
-// Initialize folders and create _category_.json
+// Ordner initialisieren
 TARGETS.forEach(t => {
   if (!fs.existsSync(t.folder)) fs.mkdirSync(t.folder, { recursive: true });
 
-  // Prevents duplicate sidebar entries and hides the folder from auto-generation
   const categoryJson = {
     label: t.label,
     link: null, 
@@ -67,4 +75,4 @@ TARGETS.forEach(t => {
 });
 
 createProxies(SOURCE_DIR, SOURCE_DIR);
-console.log('✅ Folders, files and _category_.json created successfully!');
+console.log('✅ Dateipflege abgeschlossen: Titel und Beschreibungen wurden übertragen.');

@@ -1,5 +1,6 @@
 ---
 title: Dice
+description: "Wirf einen Würfel"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

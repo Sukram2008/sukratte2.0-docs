@@ -1,5 +1,6 @@
 ---
 title: Vorschlag akzeptieren
+description: "Akzeptiere einen Vorschlag"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: Profil
+description: "Sieh dir dein Level-Profil oder das eines anderen Nutzers an"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: Rollenposition ändern
+description: "Zeigt oder ändert die Position einer Rolle"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

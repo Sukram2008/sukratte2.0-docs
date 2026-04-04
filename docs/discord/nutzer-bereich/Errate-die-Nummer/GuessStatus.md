@@ -1,5 +1,6 @@
 ---
 title: Spielstatus
+description: "Prüfe den Status des aktuellen Spiels"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

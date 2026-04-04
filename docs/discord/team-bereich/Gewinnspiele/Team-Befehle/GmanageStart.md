@@ -1,5 +1,6 @@
 ---
 title: Gewinnspiel starten
+description: "Starte ein neues Gewinnspiel auf dem Server"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

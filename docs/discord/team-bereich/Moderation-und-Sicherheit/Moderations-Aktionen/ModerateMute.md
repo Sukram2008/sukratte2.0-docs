@@ -1,5 +1,6 @@
 ---
 title: Nutzer stummschalten
+description: "Schaltet einen Nutzer stumm"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

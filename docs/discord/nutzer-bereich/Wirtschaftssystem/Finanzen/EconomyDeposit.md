@@ -1,5 +1,6 @@
 ---
 title: Geld einzahlen
+description: "Bringe dein Bargeld zur Bank"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

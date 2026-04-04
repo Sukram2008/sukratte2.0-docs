@@ -1,5 +1,6 @@
 ---
 title: Quarantäne verhängen
+description: "Versetzt einen Nutzer in Quarantäne"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

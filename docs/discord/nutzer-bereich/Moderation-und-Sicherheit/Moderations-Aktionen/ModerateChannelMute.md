@@ -1,5 +1,6 @@
 ---
 title: Kanal stummschalten
+description: "Deaktiviert die Schreibrechte für einen Nutzer in einem Kanal"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

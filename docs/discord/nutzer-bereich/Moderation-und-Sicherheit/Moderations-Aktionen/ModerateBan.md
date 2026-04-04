@@ -1,5 +1,6 @@
 ---
 title: Nutzer bannen
+description: "Bannt ein Mitglied vom Server"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

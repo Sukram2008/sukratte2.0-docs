@@ -1,5 +1,6 @@
 ---
 title: Notizen anzeigen
+description: "Zeige die Notizen zu einem Nutzer an"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

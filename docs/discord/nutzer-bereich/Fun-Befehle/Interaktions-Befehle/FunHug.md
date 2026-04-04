@@ -1,5 +1,6 @@
 ---
 title: Hug
+description: "Umarme ein anderes Mitglied"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: Kanal entsperren
+description: "Gibt den Schreibzugriff für einen Kanal wieder frei"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: Bestenliste
+description: "Zeigt die aktivsten Nutzer des Servers an"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

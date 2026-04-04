@@ -1,5 +1,6 @@
 ---
 title: Partner löschen
+description: "Entfernt einen Partner aus dem System"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

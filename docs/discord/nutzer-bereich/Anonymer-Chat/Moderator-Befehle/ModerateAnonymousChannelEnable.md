@@ -1,5 +1,6 @@
 ---
 title: Nutzer entsperren
+description: "Hebt die Sperre eines Nutzers für den anonymen Chat auf"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

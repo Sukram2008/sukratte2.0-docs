@@ -1,5 +1,6 @@
 ---
 title: IKEA Name
+description: "Generiert einen zufälligen IKEA-Produktnamen"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

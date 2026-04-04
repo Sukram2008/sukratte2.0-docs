@@ -1,5 +1,6 @@
 ---
 title: Nachrichten löschen
+description: "Löscht eine bestimmte Anzahl an Nachrichten"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

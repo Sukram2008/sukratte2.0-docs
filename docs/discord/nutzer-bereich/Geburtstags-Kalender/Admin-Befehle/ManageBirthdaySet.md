@@ -1,5 +1,6 @@
 ---
 title: Nutzer-Geburtstag setzen
+description: "Legt den Geburtstag eines Nutzers manuell fest"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

@@ -1,5 +1,6 @@
 ---
 title: Spiel erstellen
+description: "Erstelle ein neues Errate-die-Zahl-Spiel"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

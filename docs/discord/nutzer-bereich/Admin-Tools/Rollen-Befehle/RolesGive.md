@@ -1,5 +1,6 @@
 ---
 title: Rolle zuweisen
+description: "Weiße jemandem eine Rolle permanent oder temporär zu"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

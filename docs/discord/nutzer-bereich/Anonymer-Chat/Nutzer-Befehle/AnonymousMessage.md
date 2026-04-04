@@ -1,5 +1,6 @@
 ---
 title: Anonyme Nachricht senden
+description: "Sende eine Nachricht in den anonymen Chat"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

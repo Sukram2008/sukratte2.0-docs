@@ -1,5 +1,6 @@
 ---
 title: Code einlösen
+description: "Löse einen gefundenen Code ein, um Punkte zu erhalten"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

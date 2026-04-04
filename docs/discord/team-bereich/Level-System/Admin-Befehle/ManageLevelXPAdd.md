@@ -1,5 +1,6 @@
 ---
 title: XP hinzufügen
+description: "Fügt einem Benutzer XP hinzu"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

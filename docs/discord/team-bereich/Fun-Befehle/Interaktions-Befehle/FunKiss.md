@@ -1,5 +1,6 @@
 ---
 title: Kiss
+description: "Gib einem anderen Mitglied einen Kuss"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

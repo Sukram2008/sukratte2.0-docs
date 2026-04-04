@@ -1,5 +1,6 @@
 ---
 title: Rangliste
+description: "Zeigt die besten Code-Jäger des Servers an"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

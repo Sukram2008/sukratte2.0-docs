@@ -1,5 +1,6 @@
 ---
 title: Notiz erstellen
+description: "Erstelle eine neue Notiz zu einem Nutzer"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

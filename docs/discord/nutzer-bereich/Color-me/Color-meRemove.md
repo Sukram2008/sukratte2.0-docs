@@ -1,5 +1,6 @@
 ---
 title: Custom Rolle entfernen
+description: "Löscht deine persönliche Rolle"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---

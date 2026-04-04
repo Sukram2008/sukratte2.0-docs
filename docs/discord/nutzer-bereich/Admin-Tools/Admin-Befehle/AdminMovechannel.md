@@ -1,5 +1,6 @@
 ---
 title: Kanalposition ändern
+description: "Zeigt oder ändert die Position eines Kanals"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
