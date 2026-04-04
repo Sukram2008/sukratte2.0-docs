@@ -66,7 +66,7 @@ const sidebars = {
             { type: 'category', label: 'Partner-Liste', link: { type: 'generated-index' }, items: ['discord/team-bereich/Partner-Liste/PartnerListAdd', 'discord/team-bereich/Partner-Liste/PartnerListEdit', 'discord/team-bereich/Partner-Liste/PartnerListDelete'] },
             { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserActionsHistory', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserHistory', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserPanel'] },
             { type: 'category', label: 'Sammel die Codes', link: { type: 'generated-index' }, items: ['discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminReport', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminCreateCode', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminEnd'] },
-            { type: 'category', label: 'System-Befehle', link: { type: 'generated-index' }, items: [ 'discord/team-bereich/Build-In-Commands/Admin-Befehl/Reload' ] },
+            { type: 'category', label: 'System-Befehle', link: { type: 'generated-index' }, items: [ 'discord/team-bereich/Build-In-Commands/Admin-Befehle/Reload' ] },
             { type: 'category', label: 'Team-Ziele', link: { type: 'generated-index' }, items: ['discord/team-bereich/Teammitglieder-Ziele/TeamGoalsHistory', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsProgress', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsVoiceProgress'] },
             { type: 'category', label: 'Umfragen', link: { type: 'generated-index' }, items: ['discord/team-bereich/Umfragen/PollCreate', 'discord/team-bereich/Umfragen/PollEnd', 'discord/team-bereich/Umfragen/PollUserInfos'] },
             { type: 'category', label: 'Vorschläge', link: { type: 'generated-index' }, items: ['discord/team-bereich/Vorschläge/Team-Befehle/SuggestionAccept', 'discord/team-bereich/Vorschläge/Team-Befehle/SuggestionDeny'] },
@@ -196,7 +196,7 @@ const sidebars = {
                   label: 'Nutzer-Befehle',
                   link: { type: 'generated-index', slug: '/category/discord/befehle/build-in-commands/nutzer-befehle' },
                   items: [
-                    'discord/befehle/Build-In-Coammands/Nutzer-Befehle/Help',
+                    'discord/befehle/Build-In-Commands/Nutzer-Befehle/Help',
                   ],
                 },
                 {
@@ -204,7 +204,7 @@ const sidebars = {
                   label: 'Admin-Befehle',
                   link: { type: 'generated-index', slug: '/category/discord/befehle/build-in-commands/admin-befehle' },
                   items: [
-                    'discord/befehle/Build-In-Coammands/Admin-Befehle/Reload',
+                    'discord/befehle/Build-In-Commands/Admin-Befehle/Reload',
                   ],
                 },
               ],
