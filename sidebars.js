@@ -80,6 +80,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Alle Befehle',
+      link: { type: 'generated-index', slug: '/alle-befehle' },
       collapsed: true,
       items: [
         {
