@@ -20,6 +20,16 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/category/discord/befehle">
+            Nutzter Discord Befehle 👥
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/category/discord/befehle">
+            Team Discord Befehle 💻
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/alle-befehle">
             Alle Discord Befehle ⏱️
           </Link>
           </div>
