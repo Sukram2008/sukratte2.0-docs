@@ -14,6 +14,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Custom-Bot Befehle',
+          link: { type: 'generated-index', slug: '/nutzer/custom-bot-befehle' },
           items: [
             { type: 'category', label: 'AFK-System', items: ['discord/befehle/AFK-System/AFK-Befehle/AFKStart', 'discord/befehle/AFK-System/AFK-Befehle/AFKEnd'] },
             { type: 'category', label: 'Anonymer Chat', items: ['discord/befehle/Anonymer-Chat/Nutzer-Befehle/AnonymousMessage'] },
@@ -35,7 +36,7 @@ const sidebars = {
             { type: 'category', label: 'Wirtschaftssystem', items: ['discord/befehle/Wirtschaftssystem/Finanzen/EconomyBalance', 'discord/befehle/Wirtschaftssystem/Finanzen/EconomyDeposit', 'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyCrime', 'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyDaily', 'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyRob', 'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyWork'] },
           ],
         },
-        // { type: 'category', label: 'Support-Bot Befehle', items: [] },
+        // { type: 'category', label: 'Support-Bot Befehle' , items: [] },
       ],
     },
 
@@ -50,6 +51,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'Custom-Bot Befehle',
+          link: { type: 'generated-index', slug: '/team/custom-bot-befehle' },
           items: [
             { type: 'category', label: 'Admin-Tools', items: ['discord/befehle/Admin-Tools/Admin-Befehle/AdminSetcategory', 'discord/befehle/Admin-Tools/Admin-Befehle/AdminMovechannel', 'discord/befehle/Admin-Tools/Admin-Befehle/AdminMoverole', 'discord/befehle/Admin-Tools/Rollen-Befehle/RolesStatus', 'discord/befehle/Admin-Tools/Rollen-Befehle/RolesGive', 'discord/befehle/Admin-Tools/Rollen-Befehle/RolesRemove', 'discord/befehle/Admin-Tools/Extra-Befehle/Stealemote'] },
             { type: 'category', label: 'Anonymer Chat', items: ['discord/befehle/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelEnable', 'discord/befehle/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelDisable', 'discord/befehle/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteMessage'] },
