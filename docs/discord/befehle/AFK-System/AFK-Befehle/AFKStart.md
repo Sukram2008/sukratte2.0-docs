@@ -1,7 +1,6 @@
 ---
 title: AFK-Sitzung starten
 description: Startet eine neue AFK-Sitzung
-slug: /nutzer/afk-start
 ---
 
 # 💤🏁 | AFK-Sitzung starten
