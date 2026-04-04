@@ -93,7 +93,7 @@ const config = {
             items: [
               {
                 label: 'Discord Befehle',
-                to: '/docs', 
+                to: '/docs/alle-befehle', 
               },
             ],
           },
