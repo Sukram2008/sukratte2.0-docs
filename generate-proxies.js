@@ -13,7 +13,7 @@ const RULES = [
     { match: 'Betterstatus', target: 'team' },
     { match: 'Bewerbungen', target: 'nutzer' },
     { match: 'Build-In-Commands/Nutzer-Befehle', target: 'nutzer' },
-    { match: 'Build-In-Commands/Admin-Befehl', target: 'team' },
+    { match: 'Build-In-Commands/Admin-Befehle', target: 'team' },
     { match: 'Color-me', target: 'nutzer' },
     { match: 'Einladungsverfolgung', target: 'team' },
     { match: 'Erinnerungen', target: 'nutzer' },
@@ -44,9 +44,17 @@ const RULES = [
     { match: 'Vorschläge/Team-Befehle', target: 'team' },
     { match: 'Wirtschaftssystem/Finanzen', target: 'nutzer' },
     { match: 'Wirtschaftssystem/Geldquellen', target: 'nutzer' },
-    { match: 'Wirtschaftssystem/Team-Befehle', target: 'team' }
+    { match: 'Wirtschaftssystem/Team-Befehle', target: 'team' },
     // Eigene Befehle
     { match: 'Eigene-Befehle/Team-Verwaltung', target: 'team' },
+    { match: 'Eigene-Befehle/Support', target: 'nutzer' },
+    { match: 'Eigene-Befehle/Organisation', target: 'team' },
+    { match: 'Eigene-Befehle/Kommunikation', target: 'team' },
+    { match: 'Eigene-Befehle/Fehlermeldungen/BugReport', target: 'nutzer' },
+    { match: 'Eigene-Befehle/Support/TerminAnfragen', target: 'team' },
+    { match: 'Eigene-Befehle/Team-Verwaltung/TeamAbmelden', target: 'team' },
+    { match: 'Eigene-Befehle/Team-Verwaltung/TeamWarn', target: 'team' },
+    { match: 'Eigene-Befehle/Kommunikation/Gelesen', target: 'team' }
 ];
 
 function clearDirectory(dir) {

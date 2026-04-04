@@ -16,24 +16,26 @@ const sidebars = {
           label: 'Custom-Bot Befehle',
           link: { type: 'generated-index', slug: '/nutzer/custom-bot-befehle' },
           items: [
-            { type: 'category', label: 'Allgemein & Support', link: { type: 'generated-index' }, items: [ 'discord/nutzer-bereich/Build-In-Commands/Nutzer-Befehle/Help', 'discord/nutzer-bereich/Eigene-Befehle/Support/BugReport' ] },
+            { type: 'category', label: 'Allgemein', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Build-In-Commands/Nutzer-Befehle/Help'] },
+            // RICHTIG:
+            { type: 'category', label: 'Fehlermeldungen', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Eigene-Befehle/Fehlermeldungen/BugReport'] },
             { type: 'category', label: 'AFK-System', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/AFK-System/AFK-Befehle/AFKStart', 'discord/nutzer-bereich/AFK-System/AFK-Befehle/AFKEnd'] },
             { type: 'category', label: 'Anonymer Chat', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Anonymer-Chat/Nutzer-Befehle/AnonymousMessage'] },
             { type: 'category', label: 'Bewerbungen', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Bewerbungen/Apply'] },
-            { type: 'category', label: 'Color me', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Color-me/Color-meManage', 'discord/nutzer-bereich/Color-me/Color-meRemove'] },
+            { type: 'category', label: 'Color-me', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Color-me/Color-meManage', 'discord/nutzer-bereich/Color-me/Color-meRemove'] },
             { type: 'category', label: 'Erinnerungen', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Erinnerungen/RemindMe'] },
-            { type: 'category', label: 'Fun-Befehle', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunHug', 'discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunPat', 'discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunKiss', 'discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunSlap', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomNumber', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomCoinflip', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomDice', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/Random8Ball', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomIkea-name'] },
-            { type: 'category', label: 'Geburtstags-Kalender', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdayStatus', 'discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdaySet', 'discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete'] },
+            { type: 'category', label: 'Fun-Befehle', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunHug', 'discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunKiss', 'discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunPat', 'discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunSlap', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/Random8Ball', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomCoinflip', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomDice', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomIkea-name', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomNumber'] },
+            { type: 'category', label: 'Geburtstags-Kalender', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdaySet', 'discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdayStatus', 'discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete'] },
             { type: 'category', label: 'Gewinnspiele', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Gewinnspiele/Nutzer-Befehle/GMessages'] },
-            { type: 'category', label: 'Info-Befehle', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Info-Befehle/InfoUser', 'discord/nutzer-bereich/Info-Befehle/InfoServer', 'discord/nutzer-bereich/Info-Befehle/InfoRole', 'discord/nutzer-bereich/Info-Befehle/InfoChannel'] },
+            { type: 'category', label: 'Info-Befehle', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Info-Befehle/InfoUser', 'discord/nutzer-bereich/Info-Befehle/InfoServer', 'discord/nutzer-bereich/Info-Befehle/InfoChannel', 'discord/nutzer-bereich/Info-Befehle/InfoRole'] },
             { type: 'category', label: 'Level-System', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelProfile', 'discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelLeaderboard'] },
-            { type: 'category', label: 'Minispiele', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Minispiele/Duel', 'discord/nutzer-bereich/Minispiele/Rock-Paper-Scissors', 'discord/nutzer-bereich/Minispiele/Tic-Tac-Toe', 'discord/nutzer-bereich/Minispiele/Uno'] },
+            { type: 'category', label: 'Minispiele', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Minispiele/Duel', 'discord/nutzer-bereich/Minispiele/Tic-Tac-Toe', 'discord/nutzer-bereich/Minispiele/Rock-Paper-Scissors', 'discord/nutzer-bereich/Minispiele/Uno'] },
             { type: 'category', label: 'Moderation & Sicherheit', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Moderation-und-Sicherheit/Nutzer-Befehle/ModerateReport'] },
             { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListProtected', 'discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListWhitelisted'] },
-            { type: 'category', label: 'Sammel die Codes', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeLeaderboard', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeRedeem'] },
-            { type: 'category', label: 'Temporäre Channel', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Temporäre-Channel/TempChannelMode', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelAddUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelRemoveUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelListUsers', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelEdit'] },
+            { type: 'category', label: 'Sammel-die-Codes', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeRedeem', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeLeaderboard'] },
+            { type: 'category', label: 'Temporäre-Channel', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Temporäre-Channel/TempChannelEdit', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelMode', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelAddUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelRemoveUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelListUsers'] },
             { type: 'category', label: 'Vorschläge', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Vorschläge/Nutzer-Befehle/SuggestionSubmit'] },
-            { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyBalance', 'discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyDeposit', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyCrime', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyDaily', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyRob', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyWork'] },
+            { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyBalance', 'discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyDeposit', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyWork', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyDaily', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyCrime', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyRob'] },
           ],
         },
         // { type: 'category', label: 'Support-Bot Befehle' , items: [] },
@@ -57,22 +59,23 @@ const sidebars = {
             { type: 'category', label: 'Anonymer Chat', link: { type: 'generated-index' }, items: ['discord/team-bereich/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelEnable', 'discord/team-bereich/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelDisable', 'discord/team-bereich/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteMessage'] },
             { type: 'category', label: 'Betterstatus', link: { type: 'generated-index' }, items: ['discord/team-bereich/Betterstatus/Status'] },
             { type: 'category', label: 'Einladungsverfolgung', link: { type: 'generated-index' }, items: ['discord/team-bereich/Einladungsverfolgung/TraceInvites'] },
-            { type: 'category', label: 'Errate die Nummer', link: { type: 'generated-index' }, items: ['discord/team-bereich/Errate-die-Nummer/GuessCreate', 'discord/team-bereich/Errate-die-Nummer/GuessEnd', 'discord/team-bereich/Errate-die-Nummer/GuessStatus'] },
-            { type: 'category', label: 'Geburtstags-Kalender', link: { type: 'generated-index' }, items: ['discord/team-bereich/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayUnlock', 'discord/team-bereich/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayLock', 'discord/team-bereich/Geburtstags-Kalender/Admin-Befehle/ManageBirthdaySet', 'discord/team-bereich/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayRemove'] },
+            { type: 'category', label: 'Errate-die-Nummer', link: { type: 'generated-index' }, items: ['discord/team-bereich/Errate-die-Nummer/GuessCreate', 'discord/team-bereich/Errate-die-Nummer/GuessStatus', 'discord/team-bereich/Errate-die-Nummer/GuessEnd'] },
+            { type: 'category', label: 'Geburtstags-Kalender', link: { type: 'generated-index' }, items: ['discord/team-bereich/Geburtstags-Kalender/Admin-Befehle/ManageBirthdaySet', 'discord/team-bereich/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayRemove', 'discord/team-bereich/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayLock', 'discord/team-bereich/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayUnlock'] },
             { type: 'category', label: 'Gewinnspiele', link: { type: 'generated-index' }, items: ['discord/team-bereich/Gewinnspiele/Team-Befehle/GmanageStart', 'discord/team-bereich/Gewinnspiele/Team-Befehle/GmanageReroll', 'discord/team-bereich/Gewinnspiele/Team-Befehle/GmanageEnd'] },
-            { type: 'category', label: 'Level-System', link: { type: 'generated-index' }, items: ['discord/team-bereich/Level-System/Admin-Befehle/ManageLevelSet', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelAdd', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelRemove', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelXPSet', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelXPAdd', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelXPRemove', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelResetXP'] },
+            { type: 'category', label: 'Kommunikation', link: { type: 'generated-index' }, items: ['discord/team-bereich/Eigene-Befehle/Kommunikation/DM', 'discord/team-bereich/Eigene-Befehle/Kommunikation/ShoutOut'] },
+            { type: 'category', label: 'Level-System', link: { type: 'generated-index' }, items: ['discord/team-bereich/Level-System/Admin-Befehle/ManageLevelSet', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelAdd', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelRemove', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelResetXP', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelXPSet', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelXPAdd', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelXPRemove'] },
             { type: 'category', label: 'Massenrolle', link: { type: 'generated-index' }, items: ['discord/team-bereich/Massenrolle/MassroleAdd', 'discord/team-bereich/Massenrolle/MassroleRemove', 'discord/team-bereich/Massenrolle/MassroleRemoveAll'] },
             { type: 'category', label: 'Moderation & Sicherheit', link: { type: 'generated-index' }, items: ['discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateActions', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateWarn', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRevokeWarn', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateMute', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnmute', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateKick', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateBan', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnban', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateClear', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateQuarantine', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnquarantine', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateChannelMute', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRemoveChannelMute', 'discord/team-bereich/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLock', 'discord/team-bereich/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateUnlock', 'discord/team-bereich/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLockdown', 'discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesView', 'discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesCreate', 'discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesEdit', 'discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesDelete'] },
-            { type: 'category', label: 'Organisation', items: [ 'discord/team-bereich/Eigene-Befehle/Organisation/TaskShare' ] },
+            { type: 'category', label: 'Organisation', link: { type: 'generated-index' }, items: ['discord/team-bereich/Eigene-Befehle/Organisation/TaskShare'] },
             { type: 'category', label: 'Partner-Liste', link: { type: 'generated-index' }, items: ['discord/team-bereich/Partner-Liste/PartnerListAdd', 'discord/team-bereich/Partner-Liste/PartnerListEdit', 'discord/team-bereich/Partner-Liste/PartnerListDelete'] },
-            { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserActionsHistory', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserHistory', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserPanel'] },
-            { type: 'category', label: 'Sammel die Codes', link: { type: 'generated-index' }, items: ['discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminReport', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminCreateCode', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminEnd'] },
-            { type: 'category', label: 'System-Befehle', link: { type: 'generated-index' }, items: [ 'discord/team-bereich/Build-In-Commands/Admin-Befehle/Reload' ] },
-            { type: 'category', label: 'Team-Kommunikation', items: [ 'discord/team-bereich/Eigene-Befehle/Kommunikation/DM', 'discord/team-bereich/Eigene-Befehle/Kommunikation/Shoutout' ] },
-            { type: 'category', label: 'Team-Ziele', link: { type: 'generated-index' }, items: ['discord/team-bereich/Teammitglieder-Ziele/TeamGoalsHistory', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsProgress', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsVoiceProgress'] },
+            { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserPanel', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserHistory', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserActionsHistory'] },
+            { type: 'category', label: 'Sammel-die-Codes', link: { type: 'generated-index' }, items: ['discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminCreateCode', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminReport', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminEnd'] },
+            { type: 'category', label: 'System-Befehle', link: { type: 'generated-index' }, items: ['discord/team-bereich/Build-In-Commands/Admin-Befehle/Reload'] },
+            { type: 'category', label: 'Team-Verwaltung', link: { type: 'generated-index' }, items: ['discord/team-bereich/Eigene-Befehle/Team-Verwaltung/AddTeam', 'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/UpdateTeam', 'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/RemoveTeam'] },
+            { type: 'category', label: 'Teammitglieder-Ziele', link: { type: 'generated-index' }, items: ['discord/team-bereich/Teammitglieder-Ziele/TeamGoalsProgress', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsVoiceProgress', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsHistory'] },
             { type: 'category', label: 'Umfragen', link: { type: 'generated-index' }, items: ['discord/team-bereich/Umfragen/PollCreate', 'discord/team-bereich/Umfragen/PollEnd', 'discord/team-bereich/Umfragen/PollUserInfos'] },
             { type: 'category', label: 'Vorschläge', link: { type: 'generated-index' }, items: ['discord/team-bereich/Vorschläge/Team-Befehle/SuggestionAccept', 'discord/team-bereich/Vorschläge/Team-Befehle/SuggestionDeny'] },
-            { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyAdd', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDestroy', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDropMsgDisable', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDropMsgEnable', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyRemove', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomySet'] },
+            { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyAdd', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomySet', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyRemove', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDestroy', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDropMsgEnable', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDropMsgDisable'] },
           ],
         },
         // { type: 'category', label: 'Support-Bot Befehle', items: [] },
@@ -255,6 +258,16 @@ const sidebars = {
               ],
             },
 
+            /* --- F: Fehlermeldungen --- */
+            {
+              type: 'category',
+              label: 'Fehlermeldungen',
+              link: { type: 'generated-index', slug: '/alle-befehle/fehlermeldungen' },
+              items: [
+                'discord/befehle/Eigene-Befehle/Fehlermeldungen/BugReport',
+              ],
+            },
+
             /* --- F: Fun-Befehle --- */
             {
               type: 'category',
@@ -354,6 +367,18 @@ const sidebars = {
                 'discord/befehle/Info-Befehle/InfoServer',
                 'discord/befehle/Info-Befehle/InfoChannel',
                 'discord/befehle/Info-Befehle/InfoRole',
+              ],
+            },
+
+            /* --- K: Kommunikation --- */
+            {
+              type: 'category',
+              label: 'Kommunikation',
+              link: { type: 'generated-index', slug: '/alle-befehle/kommunikation' },
+              items: [
+                'discord/team-bereich/Eigene-Befehle/Kommunikation/DM',
+                'discord/team-bereich/Eigene-Befehle/Kommunikation/Gelesen',
+                'discord/team-bereich/Eigene-Befehle/Kommunikation/ShoutOut',
               ],
             },
 
@@ -471,6 +496,18 @@ const sidebars = {
               ],
             },
 
+            /* --- O: Organisation --- */
+            {
+              type: 'category',
+              label: 'Organisation',
+              link: { type: 'generated-index', slug: '/alle-befehle/organisation' },
+              items: [
+                'discord/team-bereich/Eigene-Befehle/Organisation/TaskShare',
+                'discord/team-bereich/Eigene-Befehle/Organisation/PartnerGiveaway',
+                'discord/team-bereich/Eigene-Befehle/Organisation/TeamsitzungErstellen',
+              ],
+            },
+
             /* --- P: Partner-Liste --- */
             {
               type: 'category',
@@ -540,6 +577,16 @@ const sidebars = {
               ],
             },
 
+            /* --- S: Support --- */
+            {
+              type: 'category',
+              label: 'TerminAnfragen',
+              link: { type: 'generated-index', slug: '/alle-befehle/support' },
+              items: [
+                'discord/befehle/Support/TerminAnfragen',
+              ],
+            },
+
             /* --- T: Teammitglieder-Ziele --- */
             {
               type: 'category',
@@ -561,6 +608,8 @@ const sidebars = {
                 'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/AddTeam',
                 'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/UpdateTeam',
                 'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/RemoveTeam',
+                'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/TeamAbmelden',
+                'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/TeamWarn',
               ] 
             },
 
