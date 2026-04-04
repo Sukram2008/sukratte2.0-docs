@@ -45,6 +45,8 @@ const RULES = [
     { match: 'Wirtschaftssystem/Finanzen', target: 'nutzer' },
     { match: 'Wirtschaftssystem/Geldquellen', target: 'nutzer' },
     { match: 'Wirtschaftssystem/Team-Befehle', target: 'team' }
+    // Eigene Befehle
+    { match: 'Eigene-Befehle/Team-Verwaltung', target: 'team' },
 ];
 
 function clearDirectory(dir) {

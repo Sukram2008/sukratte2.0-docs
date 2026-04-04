@@ -16,7 +16,7 @@ const sidebars = {
           label: 'Custom-Bot Befehle',
           link: { type: 'generated-index', slug: '/nutzer/custom-bot-befehle' },
           items: [
-            { type: 'category', label: 'Allgemein', link: { type: 'generated-index' }, items: [ 'discord/nutzer-bereich/Build-In-Commands/Nutzer-Befehle/Help' ] },
+            { type: 'category', label: 'Allgemein & Support', link: { type: 'generated-index' }, items: [ 'discord/nutzer-bereich/Build-In-Commands/Nutzer-Befehle/Help', 'discord/nutzer-bereich/Eigene-Befehle/Support/BugReport' ] },
             { type: 'category', label: 'AFK-System', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/AFK-System/AFK-Befehle/AFKStart', 'discord/nutzer-bereich/AFK-System/AFK-Befehle/AFKEnd'] },
             { type: 'category', label: 'Anonymer Chat', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Anonymer-Chat/Nutzer-Befehle/AnonymousMessage'] },
             { type: 'category', label: 'Bewerbungen', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Bewerbungen/Apply'] },
@@ -63,10 +63,12 @@ const sidebars = {
             { type: 'category', label: 'Level-System', link: { type: 'generated-index' }, items: ['discord/team-bereich/Level-System/Admin-Befehle/ManageLevelSet', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelAdd', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelRemove', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelXPSet', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelXPAdd', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelXPRemove', 'discord/team-bereich/Level-System/Admin-Befehle/ManageLevelResetXP'] },
             { type: 'category', label: 'Massenrolle', link: { type: 'generated-index' }, items: ['discord/team-bereich/Massenrolle/MassroleAdd', 'discord/team-bereich/Massenrolle/MassroleRemove', 'discord/team-bereich/Massenrolle/MassroleRemoveAll'] },
             { type: 'category', label: 'Moderation & Sicherheit', link: { type: 'generated-index' }, items: ['discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateActions', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateWarn', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRevokeWarn', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateMute', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnmute', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateKick', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateBan', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnban', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateClear', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateQuarantine', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnquarantine', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateChannelMute', 'discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRemoveChannelMute', 'discord/team-bereich/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLock', 'discord/team-bereich/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateUnlock', 'discord/team-bereich/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLockdown', 'discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesView', 'discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesCreate', 'discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesEdit', 'discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesDelete'] },
+            { type: 'category', label: 'Organisation', items: [ 'discord/team-bereich/Eigene-Befehle/Organisation/TaskShare' ] },
             { type: 'category', label: 'Partner-Liste', link: { type: 'generated-index' }, items: ['discord/team-bereich/Partner-Liste/PartnerListAdd', 'discord/team-bereich/Partner-Liste/PartnerListEdit', 'discord/team-bereich/Partner-Liste/PartnerListDelete'] },
             { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserActionsHistory', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserHistory', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserPanel'] },
             { type: 'category', label: 'Sammel die Codes', link: { type: 'generated-index' }, items: ['discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminReport', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminCreateCode', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminEnd'] },
             { type: 'category', label: 'System-Befehle', link: { type: 'generated-index' }, items: [ 'discord/team-bereich/Build-In-Commands/Admin-Befehle/Reload' ] },
+            { type: 'category', label: 'Team-Kommunikation', items: [ 'discord/team-bereich/Eigene-Befehle/Kommunikation/DM', 'discord/team-bereich/Eigene-Befehle/Kommunikation/Shoutout' ] },
             { type: 'category', label: 'Team-Ziele', link: { type: 'generated-index' }, items: ['discord/team-bereich/Teammitglieder-Ziele/TeamGoalsHistory', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsProgress', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsVoiceProgress'] },
             { type: 'category', label: 'Umfragen', link: { type: 'generated-index' }, items: ['discord/team-bereich/Umfragen/PollCreate', 'discord/team-bereich/Umfragen/PollEnd', 'discord/team-bereich/Umfragen/PollUserInfos'] },
             { type: 'category', label: 'Vorschläge', link: { type: 'generated-index' }, items: ['discord/team-bereich/Vorschläge/Team-Befehle/SuggestionAccept', 'discord/team-bereich/Vorschläge/Team-Befehle/SuggestionDeny'] },
@@ -548,6 +550,18 @@ const sidebars = {
                 'discord/befehle/Teammitglieder-Ziele/TeamGoalsProgress',
                 'discord/befehle/Teammitglieder-Ziele/TeamGoalsVoiceProgress',
               ],
+            },
+
+            /* --- T: Team-Verwaltung (Eigene Befehle) --- */
+            { 
+              type: 'category', 
+              label: 'Team-Verwaltung', 
+              link: { type: 'generated-index' }, 
+              items: [
+                'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/AddTeam',
+                'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/UpdateTeam',
+                'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/RemoveTeam',
+              ] 
             },
 
             /* --- T: Temporäre Channel --- */
