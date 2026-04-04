@@ -3,6 +3,6 @@ title: Duell
 displayed_sidebar: tutorialSidebar
 ---
 
-import Original from '../../../discord/befehle/Minispiele/Duel.md';
+import Original from '../../discord/befehle/Minispiele/Duel.md';
 
 <Original />
