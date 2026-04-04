@@ -55,7 +55,6 @@ const config = {
       sidebar: {
         autoCollapseCategories: true, 
         hideable: false,
-        autoCollapseSidebarCategories: true,
       },
     },
     // -------------------------------------------------
