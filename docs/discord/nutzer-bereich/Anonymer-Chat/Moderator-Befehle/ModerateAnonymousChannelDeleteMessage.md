@@ -1,6 +1,7 @@
 ---
 title: Nachricht löschen
 displayed_sidebar: tutorialSidebar
+hide_title: true
 ---
 
 import Original from '../../../befehle/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteMessage.md';

@@ -32,6 +32,7 @@ function createProxies(dir, baseDir) {
         const dots = '../'.repeat(depth); 
         const importPath = `${dots}befehle/${relativePath.replace(/\\/g, '/')}`;
 
+        // hide_title: true prevents duplicate headings when importing
         const content = `---
 title: ${title}
 displayed_sidebar: tutorialSidebar
@@ -48,18 +49,17 @@ import Original from '${importPath}';
   });
 }
 
-// Ordner initialisieren und _category_.json erstellen
+// Initialize folders and create _category_.json
 TARGETS.forEach(t => {
   if (!fs.existsSync(t.folder)) fs.mkdirSync(t.folder, { recursive: true });
 
-  // ERSTELLT DIE DATEI, UM DOPPELTE EINTRÄGE ZU VERHINDERN
+  // Prevents duplicate sidebar entries and hides the folder from auto-generation
   const categoryJson = {
     label: t.label,
-    link: null, // Verhindert, dass der Ordner eine eigene Seite wird
-    className: 'hide-sidebar-item' // Optional: Falls du CSS-Klassen nutzt
+    link: null, 
+    className: 'hide-sidebar-item' 
   };
   
-  // Diese Datei sagt Docusaurus: "Nutze diesen Ordner nicht für die automatische Sidebar"
   fs.writeFileSync(
     path.join(t.folder, '_category_.json'), 
     JSON.stringify(categoryJson, null, 2)
@@ -67,4 +67,4 @@ TARGETS.forEach(t => {
 });
 
 createProxies(SOURCE_DIR, SOURCE_DIR);
-console.log('✅ Ordner, Dateien und _category_.json wurden erfolgreich erstellt!');
+console.log('✅ Folders, files and _category_.json created successfully!');
