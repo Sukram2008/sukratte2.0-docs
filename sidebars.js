@@ -16,6 +16,7 @@ const sidebars = {
           label: 'Custom-Bot Befehle',
           link: { type: 'generated-index', slug: '/nutzer/custom-bot-befehle' },
           items: [
+            { type: 'category', label: 'Allgemein', link: { type: 'generated-index' }, items: [ 'discord/nutzer-bereich/Build-In-Commands/Nutzer-Befehle/Help' ] },
             { type: 'category', label: 'AFK-System', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/AFK-System/AFK-Befehle/AFKStart', 'discord/nutzer-bereich/AFK-System/AFK-Befehle/AFKEnd'] },
             { type: 'category', label: 'Anonymer Chat', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Anonymer-Chat/Nutzer-Befehle/AnonymousMessage'] },
             { type: 'category', label: 'Bewerbungen', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Bewerbungen/Apply'] },
@@ -65,6 +66,7 @@ const sidebars = {
             { type: 'category', label: 'Partner-Liste', link: { type: 'generated-index' }, items: ['discord/team-bereich/Partner-Liste/PartnerListAdd', 'discord/team-bereich/Partner-Liste/PartnerListEdit', 'discord/team-bereich/Partner-Liste/PartnerListDelete'] },
             { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserActionsHistory', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserHistory', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserPanel'] },
             { type: 'category', label: 'Sammel die Codes', link: { type: 'generated-index' }, items: ['discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminReport', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminCreateCode', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminEnd'] },
+            { type: 'category', label: 'System-Befehle', link: { type: 'generated-index' }, items: [ 'discord/team-bereich/Build-In-Commands/Admin-Befehl/Reload' ] },
             { type: 'category', label: 'Team-Ziele', link: { type: 'generated-index' }, items: ['discord/team-bereich/Teammitglieder-Ziele/TeamGoalsHistory', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsProgress', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsVoiceProgress'] },
             { type: 'category', label: 'Umfragen', link: { type: 'generated-index' }, items: ['discord/team-bereich/Umfragen/PollCreate', 'discord/team-bereich/Umfragen/PollEnd', 'discord/team-bereich/Umfragen/PollUserInfos'] },
             { type: 'category', label: 'Vorschläge', link: { type: 'generated-index' }, items: ['discord/team-bereich/Vorschläge/Team-Befehle/SuggestionAccept', 'discord/team-bereich/Vorschläge/Team-Befehle/SuggestionDeny'] },
@@ -180,6 +182,31 @@ const sidebars = {
               link: { type: 'generated-index', slug: '/category/discord/befehle/bewerbungen' },
               items: [
                 'discord/befehle/Bewerbungen/Apply'
+              ],
+            },
+
+            /* --- B: Build-In-Commands --- */
+            {
+              type: 'category',
+              label: 'Build-In-Commands (Allgemein/System)',
+              link: { type: 'generated-index', slug: '/category/discord/befehle/build-in-commands' },
+              items: [
+                {
+                  type: 'category',
+                  label: 'Nutzer-Befehle',
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/build-in-commands/nutzer-befehle' },
+                  items: [
+                    'discord/befehle/Build-In-Coammands/Nutzer-Befehle/Help',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Admin-Befehle',
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/build-in-commands/admin-befehle' },
+                  items: [
+                    'discord/befehle/Build-In-Coammands/Admin-Befehle/Reload',
+                  ],
+                },
               ],
             },
 

@@ -12,6 +12,8 @@ const RULES = [
     { match: 'Anonymer-Chat/Moderator-Befehle', target: 'team' },
     { match: 'Betterstatus', target: 'team' },
     { match: 'Bewerbungen', target: 'nutzer' },
+    { match: 'Build-In-Commands/Nutzer-Befehle', target: 'nutzer' },
+    { match: 'Build-In-Commands/Admin-Befehl', target: 'team' },
     { match: 'Color-me', target: 'nutzer' },
     { match: 'Einladungsverfolgung', target: 'team' },
     { match: 'Erinnerungen', target: 'nutzer' },
