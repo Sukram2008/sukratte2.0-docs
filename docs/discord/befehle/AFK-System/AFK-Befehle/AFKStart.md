@@ -19,3 +19,16 @@ Mit diesem Befehl kannst du dich auf dem Server als abwesend markieren.
 - Über `auto-end` kannst du festlegen, ob der Status bei deiner nächsten Nachricht sofort verschwinden soll oder ob du ihn manuell beenden möchtest.
 
 ### Berechtigungen
+
+<div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
+  <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
+  <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
+    <span className="badge badge--secondary">👤 | Member</span>
+  </div>
+</div>
+<div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
+  <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
+  <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
+    <span className="badge badge--success">#️⃣ | Alle Kanäle</span>
+  </div>
+</div>

@@ -5,7 +5,7 @@ description: Meldet einen Nutzer dem Server-Team
 
 # 🚩 | Nutzer melden
 
-Befehl: **`/moderate report`**
+Befehl: **`/report`**
 
 ### Erforderliche Optionen
 - **`user:`**
@@ -25,3 +25,16 @@ Diese Meldung wird diskret an das Server-Team (in den konfigurierten Log-Kanal) 
 Ermöglicht es Nutzern, Verstöße direkt über den Bot an die Moderatoren zu melden.
 
 ### Berechtigungen
+
+<div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
+  <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
+  <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
+    <span className="badge badge--secondary">🌍 | Everyone</span>
+  </div>
+</div>
+<div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
+  <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
+  <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
+    <span className="badge badge--success">#️⃣ | Alle Kanäle</span>
+  </div>
+</div>

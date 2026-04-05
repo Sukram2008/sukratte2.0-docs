@@ -27,7 +27,6 @@ Nutze diesen Befehl, um neue Team-Mitglieder offiziell im System zu registrieren
     <span className="badge" style={{backgroundColor: '#1891bd', color: '#fff'}}>💼 | Support-Manager</span>
   </div>
 </div>
-
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
   <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
