@@ -18,3 +18,15 @@ Nutze diesen Befehl, um neue Team-Mitglieder offiziell im System zu registrieren
 -# Dies ist ein Eigener Befehl (Custom Command)
 
 ### Berechtigungen
+
+<div style={{display: 'flex', flexWrap: 'wrap', gap: '10px', marginBottom: '10px'}}>
+<span className="badge badge--secondary">Rollen</span>
+<span className="badge" style={{backgroundColor: '#aa3a3a', color: '#fff'}}>Owner</span>
+<span className="badge" style={{backgroundColor: '#db7013', color: '#fff'}}>Moderator-Manager</span>
+<span className="badge" style={{backgroundColor: '#1891bd', color: '#fff'}}>Support-Manager</span>
+</div>
+
+<div style={{display: 'flex', flexWrap: 'wrap', gap: '10px'}}>
+<span className="badge badge--secondary">Kanäle</span>
+<span className="badge badge--success">Alle Kanäle</span>
+</div>

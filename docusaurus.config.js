@@ -57,6 +57,10 @@ const config = {
         hideable: false,
       },
     },
+    // --- NEU: Algolia Verifizierung ---
+    metadata: [
+      {name: 'algolia-site-verification', content: '1AB5F095F96FA7BE'},
+    ],
     // -------------------------------------------------
     colorMode: {
       defaultMode: 'dark', 
