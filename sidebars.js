@@ -34,8 +34,7 @@ const sidebars = {
             { type: 'category', label: 'Sammel-die-Codes', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeRedeem', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeLeaderboard'] },
             { type: 'category', label: 'Temporäre-Channel', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Temporäre-Channel/TempChannelEdit', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelMode', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelAddUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelRemoveUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelListUsers'] },
             { type: 'category', label: 'Vorschläge', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Vorschläge/Nutzer-Befehle/SuggestionSubmit'] },
-            { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyBalance', 'discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyDeposit', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyWork', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyDaily', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyCrime', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyRob'] },
-          ],
+            { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyBalance', 'discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyDeposit', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyWork', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyDaily', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyCrime', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyRob', 'discord/nutzer-bereich/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopList', 'discord/nutzer-bereich/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopBuy'] },
         },
         // { type: 'category', label: 'Support-Bot Befehle' , items: [] },
       ],
@@ -74,8 +73,7 @@ const sidebars = {
             { type: 'category', label: 'Teammitglieder-Ziele', link: { type: 'generated-index' }, items: ['discord/team-bereich/Teammitglieder-Ziele/TeamGoalsProgress', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsVoiceProgress', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsHistory'] },
             { type: 'category', label: 'Umfragen', link: { type: 'generated-index' }, items: ['discord/team-bereich/Umfragen/PollCreate', 'discord/team-bereich/Umfragen/PollEnd', 'discord/team-bereich/Umfragen/PollUserInfos'] },
             { type: 'category', label: 'Vorschläge', link: { type: 'generated-index' }, items: ['discord/team-bereich/Vorschläge/Team-Befehle/SuggestionAccept', 'discord/team-bereich/Vorschläge/Team-Befehle/SuggestionDeny'] },
-            { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyAdd', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomySet', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyRemove', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDestroy', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDropMsgEnable', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDropMsgDisable'] },
-          ],
+            { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyAdd', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomySet', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyRemove', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDestroy', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDropMsgEnable', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDropMsgDisable', 'discord/team-bereich/Wirtschaftssystem/Shop/Admin-Befehle/ShopAdd', 'discord/team-bereich/Wirtschaftssystem/Shop/Admin-Befehle/ShopEdit', 'discord/team-bereich/Wirtschaftssystem/Shop/Admin-Befehle/ShopDelete'] },
         },
         // { type: 'category', label: 'Support-Bot Befehle', items: [] },
       ],
@@ -688,6 +686,29 @@ const sidebars = {
                     'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyDaily',
                     'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyRob',
                     'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyWork',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Shop',
+                  items: [
+                    {
+                      type: 'category',
+                      label: 'Nutzer-Befehle',
+                      items: [
+                        'discord/befehle/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopBuy',
+                        'discord/befehle/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopList',
+                      ],
+                    },
+                    {
+                      type: 'category',
+                      label: 'Admin-Befehle',
+                      items: [
+                        'discord/befehle/Wirtschaftssystem/Shop/Admin-Befehle/ShopAdd',
+                        'discord/befehle/Wirtschaftssystem/Shop/Admin-Befehle/ShopDelete',
+                        'discord/befehle/Wirtschaftssystem/Shop/Admin-Befehle/ShopEdit',
+                      ],
+                    },
                   ],
                 },
                 {
