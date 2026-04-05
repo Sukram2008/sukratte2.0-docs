@@ -23,3 +23,15 @@ Es wird genau angezeigt, wie viele Minuten von der geforderten Zeit bereits erre
 :::
 
 ### Berechtigungen
+<div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
+  <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
+  <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
+    <span className="badge" style={{backgroundColor: '#1891bd', color: '#fff'}}>🛠️ | Team</span>
+  </div>
+</div>
+<div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
+  <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
+  <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
+    <span className="badge badge--success">🌎 | Alle Kanäle</span>
+  </div>
+</div>

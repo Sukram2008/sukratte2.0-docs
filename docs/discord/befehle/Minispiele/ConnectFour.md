@@ -39,7 +39,6 @@ Mit diesem Befehl forderst du ein anderes Mitglied zu einer Runde "Vier gewinnt"
 - **Abschluss:** Das Spiel wird beendet und die Buttons zur Steuerung werden entfernt.
 
 ### Berechtigungen
-
 <div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
   <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>

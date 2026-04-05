@@ -22,18 +22,17 @@ Entfernt eine Rolle von einem Mitglied.
 - Wird eine Dauer angegeben, handelt es sich um einen temporären Entzug – die Rolle wird dem Nutzer nach Ablauf der Zeit automatisch wieder gegeben.
 
 ### Berechtigungen
-
 <div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
   <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
     <span className="badge" style={{backgroundColor: '#aa3a3a', color: '#fff'}}>👑 | Owner</span>
-    <span className="badge" style={{backgroundColor: '#db7013', color: '#fff'}}>⚖️ | Moderator-Manager</span>
-    <span className="badge" style={{backgroundColor: '#1891bd', color: '#fff'}}>💼 | Support-Manager</span>
+    <span className="badge" style={{backgroundColor: '#db7013', color: '#fff'}}>⚖️ | Manager</span>
+    <span className="badge" style={{backgroundColor: '#1891bd', color: '#fff'}}>🛡️ | Mod+ / Mod</span>
   </div>
 </div>
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
   <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span className="badge badge--success">#️⃣ | Alle Kanäle</span>
+    <span className="badge badge--success">🌎 | Alle Kanäle</span>
   </div>
 </div>

@@ -41,3 +41,15 @@ Das Interface besteht aus zwei Reihen mit jeweils drei Buttons:
 - **Erneut spielen:** Unter dem Ergebnis erscheint ein Button **Erneut spielen**. Klickt man diesen, startet eine neue Runde. Anstatt der Aufforderung zur Waffenwahl wird dort zunächst das Ergebnis der letzten Runde als Historie angezeigt.
 
 ### Berechtigungen
+<div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
+  <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
+  <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
+    <span className="badge" style={{backgroundColor: '#6e31e0', color: '#fff'}}>👤 | Member</span>
+  </div>
+</div>
+<div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
+  <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
+  <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
+    <span className="badge badge--success">🎮 | #minigames</span>
+  </div>
+</div>
