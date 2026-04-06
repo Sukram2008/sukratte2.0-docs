@@ -25,7 +25,7 @@ Mit diesem Befehl fügst du dem Server-Shop ein neues Produkt hinzu. Nutzer kön
 <div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
   <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span style={{backgroundColor: '#aa3a3a', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>👑 Owner</span>
+    <span style={{backgroundColor: '#aa3a3a', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>👑 | Owner</span>
   </div>
 </div>
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
