@@ -59,10 +59,16 @@ const config = {
     },
     // --- Algolia Daten ---
     algolia: {
-      appId: 'DEINE_APP_ID',
-      apiKey: 'DEIN_SEARCH_API_KEY',
-      indexName: 'DEIN_INDEX_NAME',
+      appId: 'SFNBFN3W40',
+      apiKey: '641114cdf56bb254b5ea2db53a1b06a6',
+      indexName: 'SukRatte2.0 Docs',
+      container: '#docsearch',
       contextualSearch: true,
+      insights: true, // Direkt hierhin verschoben
+      // askAi: 'YOUR_ALGOLIA_ASSISTANT_ID', // TODO: Replace with your Algolia Assistant ID
+      searchParameters: {
+        // Hier nur Parameter lassen, die die Suche filtern (z.B. facetFilters)
+      },
     },
     // --- Algolia Verifizierung ---
     metadata: [
