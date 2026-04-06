@@ -45,6 +45,8 @@ const RULES = [
     { match: 'Wirtschaftssystem/Finanzen', target: 'nutzer' },
     { match: 'Wirtschaftssystem/Geldquellen', target: 'nutzer' },
     { match: 'Wirtschaftssystem/Team-Befehle', target: 'team' },
+    { match: 'Wirtschaftssystem/Shop/Nutzer-Befehle', target: 'nutzer' },
+    { match: 'Wirtschaftssystem/Shop/Admin-Befehle', target: 'team' },
     // Eigene Befehle
     { match: 'Eigene-Befehle/Team-Verwaltung', target: 'team' },
     { match: 'Eigene-Befehle/Support', target: 'nutzer' },

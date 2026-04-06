@@ -50,14 +50,21 @@ const config = {
   themeConfig:
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   ({
-    // --- NEU: Sidebar Optimierung für Auto-Collapse ---
+    // --- Sidebar Optimierung für Auto-Collapse ---
     docs: {
       sidebar: {
         autoCollapseCategories: true, 
         hideable: false,
       },
     },
-    // --- NEU: Algolia Verifizierung ---
+    // --- Algolia Daten ---
+    algolia: {
+      appId: 'DEINE_APP_ID',
+      apiKey: 'DEIN_SEARCH_API_KEY',
+      indexName: 'DEIN_INDEX_NAME',
+      contextualSearch: true,
+    },
+    // --- Algolia Verifizierung ---
     metadata: [
       {name: 'algolia-site-verification', content: '1AB5F095F96FA7BE'},
     ],

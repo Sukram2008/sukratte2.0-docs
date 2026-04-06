@@ -28,16 +28,16 @@ const sidebars = {
             { type: 'category', label: 'Gewinnspiele', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Gewinnspiele/Nutzer-Befehle/GMessages'] },
             { type: 'category', label: 'Info-Befehle', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Info-Befehle/InfoUser', 'discord/nutzer-bereich/Info-Befehle/InfoServer', 'discord/nutzer-bereich/Info-Befehle/InfoChannel', 'discord/nutzer-bereich/Info-Befehle/InfoRole'] },
             { type: 'category', label: 'Level-System', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelProfile', 'discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelLeaderboard'] },
-            { type: 'category', label: 'Minispiele', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Minispiele/Duel', 'discord/nutzer-bereich/Minispiele/Tic-Tac-Toe', 'discord/nutzer-bereich/Minispiele/Rock-Paper-Scissors', 'discord/nutzer-bereich/Minispiele/Uno'] },
+            { type: 'category', label: 'Minispiele', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Minispiele/ConnectFour', 'discord/nutzer-bereich/Minispiele/Duel', 'discord/nutzer-bereich/Minispiele/Tic-Tac-Toe', 'discord/nutzer-bereich/Minispiele/Rock-Paper-Scissors', 'discord/nutzer-bereich/Minispiele/Uno'] },
             { type: 'category', label: 'Moderation & Sicherheit', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Moderation-und-Sicherheit/Nutzer-Befehle/ModerateReport'] },
             { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListProtected', 'discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListWhitelisted'] },
             { type: 'category', label: 'Sammel-die-Codes', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeRedeem', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeLeaderboard'] },
             { type: 'category', label: 'Temporäre-Channel', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Temporäre-Channel/TempChannelEdit', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelMode', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelAddUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelRemoveUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelListUsers'] },
             { type: 'category', label: 'Vorschläge', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Vorschläge/Nutzer-Befehle/SuggestionSubmit'] },
-            { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyBalance', 'discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyDeposit', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyWork', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyDaily', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyCrime', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyRob'] },
-          ],
-        },
-        // { type: 'category', label: 'Support-Bot Befehle' , items: [] },
+            { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyBalance', 'discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyDeposit', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyWork', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyDaily', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyCrime', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyRob', 'discord/nutzer-bereich/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopList', 'discord/nutzer-bereich/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopBuy'] },        
+            ]
+          },
+            // { type: 'category', label: 'Support-Bot Befehle' , items: [] },
       ],
     },
 
@@ -70,14 +70,14 @@ const sidebars = {
             { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserPanel', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserHistory', 'discord/team-bereich/Ping-Schutz/Team-Befehle/PingProtectionUserActionsHistory'] },
             { type: 'category', label: 'Sammel-die-Codes', link: { type: 'generated-index' }, items: ['discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminCreateCode', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminReport', 'discord/team-bereich/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminEnd'] },
             { type: 'category', label: 'System-Befehle', link: { type: 'generated-index' }, items: ['discord/team-bereich/Build-In-Commands/Admin-Befehle/Reload'] },
-            { type: 'category', label: 'Team-Verwaltung', link: { type: 'generated-index' }, items: ['discord/team-bereich/Eigene-Befehle/Team-Verwaltung/AddTeam', 'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/UpdateTeam', 'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/RemoveTeam'] },
+            { type: 'category', label: 'Team-Verwaltung', link: { type: 'generated-index' }, items: ['discord/team-bereich/Eigene-Befehle/Team-Verwaltung/AddTeam', 'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/UpdateTeam', 'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/RemoveTeam', 'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/TeamAbmelden', 'discord/team-bereich/Eigene-Befehle/Team-Verwaltung/TeamWarn', 'discord/team-bereich/Eigene-Befehle/Kommunikation/Gelesen'] },
             { type: 'category', label: 'Teammitglieder-Ziele', link: { type: 'generated-index' }, items: ['discord/team-bereich/Teammitglieder-Ziele/TeamGoalsProgress', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsVoiceProgress', 'discord/team-bereich/Teammitglieder-Ziele/TeamGoalsHistory'] },
             { type: 'category', label: 'Umfragen', link: { type: 'generated-index' }, items: ['discord/team-bereich/Umfragen/PollCreate', 'discord/team-bereich/Umfragen/PollEnd', 'discord/team-bereich/Umfragen/PollUserInfos'] },
             { type: 'category', label: 'Vorschläge', link: { type: 'generated-index' }, items: ['discord/team-bereich/Vorschläge/Team-Befehle/SuggestionAccept', 'discord/team-bereich/Vorschläge/Team-Befehle/SuggestionDeny'] },
-            { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyAdd', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomySet', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyRemove', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDestroy', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDropMsgEnable', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDropMsgDisable'] },
-          ],
-        },
-        // { type: 'category', label: 'Support-Bot Befehle', items: [] },
+            { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyAdd', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomySet', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyRemove', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDestroy', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDropMsgEnable', 'discord/team-bereich/Wirtschaftssystem/Team-Befehle/EconomyDropMsgDisable', 'discord/team-bereich/Wirtschaftssystem/Shop/Admin-Befehle/ShopAdd', 'discord/team-bereich/Wirtschaftssystem/Shop/Admin-Befehle/ShopEdit', 'discord/team-bereich/Wirtschaftssystem/Shop/Admin-Befehle/ShopDelete'] },
+            ]
+          },
+            // { type: 'category', label: 'Support-Bot Befehle', items: [] },
       ],
     },
 
@@ -688,6 +688,29 @@ const sidebars = {
                     'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyDaily',
                     'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyRob',
                     'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyWork',
+                  ],
+                },
+                {
+                  type: 'category',
+                  label: 'Shop',
+                  items: [
+                    {
+                      type: 'category',
+                      label: 'Nutzer-Befehle',
+                      items: [
+                        'discord/befehle/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopBuy',
+                        'discord/befehle/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopList',
+                      ],
+                    },
+                    {
+                      type: 'category',
+                      label: 'Admin-Befehle',
+                      items: [
+                        'discord/befehle/Wirtschaftssystem/Shop/Admin-Befehle/ShopAdd',
+                        'discord/befehle/Wirtschaftssystem/Shop/Admin-Befehle/ShopDelete',
+                        'discord/befehle/Wirtschaftssystem/Shop/Admin-Befehle/ShopEdit',
+                      ],
+                    },
                   ],
                 },
                 {
