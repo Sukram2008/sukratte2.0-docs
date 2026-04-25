@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../befehle/Massenrolle/MassroleRemove.md';
+import Original from '../../befehle/custom-bot/Massenrolle/MassroleRemove.md';
 
 <Original />

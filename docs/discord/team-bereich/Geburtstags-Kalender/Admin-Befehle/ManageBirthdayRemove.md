@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayRemove.md';
+import Original from '../../../befehle/custom-bot/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayRemove.md';
 
 <Original />

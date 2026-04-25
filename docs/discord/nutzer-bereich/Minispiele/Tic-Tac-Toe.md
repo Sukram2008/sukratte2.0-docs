@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../befehle/Minispiele/Tic-Tac-Toe.md';
+import Original from '../../befehle/custom-bot/Minispiele/Tic-Tac-Toe.md';
 
 <Original />

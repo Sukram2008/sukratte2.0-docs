@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../befehle/Erinnerungen/RemindMe.md';
+import Original from '../../befehle/custom-bot/Erinnerungen/RemindMe.md';
 
 <Original />

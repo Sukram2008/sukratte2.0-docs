@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Wirtschaftssystem/Geldquellen/EconomyWork.md';
+import Original from '../../../befehle/custom-bot/Wirtschaftssystem/Geldquellen/EconomyWork.md';
 
 <Original />

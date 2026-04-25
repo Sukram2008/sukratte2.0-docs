@@ -32,7 +32,7 @@ const sidebars = {
             { type: 'category', label: 'Moderation & Sicherheit', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Moderation-und-Sicherheit/Nutzer-Befehle/ModerateReport'] },
             { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListProtected', 'discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListWhitelisted'] },
             { type: 'category', label: 'Sammel-die-Codes', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeRedeem', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeLeaderboard'] },
-            { type: 'category', label: 'Temporäre-Channel', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Temporäre-Channel/TempChannelEdit', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelMode', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelAddUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelRemoveUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelListUsers'] },
+            { type: 'category', label: 'Schach', link: { type: 'generated-index' }, items: [ 'discord/nutzer-bereich/Schach/ChessChallenge', 'discord/nutzer-bereich/Schach/ChessChallengeAI', 'discord/nutzer-bereich/Schach/ChessGames', 'discord/nutzer-bereich/Schach/ChessHistory'] },            { type: 'category', label: 'Temporäre-Channel', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Temporäre-Channel/TempChannelEdit', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelMode', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelAddUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelRemoveUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelListUsers'] },
             { type: 'category', label: 'Vorschläge', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Vorschläge/Nutzer-Befehle/SuggestionSubmit'] },
             { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyBalance', 'discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyDeposit', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyWork', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyDaily', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyCrime', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyRob', 'discord/nutzer-bereich/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopList', 'discord/nutzer-bereich/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopBuy'] },        
             ]
@@ -98,34 +98,34 @@ const sidebars = {
             {
               type: 'category',
               label: 'Admin-Tools',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/admin-tools' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/admin-tools' },
               items: [
                 {
                   type: 'category',
                   label: 'Admin-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/admin-tools/admin-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/admin-tools/admin-befehle' },
                   items: [
-                    'discord/befehle/Admin-Tools/Admin-Befehle/AdminSetcategory',
-                    'discord/befehle/Admin-Tools/Admin-Befehle/AdminMovechannel',
-                    'discord/befehle/Admin-Tools/Admin-Befehle/AdminMoverole',
+                    'discord/befehle/custom-bot/Admin-Tools/Admin-Befehle/AdminSetcategory',
+                    'discord/befehle/custom-bot/Admin-Tools/Admin-Befehle/AdminMovechannel',
+                    'discord/befehle/custom-bot/Admin-Tools/Admin-Befehle/AdminMoverole',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Rollen-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/admin-tools/rollen-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/admin-tools/rollen-befehle' },
                   items: [
-                    'discord/befehle/Admin-Tools/Rollen-Befehle/RolesStatus',
-                    'discord/befehle/Admin-Tools/Rollen-Befehle/RolesGive',
-                    'discord/befehle/Admin-Tools/Rollen-Befehle/RolesRemove',
+                    'discord/befehle/custom-bot/Admin-Tools/Rollen-Befehle/RolesStatus',
+                    'discord/befehle/custom-bot/Admin-Tools/Rollen-Befehle/RolesGive',
+                    'discord/befehle/custom-bot/Admin-Tools/Rollen-Befehle/RolesRemove',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Extra-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/admin-tools/extra-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/admin-tools/extra-befehle' },
                   items: [
-                    'discord/befehle/Admin-Tools/Extra-Befehle/Stealemote',
+                    'discord/befehle/custom-bot/Admin-Tools/Extra-Befehle/Stealemote',
                   ],
                 },
               ],
@@ -135,10 +135,10 @@ const sidebars = {
             {
               type: 'category',
               label: 'AFK System',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/afk-system' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/afk-system' },
               items: [
-                'discord/befehle/AFK-System/AFK-Befehle/AFKStart',
-                'discord/befehle/AFK-System/AFK-Befehle/AFKEnd',
+                'discord/befehle/custom-bot/AFK-System/AFK-Befehle/AFKStart',
+                'discord/befehle/custom-bot/AFK-System/AFK-Befehle/AFKEnd',
               ],
             },
 
@@ -146,24 +146,24 @@ const sidebars = {
             {
               type: 'category',
               label: 'Anonymer Chat',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/anonymer-chat' },
               items: [
                 {
                   type: 'category',
                   label: 'Nutzer-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat/nutzer-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/anonymer-chat/nutzer-befehle' },
                   items: [
-                    'discord/befehle/Anonymer-Chat/Nutzer-Befehle/AnonymousMessage',
+                    'discord/befehle/custom-bot/Anonymer-Chat/Nutzer-Befehle/AnonymousMessage',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Moderator-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/anonymer-chat/moderator-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/anonymer-chat/moderator-befehle' },
                   items: [
-                    'discord/befehle/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelEnable',
-                    'discord/befehle/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelDisable',
-                    'discord/befehle/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteMessage',
+                    'discord/befehle/custom-bot/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelEnable',
+                    'discord/befehle/custom-bot/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelDisable',
+                    'discord/befehle/custom-bot/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelDeleteMessage',
                   ],
                 },
               ],
@@ -173,9 +173,9 @@ const sidebars = {
             {
               type: 'category',
               label: 'BetterStatus',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/betterstatus' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/betterstatus' },
               items: [
-                'discord/befehle/Betterstatus/Status',
+                'discord/befehle/custom-bot/Betterstatus/Status',
               ],
             },
 
@@ -183,9 +183,9 @@ const sidebars = {
             {
               type: 'category',
               label: 'Bewerbungen',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/bewerbungen' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/bewerbungen' },
               items: [
-                'discord/befehle/Bewerbungen/Apply'
+                'discord/befehle/custom-bot/Bewerbungen/Apply'
               ],
             },
 
@@ -193,22 +193,22 @@ const sidebars = {
             {
               type: 'category',
               label: 'Build-In-Commands (Allgemein/System)',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/build-in-commands' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/build-in-commands' },
               items: [
                 {
                   type: 'category',
                   label: 'Nutzer-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/build-in-commands/nutzer-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/build-in-commands/nutzer-befehle' },
                   items: [
-                    'discord/befehle/Build-In-Commands/Nutzer-Befehle/Help',
+                    'discord/befehle/custom-bot/Build-In-Commands/Nutzer-Befehle/Help',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Admin-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/build-in-commands/admin-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/build-in-commands/admin-befehle' },
                   items: [
-                    'discord/befehle/Build-In-Commands/Admin-Befehle/Reload',
+                    'discord/befehle/custom-bot/Build-In-Commands/Admin-Befehle/Reload',
                   ],
                 },
               ],
@@ -218,10 +218,10 @@ const sidebars = {
             {
               type: 'category',
               label: 'Color me',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/color-me' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/color-me' },
               items: [
-                'discord/befehle/Color-me/Color-meManage',
-                'discord/befehle/Color-me/Color-meRemove',
+                'discord/befehle/custom-bot/Color-me/Color-meManage',
+                'discord/befehle/custom-bot/Color-me/Color-meRemove',
               ],
             },
 
@@ -229,9 +229,9 @@ const sidebars = {
             {
               type: 'category',
               label: 'Einladungsverfolgung',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/einladungsverfolgung' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/einladungsverfolgung' },
               items: [
-                'discord/befehle/Einladungsverfolgung/TraceInvites',
+                'discord/befehle/custom-bot/Einladungsverfolgung/TraceInvites',
               ],
             },
 
@@ -239,9 +239,9 @@ const sidebars = {
             {
               type: 'category',
               label: 'Erinnerungen',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/erinnerungen' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/erinnerungen' },
               items: [
-                'discord/befehle/Erinnerungen/RemindMe',
+                'discord/befehle/custom-bot/Erinnerungen/RemindMe',
               ],
             },
 
@@ -249,11 +249,11 @@ const sidebars = {
             {
               type: 'category',
               label: 'Errate die Nummer',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/errate-die-nummer' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/errate-die-nummer' },
               items: [
-                'discord/befehle/Errate-die-Nummer/GuessCreate',
-                'discord/befehle/Errate-die-Nummer/GuessStatus',
-                'discord/befehle/Errate-die-Nummer/GuessEnd',
+                'discord/befehle/custom-bot/Errate-die-Nummer/GuessCreate',
+                'discord/befehle/custom-bot/Errate-die-Nummer/GuessStatus',
+                'discord/befehle/custom-bot/Errate-die-Nummer/GuessEnd',
               ],
             },
 
@@ -263,7 +263,7 @@ const sidebars = {
               label: 'Fehlermeldungen',
               link: { type: 'generated-index', slug: '/alle-befehle/fehlermeldungen' },
               items: [
-                'discord/befehle/Eigene-Befehle/Fehlermeldungen/BugReport',
+                'discord/befehle/custom-bot/Eigene-Befehle/Fehlermeldungen/BugReport',
               ],
             },
 
@@ -271,29 +271,29 @@ const sidebars = {
             {
               type: 'category',
               label: 'Fun-Befehle',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/fun-befehle' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/fun-befehle' },
               items: [
                 {
                   type: 'category',
                   label: 'Interaktions-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/fun-befehle/interaktions-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/fun-befehle/interaktions-befehle' },
                   items: [
-                    'discord/befehle/Fun-Befehle/Interaktions-Befehle/FunHug',
-                    'discord/befehle/Fun-Befehle/Interaktions-Befehle/FunPat',
-                    'discord/befehle/Fun-Befehle/Interaktions-Befehle/FunKiss',
-                    'discord/befehle/Fun-Befehle/Interaktions-Befehle/FunSlap',
+                    'discord/befehle/custom-bot/Fun-Befehle/Interaktions-Befehle/FunHug',
+                    'discord/befehle/custom-bot/Fun-Befehle/Interaktions-Befehle/FunPat',
+                    'discord/befehle/custom-bot/Fun-Befehle/Interaktions-Befehle/FunKiss',
+                    'discord/befehle/custom-bot/Fun-Befehle/Interaktions-Befehle/FunSlap',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Random-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/fun-befehle/random-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/fun-befehle/random-befehle' },
                   items: [
-                    'discord/befehle/Fun-Befehle/Random-Befehle/RandomNumber',
-                    'discord/befehle/Fun-Befehle/Random-Befehle/RandomCoinflip',
-                    'discord/befehle/Fun-Befehle/Random-Befehle/RandomDice',
-                    'discord/befehle/Fun-Befehle/Random-Befehle/Random8Ball',
-                    'discord/befehle/Fun-Befehle/Random-Befehle/RandomIkea-name',
+                    'discord/befehle/custom-bot/Fun-Befehle/Random-Befehle/RandomNumber',
+                    'discord/befehle/custom-bot/Fun-Befehle/Random-Befehle/RandomCoinflip',
+                    'discord/befehle/custom-bot/Fun-Befehle/Random-Befehle/RandomDice',
+                    'discord/befehle/custom-bot/Fun-Befehle/Random-Befehle/Random8Ball',
+                    'discord/befehle/custom-bot/Fun-Befehle/Random-Befehle/RandomIkea-name',
                   ],
                 },
               ],
@@ -303,27 +303,27 @@ const sidebars = {
             {
               type: 'category',
               label: 'Geburtstags-Kalender',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/geburtstags-kalender' },
               items: [
                 {
                   type: 'category',
                   label: 'Nutzer-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender/nutzer-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/geburtstags-kalender/nutzer-befehle' },
                   items: [
-                    'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayStatus',
-                    'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdaySet',
-                    'discord/befehle/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete',
+                    'discord/befehle/custom-bot/Geburtstags-Kalender/Nutzer-Befehle/BirthdayStatus',
+                    'discord/befehle/custom-bot/Geburtstags-Kalender/Nutzer-Befehle/BirthdaySet',
+                    'discord/befehle/custom-bot/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Admin-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/geburtstags-kalender/admin-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/geburtstags-kalender/admin-befehle' },
                   items: [
-                    'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayUnlock',
-                    'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayLock',
-                    'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdaySet',
-                    'discord/befehle/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayRemove',
+                    'discord/befehle/custom-bot/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayUnlock',
+                    'discord/befehle/custom-bot/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayLock',
+                    'discord/befehle/custom-bot/Geburtstags-Kalender/Admin-Befehle/ManageBirthdaySet',
+                    'discord/befehle/custom-bot/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayRemove',
                   ],
                 },
               ],
@@ -333,24 +333,24 @@ const sidebars = {
             {
               type: 'category',
               label: 'Gewinnspiele',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/gewinnspiele' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/gewinnspiele' },
               items: [
                 {
                   type: 'category',
                   label: 'Nutzer-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/gewinnspiele/nutzer-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/gewinnspiele/nutzer-befehle' },
                   items: [
-                    'discord/befehle/Gewinnspiele/Nutzer-Befehle/GMessages',
+                    'discord/befehle/custom-bot/Gewinnspiele/Nutzer-Befehle/GMessages',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Team-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/gewinnspiele/team-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/gewinnspiele/team-befehle' },
                   items: [
-                    'discord/befehle/Gewinnspiele/Team-Befehle/GmanageStart',
-                    'discord/befehle/Gewinnspiele/Team-Befehle/GmanageReroll',
-                    'discord/befehle/Gewinnspiele/Team-Befehle/GmanageEnd',
+                    'discord/befehle/custom-bot/Gewinnspiele/Team-Befehle/GmanageStart',
+                    'discord/befehle/custom-bot/Gewinnspiele/Team-Befehle/GmanageReroll',
+                    'discord/befehle/custom-bot/Gewinnspiele/Team-Befehle/GmanageEnd',
                   ],
                 },
               ],
@@ -360,12 +360,12 @@ const sidebars = {
             {
               type: 'category',
               label: 'Info-Befehle',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/info-befehle' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/info-befehle' },
               items: [
-                'discord/befehle/Info-Befehle/InfoUser',
-                'discord/befehle/Info-Befehle/InfoServer',
-                'discord/befehle/Info-Befehle/InfoChannel',
-                'discord/befehle/Info-Befehle/InfoRole',
+                'discord/befehle/custom-bot/Info-Befehle/InfoUser',
+                'discord/befehle/custom-bot/Info-Befehle/InfoServer',
+                'discord/befehle/custom-bot/Info-Befehle/InfoChannel',
+                'discord/befehle/custom-bot/Info-Befehle/InfoRole',
               ],
             },
 
@@ -385,29 +385,29 @@ const sidebars = {
             {
               type: 'category',
               label: 'Level-System',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/level-system' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/level-system' },
               items: [
                 {
                   type: 'category',
                   label: 'Nutzer-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/level-system/nutzer-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/level-system/nutzer-befehle' },
                   items: [
-                    'discord/befehle/Level-System/Nutzer-Befehle/LevelProfile',
-                    'discord/befehle/Level-System/Nutzer-Befehle/LevelLeaderboard',
+                    'discord/befehle/custom-bot/Level-System/Nutzer-Befehle/LevelProfile',
+                    'discord/befehle/custom-bot/Level-System/Nutzer-Befehle/LevelLeaderboard',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Admin-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/level-system/admin-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/level-system/admin-befehle' },
                   items: [
-                    'discord/befehle/Level-System/Admin-Befehle/ManageLevelSet',
-                    'discord/befehle/Level-System/Admin-Befehle/ManageLevelAdd',
-                    'discord/befehle/Level-System/Admin-Befehle/ManageLevelRemove',
-                    'discord/befehle/Level-System/Admin-Befehle/ManageLevelXPSet',
-                    'discord/befehle/Level-System/Admin-Befehle/ManageLevelXPAdd',
-                    'discord/befehle/Level-System/Admin-Befehle/ManageLevelXPRemove',
-                    'discord/befehle/Level-System/Admin-Befehle/ManageLevelResetXP',
+                    'discord/befehle/custom-bot/Level-System/Admin-Befehle/ManageLevelSet',
+                    'discord/befehle/custom-bot/Level-System/Admin-Befehle/ManageLevelAdd',
+                    'discord/befehle/custom-bot/Level-System/Admin-Befehle/ManageLevelRemove',
+                    'discord/befehle/custom-bot/Level-System/Admin-Befehle/ManageLevelXPSet',
+                    'discord/befehle/custom-bot/Level-System/Admin-Befehle/ManageLevelXPAdd',
+                    'discord/befehle/custom-bot/Level-System/Admin-Befehle/ManageLevelXPRemove',
+                    'discord/befehle/custom-bot/Level-System/Admin-Befehle/ManageLevelResetXP',
                   ],
                 },
               ],
@@ -417,11 +417,11 @@ const sidebars = {
             {
               type: 'category',
               label: 'Massenrolle',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/massenrolle' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/massenrolle' },
               items: [
-                'discord/befehle/Massenrolle/MassroleAdd',
-                'discord/befehle/Massenrolle/MassroleRemove',
-                'discord/befehle/Massenrolle/MassroleRemoveAll',
+                'discord/befehle/custom-bot/Massenrolle/MassroleAdd',
+                'discord/befehle/custom-bot/Massenrolle/MassroleRemove',
+                'discord/befehle/custom-bot/Massenrolle/MassroleRemoveAll',
               ],
             },
 
@@ -429,11 +429,11 @@ const sidebars = {
             {
               type: 'category',
               label: 'Minispiele',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/minispiele' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/minispiele' },
               items: [
-                'discord/befehle/Minispiele/Duel',
-                'discord/befehle/Minispiele/Rock-Paper-Scissors',
-                'discord/befehle/Minispiele/Tic-Tac-Toe',
+                'discord/befehle/custom-bot/Minispiele/Duel',
+                'discord/befehle/custom-bot/Minispiele/Rock-Paper-Scissors',
+                'discord/befehle/custom-bot/Minispiele/Tic-Tac-Toe',
               ],
             },
 
@@ -441,55 +441,55 @@ const sidebars = {
             {
               type: 'category',
               label: 'Moderation und Sicherheit',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/moderation-und-sicherheit' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/moderation-und-sicherheit' },
               items: [
                 {
                   type: 'category',
                   label: 'Nutzer-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/moderation-und-sicherheit/nutzer-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/moderation-und-sicherheit/nutzer-befehle' },
                   items: [
-                    'discord/befehle/Moderation-und-Sicherheit/Nutzer-Befehle/ModerateReport',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Nutzer-Befehle/ModerateReport',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Moderations-Aktionen',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/moderation-und-sicherheit/moderations-aktionen' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/moderation-und-sicherheit/moderations-aktionen' },
                   items: [
-                    'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateActions',
-                    'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateWarn',
-                    'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRevokeWarn',
-                    'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateMute',
-                    'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnmute',
-                    'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateKick',
-                    'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateBan',
-                    'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnban',
-                    'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateClear',
-                    'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateQuarantine',
-                    'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnquarantine',
-                    'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateChannelMute',
-                    'discord/befehle/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRemoveChannelMute',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateActions',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateWarn',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRevokeWarn',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateMute',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnmute',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateKick',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateBan',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnban',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateClear',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateQuarantine',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnquarantine',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateChannelMute',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRemoveChannelMute',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Kanal-Verwaltung',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/moderation-und-sicherheit/kanal-verwaltung' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/moderation-und-sicherheit/kanal-verwaltung' },
                   items: [
-                    'discord/befehle/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLock',
-                    'discord/befehle/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateUnlock',
-                    'discord/befehle/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLockdown',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLock',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateUnlock',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLockdown',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Notizen',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/moderation-und-sicherheit/notizen' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/moderation-und-sicherheit/notizen' },
                   items: [
-                    'discord/befehle/Moderation-und-Sicherheit/Notizen/ModerateNotesView',
-                    'discord/befehle/Moderation-und-Sicherheit/Notizen/ModerateNotesCreate',
-                    'discord/befehle/Moderation-und-Sicherheit/Notizen/ModerateNotesEdit',
-                    'discord/befehle/Moderation-und-Sicherheit/Notizen/ModerateNotesDelete',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Notizen/ModerateNotesView',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Notizen/ModerateNotesCreate',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Notizen/ModerateNotesEdit',
+                    'discord/befehle/custom-bot/Moderation-und-Sicherheit/Notizen/ModerateNotesDelete',
                   ],
                 },
               ],
@@ -511,11 +511,11 @@ const sidebars = {
             {
               type: 'category',
               label: 'Partner-Liste',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/partner-liste' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/partner-liste' },
               items: [
-                'discord/befehle/Partner-Liste/PartnerListAdd',
-                'discord/befehle/Partner-Liste/PartnerListEdit',
-                'discord/befehle/Partner-Liste/PartnerListDelete',
+                'discord/befehle/custom-bot/Partner-Liste/PartnerListAdd',
+                'discord/befehle/custom-bot/Partner-Liste/PartnerListEdit',
+                'discord/befehle/custom-bot/Partner-Liste/PartnerListDelete',
               ],
             },
 
@@ -523,25 +523,25 @@ const sidebars = {
             {
               type: 'category',
               label: 'Ping-Schutz',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/ping-schutz' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/ping-schutz' },
               items: [
                 {
                   type: 'category',
                   label: 'Nutzer-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/ping-schutz/nutzer-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/ping-schutz/nutzer-befehle' },
                   items: [
-                    'discord/befehle/Ping-Schutz/Nutzer-Befehle/PingProtectionListProtected',
-                    'discord/befehle/Ping-Schutz/Nutzer-Befehle/PingProtectionListWhitelisted',
+                    'discord/befehle/custom-bot/Ping-Schutz/Nutzer-Befehle/PingProtectionListProtected',
+                    'discord/befehle/custom-bot/Ping-Schutz/Nutzer-Befehle/PingProtectionListWhitelisted',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Team-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/ping-schutz/team-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/ping-schutz/team-befehle' },
                   items: [
-                    'discord/befehle/Ping-Schutz/Team-Befehle/PingProtectionUserActionsHistory',
-                    'discord/befehle/Ping-Schutz/Team-Befehle/PingProtectionUserHistory',
-                    'discord/befehle/Ping-Schutz/Team-Befehle/PingProtectionUserPanel',
+                    'discord/befehle/custom-bot/Ping-Schutz/Team-Befehle/PingProtectionUserActionsHistory',
+                    'discord/befehle/custom-bot/Ping-Schutz/Team-Befehle/PingProtectionUserHistory',
+                    'discord/befehle/custom-bot/Ping-Schutz/Team-Befehle/PingProtectionUserPanel',
                   ],
                 },
               ],
@@ -551,28 +551,41 @@ const sidebars = {
             {
               type: 'category',
               label: 'Sammel die Codes',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/sammel-die-codes' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/sammel-die-codes' },
               items: [
                 {
                   type: 'category',
                   label: 'Nutzer-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/sammel-die-codes/nutzer-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/sammel-die-codes/nutzer-befehle' },
                   items: [
-                    'discord/befehle/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile',
-                    'discord/befehle/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeLeaderboard',
-                    'discord/befehle/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeRedeem',
+                    'discord/befehle/custom-bot/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile',
+                    'discord/befehle/custom-bot/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeLeaderboard',
+                    'discord/befehle/custom-bot/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeRedeem',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Admin-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/sammel-die-codes/admin-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/sammel-die-codes/admin-befehle' },
                   items: [
-                    'discord/befehle/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminReport',
-                    'discord/befehle/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminCreateCode',
-                    'discord/befehle/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminEnd',
+                    'discord/befehle/custom-bot/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminReport',
+                    'discord/befehle/custom-bot/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminCreateCode',
+                    'discord/befehle/custom-bot/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminEnd',
                   ],
                 },
+              ],
+            },
+
+            /* --- S: Schach --- */
+            {
+              type: 'category',
+              label: 'Schach',
+              link: { type: 'generated-index', slug: '/alle-befehle/schach' },
+              items: [
+                'discord/befehle/custom-bot/Schach/ChessChallenge', 
+                'discord/befehle/custom-bot/Schach/ChessChallengeAI', 
+                'discord/befehle/custom-bot/Schach/ChessGames', 
+                'discord/befehle/custom-bot/Schach/ChessHistory'
               ],
             },
 
@@ -582,7 +595,7 @@ const sidebars = {
               label: 'TerminAnfragen',
               link: { type: 'generated-index', slug: '/alle-befehle/support' },
               items: [
-                'discord/befehle/Eigene-Befehle/Support/TerminAnfragen',
+                'discord/befehle/custom-bot/Eigene-Befehle/Support/TerminAnfragen',
               ],
             },
 
@@ -590,11 +603,11 @@ const sidebars = {
             {
               type: 'category',
               label: 'Teammitglieder-Ziele',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/teammitglieder-ziele' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/teammitglieder-ziele' },
               items: [
-                'discord/befehle/Teammitglieder-Ziele/TeamGoalsHistory',
-                'discord/befehle/Teammitglieder-Ziele/TeamGoalsProgress',
-                'discord/befehle/Teammitglieder-Ziele/TeamGoalsVoiceProgress',
+                'discord/befehle/custom-bot/Teammitglieder-Ziele/TeamGoalsHistory',
+                'discord/befehle/custom-bot/Teammitglieder-Ziele/TeamGoalsProgress',
+                'discord/befehle/custom-bot/Teammitglieder-Ziele/TeamGoalsVoiceProgress',
               ],
             },
 
@@ -616,13 +629,13 @@ const sidebars = {
             {
               type: 'category',
               label: 'Temporäre Channel',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/temporäre-channel' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/temporäre-channel' },
               items: [
-                'discord/befehle/Temporäre-Channel/TempChannelMode',
-                'discord/befehle/Temporäre-Channel/TempChannelAddUser',
-                'discord/befehle/Temporäre-Channel/TempChannelRemoveUser',
-                'discord/befehle/Temporäre-Channel/TempChannelListUsers',
-                'discord/befehle/Temporäre-Channel/TempChannelEdit',
+                'discord/befehle/custom-bot/Temporäre-Channel/TempChannelMode',
+                'discord/befehle/custom-bot/Temporäre-Channel/TempChannelAddUser',
+                'discord/befehle/custom-bot/Temporäre-Channel/TempChannelRemoveUser',
+                'discord/befehle/custom-bot/Temporäre-Channel/TempChannelListUsers',
+                'discord/befehle/custom-bot/Temporäre-Channel/TempChannelEdit',
               ],
             },
 
@@ -630,11 +643,11 @@ const sidebars = {
             {
               type: 'category',
               label: 'Umfragen',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/umfragen' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/umfragen' },
               items: [
-                'discord/befehle/Umfragen/PollUserInfos',
-                'discord/befehle/Umfragen/PollCreate',
-                'discord/befehle/Umfragen/PollEnd',
+                'discord/befehle/custom-bot/Umfragen/PollUserInfos',
+                'discord/befehle/custom-bot/Umfragen/PollCreate',
+                'discord/befehle/custom-bot/Umfragen/PollEnd',
               ],
             },
 
@@ -642,23 +655,23 @@ const sidebars = {
             {
               type: 'category',
               label: 'Vorschläge',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/vorschlaege' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/vorschlaege' },
               items: [
                 {
                   type: 'category',
                   label: 'Nutzer-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/vorschlaege/nutzer-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/vorschlaege/nutzer-befehle' },
                   items: [
-                    'discord/befehle/Vorschläge/Nutzer-Befehle/SuggestionSubmit',
+                    'discord/befehle/custom-bot/Vorschläge/Nutzer-Befehle/SuggestionSubmit',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Team-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/vorschlaege/team-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/vorschlaege/team-befehle' },
                   items: [
-                    'discord/befehle/Vorschläge/Team-Befehle/SuggestionAccept',
-                    'discord/befehle/Vorschläge/Team-Befehle/SuggestionDeny',
+                    'discord/befehle/custom-bot/Vorschläge/Team-Befehle/SuggestionAccept',
+                    'discord/befehle/custom-bot/Vorschläge/Team-Befehle/SuggestionDeny',
                   ],
                 },
               ],
@@ -668,26 +681,26 @@ const sidebars = {
             {
               type: 'category',
               label: 'Wirtschaftssystem',
-              link: { type: 'generated-index', slug: '/category/discord/befehle/wirtschaftssystem' },
+              link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/wirtschaftssystem' },
               items: [
                 {
                   type: 'category',
                   label: 'Finanzen',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/wirtschaftssystem/finanzen' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/wirtschaftssystem/finanzen' },
                   items: [
-                    'discord/befehle/Wirtschaftssystem/Finanzen/EconomyBalance',
-                    'discord/befehle/Wirtschaftssystem/Finanzen/EconomyDeposit',
+                    'discord/befehle/custom-bot/Wirtschaftssystem/Finanzen/EconomyBalance',
+                    'discord/befehle/custom-bot/Wirtschaftssystem/Finanzen/EconomyDeposit',
                   ],
                 },
                 {
                   type: 'category',
                   label: 'Geldquellen',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/wirtschaftssystem/geldquellen' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/wirtschaftssystem/geldquellen' },
                   items: [
-                    'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyCrime',
-                    'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyDaily',
-                    'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyRob',
-                    'discord/befehle/Wirtschaftssystem/Geldquellen/EconomyWork',
+                    'discord/befehle/custom-bot/Wirtschaftssystem/Geldquellen/EconomyCrime',
+                    'discord/befehle/custom-bot/Wirtschaftssystem/Geldquellen/EconomyDaily',
+                    'discord/befehle/custom-bot/Wirtschaftssystem/Geldquellen/EconomyRob',
+                    'discord/befehle/custom-bot/Wirtschaftssystem/Geldquellen/EconomyWork',
                   ],
                 },
                 {
@@ -698,17 +711,17 @@ const sidebars = {
                       type: 'category',
                       label: 'Nutzer-Befehle',
                       items: [
-                        'discord/befehle/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopBuy',
-                        'discord/befehle/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopList',
+                        'discord/befehle/custom-bot/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopBuy',
+                        'discord/befehle/custom-bot/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopList',
                       ],
                     },
                     {
                       type: 'category',
                       label: 'Admin-Befehle',
                       items: [
-                        'discord/befehle/Wirtschaftssystem/Shop/Admin-Befehle/ShopAdd',
-                        'discord/befehle/Wirtschaftssystem/Shop/Admin-Befehle/ShopDelete',
-                        'discord/befehle/Wirtschaftssystem/Shop/Admin-Befehle/ShopEdit',
+                        'discord/befehle/custom-bot/Wirtschaftssystem/Shop/Admin-Befehle/ShopAdd',
+                        'discord/befehle/custom-bot/Wirtschaftssystem/Shop/Admin-Befehle/ShopDelete',
+                        'discord/befehle/custom-bot/Wirtschaftssystem/Shop/Admin-Befehle/ShopEdit',
                       ],
                     },
                   ],
@@ -716,14 +729,14 @@ const sidebars = {
                 {
                   type: 'category',
                   label: 'Team-Befehle',
-                  link: { type: 'generated-index', slug: '/category/discord/befehle/wirtschaftssystem/team-befehle' },
+                  link: { type: 'generated-index', slug: '/category/discord/befehle/custom-bot/wirtschaftssystem/team-befehle' },
                   items: [
-                    'discord/befehle/Wirtschaftssystem/Team-Befehle/EconomyAdd',
-                    'discord/befehle/Wirtschaftssystem/Team-Befehle/EconomyDestroy',
-                    'discord/befehle/Wirtschaftssystem/Team-Befehle/EconomyDropMsgDisable',
-                    'discord/befehle/Wirtschaftssystem/Team-Befehle/EconomyDropMsgEnable',
-                    'discord/befehle/Wirtschaftssystem/Team-Befehle/EconomyRemove',
-                    'discord/befehle/Wirtschaftssystem/Team-Befehle/EconomySet',
+                    'discord/befehle/custom-bot/Wirtschaftssystem/Team-Befehle/EconomyAdd',
+                    'discord/befehle/custom-bot/Wirtschaftssystem/Team-Befehle/EconomyDestroy',
+                    'discord/befehle/custom-bot/Wirtschaftssystem/Team-Befehle/EconomyDropMsgDisable',
+                    'discord/befehle/custom-bot/Wirtschaftssystem/Team-Befehle/EconomyDropMsgEnable',
+                    'discord/befehle/custom-bot/Wirtschaftssystem/Team-Befehle/EconomyRemove',
+                    'discord/befehle/custom-bot/Wirtschaftssystem/Team-Befehle/EconomySet',
                   ],
                 },
               ],

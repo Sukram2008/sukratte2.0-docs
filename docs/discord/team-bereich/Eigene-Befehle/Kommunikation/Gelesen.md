@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Eigene-Befehle/Kommunikation/Gelesen.md';
+import Original from '../../../befehle/custom-bot/Eigene-Befehle/Kommunikation/Gelesen.md';
 
 <Original />

@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Ping-Schutz/Team-Befehle/PingProtectionUserPanel.md';
+import Original from '../../../befehle/custom-bot/Ping-Schutz/Team-Befehle/PingProtectionUserPanel.md';
 
 <Original />

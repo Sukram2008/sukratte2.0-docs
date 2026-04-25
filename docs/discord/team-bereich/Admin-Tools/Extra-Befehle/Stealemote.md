@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Admin-Tools/Extra-Befehle/Stealemote.md';
+import Original from '../../../befehle/custom-bot/Admin-Tools/Extra-Befehle/Stealemote.md';
 
 <Original />
