@@ -32,6 +32,7 @@ const sidebars = {
             { type: 'category', label: 'Moderation & Sicherheit', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Moderation-und-Sicherheit/Nutzer-Befehle/ModerateReport'] },
             { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListProtected', 'discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListWhitelisted'] },
             { type: 'category', label: 'Sammel-die-Codes', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeRedeem', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile', 'discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeLeaderboard'] },
+            { type: 'category', label: 'Schach', link: { type: 'generated-index' }, items: [ 'discord/nutzer-bereich/Minispiele/Schach/ChessChallenge', 'discord/nutzer-bereich/Minispiele/Schach/ChessChallengeAI', 'discord/nutzer-bereich/Minispiele/Schach/ChessGames', 'discord/nutzer-bereich/Minispiele/Schach/ChessHistory'] },
             { type: 'category', label: 'Temporäre-Channel', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Temporäre-Channel/TempChannelEdit', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelMode', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelAddUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelRemoveUser', 'discord/nutzer-bereich/Temporäre-Channel/TempChannelListUsers'] },
             { type: 'category', label: 'Vorschläge', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Vorschläge/Nutzer-Befehle/SuggestionSubmit'] },
             { type: 'category', label: 'Wirtschaftssystem', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyBalance', 'discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyDeposit', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyWork', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyDaily', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyCrime', 'discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyRob', 'discord/nutzer-bereich/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopList', 'discord/nutzer-bereich/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopBuy'] },        
@@ -573,6 +574,19 @@ const sidebars = {
                     'discord/befehle/Sammel-die-Codes/Admin-Befehle/HuntTheCodeAdminEnd',
                   ],
                 },
+              ],
+            },
+
+            /* --- S: Schach --- */
+            {
+              type: 'category',
+              label: 'Schach',
+              link: { type: 'generated-index', slug: '/alle-befehle/schach' },
+              items: [
+                'discord/nutzer-bereich/Minispiele/Schach/ChessChallenge', 
+                'discord/nutzer-bereich/Minispiele/Schach/ChessChallengeAI', 
+                'discord/nutzer-bereich/Minispiele/Schach/ChessGames', 
+                'discord/nutzer-bereich/Minispiele/Schach/ChessHistory'
               ],
             },
 
