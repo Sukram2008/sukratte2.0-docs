@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Gewinnspiele/Nutzer-Befehle/GMessages.md';
+import Original from '../../../befehle/custom-bot/Gewinnspiele/Nutzer-Befehle/GMessages.md';
 
 <Original />

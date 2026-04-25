@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLockdown.md';
+import Original from '../../../befehle/custom-bot/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLockdown.md';
 
 <Original />

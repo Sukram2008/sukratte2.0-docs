@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../befehle/Minispiele/Rock-Paper-Scissors.md';
+import Original from '../../befehle/custom-bot/Minispiele/Rock-Paper-Scissors.md';
 
 <Original />

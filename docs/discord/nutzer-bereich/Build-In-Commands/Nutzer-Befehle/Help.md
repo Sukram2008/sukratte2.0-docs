@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Build-In-Commands/Nutzer-Befehle/Help.md';
+import Original from '../../../befehle/custom-bot/Build-In-Commands/Nutzer-Befehle/Help.md';
 
 <Original />

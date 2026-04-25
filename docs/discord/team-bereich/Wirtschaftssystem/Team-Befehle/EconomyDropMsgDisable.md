@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Wirtschaftssystem/Team-Befehle/EconomyDropMsgDisable.md';
+import Original from '../../../befehle/custom-bot/Wirtschaftssystem/Team-Befehle/EconomyDropMsgDisable.md';
 
 <Original />

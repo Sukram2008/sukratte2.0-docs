@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../befehle/Partner-Liste/PartnerListDelete.md';
+import Original from '../../befehle/custom-bot/Partner-Liste/PartnerListDelete.md';
 
 <Original />

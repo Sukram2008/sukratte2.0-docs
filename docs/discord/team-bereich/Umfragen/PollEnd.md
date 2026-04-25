@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../befehle/Umfragen/PollEnd.md';
+import Original from '../../befehle/custom-bot/Umfragen/PollEnd.md';
 
 <Original />

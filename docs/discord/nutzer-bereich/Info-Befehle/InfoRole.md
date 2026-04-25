@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../befehle/Info-Befehle/InfoRole.md';
+import Original from '../../befehle/custom-bot/Info-Befehle/InfoRole.md';
 
 <Original />

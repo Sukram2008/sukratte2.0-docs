@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelEnable.md';
+import Original from '../../../befehle/custom-bot/Anonymer-Chat/Moderator-Befehle/ModerateAnonymousChannelEnable.md';
 
 <Original />

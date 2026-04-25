@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Eigene-Befehle/Organisation/PartnerGiveaway.md';
+import Original from '../../../befehle/custom-bot/Eigene-Befehle/Organisation/PartnerGiveaway.md';
 
 <Original />

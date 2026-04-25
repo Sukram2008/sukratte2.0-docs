@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Gewinnspiele/Team-Befehle/GmanageStart.md';
+import Original from '../../../befehle/custom-bot/Gewinnspiele/Team-Befehle/GmanageStart.md';
 
 <Original />

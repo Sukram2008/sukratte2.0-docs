@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/AFK-System/AFK-Befehle/AFKEnd.md';
+import Original from '../../../befehle/custom-bot/AFK-System/AFK-Befehle/AFKEnd.md';
 
 <Original />

@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Admin-Tools/Rollen-Befehle/RolesGive.md';
+import Original from '../../../befehle/custom-bot/Admin-Tools/Rollen-Befehle/RolesGive.md';
 
 <Original />

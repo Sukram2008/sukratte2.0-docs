@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../befehle/Schach/ChessHistory.md';
+import Original from '../../befehle/custom-bot/Schach/ChessHistory.md';
 
 <Original />

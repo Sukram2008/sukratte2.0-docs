@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile.md';
+import Original from '../../../befehle/custom-bot/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeProfile.md';
 
 <Original />

@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../befehle/Temporäre-Channel/TempChannelMode.md';
+import Original from '../../befehle/custom-bot/Temporäre-Channel/TempChannelMode.md';
 
 <Original />

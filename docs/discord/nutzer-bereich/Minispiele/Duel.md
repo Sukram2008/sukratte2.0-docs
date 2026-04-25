@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../befehle/Minispiele/Duel.md';
+import Original from '../../befehle/custom-bot/Minispiele/Duel.md';
 
 <Original />

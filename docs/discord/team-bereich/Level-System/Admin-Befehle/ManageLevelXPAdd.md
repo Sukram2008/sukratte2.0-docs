@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Level-System/Admin-Befehle/ManageLevelXPAdd.md';
+import Original from '../../../befehle/custom-bot/Level-System/Admin-Befehle/ManageLevelXPAdd.md';
 
 <Original />

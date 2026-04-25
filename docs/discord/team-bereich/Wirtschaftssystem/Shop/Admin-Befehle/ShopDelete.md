@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../../befehle/Wirtschaftssystem/Shop/Admin-Befehle/ShopDelete.md';
+import Original from '../../../../befehle/custom-bot/Wirtschaftssystem/Shop/Admin-Befehle/ShopDelete.md';
 
 <Original />

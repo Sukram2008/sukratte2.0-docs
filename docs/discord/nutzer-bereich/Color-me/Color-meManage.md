@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../befehle/Color-me/Color-meManage.md';
+import Original from '../../befehle/custom-bot/Color-me/Color-meManage.md';
 
 <Original />

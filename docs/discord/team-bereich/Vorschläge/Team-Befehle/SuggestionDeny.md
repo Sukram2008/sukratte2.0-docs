@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Vorschläge/Team-Befehle/SuggestionDeny.md';
+import Original from '../../../befehle/custom-bot/Vorschläge/Team-Befehle/SuggestionDeny.md';
 
 <Original />

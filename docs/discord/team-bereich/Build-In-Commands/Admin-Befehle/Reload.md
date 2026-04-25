@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/Build-In-Commands/Admin-Befehle/Reload.md';
+import Original from '../../../befehle/custom-bot/Build-In-Commands/Admin-Befehle/Reload.md';
 
 <Original />
