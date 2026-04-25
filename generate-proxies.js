@@ -37,6 +37,7 @@ const RULES = [
     { match: 'Ping-Schutz/Team-Befehle', target: 'team' },
     { match: 'Sammel-die-Codes/Nutzer-Befehle', target: 'nutzer' },
     { match: 'Sammel-die-Codes/Admin-Befehle', target: 'team' },
+    { match: 'Schach', target: 'nutzer' },
     { match: 'Teammitglieder-Ziele', target: 'team' },
     { match: 'Temporäre-Channel', target: 'nutzer' },
     { match: 'Umfragen', target: 'team' },
