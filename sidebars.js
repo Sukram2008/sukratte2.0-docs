@@ -582,10 +582,10 @@ const sidebars = {
               label: 'Schach',
               link: { type: 'generated-index', slug: '/alle-befehle/schach' },
               items: [
-                'discord/Schach/ChessChallenge', 
-                'discord/Schach/ChessChallengeAI', 
-                'discord/Schach/ChessGames', 
-                'discord/Schach/ChessHistory'
+                'discord/befehle/Schach/ChessChallenge', 
+                'discord/befehle/Schach/ChessChallengeAI', 
+                'discord/befehle/Schach/ChessGames', 
+                'discord/befehle/Schach/ChessHistory'
               ],
             },
 
