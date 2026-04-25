@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const SOURCE_DIR = './docs/discord/befehle'; 
+const SOURCE_DIR = './docs/discord/befehle/custom-bot'; 
 const NUTZER_DIR = './docs/discord/nutzer-bereich';
 const TEAM_DIR = './docs/discord/team-bereich';
 
@@ -114,7 +114,7 @@ function processFiles(dir, baseDir) {
 
             const depth = relativePath.split(path.sep).length;
             const dots = '../'.repeat(depth);
-            const importPath = `${dots}befehle/${relativePath.replace(/\\/g, '/')}`;
+            const importPath = `${dots}befehle/custom-bot/${relativePath.replace(/\\/g, '/')}`;
 
             const proxyContent = `---
 title: ${title}
