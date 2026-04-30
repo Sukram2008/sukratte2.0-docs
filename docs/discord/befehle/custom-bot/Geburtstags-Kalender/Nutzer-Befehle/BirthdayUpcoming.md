@@ -14,7 +14,6 @@ Befehl: **`/birthday upcoming`**
 Mit diesem Befehl kannst du dir eine Liste aller Teammitglieder oder Nutzer anzeigen lassen, die in einem definierten Zeitraum (Anzahl der Tage) Geburtstag haben.
 
 ### Berechtigungen
-
 <div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
   <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
