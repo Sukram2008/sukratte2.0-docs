@@ -27,7 +27,7 @@ const sidebars = {
             { type: 'category', label: 'Geburtstags-Kalender', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdaySet', 'discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdayStatus', 'discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete'] },
             { type: 'category', label: 'Gewinnspiele', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Gewinnspiele/Nutzer-Befehle/GMessages'] },
             { type: 'category', label: 'Info-Befehle', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Info-Befehle/InfoUser', 'discord/nutzer-bereich/Info-Befehle/InfoServer', 'discord/nutzer-bereich/Info-Befehle/InfoChannel', 'discord/nutzer-bereich/Info-Befehle/InfoRole'] },
-            { type: 'category', label: 'Level-System', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelProfile', 'discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelLeaderboard', 'discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelCalculate'] },
+            { type: 'category', label: 'Level-System', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelProfile', 'discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelLeaderboard', 'discord/nutzer-bereich/Level-System/Nutzer-Befehle/CalculateLevel'] },
             { type: 'category', label: 'Minispiele', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Minispiele/ConnectFour', 'discord/nutzer-bereich/Minispiele/Duel', 'discord/nutzer-bereich/Minispiele/Tic-Tac-Toe', 'discord/nutzer-bereich/Minispiele/Rock-Paper-Scissors', 'discord/nutzer-bereich/Minispiele/Uno'] },
             { type: 'category', label: 'Moderation & Sicherheit', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Moderation-und-Sicherheit/Nutzer-Befehle/ModerateReport'] },
             { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListProtected', 'discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListWhitelisted'] },
@@ -394,7 +394,7 @@ const sidebars = {
                   items: [
                     'discord/befehle/custom-bot/Level-System/Nutzer-Befehle/LevelProfile',
                     'discord/befehle/custom-bot/Level-System/Nutzer-Befehle/LevelLeaderboard',
-                    'discord/befehle/custom-bot/Level-System/Nutzer-Befehle/LevelCalculate',
+                    'discord/befehle/custom-bot/Level-System/Nutzer-Befehle/CalculateLevel',
                   ],
                 },
                 {

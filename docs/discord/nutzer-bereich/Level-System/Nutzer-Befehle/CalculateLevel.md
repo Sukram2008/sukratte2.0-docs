@@ -5,6 +5,6 @@ displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/custom-bot/Level-System/Nutzer-Befehle/CalculatorLevel.md';
+import Original from '../../../befehle/custom-bot/Level-System/Nutzer-Befehle/CalculateLevel.md';
 
 <Original />
