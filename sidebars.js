@@ -24,10 +24,10 @@ const sidebars = {
             { type: 'category', label: 'Color-me', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Color-me/Color-meManage', 'discord/nutzer-bereich/Color-me/Color-meRemove'] },
             { type: 'category', label: 'Erinnerungen', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Erinnerungen/RemindMe'] },
             { type: 'category', label: 'Fun-Befehle', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunHug', 'discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunKiss', 'discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunPat', 'discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunSlap', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/Random8Ball', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomCoinflip', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomDice', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomIkea-name', 'discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomNumber'] },
-            { type: 'category', label: 'Geburtstags-Kalender', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdaySet', 'discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdayStatus', 'discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete'] },
+            { type: 'category', label: 'Geburtstags-Kalender', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdaySet', 'discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdayStatus', 'discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete', 'discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdayUpcoming'] },
             { type: 'category', label: 'Gewinnspiele', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Gewinnspiele/Nutzer-Befehle/GMessages'] },
             { type: 'category', label: 'Info-Befehle', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Info-Befehle/InfoUser', 'discord/nutzer-bereich/Info-Befehle/InfoServer', 'discord/nutzer-bereich/Info-Befehle/InfoChannel', 'discord/nutzer-bereich/Info-Befehle/InfoRole'] },
-            { type: 'category', label: 'Level-System', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelProfile', 'discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelLeaderboard'] },
+            { type: 'category', label: 'Level-System', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelProfile', 'discord/nutzer-bereich/Level-System/Nutzer-Befehle/LevelLeaderboard', 'discord/nutzer-bereich/Level-System/Nutzer-Befehle/CalculateLevel'] },
             { type: 'category', label: 'Minispiele', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Minispiele/ConnectFour', 'discord/nutzer-bereich/Minispiele/Duel', 'discord/nutzer-bereich/Minispiele/Tic-Tac-Toe', 'discord/nutzer-bereich/Minispiele/Rock-Paper-Scissors', 'discord/nutzer-bereich/Minispiele/Uno'] },
             { type: 'category', label: 'Moderation & Sicherheit', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Moderation-und-Sicherheit/Nutzer-Befehle/ModerateReport'] },
             { type: 'category', label: 'Ping-Schutz', link: { type: 'generated-index' }, items: ['discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListProtected', 'discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListWhitelisted'] },
@@ -313,6 +313,7 @@ const sidebars = {
                     'discord/befehle/custom-bot/Geburtstags-Kalender/Nutzer-Befehle/BirthdayStatus',
                     'discord/befehle/custom-bot/Geburtstags-Kalender/Nutzer-Befehle/BirthdaySet',
                     'discord/befehle/custom-bot/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete',
+                    'discord/befehle/custom-bot/Geburtstags-Kalender/Nutzer-Befehle/BirthdayUpcoming',
                   ],
                 },
                 {
@@ -394,6 +395,7 @@ const sidebars = {
                   items: [
                     'discord/befehle/custom-bot/Level-System/Nutzer-Befehle/LevelProfile',
                     'discord/befehle/custom-bot/Level-System/Nutzer-Befehle/LevelLeaderboard',
+                    'discord/befehle/custom-bot/Level-System/Nutzer-Befehle/CalculateLevel',
                   ],
                 },
                 {
