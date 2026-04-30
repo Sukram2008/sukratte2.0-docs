@@ -50,6 +50,13 @@ const config = {
   themeConfig:
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   ({
+    // --- Google Search Console Verifizierung ---
+    metadata: [
+      {
+        name: 'google-site-verification', 
+        content: '_rO_l6Y0O3GlDSuMuum5jFAsMbzkEw9o3gUAmZtI1vw'
+      },
+    ],
     // --- Sidebar Optimierung für Auto-Collapse ---
     docs: {
       sidebar: {
@@ -149,5 +156,4 @@ const config = {
       },
     }),
 };
-
 export default config;
