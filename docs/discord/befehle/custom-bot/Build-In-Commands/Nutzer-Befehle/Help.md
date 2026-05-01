@@ -1,6 +1,7 @@
 ---
 title: Hilfe-Menü anzeigen
 description: Zeigt eine Übersicht aller Befehle
+keywords: [Help, Hilfe, Befehle, Support, Übersicht, Menü]
 ---
 
 # 📖❓ | Hilfe-Menü anzeigen

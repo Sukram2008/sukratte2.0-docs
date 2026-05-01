@@ -1,6 +1,7 @@
 ---
 title: Level entfernen
 description: Entfernt einem Benutzer Level
+keywords: [Level, Entfernen, Remove, Abstieg, Management, Edit]
 ---
 
 # ➖🆙 | Level entfernen

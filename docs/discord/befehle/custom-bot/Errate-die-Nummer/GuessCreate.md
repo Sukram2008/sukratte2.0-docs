@@ -1,6 +1,7 @@
 ---
 title: Spiel erstellen
 description: Erstelle ein neues Errate-die-Zahl-Spiel
+keywords: [Guess-the-number, Spiel, Create, Zahlen, Raten, Min-Max]
 ---
 
 # 🎲🆕 | Spiel erstellen

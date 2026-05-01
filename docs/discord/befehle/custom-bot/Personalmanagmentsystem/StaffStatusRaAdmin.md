@@ -1,6 +1,7 @@
 ---
 title: RA Administrator
 description: Verwaltung der reduzierten Aktivität anderer Nutzer.
+keywords: [Staff-Status, RA, Admin, Reduzierte Aktivität, Management, Owner]
 ---
 
 # 👑📉 | RA Administrator

@@ -1,6 +1,7 @@
 ---
 title: Event beenden
 description: Beendet das laufende "Hunt the Code" Event
+keywords: [Hunt-the-Code, Admin, End, Beenden, Event, Abschluss]
 ---
 
 # 🛑🏁 | Event beenden

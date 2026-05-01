@@ -1,6 +1,7 @@
 ---
 title: Notizen anzeigen
 description: Zeige die Notizen zu einem Nutzer an
+keywords: [Notes, Notiz, View, Anzeigen, Liste, Moderate]
 ---
 
 # 🔍 | Notizen anzeigen

@@ -1,6 +1,7 @@
 ---
 title: Team-Ziele Verlauf
 description: Zeigt die vergangenen Ziel-Perioden eines Teammitglieds an
+keywords: [Team-Goals, History, Verlauf, Team, Archiv, Zielerreichung]
 ---
 
 # 📜🔍 | Verlauf der Ziele anzeigen

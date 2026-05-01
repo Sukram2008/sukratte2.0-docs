@@ -1,6 +1,7 @@
 ---
 title: Temporäre Channel Modus
 description: Ändert den Sichtbarkeits-Modus deines temporären Channels
+keywords: [Temp-Channel, Mode, Öffentlich, Privat, Sichtbarkeit, Kanal]
 ---
 
 # 🔒🌐 | Modus des temporären Kanals einstellen

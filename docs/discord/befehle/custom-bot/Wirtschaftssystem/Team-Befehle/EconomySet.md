@@ -1,6 +1,7 @@
 ---
 title: Kontostand setzen
 description: Setze das Guthaben eines Nutzers fest
+keywords: [Economy, Set, Kontostand, Überschreiben, Admin, Management]
 ---
 
 # 🎯🏦 | Kontostand setzen

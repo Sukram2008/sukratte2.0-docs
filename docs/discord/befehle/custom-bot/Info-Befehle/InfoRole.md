@@ -1,6 +1,7 @@
 ---
 title: Role Info
 description: Weitere Informationen zu einer Rolle auf diesem Server finden
+keywords: [Role, Info, Rolle, Rechte, Management, Information]
 ---
 
 # 🏷️ℹ️ | Role Info

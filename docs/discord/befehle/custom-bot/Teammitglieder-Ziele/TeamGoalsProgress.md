@@ -1,6 +1,7 @@
 ---
 title: Team-Ziele Fortschritt
 description: Zeigt den aktuellen Nachrichten-Fortschritt eines Teammitglieds an
+keywords: [Team-Goals, Progress, Fortschritt, Nachrichten, Team, Statistik]
 ---
 
 # 📈✉️ | Nachrichten Ziel-Fortschritt abchecken

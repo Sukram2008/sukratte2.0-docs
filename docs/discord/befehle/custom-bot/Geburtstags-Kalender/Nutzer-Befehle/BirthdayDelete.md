@@ -1,6 +1,7 @@
 ---
 title: Geburtstag löschen
 description: Entfernt dein Geburtsdatum aus dem System
+keywords: [Birthday, Delete, Geburtstag, Löschen, Austragen, Profil]
 ---
 
 # 🗑️🎂 | Geburtstag löschen

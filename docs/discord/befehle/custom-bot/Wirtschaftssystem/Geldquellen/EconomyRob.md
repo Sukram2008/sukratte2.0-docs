@@ -1,6 +1,7 @@
 ---
 title: Nutzer ausrauben
 description: Versuche einen anderen Nutzer zu bestehlen
+keywords: [Economy, Rob, Raub, Stehlen, Diebstahl, Risiko]
 ---
 
 # 💰🎭 | Nutzer ausrauben

@@ -1,6 +1,7 @@
 ---
 title: Tic-Tac-Toe
 description: Fordere ein anderes Mitglied zu einer Runde Tic-Tac-Toe heraus
+keywords: [Tic-Tac-Toe, Minigame, Spiel, Herausforderung, Drei gewinnt, Fun]
 ---
 
 # ❌⭕ | Minispiele: Tic-Tac-Toe

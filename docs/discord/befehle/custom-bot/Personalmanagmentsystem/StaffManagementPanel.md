@@ -1,6 +1,7 @@
 ---
 title: Staff-Management Panel
 description: Öffnet das grafische Verwaltungs-Panel für ein Teammitglied
+keywords: [Staff-Management, Panel, Admin, Management, Owner, Übersicht]
 ---
 
 # 🖥️🎭 | Staff-Management Panel

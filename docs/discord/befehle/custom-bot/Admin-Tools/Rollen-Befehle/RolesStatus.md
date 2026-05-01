@@ -1,6 +1,7 @@
 ---
 title: Rollen-Status
 description: Zeigt welche Rollen eines Nutzers temporär sind
+keywords: [Rollen, Status, Temporär, Ablaufdatum, Übersicht, Timer]
 ---
 
 # 🕒📊 | Rollen-Status

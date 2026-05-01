@@ -1,6 +1,7 @@
 ---
 title: Beförderung durchführen
 description: Befördert ein Teammitglied auf einen neuen Rang
+keywords: [Staff-Management, Promotion, Promote, Beförderung, Rangänderung, Rollen]
 ---
 
 # 📈🎭 | Beförderung durchführen

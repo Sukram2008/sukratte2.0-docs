@@ -1,6 +1,7 @@
 ---
 title: Review-Verlauf
 description: Zeigt den Verlauf der Bewertungen eines Teammitglieds an
+keywords: [Staff-Management, Review, History, Bewertungen, Feedback, Sterne]
 ---
 
 # 📜🎭 | Review-Verlauf

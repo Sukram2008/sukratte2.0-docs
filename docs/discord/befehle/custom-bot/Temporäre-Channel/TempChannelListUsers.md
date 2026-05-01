@@ -1,6 +1,7 @@
 ---
 title: Nutzerliste
 description: Listet alle Nutzer auf, die Zugriff auf deinen Channel haben
+keywords: [Temp-Channel, List-Users, Nutzerliste, Zugriff, Übersicht, Kanal]
 ---
 
 # 📋👥 | Liste der Nutzer mit Zugriff auf den temporären Kanal

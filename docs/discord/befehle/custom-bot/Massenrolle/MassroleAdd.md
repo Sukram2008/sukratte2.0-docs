@@ -1,6 +1,7 @@
 ---
 title: Massenrolle hinzufügen
 description: Fügt einer bestimmten Gruppe von Benutzern eine Rolle hinzu
+keywords: [Massrole, Rolle, Hinzufügen, Add, Gruppe, Management]
 ---
 
 # ➕🎭 | Massenrolle hinzufügen

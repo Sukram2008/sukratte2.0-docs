@@ -1,6 +1,7 @@
 ---
 title: Item löschen
 description: Entferne ein Item aus dem Shop
+keywords: [Shop, Delete, Löschen, Entfernen, Wirtschaft, Management]
 ---
 
 # 🗑️❌ | Item löschen

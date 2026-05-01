@@ -1,6 +1,7 @@
 ---
 title: Schach Herausforderung
 description: Fordere ein anderes Mitglied zu einem Schachspiel heraus
+keywords: [Chess, Schach, Challenge, Herausforderung, Duell, PvP]
 ---
 
 # ♟️⚔️ | Schach Herausforderung

@@ -1,6 +1,7 @@
 ---
 title: Zufallszahl
 description: Generiert eine zufällige Zahl in einem Bereich
+keywords: [Zufallszahl, Number, Random, Bereich, Min, Max]
 ---
 
 # 🔢🎲 | Zufallszahl

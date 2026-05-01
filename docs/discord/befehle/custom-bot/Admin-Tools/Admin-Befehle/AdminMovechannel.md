@@ -1,6 +1,7 @@
 ---
 title: Kanalposition ändern
 description: Zeigt oder ändert die Position eines Kanals
+keywords: [Kanal, Position, Movechannel, Admin, Verschieben, Sortieren]
 ---
 
 # 🔄📁 | Kanalposition ändern

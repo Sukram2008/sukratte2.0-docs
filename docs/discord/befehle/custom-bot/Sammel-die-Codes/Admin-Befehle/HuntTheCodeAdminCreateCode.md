@@ -1,6 +1,7 @@
 ---
 title: Code erstellen
 description: Erstellt einen neuen Code, der von Nutzern gesucht werden kann
+keywords: [Hunt-the-Code, Admin, Create-Code, Code, Erstellen, Punkte]
 ---
 
 # 🆕🔑 | Code erstellen

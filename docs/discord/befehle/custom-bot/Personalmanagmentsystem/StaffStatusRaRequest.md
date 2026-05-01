@@ -1,6 +1,7 @@
 ---
 title: RA Beantragen
 description: Beantrage einen Status für reduzierte Aktivität (RA).
+keywords: [Staff-Status, RA, Beantragen, Reduzierte Aktivität, Request, Team]
 ---
 
 # 📝📉 | RA Beantragen

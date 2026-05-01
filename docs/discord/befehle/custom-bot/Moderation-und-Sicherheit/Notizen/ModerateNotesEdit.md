@@ -1,6 +1,7 @@
 ---
 title: Notiz bearbeiten
 description: Bearbeite eine deiner existierenden Notizen zu einem Nutzer
+keywords: [Notes, Notiz, Edit, Bearbeiten, Update, Moderate]
 ---
 
 # ✍️ | Notiz bearbeiten

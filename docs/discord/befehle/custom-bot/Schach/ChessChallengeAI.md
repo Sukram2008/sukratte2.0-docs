@@ -1,6 +1,7 @@
 ---
 title: Schach gegen KI
 description: Starte ein Schachspiel gegen den Computer
+keywords: [Chess, Schach, KI, Computer, Training, Bot, AI]
 ---
 
 # ♟️🤖 | Schach gegen KI

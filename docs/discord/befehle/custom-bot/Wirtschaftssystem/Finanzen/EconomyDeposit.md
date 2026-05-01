@@ -1,6 +1,7 @@
 ---
 title: Geld einzahlen
 description: Bringe dein Bargeld zur Bank
+keywords: [Economy, Deposit, Einzahlen, Bank, Sicherheit, Sparen]
 ---
 
 # 📥🏦 | Geld einzahlen

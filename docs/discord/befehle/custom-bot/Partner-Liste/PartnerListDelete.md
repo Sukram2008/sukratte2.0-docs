@@ -1,6 +1,7 @@
 ---
 title: Partner löschen
 description: Entfernt einen Partner aus dem System
+keywords: [Partner, Delete, Löschen, Entfernen, Datenbank, Management]
 ---
 
 # 🤝🗑️ | Partner löschen

@@ -1,6 +1,7 @@
 ---
 title: Staff-Profil löschen
 description: Setzt alle Daten eines Staff-Profils vollständig zurück
+keywords: [Staff-Management, Profile, Wipe, Löschen, Reset, Unwiderruflich]
 ---
 
 # ⚠️🎭 | Staff-Profil löschen (Wipe)

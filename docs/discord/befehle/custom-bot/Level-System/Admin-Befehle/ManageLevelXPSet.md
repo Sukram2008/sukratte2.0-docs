@@ -1,6 +1,7 @@
 ---
 title: XP setzen
 description: Setzt die XP eines Benutzers auf einen bestimmten Wert
+keywords: [XP, Levels, Setzen, Set, Edit, Management]
 ---
 
 # ⚙️✨ | XP setzen

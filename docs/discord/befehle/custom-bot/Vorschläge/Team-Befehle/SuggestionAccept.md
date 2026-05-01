@@ -1,6 +1,7 @@
 ---
 title: Vorschlag akzeptieren
 description: Akzeptiere einen Vorschlag
+keywords: [Suggestion, Accept, Akzeptieren, Annahme, Feedback, Status]
 ---
 
 # ✅💡 | Vorschlag akzeptieren

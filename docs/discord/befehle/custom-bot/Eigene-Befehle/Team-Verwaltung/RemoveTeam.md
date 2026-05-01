@@ -1,6 +1,7 @@
 ---
 title: Team-Mitglied entfernen
 description: Entfernt einen Nutzer aus dem Team
+keywords: [Remove-Team, Austritt, Kündigung, Entfernen, Team, Admin]
 ---
 
 # ➖👥 | Team-Mitglied entfernen

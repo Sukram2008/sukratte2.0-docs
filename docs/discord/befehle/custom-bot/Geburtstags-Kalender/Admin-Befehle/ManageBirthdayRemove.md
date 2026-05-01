@@ -1,6 +1,7 @@
 ---
-title: Nutzer-Eintrag entfernen
+title: Nutzer-Geburtstag entfernen
 description: Entfernt den hinterlegten Geburtstag eines spezifischen Nutzers
+keywords: [Birthday, Remove, Geburtstag, Löschen, Admin, Nutzer]
 ---
 
 # 🛠️🗑️ | Nutzer-Eintrag entfernen

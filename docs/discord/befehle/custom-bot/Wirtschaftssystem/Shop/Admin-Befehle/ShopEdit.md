@@ -1,6 +1,7 @@
 ---
 title: Item bearbeiten
 description: Ändere bestehende Shop-Einträge
+keywords: [Shop, Edit, Bearbeiten, Update, Preisänderung, Management]
 ---
 
 # 📝⚙️ | Item bearbeiten

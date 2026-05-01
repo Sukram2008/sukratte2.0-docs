@@ -1,6 +1,7 @@
 ---
 title: Team Warnung
 description: Erteilt eine interne Team-Verwarnung
+keywords: [Team, Warn, Verwarnung, Strafe, Intern, Management]
 ---
 
 # ⚠️🚫 | Team Warnung

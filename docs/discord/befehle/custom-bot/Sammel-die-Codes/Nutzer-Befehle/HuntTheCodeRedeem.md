@@ -1,6 +1,7 @@
 ---
 title: Code einlösen
-description: Löse einen gefundenen Code ein, um Punkte zu erhalten
+description: Löße einen gefundenen Code ein, um Punkte zu erhalten
+keywords: [Hunt-the-Code, Redeem, Einlösen, Code, Punkte, Erfolg]
 ---
 
 # 🔑🔓 | Code einlösen

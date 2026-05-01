@@ -1,6 +1,7 @@
 ---
 title: Dice
 description: Wirf einen Würfel
+keywords: [Dice, Würfel, Random, Zufall, Seiten, Zahl]
 ---
 
 # 🎲🔢 | Dice

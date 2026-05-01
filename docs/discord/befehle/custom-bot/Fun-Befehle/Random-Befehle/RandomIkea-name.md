@@ -1,6 +1,7 @@
 ---
 title: IKEA Name
 description: Generiert einen zufälligen IKEA-Produktnamen
+keywords: [Ikea, Name, Produkt, Schweden, Fun, Zufall]
 ---
 
 # 🛋️🇸🇪 | IKEA Name

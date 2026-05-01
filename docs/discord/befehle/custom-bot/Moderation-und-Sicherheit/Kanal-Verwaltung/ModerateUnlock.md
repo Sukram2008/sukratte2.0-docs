@@ -1,6 +1,7 @@
 ---
 title: Kanal entsperren
 description: Gibt den Schreibzugriff für einen Kanal wieder frei
+keywords: [Unlock, Entsperren, Kanal, Channel, Moderate, Schreibrechte]
 ---
 
 # 🔓 | Kanal entsperren

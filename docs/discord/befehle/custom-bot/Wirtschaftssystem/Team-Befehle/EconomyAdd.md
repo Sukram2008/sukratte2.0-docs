@@ -1,6 +1,7 @@
 ---
 title: Geld hinzufügen
 description: Füge einem Nutzer Geld hinzu
+keywords: [Economy, Add, Hinzufügen, Gutschrift, Belohnung, Admin]
 ---
 
 # ➕💰 | Geld hinzufügen

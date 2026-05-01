@@ -1,6 +1,7 @@
 ---
 title: LOA Beantragen
 description: Erstellt eine offizielle Abwesenheitsmeldung (Leave of Absence).
+keywords: [Staff-Status, LOA, Abwesenheit, Beantragen, Request, Abmeldung]
 ---
 
 # 📝🎭 | LOA Beantragen

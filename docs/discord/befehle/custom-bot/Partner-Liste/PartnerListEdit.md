@@ -1,6 +1,7 @@
 ---
 title: Partner bearbeiten
 description: Bearbeitet die Daten eines bestehenden Partners
+keywords: [Partner, Edit, Bearbeiten, Update, Aktualisieren, Management]
 ---
 
 # 🤝✍️ | Partner bearbeiten

@@ -1,6 +1,7 @@
 ---
 title: Tägliche Belohnung
 description: Hole dir dein tägliches Geld ab
+keywords: [Economy, Daily, Belohnung, Bonus, Aktivität, Gratis]
 ---
 
 # 📅🎁 | Tägliche Belohnung

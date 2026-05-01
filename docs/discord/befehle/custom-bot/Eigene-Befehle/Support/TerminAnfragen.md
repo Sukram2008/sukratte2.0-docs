@@ -1,6 +1,7 @@
 ---
 title: Termin anfragen
 description: Sendet eine Terminanfrage an die Verwaltung
+keywords: [Termin, Anfrage, Gespräch, Chat, Verwaltung, Meeting]
 ---
 
 # 📅🔍 | Termin anfragen

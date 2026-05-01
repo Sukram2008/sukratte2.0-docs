@@ -1,6 +1,7 @@
 ---
 title: XP hinzufügen
 description: Fügt einem Benutzer XP hinzu
+keywords: [XP, Levels, Hinzufügen, Add, Erfahrungspunkte, Management]
 ---
 
 # ➕✨ | XP hinzufügen

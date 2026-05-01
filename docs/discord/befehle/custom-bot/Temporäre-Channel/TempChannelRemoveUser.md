@@ -1,6 +1,7 @@
 ---
 title: Nutzer entfernen
 description: Entfernt einen Nutzer aus deinem temporären Channel
+keywords: [Temp-Channel, Remove-User, Entfernen, Zugriff entziehen, Kick, Kanal]
 ---
 
 # 👤❌ | Nutzer vom temporären Kanal entfernen

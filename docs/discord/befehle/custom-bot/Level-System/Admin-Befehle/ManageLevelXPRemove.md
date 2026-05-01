@@ -1,6 +1,7 @@
 ---
 title: XP entfernen
 description: Entfernt einem Benutzer XP
+keywords: [XP, Levels, Entfernen, Remove, Abzug, Management]
 ---
 
 # ➖✨ | XP entfernen

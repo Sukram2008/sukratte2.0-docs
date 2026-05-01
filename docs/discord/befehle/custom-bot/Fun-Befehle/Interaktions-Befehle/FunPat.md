@@ -1,6 +1,7 @@
 ---
 title: Pat
 description: Tätschle einem anderen Mitglied den Kopf
+keywords: [Pat, Tätscheln, Kopf, Fun, Interaktion, GIF]
 ---
 
 # 🤚😊 | Pat

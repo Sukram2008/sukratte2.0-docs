@@ -1,6 +1,7 @@
 ---
 title: Spielstatus
 description: Prüfe den Status des aktuellen Spiels
+keywords: [Guess-the-number, Status, Info, Übersicht, Aktiv, Zahlenbereich]
 ---
 
 # 📊🔍 | Spielstatus

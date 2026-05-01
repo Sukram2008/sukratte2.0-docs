@@ -1,6 +1,7 @@
 ---
 title: Anonyme Nachricht senden
 description: Sende eine Nachricht in den anonymen Chat
+keywords: [Anonym, Nachricht, Senden, Identity, Reset, Chat]
 ---
 
 # 🕵️‍♂️💬 | Anonyme Nachricht senden

@@ -1,6 +1,7 @@
 ---
 title: Verstoß aufheben
 description: Macht einen existierenden Verstoß ungültig
+keywords: [Staff-Management, Infraction, Void, Verstoß, Aufheben, Ungültig]
 ---
 
 # 🧹🎭 | Verstoß aufheben (Void)

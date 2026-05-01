@@ -1,6 +1,7 @@
 ---
 title: Nutzer sperren
 description: Sperrt einen Nutzer für den anonymen Chat
+keywords: [Anonym, Sperren, Disable, Moderation, Display-Name, Ban]
 ---
 
 # 🚫👤 | Nutzer sperren

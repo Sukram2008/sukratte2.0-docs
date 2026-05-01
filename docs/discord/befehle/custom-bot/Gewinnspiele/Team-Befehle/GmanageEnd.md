@@ -1,6 +1,7 @@
 ---
 title: Gewinnspiel beenden
 description: Beendet ein laufendes Gewinnspiel sofort
+keywords: [Giveaway, End, Gewinnspiel, Beenden, Auslosen, Stop]
 ---
 
 # 🛑🎁 | Gewinnspiel beenden

@@ -1,6 +1,7 @@
 ---
 title: Aktivitätsüberprüfung starten
 description: Startet eine neue offizielle Überprüfung der Team-Aktivität
+keywords: [Staff-Management, Activity-Check, Start, Überprüfung, Team-Aktivität]
 ---
 
 # 📊🎭 | Aktivitätsüberprüfung starten

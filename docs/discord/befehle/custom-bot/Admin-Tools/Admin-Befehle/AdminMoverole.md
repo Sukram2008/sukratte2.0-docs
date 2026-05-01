@@ -1,6 +1,7 @@
 ---
-title: Rollenposition ändern
-description: Zeigt oder ändert die Position einer Rolle
+title: Kanalposition ändern
+description: Zeigt oder ändert die Position eines Kanals
+keywords: [Kanal, Position, Movechannel, Admin, Verschieben, Sortieren]
 ---
 
 # 🛡️↕️ | Rollenposition ändern

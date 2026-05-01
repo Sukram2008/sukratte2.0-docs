@@ -1,6 +1,7 @@
 ---
 title: ShoutOut erstellen
 description: Erstellt eine ShoutOut-Ankündigung
+keywords: [ShoutOut, Ankündigung, Promo, Erstellen, Event, Partner]
 ---
 
 # 📣📢 | ShoutOut erstellen

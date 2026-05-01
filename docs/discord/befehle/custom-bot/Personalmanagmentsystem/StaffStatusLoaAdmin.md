@@ -1,6 +1,7 @@
 ---
 title: LOA Administrator
 description: Ermöglicht das Verwalten von Abwesenheiten anderer Nutzer.
+keywords: [Staff-Status, LOA, Admin, Verwalten, Korrektur, Management]
 ---
 
 # 👑🎭 | LOA Administrator

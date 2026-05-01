@@ -1,6 +1,7 @@
 ---
 title: Nachricht gelesen
 description: Bestätigt das Lesen einer Nachricht
+keywords: [Gelesen, Bestätigen, Team, Quittung, Information, Check]
 ---
 
 # 📖✅ | Nachricht gelesen

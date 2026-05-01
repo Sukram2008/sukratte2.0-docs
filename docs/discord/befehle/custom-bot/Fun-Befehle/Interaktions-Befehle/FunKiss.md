@@ -1,6 +1,7 @@
 ---
 title: Kiss
 description: Gib einem anderen Mitglied einen Kuss
+keywords: [Kiss, Kuss, Fun, Interaktion, Liebe, GIF]
 ---
 
 # 💋❤️ | Kiss

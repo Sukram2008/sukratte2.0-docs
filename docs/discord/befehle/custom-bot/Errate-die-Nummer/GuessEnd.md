@@ -1,6 +1,7 @@
 ---
 title: Spiel beenden
 description: Beendet das laufende Spiel vorzeitig
+keywords: [Guess-the-number, End, Beenden, Stop, Spiel, Abbruch]
 ---
 
 # 🛑🔚 | Spiel beenden

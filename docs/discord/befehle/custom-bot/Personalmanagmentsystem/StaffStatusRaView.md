@@ -1,6 +1,7 @@
 ---
 title: RA Details
 description: Sieh dir deinen Status der reduzierten Aktivität an.
+keywords: [Staff-Status, RA, Details, View, Status, Team-Einsicht]
 ---
 
 # 🔍📉 | RA Details

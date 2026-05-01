@@ -1,6 +1,7 @@
 ---
 title: Staff-Profil bearbeiten
 description: Bearbeitet die Profildaten eines Teammitglieds
+keywords: [Staff-Management, Profile, Edit, Bearbeiten, Teammitglied, Notizen]
 ---
 
 # 📝🎭 | Staff-Profil bearbeiten

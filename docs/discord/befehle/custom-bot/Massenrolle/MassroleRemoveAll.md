@@ -1,6 +1,7 @@
 ---
 title: Alle Rollen entfernen
 description: Entfernt alle Rollen von einer Gruppe von Benutzern
+keywords: [Massrole, Remove-all, Rollen, Bereinigen, Gruppe, Management]
 ---
 
 # 🧹🎭 | Alle Rollen entfernen

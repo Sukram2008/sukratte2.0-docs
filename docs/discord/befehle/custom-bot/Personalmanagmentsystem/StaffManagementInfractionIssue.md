@@ -1,6 +1,7 @@
 ---
 title: Verstoß aussprechen
 description: Spricht einen offiziellen Verstoß gegen ein Teammitglied aus
+keywords: [Staff-Management, Infraction, Issue, Verwarnung, Aussprechen, Sanktion]
 ---
 
 # ⚠️🎭 | Verstoß aussprechen

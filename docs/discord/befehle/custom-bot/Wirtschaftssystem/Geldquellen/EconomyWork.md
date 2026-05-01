@@ -1,6 +1,7 @@
 ---
 title: Arbeiten
 description: Verdiene Geld durch ehrliche Arbeit
+keywords: [Economy, Work, Arbeiten, Einkommen, Job, Belohnung]
 ---
 
 # 💼🛠️ | Arbeiten

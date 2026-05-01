@@ -1,6 +1,7 @@
 ---
 title: Nutzer-Panel
 description: Öffnet das Einstellungs-Panel für den Ping-Schutz eines Nutzers
+keywords: [Ping-Protection, Panel, Einstellungen, Konfiguration, Menü, Schutz]
 ---
 
 # 🛡️💻 | Nutzer-Panel

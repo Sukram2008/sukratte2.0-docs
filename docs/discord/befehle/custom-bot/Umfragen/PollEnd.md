@@ -1,6 +1,7 @@
 ---
 title: Umfrage beenden
 description: Beendet eine laufende Umfrage vorzeitig
+keywords: [Poll, End, Umfrage, Beenden, Stoppen, Abstimmung]
 ---
 
 # 📊🛑 | Umfrage beenden

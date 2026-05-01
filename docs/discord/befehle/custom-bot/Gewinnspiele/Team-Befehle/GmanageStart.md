@@ -1,6 +1,7 @@
 ---
 title: Gewinnspiel starten
 description: Starte ein neues Gewinnspiel auf dem Server
+keywords: [Giveaway, Start, Gewinnspiel, Erstellen, Preis, Teilnehmen]
 ---
 
 # 🎁🎉 | Gewinnspiel starten

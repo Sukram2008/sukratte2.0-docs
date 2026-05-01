@@ -1,6 +1,7 @@
 ---
 title: Shop Liste
 description: Zeige alle verfügbaren Items an
+keywords: [Shop, List, Übersicht, Sortiment, Preise, Wirtschaft]
 ---
 
 # 📜🛒 | Shop Liste

@@ -1,6 +1,7 @@
 ---
 title: Mitarbeiter suspendieren
 description: Suspendiert ein Teammitglied für einen bestimmten Zeitraum
+keywords: [Staff-Management, Infraction, Suspend, Suspendierung, Sperre, Pause]
 ---
 
 # 🚫🎭 | Mitarbeiter suspendieren

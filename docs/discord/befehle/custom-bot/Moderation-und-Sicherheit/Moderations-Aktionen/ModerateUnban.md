@@ -1,6 +1,7 @@
 ---
 title: Nutzer entbannen
 description: Hebt den Ban eines Nutzers auf
+keywords: [Unban, Entbannen, Aufheben, Moderate, Nutzer-ID, Moderation]
 ---
 
 # 🔓 | Nutzer entbannen

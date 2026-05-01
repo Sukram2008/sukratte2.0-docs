@@ -1,6 +1,7 @@
 ---
 title: Aktivitätsüberprüfung beenden
 description: Schließt die aktuelle Aktivitätsüberprüfung manuell ab
+keywords: [Staff-Management, Activity-Check, End, Beenden, Inaktivität, Team]
 ---
 
 # 🛑🎭 | Aktivitätsüberprüfung beenden

@@ -1,6 +1,7 @@
 ---
 title: Rolle entfernen
 description: Entferne permanent oder temporär eine Rolle von einem Nutzer
+keywords: [Rollen, Remove, Entfernen, Temporär, Entzug, Duration]
 ---
 
 # 👤➖ | Rolle entfernen

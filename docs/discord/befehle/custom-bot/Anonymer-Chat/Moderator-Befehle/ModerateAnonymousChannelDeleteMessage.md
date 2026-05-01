@@ -1,6 +1,7 @@
 ---
 title: Nachricht löschen
 description: Löscht eine Nachricht aus dem anonymen Chat
+keywords: [Anonym, Löschen, Delete, Message, Moderation, Chat]
 ---
 
 # 🗑️💬 | Nachricht löschen

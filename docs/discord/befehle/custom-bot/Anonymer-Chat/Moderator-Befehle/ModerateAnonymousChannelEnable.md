@@ -1,6 +1,7 @@
 ---
 title: Nutzer entsperren
 description: Hebt die Sperre eines Nutzers für den anonymen Chat auf
+keywords: [Anonym, Entsperren, Enable, Moderation, Display-Name, Unban]
 ---
 
 # ✅👤 | Nutzer entsperren

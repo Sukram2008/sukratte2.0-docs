@@ -1,6 +1,7 @@
 ---
 title: Ping-Verlauf
 description: Zeigt den Verlauf der Pings eines Nutzers an
+keywords: [Ping-Protection, History, Ping-Verlauf, Markierungen, Übersicht, Schutz]
 ---
 
 # 🛡️📜 | Ping-Verlauf

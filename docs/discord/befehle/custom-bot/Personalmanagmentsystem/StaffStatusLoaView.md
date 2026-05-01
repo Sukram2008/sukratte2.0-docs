@@ -1,6 +1,7 @@
 ---
 title: LOA Details
 description: Zeigt Details zu einer spezifischen Abwesenheit an.
+keywords: [Staff-Status, LOA, Details, View, Abwesenheitsgrund, Team]
 ---
 
 # 🔍🎭 | LOA Details

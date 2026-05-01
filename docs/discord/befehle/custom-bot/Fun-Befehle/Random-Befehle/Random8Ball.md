@@ -1,6 +1,7 @@
 ---
 title: 8Ball
 description: Befragt das magische Orakel
+keywords: [8Ball, Orakel, Frage, Antwort, Zufall, Magisch]
 ---
 
 # 🎱🔮 | 8Ball

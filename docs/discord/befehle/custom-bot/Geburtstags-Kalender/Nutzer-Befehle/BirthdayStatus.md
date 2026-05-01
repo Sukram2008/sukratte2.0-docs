@@ -1,6 +1,7 @@
 ---
 title: Geburtsstatus anzeigen
 description: Prüfe deinen aktuell gespeicherten Status
+keywords: [Birthday, Status, Geburtstag, Info, Check, Profil]
 ---
 
 # 🎂🔍 | Geburtsstatus anzeigen

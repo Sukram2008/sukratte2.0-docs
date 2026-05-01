@@ -1,6 +1,7 @@
 ---
 title: AFK-Sitzung beenden
 description: Beendet eine laufende AFK-Sitzung
+keywords: [AFK, End, Beenden, Zurück, Online, Status]
 ---
 
 # 🔔✅ | AFK-Sitzung beenden

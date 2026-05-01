@@ -1,6 +1,7 @@
 ---
 title: Hug
 description: Umarme ein anderes Mitglied
+keywords: [Hug, Umarmung, Fun, Interaktion, Liebe, GIF]
 ---
 
 # 🫂✨ | Hug

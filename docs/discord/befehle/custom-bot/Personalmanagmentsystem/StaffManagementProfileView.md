@@ -1,6 +1,7 @@
 ---
 title: Staff-Profil einsehen
 description: Zeigt das detaillierte interne Profil eines Teammitglieds an
+keywords: [Staff-Management, Profile, View, Einsehen, Team, Details]
 ---
 
 # 👤🎭 | Staff-Profil einsehen

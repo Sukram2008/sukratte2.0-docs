@@ -1,6 +1,7 @@
 ---
 title: Bug-Report einsenden
 description: Meldet einen Fehler an das Team
+keywords: [Bug, Report, Fehler, Melden, Support, Hilfe]
 ---
 
 # 🐛🚩 | Bug-Report einsenden

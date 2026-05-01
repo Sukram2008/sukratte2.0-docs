@@ -1,6 +1,7 @@
 ---
 title: Partner Giveaway
 description: Startet ein Giveaway mit einem Partner
+keywords: [Giveaway, Partner, Gewinnspiel, Kooperation, Verlosung, Geschenk]
 ---
 
 # 🤝🎁 | Partner Giveaway

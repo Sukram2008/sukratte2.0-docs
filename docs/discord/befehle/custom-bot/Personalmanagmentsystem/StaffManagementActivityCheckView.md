@@ -1,6 +1,7 @@
 ---
 title: Status der Überprüfung
 description: Zeigt den aktuellen Fortschritt der laufenden Aktivitätsüberprüfung an
+keywords: [Staff-Management, Activity-Check, View, Status, Fortschritt, Übersicht]
 ---
 
 # 🔍🎭 | Status der Überprüfung

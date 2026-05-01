@@ -1,6 +1,7 @@
 ---
 title: Whitelist anzeigen
 description: Listet alle Nutzer auf der Whitelist auf
+keywords: [Ping-Protection, Whitelist, Liste, Anzeigen, Erlaubnis, Schutz]
 ---
 
 # 🛡️⚪ | Whitelist anzeigen

@@ -1,6 +1,7 @@
 ---
 title: Bestenliste
 description: Zeigt die aktivsten Nutzer des Servers an
+keywords: [Leaderboard, Bestenliste, Ranking, Top, Level, Aktivität]
 ---
 
 # 🏆📈 | Bestenliste

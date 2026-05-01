@@ -1,6 +1,7 @@
 ---
 title: Custom Rolle erstellen/editieren
 description: Erstelle oder bearbeite deine persönliche Rolle
+keywords: [Color-me, Manage, Rolle, Erstellen, Editieren, Farbe, Icon, Booster, Level-100]
 ---
 
 # 🛠️✏️ | Erstelle oder editiere deine Custom Rolle

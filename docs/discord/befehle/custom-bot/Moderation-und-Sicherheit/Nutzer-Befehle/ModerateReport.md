@@ -1,6 +1,7 @@
 ---
 title: Nutzer melden
 description: Meldet einen Nutzer dem Server-Team
+keywords: [Report, Melden, Verstoß, Nutzer, Team, Hilfe]
 ---
 
 # 🚩 | Nutzer melden

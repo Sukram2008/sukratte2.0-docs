@@ -1,6 +1,7 @@
 ---
 title: Aktions-Verlauf
 description: Zeigt den Verlauf der administrativen Aktionen zum Ping-Schutz an
+keywords: [Ping-Protection, Actions-History, Verlauf, Admin, Änderungen, Schutz]
 ---
 
 # 🛡️🛠️ | Aktions-Verlauf
