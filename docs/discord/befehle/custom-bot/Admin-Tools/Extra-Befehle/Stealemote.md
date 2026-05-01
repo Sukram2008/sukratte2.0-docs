@@ -1,6 +1,7 @@
 ---
 title: Emote ausleihen
 description: Leiht einen Emote von einem anderen Server permanent aus
+keywords: [Emote, Stealemote, Emoji, Klauen, Kopieren, Permanent]
 ---
 
 # 🎨📥 | Emote ausleihen

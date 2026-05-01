@@ -1,6 +1,7 @@
 ---
 title: Kanal stummschalten
 description: Deaktiviert die Schreibrechte für einen Nutzer in einem Kanal
+keywords: [Channel-mute, Kanal, Stumm, Moderate, Schreibrechte, Moderation]
 ---
 
 # 🔒 | Kanal stummschalten

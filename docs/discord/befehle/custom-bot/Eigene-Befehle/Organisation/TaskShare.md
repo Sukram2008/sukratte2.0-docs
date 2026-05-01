@@ -1,6 +1,7 @@
 ---
 title: ClickUp Aufgabe teilen
 description: Macht ClickUp-Aufgaben für Nutzer sichtbar
+keywords: [Task, ClickUp, Share, Aufgabe, Projektmanagement, Status]
 ---
 
 # 📋🔗 | ClickUp Aufgabe teilen

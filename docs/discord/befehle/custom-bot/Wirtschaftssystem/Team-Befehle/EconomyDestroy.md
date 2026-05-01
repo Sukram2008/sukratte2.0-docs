@@ -1,6 +1,7 @@
 ---
 title: Wirtschaft zurücksetzen
 description: Lösche alle Wirtschaftsdaten
+keywords: [Economy, Destroy, Reset, Zurücksetzen, Datenbank, Wipe]
 ---
 
 # 🧨⚠️ | Wirtschaft zurücksetzen

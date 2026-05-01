@@ -1,6 +1,7 @@
 ---
 title: Stummschaltung aufheben
 description: Hebt die Stummschaltung eines Nutzers auf
+keywords: [Unmute, Entmuten, Moderate, Aufheben, Kommunikation, Moderation]
 ---
 
 # 🔊 | Stummschaltung aufheben

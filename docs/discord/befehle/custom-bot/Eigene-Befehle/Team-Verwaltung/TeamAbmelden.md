@@ -1,6 +1,7 @@
 ---
 title: Team abmelden
 description: Meldet ein Teammitglied vorübergehend ab
+keywords: [Abmelden, Urlaub, Abwesenheit, Team, Pause, LOA]
 ---
 
 # 🏃‍♂️💨 | Team abmelden

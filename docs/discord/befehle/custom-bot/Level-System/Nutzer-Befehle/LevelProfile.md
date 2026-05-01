@@ -1,6 +1,7 @@
 ---
 title: Profil
 description: Sieh dir dein Level-Profil oder das eines anderen Nutzers an
+keywords: [Profile, Profil, Rank, Rang, XP, Karte]
 ---
 
 # 👤📊 | Profil

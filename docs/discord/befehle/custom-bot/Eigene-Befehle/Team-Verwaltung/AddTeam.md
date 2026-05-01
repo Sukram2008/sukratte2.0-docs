@@ -1,6 +1,7 @@
 ---
 title: Team-Mitglied hinzufügen
 description: Fügt einem Nutzer eine Team-Rolle hinzu
+keywords: [Add-Team, Mitglied, Aufnahme, Team, Rolle, Admin]
 ---
 
 # ➕👥 | Team-Mitglied hinzufügen

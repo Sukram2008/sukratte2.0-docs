@@ -1,6 +1,7 @@
 ---
 title: LOA Liste
 description: Zeigt eine Übersicht aller aktuell abwesenden Teammitglieder.
+keywords: [Staff-Status, LOA, Abwesenheit, Liste, Übersicht, Personalplanung]
 ---
 
 # 📋🎭 | LOA Liste

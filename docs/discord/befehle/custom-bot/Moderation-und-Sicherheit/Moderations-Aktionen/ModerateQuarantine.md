@@ -1,6 +1,7 @@
 ---
 title: Quarantäne verhängen
 description: Versetzt einen Nutzer in Quarantäne
+keywords: [Quarantine, Quarantäne, Isoliert, Moderate, Isolation, Moderation]
 ---
 
 # ☣️ | Quarantäne verhängen

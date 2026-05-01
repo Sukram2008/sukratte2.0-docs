@@ -1,6 +1,7 @@
 ---
 title: AFK-Sitzung starten
 description: Startet eine neue AFK-Sitzung
+keywords: [AFK, Start, Abwesend, Status, Reason, Auto-end]
 ---
 
 # 💤🏁 | AFK-Sitzung starten

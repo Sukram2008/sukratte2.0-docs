@@ -1,6 +1,7 @@
 ---
 title: Bot-Systeme neu laden
 description: Aktualisiert die Module und Einstellungen des Bots
+keywords: [Reload, Reboot, Refresh, Bot, Admin, System]
 ---
 
 # 🔄⚙️ | Bot-Systeme neu laden

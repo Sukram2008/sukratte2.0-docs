@@ -1,6 +1,7 @@
 ---
 title: Nutzer kicken
 description: Wirft ein Mitglied vom Server
+keywords: [Kick, Kicken, Rauswurf, Moderate, Mitglied, Moderation]
 ---
 
 # 👢 | Nutzer kicken

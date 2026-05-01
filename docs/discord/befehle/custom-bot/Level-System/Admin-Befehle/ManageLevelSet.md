@@ -1,6 +1,7 @@
 ---
 title: Level setzen
 description: Setzt das Level eines Benutzers auf einen bestimmten Wert
+keywords: [Level, Setzen, Set, Edit, Management, Rang]
 ---
 
 # ⚙️🆙 | Level setzen

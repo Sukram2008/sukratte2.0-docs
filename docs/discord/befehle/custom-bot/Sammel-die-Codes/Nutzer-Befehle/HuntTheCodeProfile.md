@@ -1,6 +1,7 @@
 ---
 title: Profil anzeigen
 description: Zeigt dein aktuelles Event-Profil und deine Fortschritte an
+keywords: [Hunt-the-Code, Profile, Profil, Fortschritt, Punkte, Member]
 ---
 
 # 👤🔍 | Profil anzeigen

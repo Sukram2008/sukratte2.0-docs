@@ -1,6 +1,7 @@
 ---
 title: Server-Lockdown
 description: Aktiviert oder deaktiviert den Lockdown-Modus
+keywords: [Lockdown, Sicherheit, Raid, Sperren, Server, Moderate]
 ---
 
 # 🚨 | Server-Lockdown

@@ -1,6 +1,7 @@
 ---
 title: Custom Rolle entfernen
 description: Löscht deine persönliche Rolle
+keywords: [Color-me, Remove, Rolle, Löschen, Custom-Role, Booster, Level-100]
 ---
 
 # 🗑️👋 | Entferne deine Custom Rolle

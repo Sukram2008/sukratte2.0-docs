@@ -1,6 +1,7 @@
 ---
 title: Nutzer warnen
 description: Erteilt einem Nutzer eine Verwarnung
+keywords: [Warn, Verwarnung, Warnen, Moderate, Strafe, Moderation]
 ---
 
 # ⚠️ | Nutzer warnen

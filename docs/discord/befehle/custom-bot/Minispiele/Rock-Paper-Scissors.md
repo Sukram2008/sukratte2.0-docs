@@ -1,6 +1,7 @@
 ---
 title: Schere, Stein, Papier
 description: Spiele eine Runde Schere, Stein, Papier gegen ein anderes Mitglied oder den Bot
+keywords: [Rock-Paper-Scissors, Schere Stein Papier, Minigame, Spiel, Zufall, Fun]
 ---
 
 # ✂️📄 | Minispiele: rock-paper-scissors

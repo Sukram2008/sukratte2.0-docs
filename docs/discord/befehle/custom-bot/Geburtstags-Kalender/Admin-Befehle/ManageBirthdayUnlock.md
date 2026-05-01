@@ -1,6 +1,7 @@
 ---
 title: Geburtstag entsperren
 description: Hebt die Sperre eines Geburtstagseintrags auf
+keywords: [Birthday, Unlock, Entsperren, Geburtstag, Bearbeiten, Admin]
 ---
 
 # 🔓✅ | Geburtstag entsperren

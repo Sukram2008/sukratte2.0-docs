@@ -1,6 +1,7 @@
 ---
 title: Geld entfernen
 description: Ziehe einem Nutzer Geld ab
+keywords: [Economy, Remove, Abziehen, Strafe, Korrektur, Admin]
 ---
 
 # ➖💸 | Geld entfernen

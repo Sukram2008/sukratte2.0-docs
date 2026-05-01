@@ -1,6 +1,7 @@
 ---
 title: Bewerbung einsenden
 description: Starte den Bewerbungsprozess für eine Teamrolle
+keywords: [Bewerbung, Apply, Team, Recruitment, DM, Formular]
 ---
 
 # 📝📩 | Bewerbung einsenden

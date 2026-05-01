@@ -1,6 +1,7 @@
 ---
 title: Aktive Schachspiele
 description: Zeigt deine laufenden Partien an
+keywords: [Chess, Schach, Games, Aktiv, Partien, Minigame]
 ---
 
 # ♟️📱 | Aktive Schachspiele

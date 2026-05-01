@@ -1,6 +1,7 @@
 ---
 title: Kanal sperren
 description: Sperrt den Schreibzugriff für einen Kanal
+keywords: [Lock, Sperren, Kanal, Channel, Moderate, Ruhe]
 ---
 
 # 🔒 | Kanal sperren

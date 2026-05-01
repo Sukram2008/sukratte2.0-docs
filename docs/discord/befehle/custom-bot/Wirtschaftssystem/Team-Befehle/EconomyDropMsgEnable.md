@@ -1,6 +1,7 @@
 ---
 title: Aktiviere Nachrichten-Drops
 description: Geldregen durch Chat-Aktivität verwalten
+keywords: [Economy, Drops, Chat-Geld, Enable, Aktivieren, Belohnung]
 ---
 
 # 🌦️💰 | Aktiviere Nachrichten-Drops

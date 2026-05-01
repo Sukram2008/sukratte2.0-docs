@@ -1,6 +1,7 @@
 ---
 title: Channel bearbeiten
 description: Bearbeite die Einstellungen deines temporären Channels
+keywords: [Temp-Channel, Edit, Bearbeiten, Name, Limit, Bitrate, NSFW]
 ---
 
 # ⚙️📝 | Temporären Kanal bearbeiten

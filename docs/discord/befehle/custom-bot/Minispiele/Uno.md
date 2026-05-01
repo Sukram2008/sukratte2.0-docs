@@ -1,6 +1,7 @@
 ---
 title: UNO
 description: Starte eine Runde des klassischen Kartenspiels UNO
+keywords: [UNO, Kartenspiel, Minigame, Spiel, Fun, Karten]
 ---
 
 # 🃏🎮 | Spiele: uno

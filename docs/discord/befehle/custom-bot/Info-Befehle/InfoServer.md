@@ -1,6 +1,7 @@
 ---
 title: Server Info
 description: Weitere Informationen zu diesem Server finden
+keywords: [Server, Info, Statistik, Übersicht, Mitglieder, Details]
 ---
 
 # 🛡️📊 | Server Info

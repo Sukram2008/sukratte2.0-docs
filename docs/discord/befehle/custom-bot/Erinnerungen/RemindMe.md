@@ -1,6 +1,7 @@
 ---
 title: Erinnerung erstellen
 description: Erstelle eine persönliche Erinnerung für dich
+keywords: [Reminder, Erinnerung, Remind, Zeit, Wecker, Benachrichtigung]
 ---
 
 # ⏰🔔 | Erinnerung erstellen

@@ -1,6 +1,7 @@
 ---
 title: Umfragen & Abstimmungen
 description: So kannst du bei unseren Community-Umfragen mitmischen!
+keywords: [Poll, Info, Abstimmung, Guide, Teilnahme, Community]
 ---
 
 # 📊 Deine Stimme zählt!

@@ -1,6 +1,7 @@
 ---
 title: Partner hinzufügen
 description: Fügt einen neuen Partner zum System hinzu
+keywords: [Partner, Add, Hinzufügen, Registrieren, Neu, Management]
 ---
 
 # 🤝➕ | Partner hinzufügen

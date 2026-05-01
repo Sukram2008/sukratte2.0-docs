@@ -1,6 +1,7 @@
 ---
 title: Geburtstag sperren
 description: Verhindert, dass ein Nutzer seinen Geburtstag ändert
+keywords: [Birthday, Lock, Sperren, Geburtstag, Schutz, Admin]
 ---
 
 # 🔒🎂 | Geburtstag sperren

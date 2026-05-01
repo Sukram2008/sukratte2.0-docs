@@ -1,6 +1,7 @@
 ---
 title: Nutzer bannen
 description: Bannt ein Mitglied vom Server
+keywords: [Ban, Bannen, Sperre, Moderate, Ausschluss, Moderation]
 ---
 
 # 🔨 | Nutzer bannen

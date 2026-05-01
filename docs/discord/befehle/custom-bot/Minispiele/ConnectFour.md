@@ -1,6 +1,7 @@
 ---
 title: Vier gewinnt
 description: Fordere ein anderes Mitglied zu einer Runde Vier gewinnt heraus
+keywords: [Connect-Four, Vier gewinnt, Minigame, Spiel, Strategie, Fun]
 ---
 
 # 🔴🔵 | Minispiele: Vier gewinnt

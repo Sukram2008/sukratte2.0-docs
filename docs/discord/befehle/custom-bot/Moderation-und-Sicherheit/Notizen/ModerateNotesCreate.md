@@ -1,6 +1,7 @@
 ---
 title: Notiz erstellen
 description: Erstelle eine neue Notiz zu einem Nutzer
+keywords: [Notes, Notiz, Create, Erstellen, Nutzer, Moderate]
 ---
 
 # 📝 | Notiz erstellen

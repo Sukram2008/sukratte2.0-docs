@@ -1,6 +1,7 @@
 ---
 title: Kategorie zuweisen
 description: Setzt die Kategorie eines Kanals
+keywords: [Kategorie, Category, Channel, Admin, Zuweisen, Kanal]
 ---
 
 # 📂📌 | Kategorie zuweisen

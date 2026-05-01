@@ -1,6 +1,7 @@
 ---
 title: Bot-Status ändern
 description: Ändert den globalen Status des Bots
+keywords: [Bot, Status, Presence, Activity, Online, Admin]
 ---
 
 # 🤖✨ | Bot-Status ändern

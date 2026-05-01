@@ -1,6 +1,7 @@
 ---
 title: XP zurücksetzen
 description: Setzt die Erfahrungspunkte (XP) eines Benutzers zurück
+keywords: [XP, Reset, Zurücksetzen, Löschen, Levels, Management]
 ---
 
 # 🔄✨ | XP zurücksetzen

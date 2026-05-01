@@ -1,6 +1,7 @@
 ---
 title: Verbrechen begehen
 description: Versuche durch ein Verbrechen Geld zu verdienen
+keywords: [Economy, Crime, Verbrechen, Risiko, Strafe, Beute]
 ---
 
 # 🔪🏃 | Verbrechen begehen

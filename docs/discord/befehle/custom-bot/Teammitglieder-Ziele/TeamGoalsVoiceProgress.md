@@ -1,6 +1,7 @@
 ---
 title: Team-Ziele Voice
 description: Zeigt den aktuellen Voice-Fortschritt eines Teammitglieds an
+keywords: [Team-Goals, Voice-Progress, Voice, Aktivität, Team, Zeit]
 ---
 
 # 🎙️⏳ | Voice Ziel-Fortschritt abchecken

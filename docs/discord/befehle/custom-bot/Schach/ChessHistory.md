@@ -1,6 +1,7 @@
 ---
 title: Schach Spielverlauf
 description: Sieh dir abgeschlossene Spiele an
+keywords: [Chess, Schach, History, Verlauf, Ergebnisse, Statistik]
 ---
 
 # ♟️📜 | Schach Spielverlauf

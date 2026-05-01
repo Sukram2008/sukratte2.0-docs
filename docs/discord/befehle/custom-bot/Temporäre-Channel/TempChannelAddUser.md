@@ -1,6 +1,7 @@
 ---
 title: Nutzer hinzufügen
 description: Fügt einen Nutzer zu deinem privaten temporären Channel hinzu
+keywords: [Temp-Channel, Add-User, Hinzufügen, Einladen, Zugriff, Kanal]
 ---
 
 # 👤✅ | Nutzer zu temporären Kanal hinzufügen

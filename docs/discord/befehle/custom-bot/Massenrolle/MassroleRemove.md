@@ -1,6 +1,7 @@
 ---
 title: Massenrolle entfernen
 description: Entfernt eine bestimmte Rolle von einer Gruppe von Benutzern
+keywords: [Massrole, Rolle, Entfernen, Remove, Gruppe, Management]
 ---
 
 # ➖🎭 | Massenrolle entfernen

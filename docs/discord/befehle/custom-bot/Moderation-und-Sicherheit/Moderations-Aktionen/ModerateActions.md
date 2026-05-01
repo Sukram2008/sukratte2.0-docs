@@ -1,6 +1,7 @@
 ---
 title: Moderations-Historie
 description: Zeigt alle Moderationsaktionen gegen einen Nutzer an
+keywords: [Actions, Historie, History, Moderate, Verlauf, Moderation]
 ---
 
 # 📜 | Moderations-Historie

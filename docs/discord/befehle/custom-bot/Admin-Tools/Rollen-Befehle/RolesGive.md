@@ -1,6 +1,7 @@
 ---
 title: Rolle zuweisen
 description: Weiße jemandem eine Rolle permanent oder temporär zu
+keywords: [Rollen, Give, Zuweisen, Temporär, Permanent, Duration]
 ---
 
 # 👤➕ | Rolle zuweisen

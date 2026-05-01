@@ -1,6 +1,7 @@
 ---
 title: Rangliste
 description: Zeigt die besten Code-Jäger des Servers an
+keywords: [Hunt-the-Code, Leaderboard, Rangliste, Statistik, Ranking, Member]
 ---
 
 # 🏆📊 | Rangliste

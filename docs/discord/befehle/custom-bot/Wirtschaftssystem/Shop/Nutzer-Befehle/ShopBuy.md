@@ -1,6 +1,7 @@
 ---
 title: Item kaufen
 description: Erwerbe ein Item aus dem Shop
+keywords: [Shop, Buy, Kaufen, Wirtschaft, Items, Rollen]
 ---
 
 # 🛍️💳 | Item kaufen

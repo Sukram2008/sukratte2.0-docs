@@ -1,6 +1,7 @@
 ---
 title: Anstehende Geburtstage
 description: Zeigt anstehende Geburtstage in den nächsten N Tagen
+keywords: [Birthday, Upcoming, Anstehend, Liste, Kalender, Vorschau]
 ---
 
 # 🎂📅 | Anstehende Geburtstage

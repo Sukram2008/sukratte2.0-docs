@@ -1,6 +1,7 @@
 ---
 title: Level hinzufügen
 description: Fügt einem Benutzer Level hinzu
+keywords: [Level, Hinzufügen, Add, Aufstieg, Management, Edit]
 ---
 
 # ➕🆙 | Level hinzufügen

@@ -1,6 +1,7 @@
 ---
 title: Nachrichten löschen
 description: Löscht eine bestimmte Anzahl an Nachrichten
+keywords: [Clear, Löschen, Purge, Moderate, Nachrichten, Kanalreinigung]
 ---
 
 # 🧹 | Nachrichten löschen

@@ -1,6 +1,7 @@
 ---
 title: Nutzer stummschalten
 description: Schaltet einen Nutzer stumm
+keywords: [Mute, Stummschalten, Moderate, Duration, Kommunikation, Moderation]
 ---
 
 # 🔇 | Nutzer stummschalten

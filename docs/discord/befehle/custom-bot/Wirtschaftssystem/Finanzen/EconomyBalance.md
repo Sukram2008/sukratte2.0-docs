@@ -1,6 +1,7 @@
 ---
 title: Kontostand einsehen
 description: Überprüfe dein aktuelles Vermögen
+keywords: [Economy, Balance, Kontostand, Guthaben, Bank, Bargeld]
 ---
 
 # 🏦💳 | Kontostand einsehen

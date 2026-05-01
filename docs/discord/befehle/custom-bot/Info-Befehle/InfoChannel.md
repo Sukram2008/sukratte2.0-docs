@@ -1,6 +1,7 @@
 ---
 title: Channel Info
 description: Weitere Informationen zu einem Kanal auf diesem Server finden
+keywords: [Channel, Info, Kanal, Chat, Informationen, Kategorie]
 ---
 
 # 📺ℹ️ | Channel Info

@@ -1,6 +1,7 @@
 ---
 title: User Info
 description: Finde mehr Informationen über einen Nutzer auf diesem Server heraus
+keywords: [User, Info, Nutzer, Profil, Account, Details]
 ---
 
 # 👤🔍 | User Info

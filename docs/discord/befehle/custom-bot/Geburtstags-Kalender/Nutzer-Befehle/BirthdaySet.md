@@ -1,6 +1,7 @@
 ---
 title: Geburtstag eintragen
 description: Speichere deinen Geburtstag im Kalender
+keywords: [Birthday, Set, Geburtstag, Eintragen, Registrieren, Kalender]
 ---
 
 # 🎂📅 | Geburtstag eintragen

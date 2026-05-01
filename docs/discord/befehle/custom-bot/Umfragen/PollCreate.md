@@ -1,6 +1,7 @@
 ---
 title: Umfrage erstellen
 description: Erstelle eine neue Umfrage mit mehreren Antwortmöglichkeiten
+keywords: [Poll, Create, Umfrage, Erstellen, Abstimmung, Multi-Choice]
 ---
 
 # 📊📝 | Umfrage erstellen

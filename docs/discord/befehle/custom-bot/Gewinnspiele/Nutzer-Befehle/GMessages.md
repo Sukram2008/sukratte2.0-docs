@@ -1,6 +1,7 @@
 ---
 title: Gewinnspiel Nachrichten
 description: Überprüfe deine benötigten Nachrichten für ein Gewinnspiel
+keywords: [Giveaway, Messages, Gewinnspiel, Nachrichten, Check, Anforderungen]
 ---
 
 # ✉️📊 | Gewinnspiel Nachrichten

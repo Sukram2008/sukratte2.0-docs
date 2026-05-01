@@ -1,6 +1,7 @@
 ---
 title: Slap
 description: Gib einem anderen Mitglied eine Schelle
+keywords: [Slap, Schelle, Klatschen, Fun, Interaktion, GIF]
 ---
 
 # 🖐️💥 | Slap

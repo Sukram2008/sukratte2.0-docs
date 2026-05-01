@@ -1,6 +1,7 @@
 ---
 title: Münzwurf
 description: Wirf eine Münze
+keywords: [Coinflip, Münze, Kopf, Zahl, Zufall, Entscheidung]
 ---
 
 # 🪙⚖️ | Münzwurf

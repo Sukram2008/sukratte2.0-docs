@@ -1,6 +1,7 @@
 ---
 title: Duell
 description: Fordere ein anderes Mitglied zu einem strategischen Duell heraus
+keywords: [Duel, Duell, Minigame, Spiel, Strategie, Kampf]
 ---
 
 # ⚔️🏟️ | Minispiele: duel

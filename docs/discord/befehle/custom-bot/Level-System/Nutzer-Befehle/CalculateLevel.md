@@ -1,6 +1,7 @@
 ---
 title: Level Berechnen
 description: Berechnet die benötigten Erfahrungspunkte für ein bestimmtes Level.
+keywords: [Calculate, Berechnen, Level, XP, Rechner, Fortschritt]
 ---
 
 # 🔢 | Level Berechnen

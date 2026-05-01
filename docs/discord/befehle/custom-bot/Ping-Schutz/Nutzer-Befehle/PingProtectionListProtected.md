@@ -1,6 +1,7 @@
 ---
 title: Geschützte Nutzer anzeigen
 description: Listet alle Nutzer mit aktivem Ping-Schutz auf
+keywords: [Ping-Protection, Protected, Geschützt, Übersicht, Nutzer, Schutz]
 ---
 
 # 🛡️🔒 | Geschützte Nutzer anzeigen

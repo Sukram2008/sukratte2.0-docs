@@ -1,6 +1,7 @@
 ---
 title: Vorschlag ablehnen
 description: Lehne einen Vorschlag ab
+keywords: [Suggestion, Decline, Ablehnen, Feedback, Begründung, Status]
 ---
 
 # ❌💡 | Vorschlag ablehnen

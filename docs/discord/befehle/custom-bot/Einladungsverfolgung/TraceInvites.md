@@ -1,6 +1,7 @@
 ---
 title: Einladungen verfolgen
 description: Verfolge die Einladungen eines Nutzers nach
+keywords: [Invite, Trace, Einladungen, Tracker, Werbung, Statistik]
 ---
 
 # 📩🔍 | Einladungen verfolgen

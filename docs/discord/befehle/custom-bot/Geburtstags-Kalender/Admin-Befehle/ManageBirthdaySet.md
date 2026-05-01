@@ -1,6 +1,7 @@
 ---
 title: Nutzer-Geburtstag setzen
 description: Legt den Geburtstag eines Nutzers manuell fest
+keywords: [Birthday, Set, Geburtstag, Admin, Manuell, Eintrag]
 ---
 
 # 🛠️📅 | Nutzer-Geburtstag setzen

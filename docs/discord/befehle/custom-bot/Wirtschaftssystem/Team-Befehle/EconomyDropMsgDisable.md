@@ -1,6 +1,7 @@
 ---
 title: Deaktiviere Nachrichten-Drops
 description: Geldregen durch Chat-Aktivität verwalten
+keywords: [Economy, Drops, Disable, Deaktivieren, Chat-Geld, Stop]
 ---
 
 # 🌦️💰 | Deaktiviere Nachrichten-Drops

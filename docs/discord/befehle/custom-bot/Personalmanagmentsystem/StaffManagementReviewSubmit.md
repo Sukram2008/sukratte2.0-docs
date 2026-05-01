@@ -1,6 +1,7 @@
 ---
 title: Review einreichen
 description: Reicht eine Bewertung für ein Teammitglied ein
+keywords: [Staff-Management, Review, Submit, Bewerten, Feedback, Leistung]
 ---
 
 # ⭐🎭 | Review einreichen

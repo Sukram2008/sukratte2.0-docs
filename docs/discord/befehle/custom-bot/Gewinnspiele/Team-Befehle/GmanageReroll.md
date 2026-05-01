@@ -1,6 +1,7 @@
 ---
 title: Gewinnspiel neu auslosen
 description: Bestimmt neue Gewinner für ein beendetes Gewinnspiel
+keywords: [Giveaway, Reroll, Gewinnspiel, Auslosen, Gewinner, Neu]
 ---
 
 # 🎲🎁 | Gewinnspiel neu auslosen

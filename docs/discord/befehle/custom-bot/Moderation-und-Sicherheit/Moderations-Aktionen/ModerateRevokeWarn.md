@@ -1,6 +1,7 @@
 ---
 title: Warnung zurückziehen
 description: Zieht eine Verwarnung eines Nutzers zurück
+keywords: [Revoke-warn, Warnung, Zurückziehen, Moderate, Warn-ID, Moderation]
 ---
 
 # 🔙⚠️ | Warnung zurückziehen

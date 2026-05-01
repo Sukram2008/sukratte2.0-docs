@@ -1,6 +1,7 @@
 ---
 title: Beförderungsverlauf
 description: Zeigt die Rang-Historie eines Teammitglieds an
+keywords: [Staff-Management, Promotion, History, Verlauf, Rang, Beförderung]
 ---
 
 # 🕒🎭 | Beförderungsverlauf

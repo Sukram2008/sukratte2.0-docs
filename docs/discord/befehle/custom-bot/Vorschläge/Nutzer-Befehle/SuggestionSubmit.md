@@ -1,6 +1,7 @@
 ---
 title: Vorschlag einreichen
 description: Reiche einen Vorschlag ein
+keywords: [Suggestion, Einreichen, Feedback, Community, Ideen, Submit]
 ---
 
 # 💡🆕 | Vorschlag einreichen

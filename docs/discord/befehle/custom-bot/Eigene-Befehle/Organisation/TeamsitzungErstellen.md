@@ -1,6 +1,7 @@
 ---
 title: Teamsitzung erstellen
 description: Erstellt eine neue Teamsitzungsvorlage
+keywords: [Teamsitzung, Meeting, Planung, Protokoll, Termin, Orga]
 ---
 
 # 👥📝 | Teamsitzung erstellen

@@ -1,6 +1,7 @@
 ---
 title: Kanal-Stummschaltung aufheben
 description: Hebt den Channel-Mute für einen Nutzer auf
+keywords: [Remove-channel-mute, Unmute, Kanal, Channel, Moderate, Moderation]
 ---
 
 # 🔊🔒 | Kanal-Stummschaltung aufheben

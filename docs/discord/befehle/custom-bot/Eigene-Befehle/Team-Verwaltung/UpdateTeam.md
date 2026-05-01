@@ -1,6 +1,7 @@
 ---
 title: Team-Mitglied aktualisieren
 description: Ändert die Team-Rolle eines Nutzers
+keywords: [Update-Team, Beförderung, Rolle, Wechsel, Team, Admin]
 ---
 
 # 🔄👥 | Team-Mitglied aktualisieren

@@ -1,6 +1,7 @@
 ---
 title: Item hinzufügen
 description: Erstelle ein neues Item für den Shop
+keywords: [Shop, Add, Hinzufügen, Erstellen, Wirtschaft, Rollen-Shop]
 ---
 
 # ➕🛒 | Item hinzufügen

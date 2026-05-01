@@ -1,6 +1,7 @@
 ---
 title: Notiz löschen
 description: Lösche eine deiner existierenden Notizen zu einem Nutzer
+keywords: [Notes, Notiz, Delete, Löschen, Entfernen, Moderate]
 ---
 
 # 🗑️ | Notiz löschen

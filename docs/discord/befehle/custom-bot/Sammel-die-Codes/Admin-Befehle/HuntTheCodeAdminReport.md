@@ -1,6 +1,7 @@
 ---
 title: Event Bericht
 description: Erstellt eine detaillierte Auswertung des Events für Administratoren
+keywords: [Hunt-the-Code, Admin, Report, Bericht, Statistik, Auswertung]
 ---
 
 # 📋📉 | Event Bericht

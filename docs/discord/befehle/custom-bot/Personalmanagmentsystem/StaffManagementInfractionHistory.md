@@ -1,6 +1,7 @@
 ---
 title: Verstoß-Historie
 description: Zeigt alle bisherigen Verstöße eines Nutzers an
+keywords: [Staff-Management, Infraction, History, Verlauf, Verstöße, Akte]
 ---
 
 # 📜🎭 | Verstoß-Historie

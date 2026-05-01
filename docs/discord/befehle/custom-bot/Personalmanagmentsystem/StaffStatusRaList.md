@@ -1,6 +1,7 @@
 ---
 title: RA Liste
 description: Zeigt eine Übersicht aller Teammitglieder mit reduzierter Aktivität an.
+keywords: [Staff-Status, RA, Liste, Übersicht, Teamleitung, Aktivitätsstatus]
 ---
 
 # 📋📉 | RA Liste
