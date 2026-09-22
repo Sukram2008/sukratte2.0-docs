@@ -2,8 +2,36 @@ const fs = require('fs');
 const path = require('path');
 
 const SOURCE_DIR = './docs/discord/befehle/custom-bot'; 
+const CONTEXT_MENU_DIR = './docs/discord/kontextmenü';
 const NUTZER_DIR = './docs/discord/nutzer-bereich';
 const TEAM_DIR = './docs/discord/team-bereich';
+
+// Kontextmenü-Aktionen werden getrennt von den normalen Custom-Bot Befehlen
+// verarbeitet, damit sie in den Nutzer- und Team-Bereichen automatisch an
+// der passenden Stelle erscheinen.
+const CONTEXT_MENU_RULES = [
+    // Nachrichten-Aktionen
+    { match: 'Nachrichten-Aktionen/ContextCreateReminder.md', target: 'nutzer' },
+    { match: 'Nachrichten-Aktionen/ContextQuoteMessage.md', target: 'nutzer' },
+    { match: 'Nachrichten-Aktionen/ContextReportMessage.md', target: 'nutzer' },
+    { match: 'Nachrichten-Aktionen/ContextViewPollVotes.md', target: 'nutzer' },
+    { match: 'Nachrichten-Aktionen/ContextApproveSuggestion.md', target: 'team' },
+    { match: 'Nachrichten-Aktionen/ContextConvertToSuggestion.md', target: 'team' },
+    { match: 'Nachrichten-Aktionen/ContextDenySuggestion.md', target: 'team' },
+    { match: 'Nachrichten-Aktionen/ContextProtectLastWord.md', target: 'team' },
+    { match: 'Nachrichten-Aktionen/ContextResetAfterMessage.md', target: 'team' },
+
+    // Nutzer-Aktionen
+    { match: 'Nutzer-Aktionen/Aktivitäts-Streak/ContextViewStreak.md', target: 'nutzer' },
+    { match: 'Nutzer-Aktionen/Anonymer-Chat/ContextBlockUser.md', target: 'team' },
+    { match: 'Nutzer-Aktionen/Anonymer-Chat/ContextWarnUser.md', target: 'team' },
+    { match: 'Nutzer-Aktionen/Geburtstags-Kalender/ContextViewBirthday.md', target: 'nutzer' },
+    { match: 'Nutzer-Aktionen/Moderation-und-Sicherheit/ContextBan.md', target: 'team' },
+    { match: 'Nutzer-Aktionen/Moderation-und-Sicherheit/ContextKick.md', target: 'team' },
+    { match: 'Nutzer-Aktionen/Moderation-und-Sicherheit/ContextModHistory.md', target: 'team' },
+    { match: 'Nutzer-Aktionen/Moderation-und-Sicherheit/ContextMute.md', target: 'team' },
+    { match: 'Nutzer-Aktionen/Moderation-und-Sicherheit/ContextReportUser.md', target: 'nutzer' }
+];
 
 const RULES = [
     { match: 'Admin-Tools', target: 'team' },
@@ -75,7 +103,7 @@ function clearDirectory(dir) {
     });
 }
 
-function processFiles(dir, baseDir) {
+function processFiles(dir, baseDir, sourceType = 'custom-bot') {
     const files = fs.readdirSync(dir);
 
     files.forEach(file => {
@@ -84,7 +112,7 @@ function processFiles(dir, baseDir) {
         const stats = fs.statSync(fullPath);
 
         if (stats.isDirectory()) {
-            processFiles(fullPath, baseDir);
+            processFiles(fullPath, baseDir, sourceType);
         } else if (file.endsWith('.md') || file.endsWith('.mdx')) {
             const content = fs.readFileSync(fullPath, 'utf-8');
             
@@ -97,9 +125,10 @@ function processFiles(dir, baseDir) {
             let targetArea = 'team'; // Standardfall
 
             const normalizedPath = relativePath.replace(/\\/g, '/');
+            const activeRules = sourceType === 'context-menu' ? CONTEXT_MENU_RULES : RULES;
             
             // Wir prüfen unsere Regeln gegen den relativen Pfad
-            for (const rule of RULES) {
+            for (const rule of activeRules) {
                 if (normalizedPath.includes(rule.match)) {
                     targetArea = rule.target;
                     break; 
@@ -107,14 +136,28 @@ function processFiles(dir, baseDir) {
             }
 
             const finalBaseDir = targetArea === 'team' ? TEAM_DIR : NUTZER_DIR;
-            const targetFolder = path.join(finalBaseDir, relativePath);
+
+            // Kontextmenü-Proxies bekommen einen eigenen Bereich, damit sie nicht
+            // mit den normalen Custom-Bot Befehlen vermischt werden.
+            const sourceRoot = sourceType === 'context-menu'
+                ? 'Kontextmenü-Aktionen'
+                : relativePath;
+
+            const targetRelativePath = sourceType === 'context-menu'
+                ? path.join(sourceRoot, relativePath)
+                : relativePath;
+
+            const targetFolder = path.join(finalBaseDir, targetRelativePath);
 
             const targetDirPath = path.dirname(targetFolder);
             if (!fs.existsSync(targetDirPath)) fs.mkdirSync(targetDirPath, { recursive: true });
 
-            const depth = relativePath.split(path.sep).length;
+            const depth = targetRelativePath.split(path.sep).length;
             const dots = '../'.repeat(depth);
-            const importPath = `${dots}befehle/custom-bot/${relativePath.replace(/\\/g, '/')}`;
+            const importRoot = sourceType === 'context-menu'
+                ? 'kontextmenü'
+                : 'befehle/custom-bot';
+            const importPath = `${dots}${importRoot}/${relativePath.replace(/\\/g, '/')}`;
 
             const proxyContent = `---
 title: ${title}
@@ -138,5 +181,12 @@ clearDirectory(TEAM_DIR);
 
 console.log('🚀 Präzise Sortierung der Unterordner läuft...');
 processFiles(SOURCE_DIR, SOURCE_DIR);
+
+// Kontextmenü-Aktionen werden separat verarbeitet, bleiben aber trotzdem Teil
+// des automatisch generierten Nutzer-/Team-Bereichs.
+if (fs.existsSync(CONTEXT_MENU_DIR)) {
+    console.log('🖱️ Kontextmenü-Aktionen werden einsortiert...');
+    processFiles(CONTEXT_MENU_DIR, CONTEXT_MENU_DIR, 'context-menu');
+}
 
 console.log('✅ Fertig! Alle Dateien sind in ihren jeweiligen Abteilungen.');
