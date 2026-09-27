@@ -22,3 +22,21 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Sidebar-Kategorien: Pfeil immer rechts neben dem Titel halten */
+.menu__list-item-collapsible {
+  display: flex;
+  align-items: center;
+}
+
+.menu__list-item-collapsible > .menu__link {
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+.menu__list-item-collapsible > .menu__caret {
+  flex-shrink: 0;
+}
