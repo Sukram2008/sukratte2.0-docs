@@ -158,13 +158,13 @@ const RULES = [
     ),
 
     // Eigene Befehle
-    ...rules('nutzer', 'Eigene-Befehle/Fehlermeldungen/BugReport'),
+    ...rules('nutzer', 'Eigene-Befehle/Fehlermeldungen/BugReport.md'),
     ...rules('team',
         'Eigene-Befehle/Team-Verwaltung',
         'Eigene-Befehle/Organisation',
         'Eigene-Befehle/Kommunikation'
-    ),
-    ...rules('nutzer', 'Eigene-Befehle/Support'),
+),
+...rules('nutzer', 'Eigene-Befehle/Support'),
 
     // Personalmanagement
     ...rules('team', 'Personalmanagmentsystem')
