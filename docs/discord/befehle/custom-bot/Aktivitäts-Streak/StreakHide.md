@@ -16,7 +16,7 @@ Versteckt deinen Aktivitäts-Streak von deinem Nicknamen.
 <div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
   <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>👤 Everyone</span>
+    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>👤 | Everyone</span>
   </div>
 </div>
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>

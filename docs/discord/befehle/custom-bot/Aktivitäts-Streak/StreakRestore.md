@@ -16,10 +16,10 @@ Stellt deinen zuletzt verlorenen Aktivitäts-Streak wieder her. Die Wiederherste
 <div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
   <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🏆 Level 100</span>
-    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🏆 Level 90</span>
-    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🏆 Level 80</span>
-    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🚀 Server Booster</span>
+    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🔟0️⃣ | Level 100</span>
+    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>9️⃣0️⃣ | Level 90</span>
+    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>8️⃣0️⃣ | Level 80</span>
+    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🚀 | Server Booster</span>
   </div>
 </div>
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
