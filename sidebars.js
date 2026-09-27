@@ -271,10 +271,10 @@ const sidebars = {
               label: 'Aktivitäts-Streak',
               link: { type: 'generated-index' },
               items: [
-                'discord/team-bereich/Aktivitäts-Streak/StreakHide',
-                'discord/team-bereich/Aktivitäts-Streak/StreakLeaderboard',
-                'discord/team-bereich/Aktivitäts-Streak/StreakRestore',
-                'discord/team-bereich/Aktivitäts-Streak/StreakView',
+                'discord/nutzer-bereich/Aktivitäts-Streak/StreakHide',
+                'discord/nutzer-bereich/Aktivitäts-Streak/StreakLeaderboard',
+                'discord/nutzer-bereich/Aktivitäts-Streak/StreakRestore',
+                'discord/nutzer-bereich/Aktivitäts-Streak/StreakView',
               ],
             },
 
