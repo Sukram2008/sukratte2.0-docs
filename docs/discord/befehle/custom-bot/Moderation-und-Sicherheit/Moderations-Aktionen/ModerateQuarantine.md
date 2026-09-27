@@ -17,6 +17,8 @@ Befehl: **`/moderate quarantine`**
 ### Andere Optionen
 - **`duration:`** [Optional]
   Die Dauer der Quarantäne.
+- **`involved`** [Optional]
+  Verknüpft einen weiteren Nutzer (z. B. Melder oder Zeuge) mit diesem Fall.
 
 :::tip Anmerkung: Dauer
 Wird keine **duration** angegeben, ist die Quarantäne standardmäßig **permanent**.

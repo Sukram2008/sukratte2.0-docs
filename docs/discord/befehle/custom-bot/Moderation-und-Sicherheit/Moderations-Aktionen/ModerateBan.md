@@ -21,6 +21,8 @@ Befehl: **`/moderate ban`**
   Die Dauer des Bans.
 - **`days:`** [Optional]
   Anzahl der Tage, für die Nachrichten gelöscht werden sollen.
+- **`involved`** [Optional]
+  Verknüpft einen weiteren Nutzer (z. B. Melder oder Zeuge) mit diesem Fall.
 
 :::tip Anmerkung: Dauer
 Wird keine **duration** angegeben, ist der Ban standardmäßig **permanent**.

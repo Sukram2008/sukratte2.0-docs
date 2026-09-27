@@ -1,19 +1,19 @@
 ---
-title: Schach Spielverlauf
-description: Sieh dir abgeschlossene Spiele an
-keywords: [Chess, Schach, History, Verlauf, Ergebnisse, Statistik]
+title: Spook
+description: Erschrecke ein anderes Mitglied und stiehl ein paar Süßigkeiten – einmal pro Tag
+keywords: [Spook, Halloween, Erschrecken, Süßigkeiten, Fun]
 ---
 
-# ♟️📜 | Schach Spielverlauf
+# 👻🍬 | Spook
 
-Befehl: **`/chess history`**
+Befehl: **`/spook`**
 
-### Andere Optionen
-- **`user:`** [Optional]
-  Wähle einen spezifischen Benutzer aus, um dessen Historie zu sehen.
+### Erforderliche Optionen
+- **`user:`**
+  Der Nutzer, den du erschrecken möchtest.
 
 ### Beschreibung
-Sieh dir den Verlauf und die Ergebnisse bereits abgeschlossener Schachspiele an.
+Erschrecke ein anderes Mitglied und stiehl dabei ein paar Süßigkeiten. Der Befehl kann einmal pro Tag verwendet werden.
 
 ### Berechtigungen
 
@@ -26,6 +26,6 @@ Sieh dir den Verlauf und die Ergebnisse bereits abgeschlossener Schachspiele an.
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
   <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span style={{backgroundColor: '#6e31e0', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🎮 | minigames</span>
+    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Alle Kanäle</span>
   </div>
 </div>

@@ -17,6 +17,8 @@ Befehl: **`/moderate warn`**
 ### Andere Optionen
 - **`proof:`** [Optional]
   Ein Beweis für die Verwarnung.
+- **`involved`** [Optional]
+  Verknüpft einen weiteren Nutzer (z. B. Melder oder Zeuge) mit diesem Fall.
 
 ### Beschreibung
 Erteilt einem Nutzer eine offizielle Verwarnung.

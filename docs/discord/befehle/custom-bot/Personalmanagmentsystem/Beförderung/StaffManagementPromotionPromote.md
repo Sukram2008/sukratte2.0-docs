@@ -15,7 +15,9 @@ Befehl: **`/staff-management promotion promote`**
   Die neue Position oder Rolle.
 - **`reason:`**
   Die Begründung für die Beförderung.
-- **`channel:`**
+
+### Andere Optionen
+- **`channel:`** [Optional]
   Der Kanal für die Ankündigung.
 
 ### Beschreibung

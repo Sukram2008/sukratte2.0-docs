@@ -1,18 +1,19 @@
 ---
-title: LOA Liste
-description: Zeigt eine Übersicht aller aktuell abwesenden Teammitglieder.
-keywords: [Staff-Status, LOA, Abwesenheit, Liste, Übersicht, Personalplanung]
+title: Staff-Profil bearbeiten
+description: Bearbeitet die Profildaten eines Teammitglieds
+keywords: [Staff-Management, Profile, Edit, Bearbeiten, Teammitglied, Notizen]
 ---
 
-# 📋🎭 | LOA Liste
+# 📝🎭 | Staff-Profil bearbeiten
 
-Befehl: **`/staff-status loa list`**
-
-### Erforderliche Optionen
-- **`filter:`** Filtere nach Status (z.B. Laufend, Beendet, Bevorstehend).
+Befehl: **`/staff-management profile edit`**
 
 ### Beschreibung
-Gibt eine tabellarische Übersicht aus, wer sich aktuell im Leave of Absence befindet. Wichtig für die Personalplanung der Manager.
+Öffnet ein Formular oder Modal, um Profilinformationen wie Zuständigkeiten oder interne Notizen eines Teammitglieds anzupassen.
+
+:::caution Achtung
+Änderungen am Profil sind für alle Teammitglieder mit entsprechenden Berechtigungen sofort sichtbar.
+:::
 
 ### Berechtigungen
 
@@ -31,3 +32,7 @@ Gibt eine tabellarische Übersicht aus, wer sich aktuell im Leave of Absence bef
     <span style={{backgroundColor: '#6e31e0', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Admin-Bereich</span>
   </div>
 </div>
+
+:::info Aufsichts-Recht
+Befehl für die operative Leitung. Erfordert eine der oben genannten Management-Rollen zur erfolgreichen Ausführung.
+:::

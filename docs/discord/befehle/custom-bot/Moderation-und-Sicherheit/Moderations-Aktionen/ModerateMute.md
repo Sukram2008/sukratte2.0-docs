@@ -19,6 +19,8 @@ Befehl: **`/moderate mute`**
 ### Andere Optionen
 - **`proof:`** [Optional]
   Ein Beweis für die Stummschaltung.
+- **`involved`** [Optional]
+  Verknüpft einen weiteren Nutzer (z. B. Melder oder Zeuge) mit diesem Fall.
 
 :::info Anmerkung
 Die Option **duration** ist bei einer Stummschaltung eine Pflichtangabe.

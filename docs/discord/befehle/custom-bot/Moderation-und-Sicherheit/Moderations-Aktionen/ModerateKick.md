@@ -17,6 +17,8 @@ Befehl: **`/moderate kick`**
 ### Andere Optionen
 - **`proof:`** [Optional]
   Ein Beweis für den Kick.
+- **`involved`** [Optional]
+  Verknüpft einen weiteren Nutzer (z. B. Melder oder Zeuge) mit diesem Fall.
 
 ### Beschreibung
 Entfernt ein Mitglied vom Server.

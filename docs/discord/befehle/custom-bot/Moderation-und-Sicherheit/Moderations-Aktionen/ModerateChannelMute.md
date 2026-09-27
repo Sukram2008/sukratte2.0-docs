@@ -17,6 +17,8 @@ Befehl: **`/moderate channel-mute`**
 ### Andere Optionen
 - **`proof:`** [Optional]
   Ein Beweis für die Aktion.
+- **`involved`** [Optional]
+  Verknüpft einen weiteren Nutzer (z. B. Melder oder Zeuge) mit diesem Fall.
 
 :::info Anmerkung: Kanal
 Diese Aktion bezieht sich immer auf den **aktuellen Kanal**, in dem der Befehl ausgeführt wird.

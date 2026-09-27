@@ -34,7 +34,7 @@ Jede Umfrage hat ihre eigenen Regeln, die du direkt in der Nachricht siehst:
 ### ❓ Kurze Antworten auf wichtige Fragen (FAQ)
 
 **Kann ich mehrere Sachen gleichzeitig wählen?**
-- Aktuell gilt: "One Man, One Vote". Du musst dich also für eine einzige Antwort entscheiden.
+- Ja, wenn die Umfrage Mehrfachauswahl erlaubt. Wie viele Optionen du maximal auswählen kannst, hängt von der jeweiligen Umfrage ab und wird bei der Umfrage angezeigt.
 
 **Ich kann nicht mehr abstimmen – warum?**
 - Wahrscheinlich ist die Zeit abgelaufen (prüfe das Enddatum unten in der Nachricht) oder ein Moderator hat die Umfrage vorzeitig beendet.

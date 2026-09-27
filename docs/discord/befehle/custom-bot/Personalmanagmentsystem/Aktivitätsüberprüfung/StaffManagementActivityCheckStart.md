@@ -12,8 +12,8 @@ Befehl: **`/staff-management activity-check start`**
 Dieser Befehl sendet eine globale Nachricht. Alle Teammitglieder müssen reagieren, um ihren Status zu behalten.
 :::
 
-### Erforderliche Optionen
-- **`channel:`** Der Kanal, in dem die Überprüfung gepostet wird.
+### Andere Optionen
+- **`channel:`** Der Kanal, in dem die Überprüfung gepostet wird (Standard ist eingestellt).
 
 ### Berechtigungen
 <div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>

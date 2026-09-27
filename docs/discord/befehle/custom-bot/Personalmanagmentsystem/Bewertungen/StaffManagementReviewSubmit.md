@@ -1,18 +1,23 @@
 ---
-title: RA Details
-description: Sieh dir deinen Status der reduzierten Aktivität an.
-keywords: [Staff-Status, RA, Details, View, Status, Team-Einsicht]
+title: Review einreichen
+description: Reicht eine Bewertung für ein Teammitglied ein
+keywords: [Staff-Management, Review, Submit, Bewerten, Feedback, Leistung]
 ---
 
-# 🔍📉 | RA Details
+# ⭐🎭 | Review einreichen
 
-Befehl: **`/staff-status ra view`**
+Befehl: **`/staff-management review submit`**
 
-### Optionen
-- **`user:`** Den Benutzer, um den RA-Status zu sehen (optional).
+### Erforderliche Optionen
+- **`user:`**
+  Das zu bewertende Teammitglied.
+- **`stars:`**
+  Die Bewertung auf einer Skala von 1 bis 5 Sternen (⭐).
+- **`comment:`**
+  Ein schriftliches Feedback zur erbrachten Leistung.
 
 ### Beschreibung
-Zeigt die Details (Dauer und Grund) einer beantragten reduzierten Aktivität an. Teammitglieder können ihre eigenen Daten einsehen; Manager haben Zugriff auf die Details aller Teammitglieder.
+Ermöglicht es, ein offizielles Feedback für Teammitglieder zu hinterlassen, welches in die interne Leistungsbewertung einfließt.
 
 ### Berechtigungen
 
