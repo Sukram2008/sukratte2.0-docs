@@ -1,23 +1,23 @@
 ---
-title: Geld einzahlen
-description: Bringe dein Bargeld zur Bank
-keywords: [Economy, Deposit, Einzahlen, Bank, Sicherheit, Sparen]
+title: Geld abheben
+description: Hebe Geld von deinem Bankkonto ab
+keywords: [Economy, Withdraw, Abheben, Bank, Bargeld, Geld]
 ---
 
-# 📥🏦 | Geld einzahlen
+# 📤🏦 | Geld abheben
 
-Befehl: **`/economy deposit`**
+Befehl: **`/economy withdraw`**
 
 ### Erforderliche Optionen
 - **`amount:`**
-  Der Betrag, den du auf dein Bankkonto einzahlen möchtest.
+  Der Betrag, den du von deinem Bankkonto abheben möchtest.
 
-  Du kannst **`all`** eingeben, um dein gesamtes verfügbares Bargeld auf dein Bankkonto einzuzahlen.
+  Du kannst **`all`** eingeben, um dein gesamtes verfügbares Bankguthaben abzuheben.
 
 ### Beschreibung
-Verschiebt Bargeld auf dein Bankkonto. Nur auf der Bank ist dein Geld vor Überfällen (`rob`) sicher geschützt.
+Verschiebt Geld von deinem Bankkonto zu deinem Bargeld. Das Geld befindet sich anschließend als Bargeld in deiner Balance und ist damit nicht mehr auf der Bank vor Überfällen (`rob`) geschützt.
 
-Wenn du einen höheren Betrag eingibst, als du als Bargeld besitzt, wird automatisch dein **gesamtes verfügbares Bargeld** eingezahlt.
+Wenn du einen höheren Betrag eingibst, als sich auf deinem Bankkonto befindet, wird automatisch dein **gesamtes verfügbares Bankguthaben** abgehoben.
 
 ### Berechtigungen
 

@@ -1,23 +1,24 @@
 ---
-title: Geld einzahlen
-description: Bringe dein Bargeld zur Bank
-keywords: [Economy, Deposit, Einzahlen, Bank, Sicherheit, Sparen]
+title: Wöchentliche Belohnung
+description: Hole dir deinen wöchentlichen Bonus ab
+keywords: [Economy, Weekly, Belohnung, Bonus, Aktivität, Wöchentlich]
 ---
 
-# 📥🏦 | Geld einzahlen
+# 📅🎁 | Wöchentliche Belohnung
 
-Befehl: **`/economy deposit`**
-
-### Erforderliche Optionen
-- **`amount:`**
-  Der Betrag, den du auf dein Bankkonto einzahlen möchtest.
-
-  Du kannst **`all`** eingeben, um dein gesamtes verfügbares Bargeld auf dein Bankkonto einzuzahlen.
+Befehl: **`/economy weekly`**
 
 ### Beschreibung
-Verschiebt Bargeld auf dein Bankkonto. Nur auf der Bank ist dein Geld vor Überfällen (`rob`) sicher geschützt.
+Hole dir deine wöchentliche Belohnung in Höhe von **100 Coins** ab.
 
-Wenn du einen höheren Betrag eingibst, als du als Bargeld besitzt, wird automatisch dein **gesamtes verfügbares Bargeld** eingezahlt.
+Die Belohnung kann einmal alle **7 Tage** eingelöst werden und wird deinem Bargeld (Hand) gutgeschrieben.
+
+Das Geld befindet sich anschließend als Bargeld in deiner Balance und ist damit nicht durch die Bank vor Überfällen (`rob`) geschützt.
+
+### Belohnung
+- **100 Coins**
+- **Cooldown:** 7 Tage
+- **Auszahlung:** Balance (Bargeld)
 
 ### Berechtigungen
 

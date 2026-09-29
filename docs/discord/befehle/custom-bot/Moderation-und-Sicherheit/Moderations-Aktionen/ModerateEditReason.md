@@ -1,19 +1,21 @@
 ---
-title: Kanal sperren
-description: Sperrt den Schreibzugriff für einen Kanal
-keywords: [Lock, Sperren, Kanal, Channel, Moderate, Ruhe]
+title: Grund einer Moderationsaktion bearbeiten
+description: Ändert den auf einem Moderationsfall gespeicherten Grund
+keywords: [Edit-Reason, Grund, Moderation, Moderationsfall, Moderate]
 ---
 
-# 🔒 | Kanal sperren
+# 📝 | Grund einer Moderationsaktion bearbeiten
 
-Befehl: **`/moderate lock`**
+Befehl: **`/moderate edit-reason`**
 
 ### Erforderliche Optionen
+- **`id:`**
+  Der zu bearbeitende Fall. Die Suche erfolgt über die Fallnummer oder den Nutzer.
 - **`reason:`**
-  Der Grund für die Sperrung des Kanals.
+  Der neue Grund für die Moderationsaktion.
 
 ### Beschreibung
-Sperrt den aktuellen Kanal für die Standard-Rolle.
+Ändert den auf einem Moderationsfall gespeicherten Grund.
 
 ### Berechtigungen
 

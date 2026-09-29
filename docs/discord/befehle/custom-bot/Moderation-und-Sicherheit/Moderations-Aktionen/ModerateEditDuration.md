@@ -1,19 +1,25 @@
 ---
-title: Kanal sperren
-description: Sperrt den Schreibzugriff für einen Kanal
-keywords: [Lock, Sperren, Kanal, Channel, Moderate, Ruhe]
+title: Dauer einer Moderationsaktion bearbeiten
+description: Ändert die Dauer einer aktiven temporären Strafe
+keywords: [Edit-Duration, Dauer, Moderation, Strafe, Moderate, Moderationsfall]
 ---
 
-# 🔒 | Kanal sperren
+# ⏱️ | Dauer einer Moderationsaktion bearbeiten
 
-Befehl: **`/moderate lock`**
+Befehl: **`/moderate edit-duration`**
 
 ### Erforderliche Optionen
-- **`reason:`**
-  Der Grund für die Sperrung des Kanals.
+- **`id:`**
+  Der zu bearbeitende Fall. Die Suche erfolgt über die Fallnummer oder den Nutzer.
+- **`duration:`**
+  Die neue Dauer der Moderationsaktion, z. B. `1h` oder `7d`.
+
+### Andere Optionen
+- **`reason:`** [Optional]
+  Der Grund für die Änderung der Dauer.
 
 ### Beschreibung
-Sperrt den aktuellen Kanal für die Standard-Rolle.
+Ändert die Dauer einer aktiven temporären Moderationsmaßnahme.
 
 ### Berechtigungen
 

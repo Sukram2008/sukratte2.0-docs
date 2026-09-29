@@ -1,19 +1,25 @@
 ---
-title: Kanal sperren
-description: Sperrt den Schreibzugriff für einen Kanal
-keywords: [Lock, Sperren, Kanal, Channel, Moderate, Ruhe]
+title: Beteiligten Nutzer verwalten
+description: Verknüpft einen beteiligten Nutzer mit einem Moderationsfall
+keywords: [Involve, Beteiligter, Nutzer, Moderationsfall, Melder, Zeuge, Moderate, Moderation]
 ---
 
-# 🔒 | Kanal sperren
+# 👥 | Beteiligten Nutzer verwalten
 
-Befehl: **`/moderate lock`**
+Befehl: **`/moderate involve`**
 
 ### Erforderliche Optionen
-- **`reason:`**
-  Der Grund für die Sperrung des Kanals.
+- **`id:`**
+  Der zu aktualisierende Fall. Die Suche erfolgt über die Fallnummer oder den Nutzer.
+- **`user:`**
+  Der beteiligte Nutzer, der mit dem Fall verknüpft oder davon entfernt werden soll.
+
+### Andere Optionen
+- **`remove:`** [Optional]
+  Entfernt den Nutzer vom Fall, statt ihn mit dem Fall zu verknüpfen (True/False).
 
 ### Beschreibung
-Sperrt den aktuellen Kanal für die Standard-Rolle.
+Verknüpft einen beteiligten Nutzer (z. B. Melder, zweiter Täter oder Zeuge) mit einem Moderationsfall.
 
 ### Berechtigungen
 

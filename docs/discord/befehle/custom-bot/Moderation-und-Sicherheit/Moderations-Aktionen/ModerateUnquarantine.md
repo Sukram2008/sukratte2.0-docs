@@ -1,23 +1,35 @@
 ---
-title: Quarantäne aufheben
-description: Hebt die Quarantäne eines Nutzers auf
-keywords: [Unquarantine, Quarantäne beenden, Moderate, Freigabe, Moderation]
+title: Nutzer bannen
+description: Bannt ein Mitglied vom Server
+keywords: [Ban, Bannen, Sperre, Moderate, Ausschluss, Moderation]
 ---
 
-# ❇️ | Quarantäne aufheben
+# 🔨 | Nutzer bannen
 
-Befehl: **`/moderate unquarantine`**
+Befehl: **`/moderate ban`**
 
 ### Erforderliche Optionen
 - **`user:`**
-  Der Nutzer, dessen Quarantäne beendet werden soll.
+  Der Nutzer, der gebannt werden soll.
+- **`reason:`**
+  Der Grund für den Ban.
 
 ### Andere Optionen
-- **`reason:`** [Optional]
-  Der Grund für das Aufheben der Quarantäne.
+- **`proof:`** [Optional]
+  Ein Beweis für die Moderationsaktion.
+- **`duration:`** [Optional]
+  Die Dauer des Bans.
+- **`days:`** [Optional]
+  Anzahl der Tage, für die Nachrichten gelöscht werden sollen.
+- **`involved:`** [Optional]
+  Verknüpft einen weiteren Nutzer (z. B. Melder oder Zeuge) mit diesem Fall.
+
+:::tip Anmerkung: Dauer
+Wird keine **duration** angegeben, ist der Ban standardmäßig **permanent**.
+:::
 
 ### Beschreibung
-Beendet den Quarantäne-Status eines Nutzers.
+Bannt ein Mitglied dauerhaft oder zeitweise vom Server.
 
 ### Berechtigungen
 
@@ -25,15 +37,16 @@ Beendet den Quarantäne-Status eines Nutzers.
   <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
     <span style={{backgroundColor: '#aa3a3a', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>👑 | Owner</span>
-    <span style={{backgroundColor: '#f09a50', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>⚖ | Moderator-Manager</span>
+    <span style={{backgroundColor: '#aa3a3a', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>👑 | AFK Owner</span>
+    <span style={{backgroundColor: '#f09a50', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>⚖️ | Moderator-Manager</span>
+    <span style={{backgroundColor: '#f09a50', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>💼 | Support-Manager</span>
     <span style={{backgroundColor: '#b47735', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>⚡ | Mod+</span>
-    <span style={{backgroundColor: '#db7013', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🛠 | Mod</span>
-    <span style={{backgroundColor: '#e67e22', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🛡 | Junior-Mod</span>
+    <span style={{backgroundColor: '#db7013', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🛡️ | Mod</span>
   </div>
 </div>
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
   <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span style={{backgroundColor: '#6e31e0', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Alle Kanäle</span>
+    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Alle Kanäle</span>
   </div>
 </div>

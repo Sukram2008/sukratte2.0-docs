@@ -16,6 +16,11 @@ Dieser Vorgang ist **unwiderruflich**. Alle Statistiken, Einträge und historisc
 * **`user:`** Der Nutzer, dessen Profildaten gelöscht werden sollen.
 
 ### Berechtigungen
+
+:::info Management-Recht
+Dieser Befehl ist ausschließlich für die Management Roles freigeschaltet. Aktuell ist hierfür der **Owner** berechtigt.
+:::
+
 <div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
   <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
@@ -25,6 +30,6 @@ Dieser Vorgang ist **unwiderruflich**. Alle Statistiken, Einträge und historisc
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
   <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span style={{backgroundColor: '#6e31e0', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Alle Kanäle</span>
+    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Alle Kanäle</span>
   </div>
 </div>

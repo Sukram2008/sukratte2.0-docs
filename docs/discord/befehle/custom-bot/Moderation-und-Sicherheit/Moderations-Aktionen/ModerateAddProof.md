@@ -1,19 +1,27 @@
 ---
-title: Kanal sperren
-description: Sperrt den Schreibzugriff für einen Kanal
-keywords: [Lock, Sperren, Kanal, Channel, Moderate, Ruhe]
+title: Beweise zu Moderationsfall hinzufügen
+description: Fügt einem bestehenden Fall weitere Beweisbilder hinzu
+keywords: [Add-Proof, Beweise, Beweisbilder, Moderation, Moderationsfall, Moderate]
 ---
 
-# 🔒 | Kanal sperren
+# 📎 | Beweise hinzufügen
 
-Befehl: **`/moderate lock`**
+Befehl: **`/moderate add-proof`**
 
 ### Erforderliche Optionen
-- **`reason:`**
-  Der Grund für die Sperrung des Kanals.
+- **`id:`**
+  Der Fall, dem Beweise hinzugefügt werden sollen. Die Suche erfolgt über die Fallnummer oder den Nutzer.
+- **`photo:`**
+  Ein Beweisbild, das dem Fall angehängt wird.
+
+### Andere Optionen
+- **`photo2:`** [Optional]
+  Ein weiteres Beweisbild, das dem Fall angehängt wird.
+- **`photo3:`** [Optional]
+  Ein weiteres Beweisbild, das dem Fall angehängt wird.
 
 ### Beschreibung
-Sperrt den aktuellen Kanal für die Standard-Rolle.
+Fügt einem bestehenden Fall weitere Beweisbilder hinzu.
 
 ### Berechtigungen
 
