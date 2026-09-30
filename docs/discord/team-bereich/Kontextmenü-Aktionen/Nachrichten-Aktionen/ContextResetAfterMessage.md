@@ -1,5 +1,5 @@
 ---
-title: Nachricht melden
+title: "Nachricht melden"
 description: "Meldet eine Nachricht direkt über das Discord-Kontextmenü"
 displayed_sidebar: tutorialSidebar
 hide_title: true

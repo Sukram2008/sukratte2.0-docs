@@ -1,10 +1,10 @@
 ---
-title: LOA Beantragen
+title: "LOA Beantragen"
 description: "Erstellt eine offizielle Abwesenheitsmeldung (Leave of Absence)."
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Personalmanagmentsystem/Abwesenheit/StaffStatusLoaRequest.md';
+import Original from '../../../befehle/custom-bot/Personalmanagmentsystem/Abwesenheit/StaffStatusLoaRequest.md';
 
 <Original />

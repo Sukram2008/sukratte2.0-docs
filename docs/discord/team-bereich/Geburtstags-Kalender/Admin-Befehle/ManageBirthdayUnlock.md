@@ -1,10 +1,10 @@
 ---
-title: Geburtstag entsperren
+title: "Geburtstag entsperren"
 description: "Hebt die Sperre eines Geburtstagseintrags auf"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayUnlock.md';
+import Original from '../../../befehle/custom-bot/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayUnlock.md';
 
 <Original />

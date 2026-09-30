@@ -1,10 +1,10 @@
 ---
-title: Team-Ziele Voice
+title: "Team-Ziele Voice"
 description: "Zeigt den aktuellen Voice-Fortschritt eines Teammitglieds an"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Teammitglieder-Ziele/TeamGoalsVoiceProgress.md';
+import Original from '../../befehle/custom-bot/Teammitglieder-Ziele/TeamGoalsVoiceProgress.md';
 
 <Original />

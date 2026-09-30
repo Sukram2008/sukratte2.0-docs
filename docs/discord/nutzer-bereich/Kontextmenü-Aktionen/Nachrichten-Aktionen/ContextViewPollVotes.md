@@ -1,5 +1,5 @@
 ---
-title: Umfrage-Stimmen anzeigen
+title: "Umfrage-Stimmen anzeigen"
 description: "Zeigt die abgegebenen Stimmen einer Umfrage über das Discord-Kontextmenü"
 displayed_sidebar: tutorialSidebar
 hide_title: true

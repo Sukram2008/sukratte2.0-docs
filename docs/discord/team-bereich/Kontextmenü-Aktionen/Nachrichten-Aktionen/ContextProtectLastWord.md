@@ -1,5 +1,5 @@
 ---
-title: Letztes Wort schützen
+title: "Letztes Wort schützen"
 description: "Schützt das letzte Wort einer Nachricht im Word-Chain-System"
 displayed_sidebar: tutorialSidebar
 hide_title: true

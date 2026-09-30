@@ -1,10 +1,10 @@
 ---
-title: Aktivitätsüberprüfung beenden
+title: "Aktivitätsüberprüfung beenden"
 description: "Schließt die aktuelle Aktivitätsüberprüfung manuell ab"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Personalmanagmentsystem/Aktivitätsüberprüfung/StaffManagementActivityCheckEnd.md';
+import Original from '../../../befehle/custom-bot/Personalmanagmentsystem/Aktivitätsüberprüfung/StaffManagementActivityCheckEnd.md';
 
 <Original />

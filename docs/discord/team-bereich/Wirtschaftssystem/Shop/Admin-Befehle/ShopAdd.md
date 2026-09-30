@@ -1,10 +1,10 @@
 ---
-title: Item hinzufügen
+title: "Item hinzufügen"
 description: "Erstelle ein neues Item für den Shop"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Wirtschaftssystem/Shop/Admin-Befehle/ShopAdd.md';
+import Original from '../../../../befehle/custom-bot/Wirtschaftssystem/Shop/Admin-Befehle/ShopAdd.md';
 
 <Original />

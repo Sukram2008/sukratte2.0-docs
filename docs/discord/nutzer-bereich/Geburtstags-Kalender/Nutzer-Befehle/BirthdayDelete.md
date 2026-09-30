@@ -1,10 +1,10 @@
 ---
-title: Geburtstag löschen
+title: "Geburtstag löschen"
 description: "Entfernt dein Geburtsdatum aus dem System"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete.md';
+import Original from '../../../befehle/custom-bot/Geburtstags-Kalender/Nutzer-Befehle/BirthdayDelete.md';
 
 <Original />

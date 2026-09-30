@@ -1,5 +1,5 @@
 ---
-title: Nutzer bannen
+title: "Nutzer bannen"
 description: "Bannt einen Nutzer direkt über das Discord-Kontextmenü"
 displayed_sidebar: tutorialSidebar
 hide_title: true

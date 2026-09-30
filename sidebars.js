@@ -14,7 +14,10 @@ const sidebars = {
         {
           type: "category",
           label: "Custom-Bot Befehle",
-          link: { type: "generated-index", slug: "/nutzer/custom-bot-befehle" },
+          link: {
+            type: "generated-index",
+            slug: "/nutzer/custom-bot-befehle",
+          },
           items: [
             {
               type: "category",
@@ -22,6 +25,18 @@ const sidebars = {
               link: { type: "generated-index" },
               items: [
                 "discord/nutzer-bereich/Build-In-Commands/Nutzer-Befehle/Help",
+              ],
+            },
+
+            {
+              type: "category",
+              label: "Interne Statistiken",
+              link: { type: "generated-index" },
+              items: [
+                "discord/nutzer-bereich/Build-In-Commands/Nutzer-Befehle/Interne-Statistiken/AnalyticsPrivacyOptIn",
+                "discord/nutzer-bereich/Build-In-Commands/Nutzer-Befehle/Interne-Statistiken/AnalyticsPrivacyOptOut",
+                "discord/nutzer-bereich/Build-In-Commands/Nutzer-Befehle/Interne-Statistiken/MyStats",
+                "discord/nutzer-bereich/Build-In-Commands/Nutzer-Befehle/Interne-Statistiken/ServerStats",
               ],
             },
 
@@ -46,6 +61,18 @@ const sidebars = {
 
             {
               type: "category",
+              label: "Aktivitäts-Streak",
+              link: { type: "generated-index" },
+              items: [
+                "discord/nutzer-bereich/Aktivitäts-Streak/StreakHide",
+                "discord/nutzer-bereich/Aktivitäts-Streak/StreakLeaderboard",
+                "discord/nutzer-bereich/Aktivitäts-Streak/StreakRestore",
+                "discord/nutzer-bereich/Aktivitäts-Streak/StreakView",
+              ],
+            },
+
+            {
+              type: "category",
               label: "Anonymer Chat",
               link: { type: "generated-index" },
               items: [
@@ -57,7 +84,9 @@ const sidebars = {
               type: "category",
               label: "Bewerbungen",
               link: { type: "generated-index" },
-              items: ["discord/nutzer-bereich/Bewerbungen/Apply"],
+              items: [
+                "discord/nutzer-bereich/Bewerbungen/Apply",
+              ],
             },
 
             {
@@ -72,9 +101,20 @@ const sidebars = {
 
             {
               type: "category",
+              label: "Support",
+              link: { type: "generated-index" },
+              items: [
+                "discord/nutzer-bereich/Eigene-Befehle/Support/TerminAnfragen",
+              ],
+            },
+
+            {
+              type: "category",
               label: "Erinnerungen",
               link: { type: "generated-index" },
-              items: ["discord/nutzer-bereich/Erinnerungen/RemindMe"],
+              items: [
+                "discord/nutzer-bereich/Erinnerungen/RemindMe",
+              ],
             },
 
             {
@@ -86,6 +126,7 @@ const sidebars = {
                 "discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunKiss",
                 "discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunPat",
                 "discord/nutzer-bereich/Fun-Befehle/Interaktions-Befehle/FunSlap",
+
                 "discord/nutzer-bereich/Fun-Befehle/Random-Befehle/Random8Ball",
                 "discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomCoinflip",
                 "discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomDice",
@@ -111,7 +152,10 @@ const sidebars = {
               label: "Halloween-Event",
               link: { type: "generated-index" },
               items: [
-                "discord/befehle/custom-bot/Halloween-Event/HalloweenEventInfos",
+                "discord/nutzer-bereich/Halloween-Event/HalloweenEventInfos",
+                "discord/nutzer-bereich/Halloween-Event/Candyshop",
+                "discord/nutzer-bereich/Halloween-Event/Spook",
+                "discord/nutzer-bereich/Halloween-Event/Trickortreat",
               ],
             },
 
@@ -154,9 +198,68 @@ const sidebars = {
               items: [
                 "discord/nutzer-bereich/Minispiele/ConnectFour",
                 "discord/nutzer-bereich/Minispiele/Duel",
-                "discord/nutzer-bereich/Minispiele/Tic-Tac-Toe",
+
+                {
+                  type: "category",
+                  label: "Ein-Wort-Geschichte",
+                  link: { type: "generated-index" },
+                  items: [
+                    "discord/nutzer-bereich/Minispiele/Ein-Wort-Geschichte/WordStoryEnd",
+                    "discord/nutzer-bereich/Minispiele/Ein-Wort-Geschichte/WordStoryFull",
+                    "discord/nutzer-bereich/Minispiele/Ein-Wort-Geschichte/WordStoryNew",
+                    "discord/nutzer-bereich/Minispiele/Ein-Wort-Geschichte/WordStoryStats",
+                    "discord/nutzer-bereich/Minispiele/Ein-Wort-Geschichte/WordStoryStatus",
+                  ],
+                },
+
+                {
+                  type: "category",
+                  label: "Hau-den-Maulwurf",
+                  link: { type: "generated-index" },
+                  items: [
+                    "discord/nutzer-bereich/Minispiele/Hau-den-Maulwurf/HauDenMaulwurfStarten",
+                  ],
+                },
+
                 "discord/nutzer-bereich/Minispiele/Rock-Paper-Scissors",
+
+                {
+                  type: "category",
+                  label: "Schach",
+                  link: { type: "generated-index" },
+                  items: [
+                    "discord/nutzer-bereich/Minispiele/Schach/ChessChallenge",
+                    "discord/nutzer-bereich/Minispiele/Schach/ChessChallengeAI",
+                    "discord/nutzer-bereich/Minispiele/Schach/ChessGames",
+                    "discord/nutzer-bereich/Minispiele/Schach/ChessHistory",
+                  ],
+                },
+
+                "discord/nutzer-bereich/Minispiele/Tic-Tac-Toe",
                 "discord/nutzer-bereich/Minispiele/Uno",
+
+                {
+                  type: "category",
+                  label: "Wortkette",
+                  link: { type: "generated-index" },
+                  items: [
+                    "discord/nutzer-bereich/Minispiele/Wortkette/WordChainReset",
+                    "discord/nutzer-bereich/Minispiele/Wortkette/WordChainStats",
+                    "discord/nutzer-bereich/Minispiele/Wortkette/WordChainStatus",
+                  ],
+                },
+
+                {
+                  type: "category",
+                  label: "Wortsalat",
+                  link: { type: "generated-index" },
+                  items: [
+                    "discord/nutzer-bereich/Minispiele/Wortsalat/WortsalatEinreichen",
+                    "discord/nutzer-bereich/Minispiele/Wortsalat/WortsalatEnde",
+                    "discord/nutzer-bereich/Minispiele/Wortsalat/WortsalatProfil",
+                    "discord/nutzer-bereich/Minispiele/Wortsalat/WortsalatStart",
+                  ],
+                },
               ],
             },
 
@@ -192,18 +295,6 @@ const sidebars = {
 
             {
               type: "category",
-              label: "Schach",
-              link: { type: "generated-index" },
-              items: [
-                "discord/nutzer-bereich/Minispiele/Schach/ChessChallenge",
-                "discord/nutzer-bereich/Minispiele/Schach/ChessChallengeAI",
-                "discord/nutzer-bereich/Minispiele/Schach/ChessGames",
-                "discord/nutzer-bereich/Minispiele/Schach/ChessHistory",
-              ],
-            },
-
-            {
-              type: "category",
               label: "Temporäre-Channel",
               link: { type: "generated-index" },
               items: [
@@ -229,21 +320,39 @@ const sidebars = {
               label: "Wirtschaftssystem",
               link: { type: "generated-index" },
               items: [
-                // Finanzen
-                "discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyBalance",
-                "discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyDeposit",
-                "discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyWithdraw",
+                {
+                  type: "category",
+                  label: "Finanzen",
+                  link: { type: "generated-index" },
+                  items: [
+                    "discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyBalance",
+                    "discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyDeposit",
+                    "discord/nutzer-bereich/Wirtschaftssystem/Finanzen/EconomyWithdraw",
+                  ],
+                },
 
-                // Geldquellen
-                "discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyWork",
-                "discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyDaily",
-                "discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyWeekly",
-                "discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyCrime",
-                "discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyRob",
+                {
+                  type: "category",
+                  label: "Geldquellen",
+                  link: { type: "generated-index" },
+                  items: [
+                    "discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyWork",
+                    "discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyDaily",
+                    "discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyWeekly",
+                    "discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyCrime",
+                    "discord/nutzer-bereich/Wirtschaftssystem/Geldquellen/EconomyRob",
+                  ],
+                },
 
-                // Shop
-                "discord/nutzer-bereich/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopList",
-                "discord/nutzer-bereich/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopBuy",
+                {
+                  type: "category",
+                  label: "Shop",
+                  link: { type: "generated-index" },
+                  items: [
+                    "discord/nutzer-bereich/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopList",
+                    "discord/nutzer-bereich/Wirtschaftssystem/Shop/Nutzer-Befehle/ShopBuy",
+                  ],
+                },
               ],
             },
           ],
@@ -299,18 +408,6 @@ const sidebars = {
 
             {
               type: "category",
-              label: "Aktivitäts-Streak",
-              link: { type: "generated-index" },
-              items: [
-                "discord/nutzer-bereich/Aktivitäts-Streak/StreakHide",
-                "discord/nutzer-bereich/Aktivitäts-Streak/StreakLeaderboard",
-                "discord/nutzer-bereich/Aktivitäts-Streak/StreakRestore",
-                "discord/nutzer-bereich/Aktivitäts-Streak/StreakView",
-              ],
-            },
-
-            {
-              type: "category",
               label: "Anonymer Chat",
               link: { type: "generated-index" },
               items: [
@@ -337,14 +434,18 @@ const sidebars = {
               type: "category",
               label: "Betterstatus",
               link: { type: "generated-index" },
-              items: ["discord/team-bereich/Betterstatus/Status"],
+              items: [
+                "discord/team-bereich/Betterstatus/Status",
+              ],
             },
 
             {
               type: "category",
               label: "Einladungsverfolgung",
               link: { type: "generated-index" },
-              items: ["discord/team-bereich/Einladungsverfolgung/TraceInvites"],
+              items: [
+                "discord/team-bereich/Einladungsverfolgung/TraceInvites",
+              ],
             },
 
             {
@@ -424,7 +525,6 @@ const sidebars = {
               label: "Moderation & Sicherheit",
               link: { type: "generated-index" },
               items: [
-                // Moderations-Aktionen
                 "discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateActions",
                 "discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateWarn",
                 "discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateRevokeWarn",
@@ -443,12 +543,10 @@ const sidebars = {
                 "discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateAddProof",
                 "discord/team-bereich/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateInvolve",
 
-                // Kanal-Verwaltung
                 "discord/team-bereich/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLock",
                 "discord/team-bereich/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateUnlock",
                 "discord/team-bereich/Moderation-und-Sicherheit/Kanal-Verwaltung/ModerateLockdown",
 
-                // Notizen
                 "discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesView",
                 "discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesCreate",
                 "discord/team-bereich/Moderation-und-Sicherheit/Notizen/ModerateNotesEdit",
@@ -505,6 +603,7 @@ const sidebars = {
                     "discord/team-bereich/Personalmanagmentsystem/Abwesenheit/StaffStatusLoaView",
                   ],
                 },
+
                 {
                   type: "category",
                   label: "Aktivitätsüberprüfung",
@@ -515,6 +614,7 @@ const sidebars = {
                     "discord/team-bereich/Personalmanagmentsystem/Aktivitätsüberprüfung/StaffManagementActivityCheckView",
                   ],
                 },
+
                 {
                   type: "category",
                   label: "Beförderung",
@@ -524,6 +624,7 @@ const sidebars = {
                     "discord/team-bereich/Personalmanagmentsystem/Beförderung/StaffManagementPromotionPromote",
                   ],
                 },
+
                 {
                   type: "category",
                   label: "Bewertungen",
@@ -533,6 +634,7 @@ const sidebars = {
                     "discord/team-bereich/Personalmanagmentsystem/Bewertungen/StaffManagementReviewSubmit",
                   ],
                 },
+
                 {
                   type: "category",
                   label: "Profil",
@@ -543,6 +645,7 @@ const sidebars = {
                     "discord/team-bereich/Personalmanagmentsystem/Profil/StaffManagementProfileWipe",
                   ],
                 },
+
                 {
                   type: "category",
                   label: "Reduzierte Aktivität",
@@ -554,6 +657,7 @@ const sidebars = {
                     "discord/team-bereich/Personalmanagmentsystem/Reduzierte-Aktivität/StaffStatusRaView",
                   ],
                 },
+
                 {
                   type: "category",
                   label: "Verstöße",
@@ -565,6 +669,7 @@ const sidebars = {
                     "discord/team-bereich/Personalmanagmentsystem/Verstöße/StaffManagementInfractionVoid",
                   ],
                 },
+
                 "discord/team-bereich/Personalmanagmentsystem/StaffManagementPanel",
               ],
             },
@@ -649,6 +754,7 @@ const sidebars = {
                     "discord/team-bereich/Wirtschaftssystem/Shop/Admin-Befehle/ShopDelete",
                   ],
                 },
+
                 {
                   type: "category",
                   label: "Team-Befehle",
@@ -691,7 +797,10 @@ const sidebars = {
     {
       type: "category",
       label: "Alle Befehle",
-      link: { type: "generated-index", slug: "/alle-befehle" },
+      link: {
+        type: "generated-index",
+        slug: "/alle-befehle",
+      },
       collapsed: true,
       items: [
         {

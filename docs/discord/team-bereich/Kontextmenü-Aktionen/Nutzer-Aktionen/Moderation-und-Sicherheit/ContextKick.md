@@ -1,5 +1,5 @@
 ---
-title: Nutzer kicken
+title: "Nutzer kicken"
 description: "Entfernt einen Nutzer direkt über das Discord-Kontextmenü vom Server"
 displayed_sidebar: tutorialSidebar
 hide_title: true
