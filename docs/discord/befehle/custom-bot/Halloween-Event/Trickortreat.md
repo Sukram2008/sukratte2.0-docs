@@ -9,6 +9,7 @@ keywords: [Trick or Treat, Halloween, Süßigkeiten, Halloween-Event, Fun]
 Befehl: **`/trickortreat`**
 
 ### Beschreibung
+
 Zieh los für Süßes oder Saures und sammle Süßigkeiten. Der Befehl kann einmal pro Tag verwendet werden.
 
 ### Berechtigungen

@@ -9,14 +9,17 @@ keywords: [Unban, Entbannen, Aufheben, Moderate, Nutzer-ID, Moderation]
 Befehl: **`/moderate unban`**
 
 ### Erforderliche Optionen
+
 - **`id:`**
   Die ID des Nutzers, der entbannt werden soll.
 
 ### Andere Optionen
+
 - **`reason:`** [Optional]
   Der Grund für die Entbannung.
 
 ### Beschreibung
+
 Hebt die Sperre eines Nutzers auf.
 
 ### Berechtigungen

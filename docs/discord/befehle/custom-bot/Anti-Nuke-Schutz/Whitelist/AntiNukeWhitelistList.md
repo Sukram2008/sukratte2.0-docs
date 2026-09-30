@@ -9,6 +9,7 @@ keywords: [Anti-Nuke, Whitelist, Liste, Sicherheit]
 Befehl: **`/anti-nuke whitelist list`**
 
 ### Beschreibung
+
 Zeigt die aktuell eingetragenen Nutzer der Anti-Nuke-Whitelist an.
 
 ### Berechtigungen

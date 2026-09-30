@@ -9,12 +9,14 @@ keywords: [Economy, Remove, Abziehen, Strafe, Korrektur, Admin]
 Befehl: **`/economy remove`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, dem Geld abgezogen werden soll.
 - **`amount:`**
   Der Betrag, der entfernt werden soll.
 
 ### Beschreibung
+
 Zieht einem Nutzer einen bestimmten Betrag von seinem Guthaben ab.
 
 :::warning Achtung: Unfairness-Gefahr

@@ -9,14 +9,17 @@ keywords: [Anonym, Sperren, Disable, Moderation, Display-Name, Ban]
 Befehl: **`/moderate-anonymous-channel disable`**
 
 ### Erforderliche Optionen
+
 - **`display-name`**
   Der Name, welcher im Kanal angezeigt wird.
 
 ### Andere Optionen
+
 - **`reason`** [Optional]
   Grund für die Deaktivierung des Nutzers.
 
 ### Beschreibung
+
 Dieser Befehl entzieht einem Nutzer die Berechtigung, am anonymen Chat teilzunehmen. Über den Anzeigenamen (Display Name) kann der Moderator den Nutzer identifizieren und sperren, ohne dessen echte Identität zu sehen.
 
 ### Berechtigungen

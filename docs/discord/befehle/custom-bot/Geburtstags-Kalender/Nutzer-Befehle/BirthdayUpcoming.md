@@ -9,9 +9,11 @@ keywords: [Birthday, Upcoming, Anstehend, Liste, Kalender, Vorschau]
 Befehl: **`/birthday upcoming`**
 
 ### Andere Optionen
+
 - **`days:`** Wie viele Tage in die Zukunft geschaut werden soll.
 
 ### Beschreibung
+
 Mit diesem Befehl kannst du dir eine Liste aller Teammitglieder oder Nutzer anzeigen lassen, die in einem definierten Zeitraum (Anzahl der Tage) Geburtstag haben.
 
 ### Berechtigungen

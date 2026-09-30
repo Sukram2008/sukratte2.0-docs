@@ -9,6 +9,7 @@ keywords: [Birthday, Set, Geburtstag, Admin, Manuell, Eintrag]
 Befehl: **`/manage-birthday set`**
 
 ### Erforderliche Optionen
+
 - **`user`**
   Der Nutzer, dessen Geburtstag festgelegt werden soll.
 - **`day`**
@@ -17,10 +18,12 @@ Befehl: **`/manage-birthday set`**
   Der Monat des Geburtstags.
 
 ### Andere Optionen
+
 - **`year`** [Optional]
   Das Jahr des Geburtstags.
 
 ### Beschreibung
+
 Ermöglicht es Administratoren, den Geburtstag eines Nutzers manuell im System festzulegen oder zu korrigieren.
 
 ### Berechtigungen

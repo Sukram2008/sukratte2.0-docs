@@ -9,6 +9,7 @@ keywords: [Wortgeschichte, Word Story, Geschichte, Full, Minigame, Spiel]
 Befehl: **`/word-story full`**
 
 ### Beschreibung
+
 Zeigt die vollständige Geschichte der aktuellen Runde an.
 
 ### Berechtigungen

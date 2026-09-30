@@ -9,6 +9,7 @@ keywords: [Serverstats, Serverstatistiken, Statistiken, Statistik-System]
 Befehl: **`/serverstats`**
 
 ### Beschreibung
+
 Zeigt die aktuellen Statistiken des Servers an.
 
 ### Berechtigungen

@@ -9,18 +9,21 @@ keywords: [Kick, Kicken, Rauswurf, Moderate, Mitglied, Moderation]
 Befehl: **`/moderate kick`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, der vom Server geworfen werden soll.
 - **`reason:`**
   Der Grund für den Kick.
 
 ### Andere Optionen
+
 - **`proof:`** [Optional]
   Ein Beweis für den Kick.
 - **`involved:`** [Optional]
   Verknüpft einen weiteren Nutzer (z. B. Melder oder Zeuge) mit diesem Fall.
 
 ### Beschreibung
+
 Entfernt ein Mitglied vom Server.
 
 ### Berechtigungen

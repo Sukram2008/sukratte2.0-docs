@@ -9,11 +9,14 @@ keywords: [Invite, Trace, Einladungen, Tracker, Werbung, Statistik]
 Befehl: **`/trace-invites`**
 
 ### Erforderliche Optionen
+
 - **`user`**
   Nutzer, dessen Einladungen zu verfolgen sind
 
 ### Beschreibung
+
 Mit diesem Befehl kannst du genau nachvollziehen, welche Mitglieder von einem bestimmten Nutzer auf den Server eingeladen wurden.
+
 - Es zeigt dir eine Liste der geworbenen Mitglieder an.
 - Hilfreich, um aktive Werber zu identifizieren oder Einladungs-Statistiken zu prüfen.
 

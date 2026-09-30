@@ -9,10 +9,12 @@ keywords: [Dice, Würfel, Random, Zufall, Seiten, Zahl]
 Befehl: **`/random dice`**
 
 ### Erforderliche Optionen
+
 - **`sides:`**
   Die Anzahl der Seiten des Würfels.
 
 ### Beschreibung
+
 Würfelt mit einem Würfel der gewählten Seitenzahl.
 
 ### Berechtigungen

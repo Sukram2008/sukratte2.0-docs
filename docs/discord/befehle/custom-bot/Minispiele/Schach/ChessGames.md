@@ -9,6 +9,7 @@ keywords: [Chess, Schach, Games, Aktiv, Partien, Minigame]
 Befehl: **`/chess games`**
 
 ### Beschreibung
+
 Zeigt eine Übersicht aller deiner aktuell laufenden und aktiven Schachspiele an.
 
 ### Berechtigungen

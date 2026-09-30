@@ -9,6 +9,7 @@ keywords: [Anti-Nuke, Status, Sicherheit, Schutz]
 Befehl: **`/anti-nuke status`**
 
 ### Beschreibung
+
 Zeigt den aktuellen Status des Anti-Nuke-Systems an.
 
 ### Berechtigungen

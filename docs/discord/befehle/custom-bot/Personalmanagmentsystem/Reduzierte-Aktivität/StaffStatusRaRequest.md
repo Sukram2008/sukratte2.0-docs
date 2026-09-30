@@ -9,10 +9,12 @@ keywords: [Staff-Status, RA, Beantragen, Reduzierte Aktivität, Request, Team]
 Befehl: **`/staff-status ra request`**
 
 ### Erforderliche Optionen
+
 - **`duration:`** Die Dauer für deine RA (z.B. 3d, 2w, 1m).
 - **`reason:`** Grund für deine RA.
 
 ### Beschreibung
+
 Nutze diesen Befehl, wenn du weiterhin am Teamleben teilnimmst, aber für einen gewissen Zeitraum weniger leisten kannst als üblich. Dies muss im System hinterlegt werden, um deine Aktivitätsstatistik fair zu bewerten.
 
 ### Berechtigungen

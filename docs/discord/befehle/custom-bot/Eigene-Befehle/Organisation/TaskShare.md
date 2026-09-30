@@ -9,6 +9,7 @@ keywords: [Task, ClickUp, Share, Aufgabe, Projektmanagement, Status]
 Befehl: **`/task-share`**
 
 ### Erforderliche Optionen
+
 - **`nachrichten-link`**
   Link zur relevanten Discord-Nachricht.
 - **`aufgaben-link`**
@@ -17,6 +18,7 @@ Befehl: **`/task-share`**
   Der Name/Titel der ClickUp-Aufgabe.
 
 ### Beschreibung
+
 Mit diesem Befehl werden Aufgaben aus ClickUp direkt im Discord visualisiert, damit Nutzer den Status und die Details sehen können, ohne das Tool wechseln zu müssen.
 -# Dies ist ein Eigener Befehl (Custom Command)
 

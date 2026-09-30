@@ -9,12 +9,14 @@ keywords: [Staff-Status, LOA, Abwesenheit, Beantragen, Request, Abmeldung]
 Befehl: **`/staff-status loa request`**
 
 ### Erforderliche Optionen
+
 - **`duration:`**
   Zeitraum der Abwesenheit (z.B. "14 Tage" oder Datum).
 - **`reason:`**
   Grund für die Abwesenheit.
 
 ### Beschreibung
+
 Mit diesem Befehl meldest du dich offiziell ab. Dein Status wird für den Zeitraum im System hinterlegt, damit das Management informiert ist.
 
 ### Berechtigungen

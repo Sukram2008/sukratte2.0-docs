@@ -9,6 +9,7 @@ keywords: [Notes, Notiz, Edit, Bearbeiten, Update, Moderate]
 Befehl: **`/moderate notes edit`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Nutzer, dessen Notiz du bearbeiten möchtest.
 - **`note-id:`**
@@ -17,6 +18,7 @@ Befehl: **`/moderate notes edit`**
   Der neue Inhalt für die Notiz.
 
 ### Beschreibung
+
 Bearbeitet den Inhalt einer bereits existierenden Notiz für einen Benutzer.
 
 ### Berechtigungen

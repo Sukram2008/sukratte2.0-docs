@@ -13,6 +13,7 @@ Alternativer Befehl ist `/staff-status loa request `, aber derzeit nur beim abme
 :::
 
 ### Erforderliche Optionen
+
 - **`abmeldung-von`**
   Startdatum der Abwesenheit
 - **`abmeldung-bis`**
@@ -21,6 +22,7 @@ Alternativer Befehl ist `/staff-status loa request `, aber derzeit nur beim abme
   Erklärung für die Abmeldung (Urlaub, Schule, etc.)
 
 ### Beschreibung
+
 Dient der internen Organisation, um sich offiziell für einen bestimmten Zeitraum vom Teamdienst abzumelden.
 
 ### Berechtigungen

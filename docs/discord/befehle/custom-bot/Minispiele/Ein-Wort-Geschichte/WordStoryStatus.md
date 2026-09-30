@@ -9,6 +9,7 @@ keywords: [Wortgeschichte, Word Story, Status, Minigame, Spiel]
 Befehl: **`/word-story status`**
 
 ### Beschreibung
+
 Zeigt die letzten Wörter und die Gesamtlänge der aktuellen Geschichte an.
 
 ### Berechtigungen

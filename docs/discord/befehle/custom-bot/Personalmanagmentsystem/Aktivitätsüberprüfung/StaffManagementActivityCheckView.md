@@ -1,7 +1,8 @@
 ---
 title: Status der Überprüfung
 description: Zeigt den aktuellen Fortschritt der laufenden Aktivitätsüberprüfung an
-keywords: [Staff-Management, Activity-Check, View, Status, Fortschritt, Übersicht]
+keywords:
+  [Staff-Management, Activity-Check, View, Status, Fortschritt, Übersicht]
 ---
 
 # 🔍🎭 | Status der Überprüfung
@@ -9,6 +10,7 @@ keywords: [Staff-Management, Activity-Check, View, Status, Fortschritt, Übersic
 Befehl: **`/staff-management activity-check view`**
 
 ### Beschreibung
+
 Gibt den aktuellen Status der laufenden Aktivitätsüberprüfung aus. Hier kann eingesehen werden, welche Teammitglieder bereits bestätigt haben und wer noch aussteht.
 
 ### Berechtigungen

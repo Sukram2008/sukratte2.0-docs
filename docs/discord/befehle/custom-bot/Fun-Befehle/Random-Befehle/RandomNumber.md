@@ -9,12 +9,14 @@ keywords: [Zufallszahl, Number, Random, Bereich, Min, Max]
 Befehl: **`/random number`**
 
 ### Andere Optionen
+
 - **`min:`** [Optional]
   Die kleinstmögliche Zahl.
 - **`max:`** [Optional]
   Die größtmögliche Zahl.
 
 ### Beschreibung
+
 Generiert eine zufällige Zahl zwischen dem angegebenen Minimum und Maximum.
 
 ### Berechtigungen

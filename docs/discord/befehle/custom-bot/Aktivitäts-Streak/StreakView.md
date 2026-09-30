@@ -9,10 +9,12 @@ keywords: [Aktivitäts-Streak, Streak, Anzeigen, Nutzer]
 Befehl: **`/streak view`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, dessen Aktivitäts-Streak angezeigt werden soll.
 
 ### Beschreibung
+
 Zeigt den Aktivitäts-Streak eines Nutzers an.
 
 ### Berechtigungen

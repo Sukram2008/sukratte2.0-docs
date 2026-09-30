@@ -9,10 +9,12 @@ keywords: [Color-me, Remove, Rolle, Löschen, Custom-Role, Booster, Level-100]
 Befehl: **`/color-me remove`**
 
 ### Erforderliche Optionen
+
 - **`confirm`**
   Bestätige die Löschung deiner Rolle (**True** = Ja / **False** = Nein)
 
 ### Beschreibung
+
 Mit diesem Befehl kannst du deine persönliche Rolle dauerhaft vom Server entfernen.
 
 - **Vorgang:** Wähle **True**, um die Löschung endgültig zu bestätigen. Wählst du **False**, wird der Vorgang abgebrochen.

@@ -9,10 +9,12 @@ keywords: [Wortgeschichte, Word Story, Minigame, Spiel, Geschichte]
 Befehl: **`/word-story new`**
 
 ### Andere Optionen
+
 - **`opening:`** [Optional]
   Optionales erstes Wort, mit dem die Geschichte beginnt.
 
 ### Beschreibung
+
 Startet eine neue Runde der Wortgeschichte.
 
 ### Berechtigungen

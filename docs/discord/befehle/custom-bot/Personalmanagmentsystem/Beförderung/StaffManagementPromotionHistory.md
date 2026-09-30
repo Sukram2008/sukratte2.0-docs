@@ -9,10 +9,12 @@ keywords: [Staff-Management, Promotion, History, Verlauf, Rang, Beförderung]
 Befehl: **`/staff-management promotion history`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Das Teammitglied, dessen Werdegang abgefragt werden soll.
 
 ### Beschreibung
+
 Zeigt chronologisch alle bisherigen Rangänderungen (Beförderungen und Degradierungen) des Nutzers inklusive Begründungen an.
 
 ### Berechtigungen

@@ -9,12 +9,14 @@ keywords: [Quarantine, Quarantäne, Isoliert, Moderate, Isolation, Moderation]
 Befehl: **`/moderate quarantine`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, der in Quarantäne verschoben werden soll.
 - **`reason:`**
   Der Grund für die Quarantäne.
 
 ### Andere Optionen
+
 - **`duration:`** [Optional]
   Die Dauer der Quarantäne.
 - **`involved:`** [Optional]
@@ -25,6 +27,7 @@ Wird keine **duration** angegeben, ist die Quarantäne standardmäßig **permane
 :::
 
 ### Beschreibung
+
 Isoliert einen Nutzer vom Rest des Servers.
 
 ### Berechtigungen

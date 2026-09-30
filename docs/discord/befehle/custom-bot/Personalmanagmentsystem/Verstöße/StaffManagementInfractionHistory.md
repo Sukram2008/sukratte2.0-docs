@@ -9,10 +9,12 @@ keywords: [Staff-Management, Infraction, History, Verlauf, Verstöße, Akte]
 Befehl: **`/staff-management infraction history`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Den Nutzer, dessen Historie du einsehen möchtest.
 
 ### Beschreibung
+
 Listet alle vergangenen und aktuellen Verstöße, Suspendierungen und Warnungen eines Teammitglieds auf.
 
 ### Berechtigungen

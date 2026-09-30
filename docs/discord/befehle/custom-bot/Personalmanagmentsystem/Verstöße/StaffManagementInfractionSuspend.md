@@ -9,6 +9,7 @@ keywords: [Staff-Management, Infraction, Suspend, Suspendierung, Sperre, Pause]
 Befehl: **`/staff-management infraction suspend`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, der suspendiert werden soll.
 - **`duration:`**
@@ -17,6 +18,7 @@ Befehl: **`/staff-management infraction suspend`**
   Der Grund für die Suspendierung.
 
 ### Beschreibung
+
 Entzieht dem Teammitglied für die angegebene Dauer den Zugriff auf Teambereiche und markiert den Status als suspendiert.
 
 :::info Hinweis

@@ -9,6 +9,7 @@ keywords: [Unlock, Entsperren, Kanal, Channel, Moderate, Schreibrechte]
 Befehl: **`/moderate unlock`**
 
 ### Beschreibung
+
 Hebt die Sperrung des aktuellen Kanals auf und gibt den Schreibzugriff wieder frei.
 
 ### Berechtigungen

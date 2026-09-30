@@ -9,6 +9,7 @@ keywords: [Bot, Status, Presence, Activity, Online, Admin]
 Befehl: **`/status`**
 
 ### Erforderliche Optionen
+
 - **`text`**
   Der anzuzeigende Statustext
 - **`activity-type`**
@@ -17,10 +18,12 @@ Befehl: **`/status`**
   Der Online-Status des Bots (Online, Abwesend, Nicht stören)
 
 ### Andere Optionen
+
 - **`streaming-link`** [Optional]
   Streaming-URL (nur verwendet, wenn Aktivitätstyp Streaming ist)
 
 ### Beschreibung
+
 Mache den Status deines Bots noch besser. Du kannst den Text, die Art der Aktivität und den Online-Zustand des Bots individuell anpassen.
 
 ### Berechtigungen

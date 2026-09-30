@@ -9,6 +9,7 @@ keywords: [Partner, Add, Hinzufügen, Registrieren, Neu, Management]
 Befehl: **`/partner add`**
 
 ### Erforderliche Optionen
+
 - **`name:`**
   Der Name des Partner-Servers.
 - **`category:`**
@@ -19,6 +20,7 @@ Befehl: **`/partner add`**
   Der Einladungslink zum Discord-Server des Partners.
 
 ### Beschreibung
+
 Registriert einen neuen Partner im System mit den grundlegenden Informationen wie Name, Inhaber und Einladungslink.
 
 ### Berechtigungen
@@ -33,6 +35,7 @@ Registriert einen neuen Partner im System mit den grundlegenden Informationen wi
     <span style={{backgroundColor: '#db7013', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🛡️ | Mod</span>
     <span style={{backgroundColor: '#e67e22', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🔨 | Junior-Mod</span>
     <span style={{backgroundColor: '#3498db', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>💬 | Supporter</span>
+</div>
 </div>
 
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>

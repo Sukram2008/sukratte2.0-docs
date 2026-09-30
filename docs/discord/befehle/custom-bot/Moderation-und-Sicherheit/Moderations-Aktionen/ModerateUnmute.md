@@ -9,14 +9,17 @@ keywords: [Unmute, Entstummen, Moderate, Kommunikation, Moderation]
 Befehl: **`/moderate unmute`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, dessen Stummschaltung aufgehoben werden soll.
 
 ### Andere Optionen
+
 - **`reason:`** [Optional]
   Der Grund für das Aufheben der Stummschaltung.
 
 ### Beschreibung
+
 Hebt die bestehende Stummschaltung eines Nutzers auf, sodass dieser wieder normal kommunizieren kann.
 
 ### Berechtigungen

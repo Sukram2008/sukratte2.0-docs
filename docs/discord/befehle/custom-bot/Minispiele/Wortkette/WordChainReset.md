@@ -9,10 +9,12 @@ keywords: [Wortkette, Word Chain, Reset, Minigame, Spiel]
 Befehl: **`/word-chain reset`**
 
 ### Andere Optionen
+
 - **`reason:`** [Optional]
   Optionaler Grund, der in der öffentlichen Reset-Nachricht angezeigt wird.
 
 ### Beschreibung
+
 Setzt die aktuelle Wortkette zurück.
 
 ### Berechtigungen

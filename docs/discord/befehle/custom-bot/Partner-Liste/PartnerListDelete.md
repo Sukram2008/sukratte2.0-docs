@@ -9,10 +9,12 @@ keywords: [Partner, Delete, Löschen, Entfernen, Datenbank, Management]
 Befehl: **`/partner delete`**
 
 ### Erforderliche Optionen
+
 - **`id:`**
   Die eindeutige ID des Partners, der gelöscht werden soll.
 
 ### Beschreibung
+
 Entfernt den angegebenen Partner dauerhaft aus der Datenbank.
 
 ### Berechtigungen
@@ -27,6 +29,7 @@ Entfernt den angegebenen Partner dauerhaft aus der Datenbank.
     <span style={{backgroundColor: '#db7013', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🛡️ | Mod</span>
     <span style={{backgroundColor: '#e67e22', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🔨 | Junior-Mod</span>
     <span style={{backgroundColor: '#3498db', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>💬 | Supporter</span>
+</div>
 </div>
 
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>

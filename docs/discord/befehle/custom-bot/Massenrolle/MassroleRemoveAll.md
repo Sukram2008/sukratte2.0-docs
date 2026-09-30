@@ -9,14 +9,16 @@ keywords: [Massrole, Remove-all, Rollen, Bereinigen, Gruppe, Management]
 Befehl: **`/massrole remove-all`**
 
 ### Andere Optionen
+
 - **`target:`** [Optional]
   Die Zielgruppe, bei der alle Rollen entfernt werden sollen.
-  *Auswahlmöglichkeiten:*
+  _Auswahlmöglichkeiten:_
   - **Alle Mitglieder**
   - **Bots**
   - **Mitglieder (keine Bots)**
 
 ### Beschreibung
+
 Dieser Befehl entfernt restlos alle zugewiesenen Rollen von den Mitgliedern der gewählten Zielgruppe.
 
 ### Berechtigungen

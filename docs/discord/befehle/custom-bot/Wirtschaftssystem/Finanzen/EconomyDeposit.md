@@ -9,12 +9,14 @@ keywords: [Economy, Deposit, Einzahlen, Bank, Sicherheit, Sparen]
 Befehl: **`/economy deposit`**
 
 ### Erforderliche Optionen
+
 - **`amount:`**
   Der Betrag, den du auf dein Bankkonto einzahlen möchtest.
 
   Du kannst **`all`** eingeben, um dein gesamtes verfügbares Bargeld auf dein Bankkonto einzuzahlen.
 
 ### Beschreibung
+
 Verschiebt Bargeld auf dein Bankkonto. Nur auf der Bank ist dein Geld vor Überfällen (`rob`) sicher geschützt.
 
 Wenn du einen höheren Betrag eingibst, als du als Bargeld besitzt, wird automatisch dein **gesamtes verfügbares Bargeld** eingezahlt.

@@ -9,6 +9,7 @@ keywords: [Wortkette, Word Chain, Statistiken, Stats, Minigame, Spiel]
 Befehl: **`/word-chain stats`**
 
 ### Beschreibung
+
 Zeigt die Top-Beitragenden der aktuellen Wortkette sowie die längste erreichte Kette an.
 
 ### Berechtigungen

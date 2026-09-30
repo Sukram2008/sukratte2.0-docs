@@ -9,12 +9,14 @@ keywords: [Economy, Set, Kontostand, Überschreiben, Admin, Management]
 Befehl: **`/economy set`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, dessen Kontostand angepasst werden soll.
 - **`balance:`**
   Der exakte Betrag, den der Nutzer danach besitzen soll.
 
 ### Beschreibung
+
 Setzt das Bankguthaben eines Nutzers auf einen fest definierten Wert.
 
 :::danger Wichtiger Hinweis

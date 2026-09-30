@@ -9,6 +9,7 @@ keywords: [Team-Goals, Progress, Fortschritt, Nachrichten, Team, Statistik]
 Befehl: **`/team-goals progress`**
 
 ### Andere Optionen
+
 - **`user:`** [Optional]
   Der Benutzer, dessen Ziele überprüft werden sollen.
 
@@ -17,6 +18,7 @@ Wenn du beim Feld **`user`** niemanden auswählst, wird dein eigener Fortschritt
 :::
 
 ### Beschreibung
+
 Mit diesem Befehl kannst du einsehen, wie viele der erforderlichen Nachrichten für den aktuellen Zeitraum bereits erreicht wurden.
 
 :::tip Erklärung

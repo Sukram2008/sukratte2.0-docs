@@ -9,12 +9,14 @@ keywords: [Edit-Reason, Grund, Moderation, Moderationsfall, Moderate]
 Befehl: **`/moderate edit-reason`**
 
 ### Erforderliche Optionen
+
 - **`id:`**
   Der zu bearbeitende Fall. Die Suche erfolgt über die Fallnummer oder den Nutzer.
 - **`reason:`**
   Der neue Grund für die Moderationsaktion.
 
 ### Beschreibung
+
 Ändert den auf einem Moderationsfall gespeicherten Grund.
 
 ### Berechtigungen

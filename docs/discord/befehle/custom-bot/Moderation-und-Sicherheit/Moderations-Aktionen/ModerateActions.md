@@ -9,10 +9,12 @@ keywords: [Actions, Historie, History, Moderate, Verlauf, Moderation]
 Befehl: **`/moderate actions`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, dessen Moderations-Historie angezeigt werden soll.
 
 ### Beschreibung
+
 Listet alle vergangenen Moderationsaktionen (Bans, Mutes, Warns etc.) auf, die gegen den gewählten Nutzer verhängt wurden.
 
 ### Berechtigungen

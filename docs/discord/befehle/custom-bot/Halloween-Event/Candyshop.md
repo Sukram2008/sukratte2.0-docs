@@ -9,6 +9,7 @@ keywords: [Candyshop]
 Befehl: **`/candyshop`**
 
 ### Beschreibung
+
 Öffnet die Candyshop-Funktion.
 
 ### Berechtigungen

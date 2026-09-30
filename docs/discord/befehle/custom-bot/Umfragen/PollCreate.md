@@ -9,18 +9,21 @@ keywords: [Poll, Create, Umfrage, Erstellen, Abstimmung, Multi-Choice]
 Befehl: **`/poll create`**
 
 ### Erforderliche Optionen
+
 - **`description:`** Die Frage oder das Thema der Umfrage.
 - **`channel:`** Der Textkanal, in dem die Umfrage veröffentlicht werden soll.
 - **`option1:`** Die erste Antwortmöglichkeit.
 - **`option2:`** Die zweite Antwortmöglichkeit.
 
 ### Andere Optionen
+
 - **`option3`** bis **`option9:`** Zusätzliche Antwortmöglichkeiten (insgesamt bis zu 9).
 - **`duration:`** Legt fest, wie lange die Umfrage aktiv sein soll.
 - **`public:`** Bestimmt, ob die Ergebnisse für alle sichtbar sind.
 - **`max-selections:`** Maximale Anzahl an Auswahlmöglichkeiten pro Person (Standard: 1, 0 = unbegrenzt).
 
 ### Beschreibung
+
 Mit diesem Befehl startest du eine interaktive Umfrage. Die Nutzer können über ein **Drop-Down-Menü** wählen und abstimmen. Der Kanal muss direkt beim Erstellen ausgewählt werden.
 
 ### Berechtigungen

@@ -9,12 +9,14 @@ keywords: [Notes, Notiz, Delete, Löschen, Entfernen, Moderate]
 Befehl: **`/moderate notes delete`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Nutzer, dessen Notiz du löschen möchtest.
 - **`note-id:`**
   Die ID der Notiz, die gelöscht werden soll.
 
 ### Beschreibung
+
 Ermöglicht das dauerhafte Entfernen einer zuvor erstellten Notiz anhand der entsprechenden Notiz-ID.
 
 ### Berechtigungen

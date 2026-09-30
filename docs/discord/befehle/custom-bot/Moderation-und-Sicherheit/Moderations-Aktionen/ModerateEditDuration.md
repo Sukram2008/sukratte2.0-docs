@@ -9,16 +9,19 @@ keywords: [Edit-Duration, Dauer, Moderation, Strafe, Moderate, Moderationsfall]
 Befehl: **`/moderate edit-duration`**
 
 ### Erforderliche Optionen
+
 - **`id:`**
   Der zu bearbeitende Fall. Die Suche erfolgt über die Fallnummer oder den Nutzer.
 - **`duration:`**
   Die neue Dauer der Moderationsaktion, z. B. `1h` oder `7d`.
 
 ### Andere Optionen
+
 - **`reason:`** [Optional]
   Der Grund für die Änderung der Dauer.
 
 ### Beschreibung
+
 Ändert die Dauer einer aktiven temporären Moderationsmaßnahme.
 
 ### Berechtigungen

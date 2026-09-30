@@ -13,7 +13,8 @@ Dieser Vorgang ist **unwiderruflich**. Alle Statistiken, Einträge und historisc
 :::
 
 ### Andere Optionen
-* **`user:`** Der Nutzer, dessen Profildaten gelöscht werden sollen.
+
+- **`user:`** Der Nutzer, dessen Profildaten gelöscht werden sollen.
 
 ### Berechtigungen
 

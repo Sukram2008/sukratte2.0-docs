@@ -9,10 +9,12 @@ keywords: [Staff-Management, Infraction, Void, Verstoß, Aufheben, Ungültig]
 Befehl: **`/staff-management infraction void`**
 
 ### Erforderliche Optionen
+
 - **`reference:`**
   Die Fall-ID oder der Nachrichtenlink des Verstoßes.
 
 ### Beschreibung
+
 Hebt einen bestehenden Verstoß auf und macht ihn ungültig. Der Verstoß wird über seine Fall-ID oder den zugehörigen Nachrichtenlink referenziert.
 
 :::warning Achtung

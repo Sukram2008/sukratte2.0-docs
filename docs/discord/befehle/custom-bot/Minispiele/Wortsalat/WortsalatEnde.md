@@ -9,6 +9,7 @@ keywords: [Wortsalat, Beenden, Minigame, Spiel]
 Befehl: **`/wortsalat ende`**
 
 ### Beschreibung
+
 Beendet die aktuelle Wortsalat-Runde.
 
 ### Berechtigungen

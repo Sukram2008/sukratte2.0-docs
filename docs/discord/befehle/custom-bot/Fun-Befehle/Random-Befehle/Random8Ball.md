@@ -9,10 +9,12 @@ keywords: [8Ball, Orakel, Frage, Antwort, Zufall, Magisch]
 Befehl: **`/random 8ball`**
 
 ### Erforderliche Optionen
+
 - **`question:`**
   Die Frage, die du stellen möchtest.
 
 ### Beschreibung
+
 Stelle dem magischen 8Ball eine Frage und erhalte eine Antwort.
 
 ### Berechtigungen

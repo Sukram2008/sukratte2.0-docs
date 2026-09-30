@@ -13,9 +13,11 @@ Dieser Befehl dient der Wartung und ist nur für die technische Administration v
 :::
 
 ### Beschreibung
-Erzwingt ein Neuladen der Bot-Konfiguration und der Befehls-Module. 
+
+Erzwingt ein Neuladen der Bot-Konfiguration und der Befehls-Module.
+
 - Wird verwendet, um Änderungen an der Datenbank oder an den Berechtigungen sofort wirksam zu machen, ohne den Bot komplett neu zu starten.
--# Dies ist ein Build-In-Command
+  -# Dies ist ein Build-In-Command
 
 ### Berechtigungen
 

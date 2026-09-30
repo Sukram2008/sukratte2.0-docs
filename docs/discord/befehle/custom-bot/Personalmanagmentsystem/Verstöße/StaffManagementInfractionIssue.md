@@ -1,7 +1,8 @@
 ---
 title: Verstoß aussprechen
 description: Spricht einen offiziellen Verstoß gegen ein Teammitglied aus
-keywords: [Staff-Management, Infraction, Issue, Verwarnung, Aussprechen, Sanktion]
+keywords:
+  [Staff-Management, Infraction, Issue, Verwarnung, Aussprechen, Sanktion]
 ---
 
 # ⚠️🎭 | Verstoß aussprechen
@@ -9,19 +10,22 @@ keywords: [Staff-Management, Infraction, Issue, Verwarnung, Aussprechen, Sanktio
 Befehl: **`/staff-management infraction issue`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, der den Verstoß erhält.
 - **`type:`**
   Die Art des Verstoßes.
-  *Auswahl:* Verwarnung, Wird untersucht, Kündigung.
+  _Auswahl:_ Verwarnung, Wird untersucht, Kündigung.
 - **`reason:`**
   Der Grund für den Verstoß.
 
 ### Andere Optionen
+
 - **`expiry:`** [Optional]
   Wann der Verstoß automatisch ablaufen soll.
 
 ### Beschreibung
+
 Registriert einen neuen Verstoß im System. Das Teammitglied wird über die Maßnahme informiert und der Vorfall wird in der Akte vermerkt.
 
 ### Berechtigungen

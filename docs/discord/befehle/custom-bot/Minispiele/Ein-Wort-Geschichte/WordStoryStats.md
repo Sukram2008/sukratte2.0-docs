@@ -9,6 +9,7 @@ keywords: [Wortgeschichte, Word Story, Statistiken, Stats, Minigame, Spiel]
 Befehl: **`/word-story stats`**
 
 ### Beschreibung
+
 Zeigt die Top-Beitragenden der aktuellen Runde der Wortgeschichte an.
 
 ### Berechtigungen

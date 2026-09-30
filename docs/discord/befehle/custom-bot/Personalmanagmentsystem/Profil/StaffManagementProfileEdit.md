@@ -9,6 +9,7 @@ keywords: [Staff-Management, Profile, Edit, Bearbeiten, Teammitglied, Notizen]
 Befehl: **`/staff-management profile edit`**
 
 ### Beschreibung
+
 Öffnet ein Formular oder Modal, um Profilinformationen wie Zuständigkeiten oder interne Notizen eines Teammitglieds anzupassen.
 
 :::caution Achtung

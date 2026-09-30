@@ -9,10 +9,12 @@ keywords: [Ping-Protection, Actions-History, Verlauf, Admin, Änderungen, Schutz
 Befehl: **`/ping-protection user actions-history`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, dessen Aktions-Historie eingesehen werden soll.
 
 ### Beschreibung
+
 Zeigt eine Übersicht aller moderativen Änderungen (z.B. Aktivierung, Deaktivierung oder Whitelist-Änderungen), die am Ping-Schutz des Nutzers vorgenommen wurden.
 
 ### Berechtigungen

@@ -1,7 +1,8 @@
 ---
 title: Beweise zu Moderationsfall hinzufügen
 description: Fügt einem bestehenden Fall weitere Beweisbilder hinzu
-keywords: [Add-Proof, Beweise, Beweisbilder, Moderation, Moderationsfall, Moderate]
+keywords:
+  [Add-Proof, Beweise, Beweisbilder, Moderation, Moderationsfall, Moderate]
 ---
 
 # 📎 | Beweise hinzufügen
@@ -9,18 +10,21 @@ keywords: [Add-Proof, Beweise, Beweisbilder, Moderation, Moderationsfall, Modera
 Befehl: **`/moderate add-proof`**
 
 ### Erforderliche Optionen
+
 - **`id:`**
   Der Fall, dem Beweise hinzugefügt werden sollen. Die Suche erfolgt über die Fallnummer oder den Nutzer.
 - **`photo:`**
   Ein Beweisbild, das dem Fall angehängt wird.
 
 ### Andere Optionen
+
 - **`photo2:`** [Optional]
   Ein weiteres Beweisbild, das dem Fall angehängt wird.
 - **`photo3:`** [Optional]
   Ein weiteres Beweisbild, das dem Fall angehängt wird.
 
 ### Beschreibung
+
 Fügt einem bestehenden Fall weitere Beweisbilder hinzu.
 
 ### Berechtigungen

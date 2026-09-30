@@ -9,6 +9,7 @@ keywords: [Statistiken, Analytics, MyStats, Eigene Statistiken]
 Befehl: **`/mystats`**
 
 ### Beschreibung
+
 Zeigt die eigenen Statistiken an.
 
 ### Berechtigungen

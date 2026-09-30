@@ -9,6 +9,7 @@ keywords: [Staff-Management, Review, Submit, Bewerten, Feedback, Leistung]
 Befehl: **`/staff-management review submit`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Das zu bewertende Teammitglied.
 - **`stars:`**
@@ -17,6 +18,7 @@ Befehl: **`/staff-management review submit`**
   Ein schriftliches Feedback zur erbrachten Leistung.
 
 ### Beschreibung
+
 Ermöglicht es, ein offizielles Feedback für Teammitglieder zu hinterlassen, welches in die interne Leistungsbewertung einfließt.
 
 ### Berechtigungen

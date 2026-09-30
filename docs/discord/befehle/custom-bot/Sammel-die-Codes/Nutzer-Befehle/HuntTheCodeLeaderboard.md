@@ -9,6 +9,7 @@ keywords: [Hunt-the-Code, Leaderboard, Rangliste, Statistik, Ranking, Member]
 Befehl: **`/hunt-the-code leaderboard`**
 
 ### Beschreibung
+
 Ruft die aktuelle Rangliste ab. Hier werden die Nutzer aufgelistet, die bisher die meisten Codes gefunden und eingelöst haben.
 
 ### Berechtigungen

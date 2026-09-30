@@ -9,6 +9,7 @@ keywords: [Ping-Protection, Whitelist, Liste, Anzeigen, Erlaubnis, Schutz]
 Befehl: **`/ping-protection list whitelisted`**
 
 ### Beschreibung
+
 Zeigt eine Liste aller Nutzer an, die die Erlaubnis haben, geschützte Nutzer trotz aktivem Ping-Schutz zu markieren.
 
 ### Berechtigungen

@@ -1,7 +1,18 @@
 ---
 title: Custom Rolle erstellen/editieren
 description: Erstelle oder bearbeite deine persönliche Rolle
-keywords: [Color-me, Manage, Rolle, Erstellen, Editieren, Farbe, Icon, Booster, Level-100]
+keywords:
+  [
+    Color-me,
+    Manage,
+    Rolle,
+    Erstellen,
+    Editieren,
+    Farbe,
+    Icon,
+    Booster,
+    Level-100,
+  ]
 ---
 
 # 🛠️✏️ | Erstelle oder editiere deine Custom Rolle
@@ -9,10 +20,12 @@ keywords: [Color-me, Manage, Rolle, Erstellen, Editieren, Farbe, Icon, Booster, 
 Befehl: **`/color-me manage`**
 
 ### Erforderliche Optionen
+
 - **`name`**
   Der Name deiner Custom Rolle
 
 ### Andere Optionen
+
 - **`color`** [Optional]
   Die neue Farbe deiner Rolle
 - **`icon`** [Optional]
@@ -20,6 +33,7 @@ Befehl: **`/color-me manage`**
 
 :::caution Voraussetzungen & Cooldown
 Um diesen Befehl nutzen zu können, musst du eine der folgenden Bedingungen erfüllen:
+
 - Du bist ein **aktiver Server-Booster**.
 - Du hast mindestens **Level 100** auf dem Server erreicht.
 
@@ -27,12 +41,15 @@ Um diesen Befehl nutzen zu können, musst du eine der folgenden Bedingungen erf�
 :::
 
 :::info Icon-Hinweis
-- Das Zuweisen eines **Icons** funktioniert zusätzlich nur dann, wenn der Server mindestens **Boost-Level 2** erreicht hat. 
+
+- Das Zuweisen eines **Icons** funktioniert zusätzlich nur dann, wenn der Server mindestens **Boost-Level 2** erreicht hat.
 - Die Farbe muss als **HEX-Code** (z. B. `#ff0000`) angegeben werden.
-:::
+  :::
 
 ### Beschreibung
-Fordere eine benutzerdefinierte Rolle als Belohnung für das Boosten des Servers oder das Erreichen von Level 100 an. 
+
+Fordere eine benutzerdefinierte Rolle als Belohnung für das Boosten des Servers oder das Erreichen von Level 100 an.
+
 - Du kannst den Namen, die Farbe und das Icon deiner Rolle frei bestimmen.
 - Besteht bereits eine Custom Rolle für dich, wird diese mit den neuen Werten aktualisiert.
 

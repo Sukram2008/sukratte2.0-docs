@@ -9,6 +9,7 @@ keywords: [Teamsitzung, Meeting, Planung, Protokoll, Termin, Orga]
 Befehl: **`/teamsitzung-erstellen`**
 
 ### Erforderliche Optionen
+
 - **`date`**
   Datum und Uhrzeit der geplanten Sitzung
 - **`topics`**
@@ -21,6 +22,7 @@ Bitte achte beim Datum auf das Format: **DD.MM.YYYY, HH:MM** (Beispiel: 01.05.20
 :::
 
 ### Beschreibung
+
 Bereitet eine neue Teamsitzung vor und erstellt automatisch die entsprechende Ankündigung für das Team.
 
 ### Berechtigungen

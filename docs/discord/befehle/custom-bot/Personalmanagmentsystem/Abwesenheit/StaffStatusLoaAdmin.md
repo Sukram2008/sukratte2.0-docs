@@ -13,6 +13,7 @@ Nur für Korrekturen nutzen, da dieser Befehl bestehende Nutzeranträge übersch
 :::
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Das Teammitglied, dessen LOA bearbeitet werden soll.
 

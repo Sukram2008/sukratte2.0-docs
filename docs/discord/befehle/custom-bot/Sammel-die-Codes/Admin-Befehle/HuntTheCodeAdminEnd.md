@@ -9,6 +9,7 @@ keywords: [Hunt-the-Code, Admin, End, Beenden, Event, Abschluss]
 Befehl: **`/hunt-the-code-admin end`**
 
 ### Beschreibung
+
 Beendet das aktuelle Event sofort. Danach können keine weiteren Codes mehr eingelöst werden und die Rangliste wird finalisiert.
 
 ### Berechtigungen

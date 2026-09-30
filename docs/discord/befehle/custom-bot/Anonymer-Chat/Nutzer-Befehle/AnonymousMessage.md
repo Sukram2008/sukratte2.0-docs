@@ -9,15 +9,18 @@ keywords: [Anonym, Nachricht, Senden, Identity, Reset, Chat]
 Befehl: **`/anonymous-message`**
 
 ### Erforderliche Optionen
+
 - **`message`**
   Das ist die Nachricht, die in den anonymen Kanal geschickt wird.
 
 ### Andere Optionen
+
 - **`reset-identity`** [Optional]
   Wähle **True** zum Bestätigen oder **False** zum Ablehnen der Identitätsrücksetzung.
 
 ### Beschreibung
-Mit diesem Befehl kannst du eine Nachricht in den dafür vorgesehenen anonymen Kanal senden. Niemand auf dem Server wird wissen, dass du der Absender bist. 
+
+Mit diesem Befehl kannst du eine Nachricht in den dafür vorgesehenen anonymen Kanal senden. Niemand auf dem Server wird wissen, dass du der Absender bist.
 
 - **Identität zurücksetzen:** Wenn du deine Identität zurücksetzt, wird dir eine neue interne ID zugewiesen. Dies kann nicht rückgängig gemacht werden.
 - **Bedienung:** Wähle bei der Option einfach **True**, um die Rücksetzung zu bestätigen, oder **False**, um sie abzulehnen.

@@ -9,10 +9,12 @@ keywords: [Economy, Rob, Raub, Stehlen, Diebstahl, Risiko]
 Befehl: **`/economy rob`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, den du bestehlen möchtest.
 
 ### Beschreibung
+
 Mit diesem Befehl versuchst du, einem anderen Spieler sein Bargeld zu klauen. Sollte der Raub scheitern, musst du dem Opfer eine Entschädigung zahlen.
 
 ### Berechtigungen

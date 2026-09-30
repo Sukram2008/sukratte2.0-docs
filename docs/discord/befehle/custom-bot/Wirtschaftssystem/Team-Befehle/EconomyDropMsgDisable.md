@@ -9,6 +9,7 @@ keywords: [Economy, Drops, Disable, Deaktivieren, Chat-Geld, Stop]
 Befehl: **`/economy msg_drop_msg disable`**
 
 ### Beschreibung
+
 Deaktiviert die zufälligen Gelddrops im Chat. Nutzer können dann kein Geld mehr durch Nachrichten finden.
 
 ### Berechtigungen

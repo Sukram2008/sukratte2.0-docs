@@ -9,18 +9,21 @@ keywords: [Massrole, Rolle, Hinzufügen, Add, Gruppe, Management]
 Befehl: **`/massrole add`**
 
 ### Erforderliche Optionen
+
 - **`role:`**
   Die Rolle, die vergeben werden soll.
 
 ### Andere Optionen
+
 - **`target:`** [Optional]
   Die Zielgruppe, welche die Rolle erhalten soll.
-  *Auswahlmöglichkeiten:*
+  _Auswahlmöglichkeiten:_
   - **Alle Mitglieder**
   - **Bots**
   - **Mitglieder (keine Bots)**
 
 ### Beschreibung
+
 Mit diesem Befehl kannst du eine ausgewählte Rolle gleichzeitig an eine definierte Gruppe von Mitgliedern vergeben.
 
 ### Berechtigungen

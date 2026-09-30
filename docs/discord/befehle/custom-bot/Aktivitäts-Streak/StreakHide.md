@@ -9,6 +9,7 @@ keywords: [Aktivitäts-Streak, Streak, Verstecken, Nickname]
 Befehl: **`/streak hide`**
 
 ### Beschreibung
+
 Versteckt deinen Aktivitäts-Streak von deinem Nicknamen.
 
 ### Berechtigungen

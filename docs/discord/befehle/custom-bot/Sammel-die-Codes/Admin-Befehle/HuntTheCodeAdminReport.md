@@ -9,6 +9,7 @@ keywords: [Hunt-the-Code, Admin, Report, Bericht, Statistik, Auswertung]
 Befehl: **`/hunt-the-code-admin report`**
 
 ### Beschreibung
+
 Erstellt eine Übersicht über den aktuellen Status des Events, inklusive der Anzahl der aktiven Codes und einer detaillierten Nutzerstatistik.
 
 ### Berechtigungen

@@ -9,9 +9,11 @@ keywords: [Calculate, Berechnen, Level, XP, Rechner, Fortschritt]
 Befehl: **`/calculate-level`**
 
 ### Erforderliche Optionen
+
 - **`level:`** Das Ziel-Level, für welches die benötigten XP berechnet werden sollen.
 
 ### Beschreibung
+
 Mit diesem Befehl können alle Nutzer schnell kalkulieren, wie viele Erfahrungspunkte (XP) notwendig sind, um ein spezifisches Level zu erreichen. Dies dient der Planung von Level-Aufstiegen innerhalb des Systems.
 
 ### Berechtigungen

@@ -9,10 +9,12 @@ keywords: [Hug, Umarmung, Fun, Interaktion, Liebe, GIF]
 Befehl: **`/hug`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, den du umarmen möchtest.
 
 ### Beschreibung
+
 Sende einem anderen Mitglied eine virtuelle Umarmung (Random GIF).
 
 ### Berechtigungen

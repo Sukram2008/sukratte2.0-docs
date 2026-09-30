@@ -9,6 +9,7 @@ keywords: [Anti-Nuke, Whitelist, Nutzer, Sicherheit]
 Befehl: **`/anti-nuke whitelist add`**
 
 ### Erforderliche Optionen
+
 - **`user`**
   Der Nutzer, der zur Whitelist hinzugefügt werden soll.
 - **`duration`**
@@ -17,6 +18,7 @@ Befehl: **`/anti-nuke whitelist add`**
   Der Grund für den Whitelist-Eintrag.
 
 ### Beschreibung
+
 Fügt einen Nutzer mit einer festgelegten Dauer und einem Grund zur Anti-Nuke-Whitelist hinzu.
 
 ### Berechtigungen

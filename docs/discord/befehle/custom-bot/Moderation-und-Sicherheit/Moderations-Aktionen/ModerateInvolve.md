@@ -1,7 +1,17 @@
 ---
 title: Beteiligten Nutzer verwalten
 description: Verknüpft einen beteiligten Nutzer mit einem Moderationsfall
-keywords: [Involve, Beteiligter, Nutzer, Moderationsfall, Melder, Zeuge, Moderate, Moderation]
+keywords:
+  [
+    Involve,
+    Beteiligter,
+    Nutzer,
+    Moderationsfall,
+    Melder,
+    Zeuge,
+    Moderate,
+    Moderation,
+  ]
 ---
 
 # 👥 | Beteiligten Nutzer verwalten
@@ -9,16 +19,19 @@ keywords: [Involve, Beteiligter, Nutzer, Moderationsfall, Melder, Zeuge, Moderat
 Befehl: **`/moderate involve`**
 
 ### Erforderliche Optionen
+
 - **`id:`**
   Der zu aktualisierende Fall. Die Suche erfolgt über die Fallnummer oder den Nutzer.
 - **`user:`**
   Der beteiligte Nutzer, der mit dem Fall verknüpft oder davon entfernt werden soll.
 
 ### Andere Optionen
+
 - **`remove:`** [Optional]
   Entfernt den Nutzer vom Fall, statt ihn mit dem Fall zu verknüpfen (True/False).
 
 ### Beschreibung
+
 Verknüpft einen beteiligten Nutzer (z. B. Melder, zweiter Täter oder Zeuge) mit einem Moderationsfall.
 
 ### Berechtigungen

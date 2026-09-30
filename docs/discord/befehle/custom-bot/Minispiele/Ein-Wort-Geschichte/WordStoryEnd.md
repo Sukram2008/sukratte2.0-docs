@@ -9,10 +9,12 @@ keywords: [Wortgeschichte, Word Story, Beenden, Minigame, Spiel]
 Befehl: **`/word-story end`**
 
 ### Andere Optionen
+
 - **`title:`** [Optional]
   Optionaler Titel für die archivierte Geschichte.
 
 ### Beschreibung
+
 Beendet die aktuelle Runde der Wortgeschichte und archiviert die entstandene Geschichte.
 
 ### Berechtigungen

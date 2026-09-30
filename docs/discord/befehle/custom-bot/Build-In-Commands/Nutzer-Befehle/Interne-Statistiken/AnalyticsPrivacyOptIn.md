@@ -9,6 +9,7 @@ keywords: [Analytics, Privacy, Statistiken, Datenschutz, Opt-In]
 Befehl: **`/analytics-privacy opt-in`**
 
 ### Beschreibung
+
 Aktiviert die Teilnahme an den internen Statistiken.
 
 ### Berechtigungen

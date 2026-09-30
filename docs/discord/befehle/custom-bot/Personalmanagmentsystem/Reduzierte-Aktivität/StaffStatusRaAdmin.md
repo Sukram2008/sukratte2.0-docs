@@ -13,6 +13,7 @@ Dieser administrative Zugriff ist exklusiv für den **Owner** reserviert.
 :::
 
 ### Erforderliche Optionen
+
 - **`user:`** Der Nutzer, dessen RA-Status angepasst werden soll.
 
 ### Berechtigungen

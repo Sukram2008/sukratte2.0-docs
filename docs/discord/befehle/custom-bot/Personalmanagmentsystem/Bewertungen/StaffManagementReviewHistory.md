@@ -9,10 +9,12 @@ keywords: [Staff-Management, Review, History, Bewertungen, Feedback, Sterne]
 Befehl: **`/staff-management review history`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Das Teammitglied, dessen Historie eingesehen werden soll.
 
 ### Beschreibung
+
 Ruft eine Liste aller bisherigen Bewertungen ab, die für dieses Teammitglied abgegeben wurden, inklusive Kommentare und Sterne-Durchschnitt.
 
 ### Berechtigungen

@@ -9,6 +9,7 @@ keywords: [Chess, Schach, History, Verlauf, Ergebnisse, Statistik]
 Befehl: **`/chess history`**
 
 ### Andere Optionen
+
 - **`user:`** [Optional]
   Wähle einen spezifischen Benutzer aus, um dessen Historie zu sehen.
 

@@ -9,10 +9,12 @@ keywords: [Anti-Nuke, Whitelist, Nutzer, Sicherheit]
 Befehl: **`/anti-nuke whitelist remove`**
 
 ### Erforderliche Optionen
+
 - **`user`**
   Der Nutzer, der von der Anti-Nuke-Whitelist entfernt werden soll.
 
 ### Beschreibung
+
 Entfernt einen Nutzer aus der Anti-Nuke-Whitelist.
 
 ### Berechtigungen

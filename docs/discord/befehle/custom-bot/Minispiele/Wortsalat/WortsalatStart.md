@@ -9,6 +9,7 @@ keywords: [Wortsalat, Start, Minigame, Spiel]
 Befehl: **`/wortsalat start`**
 
 ### Beschreibung
+
 Startet eine neue Wortsalat-Runde.
 
 ### Berechtigungen

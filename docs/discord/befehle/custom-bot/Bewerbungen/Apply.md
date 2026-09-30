@@ -9,11 +9,13 @@ keywords: [Bewerbung, Apply, Team, Recruitment, DM, Formular]
 Befehl: **`/apply`**
 
 ### Erforderliche Optionen
+
 - **`category`**
   Die Position, für die du dich bewerben möchtest
 
 ### Beschreibung
-Mit diesem Befehl kannst du den Bewerbungsprozess für eine Teamrolle starten. 
+
+Mit diesem Befehl kannst du den Bewerbungsprozess für eine Teamrolle starten.
 
 - **Ablauf:** Sobald du den Befehl abschickst, kontaktiert dich der Bot **per Privatnachricht (DM)**.
 - **Fragen:** Dort stellt er dir nacheinander die Fragen, die für die jeweilige Rolle konfiguriert wurden.

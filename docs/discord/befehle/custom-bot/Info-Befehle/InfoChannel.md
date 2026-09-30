@@ -9,10 +9,12 @@ keywords: [Channel, Info, Kanal, Chat, Informationen, Kategorie]
 Befehl: **`/info channel`**
 
 ### Andere Optionen
+
 - **`channel:`** [Optional]
   Kanal, über den du Informationen sehen möchtest (Standard: Aktueller Kanal).
 
 ### Beschreibung
+
 Weitere Informationen zu einem Kanal auf diesem Server finden. Wenn kein Kanal ausgewählt wird, werden die Informationen des aktuellen Kanals angezeigt.
 
 ### Berechtigungen

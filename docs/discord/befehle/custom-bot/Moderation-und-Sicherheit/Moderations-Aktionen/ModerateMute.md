@@ -9,6 +9,7 @@ keywords: [Mute, Stummschalten, Moderate, Duration, Kommunikation, Moderation]
 Befehl: **`/moderate mute`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, der stummgeschaltet werden soll.
 - **`duration:`**
@@ -17,6 +18,7 @@ Befehl: **`/moderate mute`**
   Der Grund für den Mute.
 
 ### Andere Optionen
+
 - **`proof:`** [Optional]
   Ein Beweis für die Stummschaltung.
 - **`involved:`** [Optional]
@@ -27,6 +29,7 @@ Die Option **duration** ist bei einer Stummschaltung eine Pflichtangabe.
 :::
 
 ### Beschreibung
+
 Verhindert, dass ein Nutzer für eine bestimmte Zeit kommunizieren kann.
 
 ### Berechtigungen

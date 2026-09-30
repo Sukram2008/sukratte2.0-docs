@@ -9,6 +9,7 @@ keywords: [Wortkette, Word Chain, Status, Minigame, Spiel]
 Befehl: **`/word-chain status`**
 
 ### Beschreibung
+
 Zeigt den aktuellen Stand der Wortkette an. Dabei werden unter anderem das letzte Wort, der Anfangsbuchstabe des nächsten Wortes, die aktuelle Kettenlänge und die längste Kette aller Zeiten angezeigt.
 
 ### Berechtigungen

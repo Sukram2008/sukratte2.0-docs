@@ -9,6 +9,7 @@ keywords: [Shop, Add, Hinzufügen, Erstellen, Wirtschaft, Rollen-Shop]
 Befehl: **`/shop add`**
 
 ### Erforderliche Optionen
+
 - **`item-name:`**
   Der Name des Items, wie er im Shop angezeigt wird.
 - **`item-id:`**
@@ -19,6 +20,7 @@ Befehl: **`/shop add`**
   Die Rolle, die der Nutzer beim Kauf erhalten soll.
 
 ### Beschreibung
+
 Mit diesem Befehl fügst du dem Server-Shop ein neues Produkt hinzu. Nutzer können dieses Item anschließend gegen ihr erspartes Guthaben erwerben.
 
 ### Berechtigungen

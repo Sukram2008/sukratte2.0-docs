@@ -9,10 +9,12 @@ keywords: [Help, Hilfe, Befehle, Support, Übersicht, Menü]
 Befehl: **`/help`**
 
 ### Beschreibung
-Öffnet das interaktive Hilfe-Menü des Bots. 
+
+Öffnet das interaktive Hilfe-Menü des Bots.
+
 - Du erhältst eine Liste aller Module, auf die du Zugriff hast.
 - Über das Dropdown-Menü kannst du detaillierte Informationen zu einzelnen Befehlskategorien abrufen.
--# Dies ist ein Build-In-Command
+  -# Dies ist ein Build-In-Command
 
 ### Berechtigungen
 

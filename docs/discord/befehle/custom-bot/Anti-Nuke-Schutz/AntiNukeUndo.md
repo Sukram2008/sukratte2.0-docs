@@ -9,6 +9,7 @@ keywords: [Anti-Nuke, Undo, Sicherheit, Schutz]
 Befehl: **`/anti-nuke undo`**
 
 ### Beschreibung
+
 Macht eine vom Anti-Nuke-System ausgeführte Aktion rückgängig.
 
 ### Berechtigungen

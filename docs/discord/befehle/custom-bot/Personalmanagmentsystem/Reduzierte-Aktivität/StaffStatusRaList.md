@@ -9,9 +9,11 @@ keywords: [Staff-Status, RA, Liste, Übersicht, Teamleitung, Aktivitätsstatus]
 Befehl: **`/staff-status ra list`**
 
 ### Erforderliche Optionen
+
 - **`filter:`** Filtere die RA-Liste nach aktiv, abgelaufen oder alle.
 
 ### Beschreibung
+
 Gibt eine Übersicht über alle Mitarbeiter aus, die aktuell eine reduzierte Aktivität gemeldet haben. Dies hilft der Teamleitung, die aktuelle Belastbarkeit des Teams einzuschätzen.
 
 ### Berechtigungen

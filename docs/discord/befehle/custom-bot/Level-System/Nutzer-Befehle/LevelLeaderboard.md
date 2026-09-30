@@ -9,10 +9,12 @@ keywords: [Leaderboard, Bestenliste, Ranking, Top, Level, Aktivität]
 Befehl: **`/leaderboard`**
 
 ### Andere Optionen
+
 - **`sort-by`**
   Ranglistensortierung (Standardwert: `xp`), du kannst `xp` oder `levels` eingeben.
 
 ### Beschreibung
+
 Zeigt eine Liste der Nutzer mit dem höchsten Level auf dem Server an, aber nur für den ausführenden Nutzer.
 
 ### Berechtigungen

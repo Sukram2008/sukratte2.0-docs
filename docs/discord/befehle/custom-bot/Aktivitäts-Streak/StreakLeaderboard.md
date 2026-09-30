@@ -9,6 +9,7 @@ keywords: [Aktivitäts-Streak, Streak, Rangliste, Leaderboard]
 Befehl: **`/streak leaderboard`**
 
 ### Beschreibung
+
 Zeigt die Rangliste der Aktivitäts-Streaks an.
 
 ### Berechtigungen

@@ -9,7 +9,8 @@ keywords: [Staff-Management, Profile, View, Einsehen, Team, Details]
 Befehl: **`/staff-management profile view`**
 
 ### Optionen
-* **`user:`** Das Teammitglied, dessen Profil du einsehen möchtest.
+
+- **`user:`** Das Teammitglied, dessen Profil du einsehen möchtest.
 
 ### Berechtigungen
 

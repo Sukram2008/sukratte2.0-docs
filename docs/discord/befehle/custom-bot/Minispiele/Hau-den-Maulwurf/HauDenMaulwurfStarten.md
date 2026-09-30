@@ -9,6 +9,7 @@ keywords: [Minispiele, Hau den Maulwurf, Spiel]
 Befehl: **`/hau-den-maulwurf starten`**
 
 ### Beschreibung
+
 Startet eine Runde **Hau den Maulwurf**.
 
 ### Berechtigungen

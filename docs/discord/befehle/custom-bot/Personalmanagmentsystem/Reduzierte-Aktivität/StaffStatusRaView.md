@@ -9,9 +9,11 @@ keywords: [Staff-Status, RA, Details, View, Status, Team-Einsicht]
 Befehl: **`/staff-status ra view`**
 
 ### Andere Optionen
+
 - **`user:`** Den Benutzer, um den RA-Status zu sehen (optional).
 
 ### Beschreibung
+
 Zeigt die Details (Dauer und Grund) einer beantragten reduzierten Aktivität an. Teammitglieder können ihre eigenen Daten einsehen; Manager haben Zugriff auf die Details aller Teammitglieder.
 
 ### Berechtigungen

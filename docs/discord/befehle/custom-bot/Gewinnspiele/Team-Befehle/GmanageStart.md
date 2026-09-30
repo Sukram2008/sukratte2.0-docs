@@ -9,6 +9,7 @@ keywords: [Giveaway, Start, Gewinnspiel, Erstellen, Preis, Teilnehmen]
 Befehl: **`/gmanage start`**
 
 ### Erforderliche Optionen
+
 - **`channel:`**
   Der Kanal, in dem das Gewinnspiel gepostet werden soll.
 - **`prize:`**
@@ -19,6 +20,7 @@ Befehl: **`/gmanage start`**
   Die Anzahl der Gewinner, die ausgelost werden sollen.
 
 ### Andere Optionen
+
 - **`required-messages:`** [Optional]
   Anzahl an Nachrichten, die ein Nutzer benötigt, um teilzunehmen.
 - **`required-role:`** [Optional]
@@ -29,6 +31,7 @@ Befehl: **`/gmanage start`**
   Link zur Webseite oder zum Social Media Profil des Sponsors.
 
 ### Beschreibung
+
 Mit diesem Befehl startest du ein neues Gewinnspiel. Der Bot erstellt eine Nachricht mit einem Button, über den die Mitglieder teilnehmen können.
 
 ### Berechtigungen

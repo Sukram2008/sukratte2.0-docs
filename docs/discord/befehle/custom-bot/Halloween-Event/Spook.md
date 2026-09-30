@@ -9,10 +9,12 @@ keywords: [Spook, Halloween, Erschrecken, Süßigkeiten, Fun]
 Befehl: **`/spook`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, den du erschrecken möchtest.
 
 ### Beschreibung
+
 Erschrecke ein anderes Mitglied und stiehl dabei ein paar Süßigkeiten. Der Befehl kann einmal pro Tag verwendet werden.
 
 ### Berechtigungen

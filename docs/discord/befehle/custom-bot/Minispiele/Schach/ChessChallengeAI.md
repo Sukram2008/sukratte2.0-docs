@@ -9,10 +9,12 @@ keywords: [Chess, Schach, KI, Computer, Training, Bot, AI]
 Befehl: **`/chess challenge-ai`**
 
 ### Erforderliche Optionen
+
 - **`difficulty:`**
   Wähle den Schwierigkeitsgrad (z. B. Leicht, Mittel, Schwer).
 
 ### Beschreibung
+
 Startet sofort ein Spiel gegen die KI, um deine Fähigkeiten ohne echten Gegner zu trainieren.
 
 ### Berechtigungen

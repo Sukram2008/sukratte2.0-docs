@@ -9,10 +9,12 @@ keywords: [Gelesen, Bestätigen, Team, Quittung, Information, Check]
 Befehl: **`/gelesen`**
 
 ### Erforderliche Optionen
+
 - **`hinweis`**
   Kurze Angabe, welche Nachricht oder Anweisung bestätigt wird
 
 ### Beschreibung
+
 Wird vom Team genutzt, um den Erhalt und das Verständnis von wichtigen internen Informationen offiziell zu quittieren.
 
 ### Berechtigungen

@@ -13,7 +13,8 @@ Dieses Panel gewährt Zugriff auf alle administrativen Funktionen. Die Ausführu
 :::
 
 ### Andere Optionen
-* **`user:`** Das Teammitglied, dessen Panel geöffnet werden soll.
+
+- **`user:`** Das Teammitglied, dessen Panel geöffnet werden soll.
 
 ### Berechtigungen
 

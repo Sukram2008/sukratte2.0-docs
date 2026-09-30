@@ -9,12 +9,14 @@ keywords: [Economy, Add, Hinzufügen, Gutschrift, Belohnung, Admin]
 Befehl: **`/economy add`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, der das Geld erhalten soll.
 - **`amount:`**
   Der Betrag, der hinzugefügt werden soll.
 
 ### Beschreibung
+
 Mit diesem Befehl kannst du einem spezifischen Nutzer einen beliebigen Geldbetrag gutschreiben.
 
 :::warning Achtung: Unfairness-Gefahr

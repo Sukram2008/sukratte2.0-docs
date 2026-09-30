@@ -9,6 +9,7 @@ keywords: [Remove-channel-mute, Unmute, Kanal, Channel, Moderate, Moderation]
 Befehl: **`/moderate remove-channel-mute`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, dessen Stummschaltung im Kanal aufgehoben werden soll.
 - **`reason:`**
@@ -19,6 +20,7 @@ Diese Aktion bezieht sich immer auf den **aktuellen Kanal**, in dem der Befehl a
 :::
 
 ### Beschreibung
+
 Ermöglicht es einem Nutzer, in dem spezifischen Kanal wieder zu schreiben, in dem er zuvor stummgeschaltet wurde.
 
 ### Berechtigungen

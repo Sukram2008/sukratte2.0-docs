@@ -9,6 +9,7 @@ keywords: [Termin, Anfrage, Gespräch, Chat, Verwaltung, Meeting]
 Befehl: **`/termin-anfragen`**
 
 ### Erforderliche Optionen
+
 - **`termin-art`**
   Wähle zwischen **Chat** oder **Gespräch**
 - **`tag`**
@@ -23,10 +24,12 @@ Befehl: **`/termin-anfragen`**
   Wähle die Zielabteilung (Derzeit nur: **Owner**)
 
 ### Andere Optionen
+
 - **`anmerkung`** [Optional]
   Zusätzliche Infos oder Grund für den Termin
 
 ### Beschreibung
+
 Mit diesem Befehl kannst du eine offizielle Anfrage für ein Gespräch oder einen Chat-Termin bei der Serverleitung einreichen.
 
 ### Berechtigungen

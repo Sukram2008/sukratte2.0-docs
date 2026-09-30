@@ -9,12 +9,14 @@ keywords: [XP, Levels, Hinzufügen, Add, Erfahrungspunkte, Management]
 Befehl: **`/manage-levels edit-xp add`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Benutzer, dem XP hinzugefügt werden sollen.
 - **`value:`**
   Anzahl der XP, die hinzugefügt werden sollen.
 
 ### Beschreibung
+
 Erhöht die Erfahrungspunkte eines Benutzers um den angegebenen Wert.
 
 ### Berechtigungen

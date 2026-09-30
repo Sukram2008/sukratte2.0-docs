@@ -9,6 +9,7 @@ keywords: [Poll, End, Umfrage, Beenden, Stoppen, Abstimmung]
 Befehl: **`/poll end`**
 
 ### Erforderliche Optionen
+
 - **`msg-id:`**
   Die ID der Nachricht, welche die Umfrage enthält.
 
@@ -17,6 +18,7 @@ Beim Tippen der Option **`msg-id`** wird dir automatisch eine Liste aller aktuel
 :::
 
 ### Beschreibung
+
 Beendet eine aktive Umfrage sofort. Nach dem Ausführen können keine weiteren Stimmen mehr abgegeben werden und das Endergebnis wird fixiert.
 
 ### Berechtigungen

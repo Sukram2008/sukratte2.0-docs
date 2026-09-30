@@ -9,6 +9,7 @@ keywords: [Shop, List, Übersicht, Sortiment, Preise, Wirtschaft]
 Befehl: **`/shop list`**
 
 ### Beschreibung
+
 Listet alle Items auf, die aktuell im Server-Shop zum Verkauf stehen, inklusive ihrer Preise und IDs.
 
 :::info Tipp: Kaufmenü

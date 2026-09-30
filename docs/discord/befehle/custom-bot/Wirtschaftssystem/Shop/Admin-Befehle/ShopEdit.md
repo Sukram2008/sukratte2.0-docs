@@ -9,10 +9,12 @@ keywords: [Shop, Edit, Bearbeiten, Update, Preisänderung, Management]
 Befehl: **`/shop edit`**
 
 ### Erforderliche Optionen
+
 - **`item-id:`**
   Die ID des Items, das du bearbeiten möchtest.
 
 ### Optionale Änderungen
+
 - **`item-new-name:`**
   Ein neuer Name für das Item.
 - **`new-price:`**
@@ -21,6 +23,7 @@ Befehl: **`/shop edit`**
   Die Rolle, die künftig vergeben werden soll.
 
 ### Beschreibung
+
 Mit diesem Befehl kannst du bestehende Items im Shop anpassen, ohne sie löschen und neu erstellen zu müssen. Du musst lediglich die ID angeben und kannst dann die gewünschten Felder aktualisieren.
 
 ### Berechtigungen

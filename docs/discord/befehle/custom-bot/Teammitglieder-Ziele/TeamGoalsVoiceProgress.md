@@ -9,6 +9,7 @@ keywords: [Team-Goals, Voice-Progress, Voice, Aktivität, Team, Zeit]
 Befehl: **`/team-goals voice-progress`**
 
 ### Andere Optionen
+
 - **`user:`** [Optional]
   Der Benutzer, dessen Voice-Ziele überprüft werden sollen.
 
@@ -17,6 +18,7 @@ Wenn du beim Feld **`user`** niemanden auswählst, wird dein eigener Fortschritt
 :::
 
 ### Beschreibung
+
 Dieser Befehl zeigt dir die aktiv verbrachte Zeit in den Voice-Kanälen im Vergleich zum gesetzten Zielwert an.
 
 :::tip Erklärung

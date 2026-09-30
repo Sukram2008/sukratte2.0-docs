@@ -9,6 +9,7 @@ keywords: [Server, Info, Statistik, Übersicht, Mitglieder, Details]
 Befehl: **`/info server`**
 
 ### Beschreibung
+
 Weitere Informationen zu diesem Server finden.
 
 ### Berechtigungen

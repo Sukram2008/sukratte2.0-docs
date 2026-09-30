@@ -9,10 +9,12 @@ keywords: [Chess, Schach, Challenge, Herausforderung, Duell, PvP]
 Befehl: **`/chess challenge`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Benutzer, gegen den du antreten möchtest.
 
 ### Beschreibung
+
 Sendet eine Einladung zu einer Schachpartie an das ausgewählte Mitglied.
 
 ### Berechtigungen

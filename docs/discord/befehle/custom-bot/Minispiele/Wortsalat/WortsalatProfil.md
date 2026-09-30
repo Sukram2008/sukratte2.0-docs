@@ -9,10 +9,12 @@ keywords: [Wortsalat, Profil, Minigame, Spiel]
 Befehl: **`/wortsalat profil`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, dessen Wortsalat-Profil angezeigt werden soll.
 
 ### Beschreibung
+
 Zeigt das Wortsalat-Profil eines Nutzers an.
 
 ### Berechtigungen

@@ -9,10 +9,12 @@ keywords: [Emote, Stealemote, Emoji, Klauen, Kopieren, Permanent]
 Befehl: **`/stealemote`**
 
 ### Erforderliche Optionen
+
 - **`emote`**
   Der Emote, der permanent geliehen werden soll
 
 ### Beschreibung
+
 Mit diesem Befehl kannst du Emotes von anderen Servern ganz einfach auf deinen eigenen Server kopieren ("leihen"). Du musst lediglich den Emote in der Option angeben, und der Bot fügt ihn deiner Emoji-Liste hinzu.
 
 ### Berechtigungen

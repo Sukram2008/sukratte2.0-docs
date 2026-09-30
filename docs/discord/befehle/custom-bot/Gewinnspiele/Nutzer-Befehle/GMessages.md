@@ -9,6 +9,7 @@ keywords: [Giveaway, Messages, Gewinnspiel, Nachrichten, Check, Anforderungen]
 Befehl: **`/gmessages`**
 
 ### Beschreibung
+
 Überprüfe deine benötigten Nachrichten für ein Gewinnspiel.
 
 ### Berechtigungen

@@ -9,6 +9,7 @@ keywords: [Economy, Drops, Chat-Geld, Enable, Aktivieren, Belohnung]
 Befehl: **`/economy msg_drop_msg enable`**
 
 ### Beschreibung
+
 Aktiviert die zufälligen Gelddrops im Chat. Bei Aktivierung können Nutzer beim Schreiben von Nachrichten zufällig Geld finden.
 
 ### Berechtigungen

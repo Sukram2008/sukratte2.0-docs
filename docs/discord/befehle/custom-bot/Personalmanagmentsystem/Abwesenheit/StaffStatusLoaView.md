@@ -9,10 +9,12 @@ keywords: [Staff-Status, LOA, Details, View, Abwesenheitsgrund, Team]
 Befehl: **`/staff-status loa view`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Nutzer, dessen LOA-Details eingesehen werden sollen.
 
 ### Beschreibung
+
 Zeigt die genauen Daten und den hinterlegten Grund für eine Abwesenheit an. Teammitglieder können ihre eigenen Daten sehen, Manager können alle Daten sehen.
 
 ### Berechtigungen

@@ -9,10 +9,12 @@ keywords: [Gewinnspiel, Gmanage, Teilnehmer, Participants]
 Befehl: **`/gmanage participants`**
 
 ### Erforderliche Optionen
+
 - **`msg-id`**
   Die Nachrichten-ID des Gewinnspiels, dessen Teilnehmer angezeigt werden sollen.
 
 ### Beschreibung
+
 Zeigt die Teilnehmer des angegebenen Gewinnspiels an.
 
 ### Berechtigungen

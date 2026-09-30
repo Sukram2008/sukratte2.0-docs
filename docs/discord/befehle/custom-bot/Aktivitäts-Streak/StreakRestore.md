@@ -9,6 +9,7 @@ keywords: [Aktivitäts-Streak, Streak, Wiederherstellen, Restore]
 Befehl: **`/streak restore`**
 
 ### Beschreibung
+
 Stellt deinen zuletzt verlorenen Aktivitäts-Streak wieder her. Die Wiederherstellung kann nur einmal pro Verlust verwendet werden.
 
 ### Berechtigungen

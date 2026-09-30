@@ -9,10 +9,12 @@ keywords: [Staff-Status, LOA, Abwesenheit, Liste, Übersicht, Personalplanung]
 Befehl: **`/staff-status loa list`**
 
 ### Erforderliche Optionen
+
 - **`filter:`**
   Filtere nach Status (z.B. Aktive, Abgelaufene, Alle).
 
 ### Beschreibung
+
 Gibt eine tabellarische Übersicht aus, wer sich aktuell im Leave of Absence befindet. Wichtig für die Personalplanung der Manager.
 
 ### Berechtigungen

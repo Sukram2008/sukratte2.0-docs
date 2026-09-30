@@ -9,10 +9,12 @@ keywords: [Giveaway, Partner, Gewinnspiel, Kooperation, Verlosung, Geschenk]
 Befehl: **`/partner-giveaway`**
 
 ### Erforderliche Optionen
+
 - **`partner`**
   Name oder Kontaktperson unseres Partners
 
 ### Beschreibung
+
 Informiert den Partner über ein Gewinnspiel vor der offiziellen Ankündigung.
 
 ### Berechtigungen

@@ -9,12 +9,14 @@ keywords: [Suggestion, Decline, Ablehnen, Feedback, Begründung, Status]
 Befehl: **`/suggestion decline`**
 
 ### Erforderliche Optionen
+
 - **`id:`**
   Die Vorschlags-ID, den du ablehnen möchtest.
 - **`comment:`**
   Erklärung, warum der Vorschlag abgelehnt wird.
 
 ### Beschreibung
+
 Mit diesem Befehl lehnst du einen eingereichten Vorschlag ab. Der Status wird auf `❌ Abgelehnt` geändert und deine Begründung wird zur Information unter dem Vorschlag hinzugefügt.
 
 ### Berechtigungen

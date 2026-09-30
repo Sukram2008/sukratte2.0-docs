@@ -9,10 +9,12 @@ keywords: [Anonym, Löschen, Delete, Message, Moderation, Chat]
 Befehl: **`/moderate-anonymous-channel delete-message`**
 
 ### Erforderliche Optionen
+
 - **`message`**
   Die Nachricht, welche gelöscht werden soll.
 
 ### Beschreibung
+
 Mit diesem Befehl können Moderatoren gezielt Nachrichten aus dem anonymen Kanal entfernen, falls diese gegen die Serverregeln verstoßen.
 
 ### Berechtigungen

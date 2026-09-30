@@ -9,10 +9,12 @@ keywords: [Pat, Tätscheln, Kopf, Fun, Interaktion, GIF]
 Befehl: **`/pat`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, den du tätscheln möchtest.
 
 ### Beschreibung
+
 Tätschel einem anderen Mitglied den Kopf (Random GIF).
 
 ### Berechtigungen

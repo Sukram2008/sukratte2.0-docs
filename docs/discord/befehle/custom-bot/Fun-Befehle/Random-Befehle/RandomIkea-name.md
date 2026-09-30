@@ -9,10 +9,12 @@ keywords: [Ikea, Name, Produkt, Schweden, Fun, Zufall]
 Befehl: **`/random ikea-name`**
 
 ### Andere Optionen
+
 - **`syllable-count`** [Optional]
   Anzahl der Silben des generierten Namens (Standard: Zufällig).
 
 ### Beschreibung
+
 Gibt einen zufälligen Namen aus, der so auch im IKEA-Katalog stehen könnte.
 
 ### Berechtigungen

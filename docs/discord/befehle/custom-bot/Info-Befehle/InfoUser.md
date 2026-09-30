@@ -9,10 +9,12 @@ keywords: [User, Info, Nutzer, Profil, Account, Details]
 Befehl: **`/info user`**
 
 ### Andere Optionen
+
 - **`user:`** [Optional]
   Benutzer, von dem du Informationen sehen möchten (Standard: Du).
 
 ### Beschreibung
+
 Finde mehr Informationen über einen Nutzer auf diesem Server heraus. Wenn keine Option angegeben wird, werden deine eigenen Informationen angezeigt.
 
 ### Berechtigungen

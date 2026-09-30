@@ -1,7 +1,8 @@
 ---
 title: Beförderung durchführen
 description: Befördert ein Teammitglied auf einen neuen Rang
-keywords: [Staff-Management, Promotion, Promote, Beförderung, Rangänderung, Rollen]
+keywords:
+  [Staff-Management, Promotion, Promote, Beförderung, Rangänderung, Rollen]
 ---
 
 # 📈🎭 | Beförderung durchführen
@@ -9,6 +10,7 @@ keywords: [Staff-Management, Promotion, Promote, Beförderung, Rangänderung, Ro
 Befehl: **`/staff-management promotion promote`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Das Teammitglied, das einen neuen Rang erhalten soll.
 - **`rank:`**
@@ -17,10 +19,12 @@ Befehl: **`/staff-management promotion promote`**
   Die Begründung für die Beförderung.
 
 ### Andere Optionen
+
 - **`channel:`** [Optional]
   Der Kanal für die Ankündigung.
 
 ### Beschreibung
+
 Führt eine offizielle Rangänderung durch, passt die Discord-Rollen an und erstellt eine automatische Ankündigung im gewählten Kanal.
 
 ### Berechtigungen

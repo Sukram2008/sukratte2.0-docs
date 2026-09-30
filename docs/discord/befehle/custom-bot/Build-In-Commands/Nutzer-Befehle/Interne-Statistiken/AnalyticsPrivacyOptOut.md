@@ -9,6 +9,7 @@ keywords: [Analytics, Privacy, Statistiken, Datenschutz, Opt-Out]
 Befehl: **`/analytics-privacy opt-out`**
 
 ### Beschreibung
+
 Deaktiviert die Teilnahme an den internen Statistiken.
 
 ### Berechtigungen

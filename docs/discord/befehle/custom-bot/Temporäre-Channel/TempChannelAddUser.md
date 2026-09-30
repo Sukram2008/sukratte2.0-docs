@@ -9,10 +9,12 @@ keywords: [Temp-Channel, Add-User, Hinzufügen, Einladen, Zugriff, Kanal]
 Befehl: **`/temp-channel add-user`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Benutzer, den du zu deinem Kanal hinzufügen möchtest.
 
 ### Beschreibung
+
 Erlaubt es einem bestimmten Mitglied, deinen privaten temporären Kanal zu sehen und ihm beizutreten.
 
 ### Berechtigungen

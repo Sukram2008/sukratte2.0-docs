@@ -9,10 +9,12 @@ keywords: [Lock, Sperren, Kanal, Channel, Moderate, Ruhe]
 Befehl: **`/moderate lock`**
 
 ### Erforderliche Optionen
+
 - **`reason:`**
   Der Grund für die Sperrung des Kanals.
 
 ### Beschreibung
+
 Sperrt den aktuellen Kanal für die Standard-Rolle.
 
 ### Berechtigungen

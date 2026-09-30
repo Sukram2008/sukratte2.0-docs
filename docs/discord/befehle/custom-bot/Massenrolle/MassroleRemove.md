@@ -9,18 +9,21 @@ keywords: [Massrole, Rolle, Entfernen, Remove, Gruppe, Management]
 Befehl: **`/massrole remove`**
 
 ### Erforderliche Optionen
+
 - **`role:`**
   Die Rolle, die entfernt werden soll.
 
 ### Andere Optionen
+
 - **`target:`** [Optional]
   Die Zielgruppe, von der die Rolle entfernt werden soll.
-  *Auswahlmöglichkeiten:*
+  _Auswahlmöglichkeiten:_
   - **Alle Mitglieder**
   - **Bots**
   - **Mitglieder (keine Bots)**
 
 ### Beschreibung
+
 Entfernt die angegebene Rolle von allen Mitgliedern der gewählten Zielgruppe.
 
 ### Berechtigungen

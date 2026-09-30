@@ -9,6 +9,7 @@ keywords: [Ping-Protection, Protected, Geschützt, Übersicht, Nutzer, Schutz]
 Befehl: **`/ping-protection list protected`**
 
 ### Beschreibung
+
 Gibt eine Übersicht über alle Nutzer aus, für die der Ping-Schutz aktuell aktiviert ist.
 
 ### Berechtigungen

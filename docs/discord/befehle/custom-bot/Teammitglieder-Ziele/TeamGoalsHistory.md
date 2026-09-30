@@ -9,6 +9,7 @@ keywords: [Team-Goals, History, Verlauf, Team, Archiv, Zielerreichung]
 Befehl: **`/team-goals history`**
 
 ### Andere Optionen
+
 - **`user:`** [Optional]
   Der Benutzer, dessen Verlauf angezeigt werden soll.
 
@@ -17,6 +18,7 @@ Wenn du beim Feld **`user`** niemanden auswählst, wird dein eigener Verlauf ang
 :::
 
 ### Beschreibung
+
 Ruft eine Übersicht der vergangenen Zielzeiträume ab. Dabei werden die letzten 10 Wochen mit den erreichten Nachrichten- und Voice-Zielen angezeigt.
 
 :::tip Erklärung

@@ -9,6 +9,7 @@ keywords: [Temp-Channel, List-Users, Nutzerliste, Zugriff, Übersicht, Kanal]
 Befehl: **`/temp-channel list-users`**
 
 ### Beschreibung
+
 Gibt eine Übersicht aller Mitglieder aus, die aktuell manuell zu deinem temporären Kanal hinzugefügt wurden.
 
 ### Berechtigungen

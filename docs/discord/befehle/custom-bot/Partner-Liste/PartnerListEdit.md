@@ -9,10 +9,12 @@ keywords: [Partner, Edit, Bearbeiten, Update, Aktualisieren, Management]
 Befehl: **`/partner edit`**
 
 ### Erforderliche Optionen
+
 - **`id:`**
   Die eindeutige ID des Partners, der bearbeitet werden soll.
 
 ### Andere Optionen
+
 - **`name:`** [Optional]
   Der neue Name des Partner-Servers.
 - **`invite-url:`** [Optional]
@@ -25,6 +27,7 @@ Befehl: **`/partner edit`**
   Das zuständige Teammitglied für diese Partnerschaft.
 
 ### Beschreibung
+
 Aktualisiert die Informationen eines bereits bestehenden Partners. Es müssen nur die Felder ausgefüllt werden, die geändert werden sollen.
 
 ### Berechtigungen
@@ -39,6 +42,7 @@ Aktualisiert die Informationen eines bereits bestehenden Partners. Es müssen nu
     <span style={{backgroundColor: '#db7013', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🛡️ | Mod</span>
     <span style={{backgroundColor: '#e67e22', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🔨 | Junior-Mod</span>
     <span style={{backgroundColor: '#3498db', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>💬 | Supporter</span>
+</div>
 </div>
 
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>

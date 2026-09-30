@@ -9,6 +9,7 @@ keywords: [Birthday, Delete, Geburtstag, Löschen, Austragen, Profil]
 Befehl: **`/birthday delete`**
 
 ### Beschreibung
+
 Entfernt dein eingetragenes Datum dauerhaft aus dem Kalender. Du wirst danach keine Glückwünsche oder Rollen mehr vom Bot erhalten.
 
 ### Berechtigungen

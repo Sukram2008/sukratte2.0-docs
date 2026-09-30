@@ -9,6 +9,7 @@ keywords: [Birthday, Status, Geburtstag, Info, Check, Profil]
 Befehl: **`/birthday status`**
 
 ### Beschreibung
+
 Zeigt den aktuell für dich gespeicherten Status deines Geburtstags an.
 
 ### Berechtigungen

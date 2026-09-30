@@ -9,12 +9,14 @@ keywords: [Economy, Withdraw, Abheben, Bank, Bargeld, Geld]
 Befehl: **`/economy withdraw`**
 
 ### Erforderliche Optionen
+
 - **`amount:`**
   Der Betrag, den du von deinem Bankkonto abheben möchtest.
 
   Du kannst **`all`** eingeben, um dein gesamtes verfügbares Bankguthaben abzuheben.
 
 ### Beschreibung
+
 Verschiebt Geld von deinem Bankkonto zu deinem Bargeld. Das Geld befindet sich anschließend als Bargeld in deiner Balance und ist damit nicht mehr auf der Bank vor Überfällen (`rob`) geschützt.
 
 Wenn du einen höheren Betrag eingibst, als sich auf deinem Bankkonto befindet, wird automatisch dein **gesamtes verfügbares Bankguthaben** abgehoben.

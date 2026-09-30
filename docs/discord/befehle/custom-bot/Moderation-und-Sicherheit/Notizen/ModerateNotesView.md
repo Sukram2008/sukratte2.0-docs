@@ -9,10 +9,12 @@ keywords: [Notes, Notiz, View, Anzeigen, Liste, Moderate]
 Befehl: **`/moderate notes view`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Nutzer, dessen Notizen du anzeigen möchtest.
 
 ### Beschreibung
+
 Listet alle hinterlegten Notizen für den ausgewählten Benutzer auf.
 
 ### Berechtigungen

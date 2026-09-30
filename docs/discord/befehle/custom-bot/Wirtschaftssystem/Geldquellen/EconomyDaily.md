@@ -9,6 +9,7 @@ keywords: [Economy, Daily, Belohnung, Bonus, Aktivität, Gratis]
 Befehl: **`/economy daily`**
 
 ### Beschreibung
+
 Ein täglicher Bonus für deine Aktivität. Du kannst diesen Befehl alle 24 Stunden nutzen, um dein Konto aufzustocken.
 
 ### Berechtigungen

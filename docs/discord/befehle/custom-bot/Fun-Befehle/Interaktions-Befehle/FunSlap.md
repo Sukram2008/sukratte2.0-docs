@@ -9,10 +9,12 @@ keywords: [Slap, Schelle, Klatschen, Fun, Interaktion, GIF]
 Befehl: **`/slap`**
 
 ### Erforderliche Optionen
+
 - **`user:`**
   Der Nutzer, dem du eine Schelle geben möchtest.
 
 ### Beschreibung
+
 Verpasse einem anderen Mitglied eine virtuelle Schelle (Random GIF).
 
 ### Berechtigungen

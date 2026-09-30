@@ -9,6 +9,7 @@ keywords: [Shop, Buy, Kaufen, Wirtschaft, Items, Rollen]
 Befehl: **`/shop buy`**
 
 ### Optionen
+
 - **`item-name:`**
   Der Name des gewünschten Items.
 - **`item-id:`**
@@ -20,6 +21,7 @@ Oder nutze direkt das **Drop-Down-Menü** unter der Liste mit allen **Produkten*
 :::
 
 ### Beschreibung
+
 Nutze diesen Befehl, um ein Item aus dem Shop zu kaufen. Der entsprechende Betrag wird automatisch von deinem Guthaben abgezogen und du erhältst die zugewiesene Rolle.
 
 ### Berechtigungen

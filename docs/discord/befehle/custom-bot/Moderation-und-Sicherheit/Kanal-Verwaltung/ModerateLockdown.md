@@ -9,6 +9,7 @@ keywords: [Lockdown, Sicherheit, Raid, Sperren, Server, Moderate]
 Befehl: **`/moderate lockdown`**
 
 ### Erforderliche Optionen
+
 - **`enable:`**
   Legt fest, ob der Lockdown aktiviert (**True**) oder deaktiviert (**False**) werden soll.
 - **`reason:`**
@@ -19,6 +20,7 @@ Ein Lockdown ist ein massiver Eingriff! Er sperrt den Schreibzugriff auf **nahez
 :::
 
 ### Beschreibung
+
 Versetzt den gesamten Server in einen Sicherheitszustand, um unkontrollierte Nachrichtenfluten oder Angriffe zu stoppen.
 
 ### Berechtigungen
