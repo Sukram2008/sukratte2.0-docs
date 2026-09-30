@@ -163,8 +163,8 @@ const RULES = [
         'Eigene-Befehle/Team-Verwaltung',
         'Eigene-Befehle/Organisation',
         'Eigene-Befehle/Kommunikation'
-),
-...rules('nutzer', 'Eigene-Befehle/Support'),
+    ),
+    ...rules('nutzer', 'Eigene-Befehle/Support'),
 
     // Personalmanagement
     ...rules('team', 'Personalmanagmentsystem')

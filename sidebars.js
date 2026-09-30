@@ -24,6 +24,7 @@ const sidebars = {
                 "discord/nutzer-bereich/Build-In-Commands/Nutzer-Befehle/Help",
               ],
             },
+
             {
               type: "category",
               label: "Fehlermeldungen",
@@ -32,6 +33,7 @@ const sidebars = {
                 "discord/nutzer-bereich/Eigene-Befehle/Fehlermeldungen/BugReport",
               ],
             },
+
             {
               type: "category",
               label: "AFK-System",
@@ -41,6 +43,7 @@ const sidebars = {
                 "discord/nutzer-bereich/AFK-System/AFK-Befehle/AFKEnd",
               ],
             },
+
             {
               type: "category",
               label: "Anonymer Chat",
@@ -49,12 +52,14 @@ const sidebars = {
                 "discord/nutzer-bereich/Anonymer-Chat/Nutzer-Befehle/AnonymousMessage",
               ],
             },
+
             {
               type: "category",
               label: "Bewerbungen",
               link: { type: "generated-index" },
               items: ["discord/nutzer-bereich/Bewerbungen/Apply"],
             },
+
             {
               type: "category",
               label: "Color-me",
@@ -64,12 +69,14 @@ const sidebars = {
                 "discord/nutzer-bereich/Color-me/Color-meRemove",
               ],
             },
+
             {
               type: "category",
               label: "Erinnerungen",
               link: { type: "generated-index" },
               items: ["discord/nutzer-bereich/Erinnerungen/RemindMe"],
             },
+
             {
               type: "category",
               label: "Fun-Befehle",
@@ -86,6 +93,7 @@ const sidebars = {
                 "discord/nutzer-bereich/Fun-Befehle/Random-Befehle/RandomNumber",
               ],
             },
+
             {
               type: "category",
               label: "Geburtstags-Kalender",
@@ -97,6 +105,16 @@ const sidebars = {
                 "discord/nutzer-bereich/Geburtstags-Kalender/Nutzer-Befehle/BirthdayUpcoming",
               ],
             },
+
+            {
+              type: "category",
+              label: "Halloween-Event",
+              link: { type: "generated-index" },
+              items: [
+                "discord/befehle/custom-bot/Halloween-Event/HalloweenEventInfos",
+              ],
+            },
+
             {
               type: "category",
               label: "Gewinnspiele",
@@ -105,6 +123,7 @@ const sidebars = {
                 "discord/nutzer-bereich/Gewinnspiele/Nutzer-Befehle/GMessages",
               ],
             },
+
             {
               type: "category",
               label: "Info-Befehle",
@@ -116,6 +135,7 @@ const sidebars = {
                 "discord/nutzer-bereich/Info-Befehle/InfoRole",
               ],
             },
+
             {
               type: "category",
               label: "Level-System",
@@ -126,6 +146,7 @@ const sidebars = {
                 "discord/nutzer-bereich/Level-System/Nutzer-Befehle/CalculateLevel",
               ],
             },
+
             {
               type: "category",
               label: "Minispiele",
@@ -138,6 +159,7 @@ const sidebars = {
                 "discord/nutzer-bereich/Minispiele/Uno",
               ],
             },
+
             {
               type: "category",
               label: "Moderation & Sicherheit",
@@ -146,6 +168,7 @@ const sidebars = {
                 "discord/nutzer-bereich/Moderation-und-Sicherheit/Nutzer-Befehle/ModerateReport",
               ],
             },
+
             {
               type: "category",
               label: "Ping-Schutz",
@@ -155,6 +178,7 @@ const sidebars = {
                 "discord/nutzer-bereich/Ping-Schutz/Nutzer-Befehle/PingProtectionListWhitelisted",
               ],
             },
+
             {
               type: "category",
               label: "Sammel-die-Codes",
@@ -165,6 +189,7 @@ const sidebars = {
                 "discord/nutzer-bereich/Sammel-die-Codes/Nutzer-Befehle/HuntTheCodeLeaderboard",
               ],
             },
+
             {
               type: "category",
               label: "Schach",
@@ -176,6 +201,7 @@ const sidebars = {
                 "discord/nutzer-bereich/Minispiele/Schach/ChessHistory",
               ],
             },
+
             {
               type: "category",
               label: "Temporäre-Channel",
