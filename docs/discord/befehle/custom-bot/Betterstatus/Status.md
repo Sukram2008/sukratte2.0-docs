@@ -9,6 +9,7 @@ keywords: [Bot, Status, Presence, Activity, Online, Admin]
 Befehl: **`/status`**
 
 ### Erforderliche Optionen
+
 - **`text`**
   Der anzuzeigende Statustext
 - **`activity-type`**
@@ -17,10 +18,12 @@ Befehl: **`/status`**
   Der Online-Status des Bots (Online, Abwesend, Nicht stören)
 
 ### Andere Optionen
+
 - **`streaming-link`** [Optional]
   Streaming-URL (nur verwendet, wenn Aktivitätstyp Streaming ist)
 
 ### Beschreibung
+
 Mache den Status deines Bots noch besser. Du kannst den Text, die Art der Aktivität und den Online-Zustand des Bots individuell anpassen.
 
 ### Berechtigungen
@@ -28,12 +31,14 @@ Mache den Status deines Bots noch besser. Du kannst den Text, die Art der Aktivi
 <div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
   <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span style={{backgroundColor: '#aa3a3a', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>👑 | Owner</span>
+    <span style={{backgroundColor: '#aa3a3a', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>👑 Owner</span>
+    <span style={{backgroundColor: '#aa3a3a', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>👑 AFK Owner</span>
   </div>
 </div>
+
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
   <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span style={{backgroundColor: '#6e31e0', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Alle Kanäle</span>
+    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Alle Kanäle</span>
   </div>
 </div>

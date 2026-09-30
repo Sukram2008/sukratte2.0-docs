@@ -1,10 +1,10 @@
 ---
-title: Stummschaltung aufheben
+title: Nutzer entstummen
 description: "Hebt die Stummschaltung eines Nutzers auf"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../../../befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnmute.md';
+import Original from '../befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateUnmute.md';
 
 <Original />

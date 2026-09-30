@@ -9,6 +9,7 @@ keywords: [Shop, Buy, Kaufen, Wirtschaft, Items, Rollen]
 Befehl: **`/shop buy`**
 
 ### Optionen
+
 - **`item-name:`**
   Der Name des gewünschten Items.
 - **`item-id:`**
@@ -16,9 +17,11 @@ Befehl: **`/shop buy`**
 
 :::info Tipp: Eindeutigkeit
 Wir empfehlen die Verwendung der **`item-id`**, um Verwechslungen bei ähnlichen Item-Namen zu vermeiden.
+Oder nutze direkt das **Drop-Down-Menü** unter der Liste mit allen **Produkten**, einfach **auswählen**.
 :::
 
 ### Beschreibung
+
 Nutze diesen Befehl, um ein Item aus dem Shop zu kaufen. Der entsprechende Betrag wird automatisch von deinem Guthaben abgezogen und du erhältst die zugewiesene Rolle.
 
 ### Berechtigungen
@@ -32,6 +35,6 @@ Nutze diesen Befehl, um ein Item aus dem Shop zu kaufen. Der entsprechende Betra
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
   <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span style={{backgroundColor: '#6e31e0', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>💰 | wirtschaft</span>
+    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>🏦 | wirtschaft</span>
   </div>
 </div>

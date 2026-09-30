@@ -9,6 +9,7 @@ keywords: [Temp-Channel, Edit, Bearbeiten, Name, Limit, Bitrate, NSFW]
 Befehl: **`/temp-channel edit`**
 
 ### Andere Optionen
+
 - **`name:`** [Optional]
   Ändert den Namen deines Kanals.
 - **`user-limit:`** [Optional]
@@ -19,6 +20,7 @@ Befehl: **`/temp-channel edit`**
   Stellt ein, ob der Kanal als NSFW (Nicht jugendfrei) markiert werden soll (**True** = Ja / **False** = Nein).
 
 ### Beschreibung
+
 Ermöglicht es dir, die technischen Einstellungen deines Kanals wie Namen, Limit und Qualität jederzeit anzupassen.
 
 ### Berechtigungen
@@ -32,6 +34,6 @@ Ermöglicht es dir, die technischen Einstellungen deines Kanals wie Namen, Limit
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
   <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span style={{backgroundColor: '#6e31e0', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Alle Kanäle</span>
+    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Alle Kanäle</span>
   </div>
 </div>

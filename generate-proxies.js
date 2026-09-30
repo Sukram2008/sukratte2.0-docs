@@ -1,122 +1,293 @@
 const fs = require('fs');
 const path = require('path');
 
-const SOURCE_DIR = './docs/discord/befehle/custom-bot'; 
+const SOURCE_DIR = './docs/discord/befehle/custom-bot';
+const CONTEXT_MENU_DIR = './docs/discord/kontextmenü';
+
 const NUTZER_DIR = './docs/discord/nutzer-bereich';
 const TEAM_DIR = './docs/discord/team-bereich';
 
-const RULES = [
-    { match: 'Admin-Tools', target: 'team' },
-    { match: 'AFK-System', target: 'nutzer' },
-    { match: 'Anonymer-Chat/Nutzer-Befehle', target: 'nutzer' },
-    { match: 'Anonymer-Chat/Moderator-Befehle', target: 'team' },
-    { match: 'Betterstatus', target: 'team' },
-    { match: 'Bewerbungen', target: 'nutzer' },
-    { match: 'Build-In-Commands/Nutzer-Befehle', target: 'nutzer' },
-    { match: 'Build-In-Commands/Admin-Befehle', target: 'team' },
-    { match: 'Color-me', target: 'nutzer' },
-    { match: 'Einladungsverfolgung', target: 'team' },
-    { match: 'Erinnerungen', target: 'nutzer' },
-    { match: 'Errate-die-Nummer', target: 'team' },
-    { match: 'Fun-Befehle', target: 'nutzer' },
-    { match: 'Geburtstags-Kalender/Nutzer-Befehle', target: 'nutzer' },
-    { match: 'Geburtstags-Kalender/Admin-Befehle', target: 'team' },
-    { match: 'Gewinnspiele/Nutzer-Befehle', target: 'nutzer' },
-    { match: 'Gewinnspiele/Team-Befehle', target: 'team' },
-    { match: 'Info-Befehle', target: 'nutzer' },
-    { match: 'Level-System/Nutzer-Befehle', target: 'nutzer' },
-    { match: 'Level-System/Admin-Befehle', target: 'team' },
-    { match: 'Massenrolle', target: 'team' },
-    { match: 'Minispiele', target: 'nutzer' },
-    { match: 'Moderation-und-Sicherheit/Nutzer-Befehle', target: 'nutzer' },
-    { match: 'Moderation-und-Sicherheit/Moderations-Aktionen', target: 'team' },
-    { match: 'Moderation-und-Sicherheit/Kanal-Verwaltung', target: 'team' },
-    { match: 'Moderation-und-Sicherheit/Notizen', target: 'team' },
-    { match: 'Partner-Liste', target: 'team' },
-    { match: 'Ping-Schutz/Nutzer-Befehle', target: 'nutzer' },
-    { match: 'Ping-Schutz/Team-Befehle', target: 'team' },
-    { match: 'Sammel-die-Codes/Nutzer-Befehle', target: 'nutzer' },
-    { match: 'Sammel-die-Codes/Admin-Befehle', target: 'team' },
-    { match: 'Schach', target: 'nutzer' },
-    { match: 'Teammitglieder-Ziele', target: 'team' },
-    { match: 'Temporäre-Channel', target: 'nutzer' },
-    { match: 'Umfragen', target: 'team' },
-    { match: 'Vorschläge/Nutzer-Befehle', target: 'nutzer' },
-    { match: 'Vorschläge/Team-Befehle', target: 'team' },
-    { match: 'Wirtschaftssystem/Finanzen', target: 'nutzer' },
-    { match: 'Wirtschaftssystem/Geldquellen', target: 'nutzer' },
-    { match: 'Wirtschaftssystem/Team-Befehle', target: 'team' },
-    { match: 'Wirtschaftssystem/Shop/Nutzer-Befehle', target: 'nutzer' },
-    { match: 'Wirtschaftssystem/Shop/Admin-Befehle', target: 'team' },
-    // Eigene Befehle
-    { match: 'Eigene-Befehle/Team-Verwaltung', target: 'team' },
-    { match: 'Eigene-Befehle/Support', target: 'nutzer' },
-    { match: 'Eigene-Befehle/Organisation', target: 'team' },
-    { match: 'Eigene-Befehle/Kommunikation', target: 'team' },
-    { match: 'Eigene-Befehle/Fehlermeldungen/BugReport', target: 'nutzer' },
-    { match: 'Eigene-Befehle/Support/TerminAnfragen', target: 'team' },
-    { match: 'Eigene-Befehle/Team-Verwaltung/TeamAbmelden', target: 'team' },
-    { match: 'Eigene-Befehle/Team-Verwaltung/TeamWarn', target: 'team' },
-    { match: 'Eigene-Befehle/Kommunikation/Gelesen', target: 'team' }
+/**
+ * ============================================================
+ * KONFIGURATION
+ * ============================================================
+ *
+ * Die Regeln werden von oben nach unten geprüft.
+ * Spezifische Pfade müssen deshalb vor allgemeineren Regeln
+ * stehen, damit sie nicht von einer übergeordneten Regel
+ * abgefangen werden.
+ */
+
+/**
+ * Kontextmenü-Aktionen werden getrennt von den normalen
+ * Custom-Bot-Befehlen verarbeitet.
+ */
+const CONTEXT_MENU_RULES = [
+    // Nutzer-Bereich
+    ...rules('nutzer',
+        'Nachrichten-Aktionen/ContextCreateReminder.md',
+        'Nachrichten-Aktionen/ContextQuoteMessage.md',
+        'Nachrichten-Aktionen/ContextReportMessage.md',
+        'Nachrichten-Aktionen/ContextViewPollVotes.md',
+        'Nutzer-Aktionen/Aktivitäts-Streak/ContextViewStreak.md',
+        'Nutzer-Aktionen/Geburtstags-Kalender/ContextViewBirthday.md',
+        'Nutzer-Aktionen/Moderation-und-Sicherheit/ContextReportUser.md'
+    ),
+
+    // Team-Bereich
+    ...rules('team',
+        'Nachrichten-Aktionen/ContextApproveSuggestion.md',
+        'Nachrichten-Aktionen/ContextConvertToSuggestion.md',
+        'Nachrichten-Aktionen/ContextDenySuggestion.md',
+        'Nachrichten-Aktionen/ContextProtectLastWord.md',
+        'Nachrichten-Aktionen/ContextResetAfterMessage.md',
+        'Nutzer-Aktionen/Anonymer-Chat/ContextBlockUser.md',
+        'Nutzer-Aktionen/Anonymer-Chat/ContextWarnUser.md',
+        'Nutzer-Aktionen/Moderation-und-Sicherheit/ContextBan.md',
+        'Nutzer-Aktionen/Moderation-und-Sicherheit/ContextKick.md',
+        'Nutzer-Aktionen/Moderation-und-Sicherheit/ContextModHistory.md',
+        'Nutzer-Aktionen/Moderation-und-Sicherheit/ContextMute.md'
+    )
 ];
 
-function clearDirectory(dir) {
-    if (!fs.existsSync(dir)) return;
-    fs.readdirSync(dir).forEach(file => {
-        const curPath = path.join(dir, file);
-        if (!curPath.endsWith('_category_.json')) {
-            if (fs.lstatSync(curPath).isDirectory()) {
-                clearDirectory(curPath);
-                fs.rmdirSync(curPath);
-            } else {
-                fs.unlinkSync(curPath);
-            }
-        }
-    });
+/**
+ * Custom-Bot-Regeln.
+ *
+ * Spezielle Regeln stehen absichtlich vor den allgemeinen
+ * Kategorien. Beispiel:
+ *
+ *   Eigene-Befehle/Support/TerminAnfragen
+ *   Eigene-Befehle/Support
+ *
+ * Dadurch wird TerminAnfragen korrekt dem Team-Bereich
+ * zugeordnet und nicht vorher durch "Support" abgefangen.
+ */
+const RULES = [
+    // Spezielle Eigene-Befehle
+    ...rules('team',
+        'Eigene-Befehle/Support/TerminAnfragen',
+        'Eigene-Befehle/Team-Verwaltung/TeamAbmelden',
+        'Eigene-Befehle/Team-Verwaltung/TeamWarn',
+        'Eigene-Befehle/Kommunikation/Gelesen'
+    ),
+
+    // System / Administration
+    ...rules('team',
+        'Admin-Tools',
+        'Anti-Nuke-Schutz',
+        'Betterstatus',
+        'Einladungsverfolgung'
+    ),
+
+    // Nutzer-Systeme
+    ...rules('nutzer',
+        'AFK-System',
+        'Bewerbungen',
+        'Color-me',
+        'Erinnerungen',
+        'Fun-Befehle',
+        'Halloween-Event',
+        'Info-Befehle',
+        'Minispiele',
+        'Aktivitäts-Streak',
+        'Temporäre-Channel'
+    ),
+
+    // Anonymer Chat
+    ...rules('team', 'Anonymer-Chat/Moderator-Befehle'),
+    ...rules('nutzer', 'Anonymer-Chat/Nutzer-Befehle'),
+
+    // Built-In Commands
+    ...rules('team', 'Build-In-Commands/Admin-Befehle'),
+    ...rules('nutzer', 'Build-In-Commands/Nutzer-Befehle'),
+
+    // Gewinnspiele
+    ...rules('team', 'Gewinnspiele/Team-Befehle'),
+    ...rules('nutzer', 'Gewinnspiele/Nutzer-Befehle'),
+
+    // Errate die Nummer
+    ...rules('team', 'Errate-die-Nummer'),
+
+    // Geburtstags-Kalender
+    ...rules('team', 'Geburtstags-Kalender/Admin-Befehle'),
+    ...rules('nutzer', 'Geburtstags-Kalender/Nutzer-Befehle'),
+
+    // Level-System
+    ...rules('team', 'Level-System/Admin-Befehle'),
+    ...rules('nutzer', 'Level-System/Nutzer-Befehle'),
+
+    // Moderation und Sicherheit
+    ...rules('team',
+        'Moderation-und-Sicherheit/Moderations-Aktionen',
+        'Moderation-und-Sicherheit/Kanal-Verwaltung',
+        'Moderation-und-Sicherheit/Notizen'
+    ),
+    ...rules('nutzer', 'Moderation-und-Sicherheit/Nutzer-Befehle'),
+
+    // Massenrolle / Partner / Team-Ziele
+    ...rules('team',
+        'Massenrolle',
+        'Partner-Liste',
+        'Teammitglieder-Ziele'
+    ),
+
+    // Ping-Schutz
+    ...rules('team', 'Ping-Schutz/Team-Befehle'),
+    ...rules('nutzer', 'Ping-Schutz/Nutzer-Befehle'),
+
+    // Sammel die Codes
+    ...rules('team', 'Sammel-die-Codes/Admin-Befehle'),
+    ...rules('nutzer', 'Sammel-die-Codes/Nutzer-Befehle'),
+
+    // Umfragen
+    ...rules('team', 'Umfragen'),
+
+    // Vorschläge
+    ...rules('team', 'Vorschläge/Team-Befehle'),
+    ...rules('nutzer', 'Vorschläge/Nutzer-Befehle'),
+
+    // Wirtschaftssystem
+    ...rules('team',
+        'Wirtschaftssystem/Team-Befehle',
+        'Wirtschaftssystem/Shop/Admin-Befehle'
+    ),
+    ...rules('nutzer',
+        'Wirtschaftssystem/Shop/Nutzer-Befehle',
+        'Wirtschaftssystem/Finanzen',
+        'Wirtschaftssystem/Geldquellen'
+    ),
+
+    // Eigene Befehle
+    ...rules('nutzer', 'Eigene-Befehle/Fehlermeldungen/BugReport.md'),
+    ...rules('team',
+        'Eigene-Befehle/Team-Verwaltung',
+        'Eigene-Befehle/Organisation',
+        'Eigene-Befehle/Kommunikation'
+    ),
+    ...rules('nutzer', 'Eigene-Befehle/Support'),
+
+    // Personalmanagement
+    ...rules('team', 'Personalmanagmentsystem')
+];
+
+/**
+ * Erstellt mehrere Regeln mit weniger Wiederholung.
+ */
+function rules(target, ...matches) {
+    return matches.map(match => ({ match, target }));
 }
 
-function processFiles(dir, baseDir) {
-    const files = fs.readdirSync(dir);
+/**
+ * Normalisiert Pfade, damit Windows und Unix dieselbe
+ * Schreibweise verwenden.
+ */
+function normalizePath(filePath) {
+    return filePath.replace(/\\/g, '/').replace(/^\.\/+/, '');
+}
 
-    files.forEach(file => {
-        const fullPath = path.join(dir, file);
-        const relativePath = path.relative(baseDir, fullPath);
-        const stats = fs.statSync(fullPath);
+/**
+ * Prüft einen Pfad gegen eine Regel.
+ *
+ * "Schach" passt z. B. auf:
+ *   Schach/ChessChallenge.md
+ *
+ * "Schach" passt aber nicht auf:
+ *   MeineSchachDatei/...
+ */
+function pathMatches(filePath, rule) {
+    const normalizedPath = normalizePath(filePath);
+    const normalizedRule = normalizePath(rule);
+
+    return normalizedPath === normalizedRule ||
+        normalizedPath.startsWith(`${normalizedRule}/`);
+}
+
+/**
+ * Löscht die automatisch erzeugten Proxies.
+ *
+ * _category_.json bleibt erhalten, damit manuelle
+ * Kategorie-Konfigurationen nicht verloren gehen.
+ */
+function clearDirectory(dir) {
+    if (!fs.existsSync(dir)) return;
+
+    for (const entry of fs.readdirSync(dir)) {
+        if (entry === '_category_.json') continue;
+
+        const currentPath = path.join(dir, entry);
+        const stats = fs.lstatSync(currentPath);
 
         if (stats.isDirectory()) {
-            processFiles(fullPath, baseDir);
-        } else if (file.endsWith('.md') || file.endsWith('.mdx')) {
-            const content = fs.readFileSync(fullPath, 'utf-8');
-            
-            const titleMatch = content.match(/^title:\s*(.*)$/m);
-            const title = titleMatch ? titleMatch[1].trim() : file.replace(/\.mdx?$/, '');
-            const descMatch = content.match(/^description:\s*(.*)$/m);
-            const description = descMatch ? descMatch[1].trim() : '';
+            clearDirectory(currentPath);
 
-            // LOGIK: Den richtigen Zielort finden
-            let targetArea = 'team'; // Standardfall
-
-            const normalizedPath = relativePath.replace(/\\/g, '/');
-            
-            // Wir prüfen unsere Regeln gegen den relativen Pfad
-            for (const rule of RULES) {
-                if (normalizedPath.includes(rule.match)) {
-                    targetArea = rule.target;
-                    break; 
-                }
+            if (fs.readdirSync(currentPath).length === 0) {
+                fs.rmdirSync(currentPath);
             }
+        } else {
+            fs.unlinkSync(currentPath);
+        }
+    }
+}
 
-            const finalBaseDir = targetArea === 'team' ? TEAM_DIR : NUTZER_DIR;
-            const targetFolder = path.join(finalBaseDir, relativePath);
+/**
+ * Findet die erste passende Zielregel.
+ */
+function findTarget(relativePath, ruleSet) {
+    const rule = ruleSet.find(entry =>
+        pathMatches(relativePath, entry.match)
+    );
 
-            const targetDirPath = path.dirname(targetFolder);
-            if (!fs.existsSync(targetDirPath)) fs.mkdirSync(targetDirPath, { recursive: true });
+    return rule?.target ?? null;
+}
 
-            const depth = relativePath.split(path.sep).length;
-            const dots = '../'.repeat(depth);
-            const importPath = `${dots}befehle/custom-bot/${relativePath.replace(/\\/g, '/')}`;
+/**
+ * Liest Titel und Beschreibung aus dem Frontmatter.
+ */
+function readFrontmatter(content, fileName) {
+    const titleMatch = content.match(/^title:\s*(.*)$/m);
+    const descriptionMatch = content.match(/^description:\s*(.*)$/m);
 
-            const proxyContent = `---
+    return {
+        title: titleMatch
+            ? titleMatch[1].trim().replace(/^["']|["']$/g, '')
+            : fileName.replace(/\.(md|mdx)$/i, ''),
+        description: descriptionMatch
+            ? descriptionMatch[1].trim().replace(/^["']|["']$/g, '')
+            : ''
+    };
+}
+
+/**
+ * Erstellt einen Proxy für eine Quelldatei.
+ */
+function createProxy(sourceFile, relativePath, targetBaseDir, sourceType) {
+    const normalizedPath = normalizePath(relativePath);
+
+    const targetRelativePath = sourceType === 'context-menu'
+        ? path.join('Kontextmenü-Aktionen', normalizedPath)
+        : normalizedPath;
+
+    const targetFile = path.join(targetBaseDir, targetRelativePath);
+    const targetDir = path.dirname(targetFile);
+
+    fs.mkdirSync(targetDir, { recursive: true });
+
+    const content = fs.readFileSync(sourceFile, 'utf8');
+    const { title, description } = readFrontmatter(
+        content,
+        path.basename(sourceFile)
+    );
+
+    const depth = targetRelativePath.split(path.sep).length;
+
+    const importRoot = sourceType === 'context-menu'
+        ? 'kontextmenü'
+        : 'befehle/custom-bot';
+
+    const importPath =
+        `${'../'.repeat(depth)}${importRoot}/${normalizedPath}`;
+
+    const proxyContent = `---
 title: ${title}
 ${description ? `description: "${description.replace(/"/g, '\\"')}"` : ''}
 displayed_sidebar: tutorialSidebar
@@ -127,16 +298,123 @@ import Original from '${importPath}';
 
 <Original />
 `;
-            fs.writeFileSync(targetFolder, proxyContent);
-        }
-    });
+
+    fs.writeFileSync(targetFile, proxyContent, 'utf8');
 }
 
+/**
+ * Verarbeitet alle Markdown-Dateien eines Verzeichnisses.
+ */
+function processFiles(dir, baseDir, sourceType, ruleSet, statistics) {
+    if (!fs.existsSync(dir)) return;
+
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const fullPath = path.join(dir, entry.name);
+
+        if (entry.isDirectory()) {
+            processFiles(
+                fullPath,
+                baseDir,
+                sourceType,
+                ruleSet,
+                statistics
+            );
+            continue;
+        }
+
+        if (!/\.(md|mdx)$/i.test(entry.name)) continue;
+
+        const relativePath = normalizePath(
+            path.relative(baseDir, fullPath)
+        );
+
+        const targetArea = findTarget(relativePath, ruleSet);
+
+        // Keine unbekannten Dateien automatisch ins Team verschieben.
+        if (!targetArea) {
+            statistics.unmatched.push(relativePath);
+            continue;
+        }
+
+        const targetBaseDir =
+            targetArea === 'team' ? TEAM_DIR : NUTZER_DIR;
+
+        createProxy(
+            fullPath,
+            relativePath,
+            targetBaseDir,
+            sourceType
+        );
+
+        statistics.total++;
+        statistics[targetArea]++;
+    }
+}
+
+/**
+ * ============================================================
+ * HAUPTPROGRAMM
+ * ============================================================
+ */
+
 console.log('🧹 Alte Proxies werden gelöscht...');
+
+// Nutzer- und Team-Bereich müssen NICHT manuell gelöscht werden.
 clearDirectory(NUTZER_DIR);
 clearDirectory(TEAM_DIR);
 
-console.log('🚀 Präzise Sortierung der Unterordner läuft...');
-processFiles(SOURCE_DIR, SOURCE_DIR);
+const statistics = {
+    total: 0,
+    nutzer: 0,
+    team: 0,
+    unmatched: []
+};
 
-console.log('✅ Fertig! Alle Dateien sind in ihren jeweiligen Abteilungen.');
+console.log('🚀 Custom-Bot Befehle werden einsortiert...');
+
+processFiles(
+    SOURCE_DIR,
+    SOURCE_DIR,
+    'custom-bot',
+    RULES,
+    statistics
+);
+
+// Kontextmenüs werden separat verarbeitet.
+if (fs.existsSync(CONTEXT_MENU_DIR)) {
+    console.log('🖱️ Kontextmenü-Aktionen werden einsortiert...');
+
+    processFiles(
+        CONTEXT_MENU_DIR,
+        CONTEXT_MENU_DIR,
+        'context-menu',
+        CONTEXT_MENU_RULES,
+        statistics
+    );
+}
+
+console.log('');
+console.log('📄 Dateien verarbeitet:', statistics.total);
+console.log('👤 Nutzer-Bereich:', statistics.nutzer);
+console.log('👥 Team-Bereich:', statistics.team);
+
+if (statistics.unmatched.length) {
+    console.log('');
+    console.log('⚠️ Nicht zugeordnete Dateien:');
+
+    for (const file of statistics.unmatched) {
+        console.log(`   ❌ ${file}`);
+    }
+
+    console.log('');
+    console.log(
+        `⚠️ ${statistics.unmatched.length} Datei(en) wurden ` +
+        'nicht als Proxy erstellt.'
+    );
+
+    process.exitCode = 1;
+} else {
+    console.log('✅ Alle Dateien wurden eindeutig zugeordnet.');
+}
+
+console.log('✅ Proxy-Generierung abgeschlossen.');

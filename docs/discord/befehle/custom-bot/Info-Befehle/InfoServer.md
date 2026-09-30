@@ -9,6 +9,7 @@ keywords: [Server, Info, Statistik, Übersicht, Mitglieder, Details]
 Befehl: **`/info server`**
 
 ### Beschreibung
+
 Weitere Informationen zu diesem Server finden.
 
 ### Berechtigungen
@@ -22,6 +23,6 @@ Weitere Informationen zu diesem Server finden.
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
   <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span style={{backgroundColor: '#6e31e0', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Alle Kanäle</span>
+    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Alle Kanäle</span>
   </div>
 </div>

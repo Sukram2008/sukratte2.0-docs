@@ -9,6 +9,7 @@ keywords: [Update-Team, Beförderung, Rolle, Wechsel, Team, Admin]
 Befehl: **`/update-team`**
 
 ### Erforderliche Optionen
+
 - **`user`**
   Der betroffene Team-Nutzer.
 - **`rolle-vorher`**
@@ -19,6 +20,7 @@ Befehl: **`/update-team`**
   Grund für die Beförderung oder Änderung.
 
 ### Beschreibung
+
 Dokumentiert und führt einen Rollenwechsel innerhalb des Teams durch. Perfekt für Beförderungen oder Abteilungswechsel.
 -# Dies ist ein Eigener Befehl (Custom Command)
 

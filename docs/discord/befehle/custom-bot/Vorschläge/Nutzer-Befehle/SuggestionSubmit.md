@@ -9,28 +9,32 @@ keywords: [Suggestion, Einreichen, Feedback, Community, Ideen, Submit]
 Befehl: **`/suggestion`**
 
 ### Erforderliche Optionen
+
 - **`suggestion:`**
   Das, was du vorschlagen möchtest.
 
 ### Beschreibung
+
 Mit diesem Befehl reichst du einen eigenen Vorschlag ein, welcher dann in den entsprechenden Kanal gesendet wird.
 
 :::tip Hinweise
+
 - Nutzer können Up- und Down-Votes geben, aber auch im zugehörigen Thread diskutieren.
 - Der Vorschlag muss nicht zwingend den Discord betreffen, sondern darf auch YouTube, Twitch, Social Media, die Homepage oder sonstige Themen behandeln.
-:::
+  :::
 
 ### Berechtigungen
 
 <div style={{display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px'}}>
   <strong style={{minWidth: '80px'}}>👥 Rollen:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span style={{backgroundColor: '#6e31e0', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>👤 | Member</span>
+    <span style={{backgroundColor: '#6e31e0', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>👤 Member</span>
   </div>
 </div>
+
 <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}>
   <strong style={{minWidth: '80px'}}>📺 Kanäle:</strong>
   <div style={{display: 'flex', flexWrap: 'wrap', gap: '8px'}}>
-    <span style={{backgroundColor: '#6e31e0', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Alle Kanäle</span>
+    <span style={{backgroundColor: '#99aab5', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontSize: '0.85em'}}>#️⃣ | Alle Kanäle</span>
   </div>
 </div>
