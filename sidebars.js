@@ -397,8 +397,8 @@ const sidebars = {
               link: { type: "generated-index" },
               items: [
                 "discord/team-bereich/Admin-Tools/Admin-Befehle/AdminSetcategory",
-                "discord/team-bereich/Admin-Tools/AdminMovechannel",
-                "discord/team-bereich/Admin-Tools/AdminMoverole",
+                "discord/team-bereich/Admin-Tools/Admin-Befehle/AdminMovechannel",
+                "discord/team-bereich/Admin-Tools/Admin-Befehle/AdminMoverole",
                 "discord/team-bereich/Admin-Tools/Rollen-Befehle/RolesStatus",
                 "discord/team-bereich/Admin-Tools/Rollen-Befehle/RolesGive",
                 "discord/team-bereich/Admin-Tools/Rollen-Befehle/RolesRemove",
