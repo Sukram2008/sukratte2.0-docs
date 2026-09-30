@@ -1,5 +1,5 @@
 ---
-title: Moderationshistorie anzeigen
+title: "Moderationshistorie anzeigen"
 description: "Zeigt die Moderationshistorie eines Nutzers über das Discord-Kontextmenü"
 displayed_sidebar: tutorialSidebar
 hide_title: true

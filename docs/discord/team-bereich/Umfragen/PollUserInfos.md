@@ -1,10 +1,10 @@
 ---
-title: Umfragen & Abstimmungen
+title: "Umfragen & Abstimmungen"
 description: "So kannst du bei unseren Community-Umfragen mitmischen!"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Umfragen/PollUserInfos.md';
+import Original from '../../befehle/custom-bot/Umfragen/PollUserInfos.md';
 
 <Original />

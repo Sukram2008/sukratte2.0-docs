@@ -1,10 +1,10 @@
 ---
-title: Schach Spielverlauf
+title: "Schach Spielverlauf"
 description: "Sieh dir abgeschlossene Spiele an"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Minispiele/Schach/ChessHistory.md';
+import Original from '../../../befehle/custom-bot/Minispiele/Schach/ChessHistory.md';
 
 <Original />

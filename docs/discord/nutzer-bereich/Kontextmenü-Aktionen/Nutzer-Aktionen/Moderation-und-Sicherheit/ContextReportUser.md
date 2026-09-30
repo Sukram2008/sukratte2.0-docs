@@ -1,5 +1,5 @@
 ---
-title: Nutzer stummschalten
+title: "Nutzer stummschalten"
 description: "Schaltet einen Nutzer direkt über das Discord-Kontextmenü stumm"
 displayed_sidebar: tutorialSidebar
 hide_title: true

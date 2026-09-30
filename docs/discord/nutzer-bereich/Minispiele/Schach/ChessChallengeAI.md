@@ -1,10 +1,10 @@
 ---
-title: Schach gegen KI
+title: "Schach gegen KI"
 description: "Starte ein Schachspiel gegen den Computer"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Minispiele/Schach/ChessChallengeAI.md';
+import Original from '../../../befehle/custom-bot/Minispiele/Schach/ChessChallengeAI.md';
 
 <Original />

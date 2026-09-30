@@ -1,10 +1,10 @@
 ---
-title: Kanal stummschalten
+title: "Kanal stummschalten"
 description: "Deaktiviert die Schreibrechte für einen Nutzer in einem Kanal"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateChannelMute.md';
+import Original from '../../../befehle/custom-bot/Moderation-und-Sicherheit/Moderations-Aktionen/ModerateChannelMute.md';
 
 <Original />

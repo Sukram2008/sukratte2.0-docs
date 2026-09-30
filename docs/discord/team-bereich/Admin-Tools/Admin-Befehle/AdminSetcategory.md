@@ -1,10 +1,10 @@
 ---
-title: Kategorie zuweisen
+title: "Kategorie zuweisen"
 description: "Setzt die Kategorie eines Kanals"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Admin-Tools/Admin-Befehle/AdminSetcategory.md';
+import Original from '../../../befehle/custom-bot/Admin-Tools/Admin-Befehle/AdminSetcategory.md';
 
 <Original />

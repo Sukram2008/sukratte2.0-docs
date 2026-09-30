@@ -1,10 +1,10 @@
 ---
-title: Rollen-Status
+title: "Rollen-Status"
 description: "Zeigt welche Rollen eines Nutzers temporär sind"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Admin-Tools/Rollen-Befehle/RolesStatus.md';
+import Original from '../../../befehle/custom-bot/Admin-Tools/Rollen-Befehle/RolesStatus.md';
 
 <Original />

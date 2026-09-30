@@ -1,10 +1,10 @@
 ---
-title: Nutzer-Geburtstag entfernen
+title: "Nutzer-Geburtstag entfernen"
 description: "Entfernt den hinterlegten Geburtstag eines spezifischen Nutzers"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayRemove.md';
+import Original from '../../../befehle/custom-bot/Geburtstags-Kalender/Admin-Befehle/ManageBirthdayRemove.md';
 
 <Original />

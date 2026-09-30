@@ -1,10 +1,10 @@
 ---
-title: Verstoß aufheben
+title: "Verstoß aufheben"
 description: "Macht einen existierenden Verstoß ungültig"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Personalmanagmentsystem/Verstöße/StaffManagementInfractionVoid.md';
+import Original from '../../../befehle/custom-bot/Personalmanagmentsystem/Verstöße/StaffManagementInfractionVoid.md';
 
 <Original />

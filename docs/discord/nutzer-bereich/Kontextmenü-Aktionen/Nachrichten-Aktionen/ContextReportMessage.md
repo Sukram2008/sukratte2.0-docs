@@ -1,5 +1,5 @@
 ---
-title: Nachricht zitieren
+title: "Nachricht zitieren"
 description: "Zitiert eine Nachricht direkt über das Discord-Kontextmenü"
 displayed_sidebar: tutorialSidebar
 hide_title: true

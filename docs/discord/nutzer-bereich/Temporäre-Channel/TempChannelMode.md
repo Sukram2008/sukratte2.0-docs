@@ -1,10 +1,10 @@
 ---
-title: Temporäre Channel Modus
+title: "Temporäre Channel Modus"
 description: "Ändert den Sichtbarkeits-Modus deines temporären Channels"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Temporäre-Channel/TempChannelMode.md';
+import Original from '../../befehle/custom-bot/Temporäre-Channel/TempChannelMode.md';
 
 <Original />

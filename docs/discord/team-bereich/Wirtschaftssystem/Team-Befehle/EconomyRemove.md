@@ -1,10 +1,10 @@
 ---
-title: Geld entfernen
+title: "Geld entfernen"
 description: "Ziehe einem Nutzer Geld ab"
 displayed_sidebar: tutorialSidebar
 hide_title: true
 ---
 
-import Original from '../befehle/custom-bot/Wirtschaftssystem/Team-Befehle/EconomyRemove.md';
+import Original from '../../../befehle/custom-bot/Wirtschaftssystem/Team-Befehle/EconomyRemove.md';
 
 <Original />
